@@ -1,39 +1,31 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Virtual Classroom mockup
+## Strategy 
+### Audience Objective
+SaaS businesses with Educational Values that are looking for developers with essential Front-end skills, including CSS and HTML.
 
-Welcome,
+### Important Contraints
+This is being completed by a single developer working within the limit of roughly 50 hours. HTML and CSS should therefore be main focus. The platform and client are fictional in order to focus on the need for front-end skills.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+### Platform Objective: 
+Hoverboard is a startup company that has developed a virtual classroom software, they are looking for users to trial their software by request-only. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+### Client Objective: 
+The client has heard of the startup company, they may be an educational body or a school. They want to be persuaded that Hoverboard is a potential virtual classroom. The Client wants the site to perform some/all of these actions.
+- read about the platform and it's features
+- check the credentials
+- leave details to request a trial
 
-## Codeanywhere Reminders
+### Inspiration
+SeeSaw https://web.seesaw.me/ A truly excellent platform with forward thinking features. Students are able to upload their classwork, can comment on students' work, teacher's can quickly assess. The website is efficient, user friendly, intuitively designed.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+ClassCharts - Very good user interface/ UX. Notable features: teachers can see their students visually on a seating plan.
 
-`python3 -m http.server`
+SatchelOne https://www.teamsatchel.com/ - Homework with deadlines on a calendar. Seating plan is virtual as well.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Scope
+### Features to include
+A. Landing video for intrigue with slogan.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+B. The software will be summarised in Basic Graphic displays, with a written summary of key features.
 
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+### Structure, Skeleton and Surface
