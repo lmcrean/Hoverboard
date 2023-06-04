@@ -95,9 +95,35 @@ Heading: Collaborate with live-lessons, allowing students to share their work in
 Form request with phone number. School. Email address. How did you hear about us.
 
 ## Design Choices
-Colour palette is orange.
+###Colour palette
 
-Font Choices are.
+
+<img width="209" alt="image" src="https://github.com/lmcrean/VirtualClassroomMockup/assets/133490867/3a759852-d382-46db-b2ed-201cb30f7fee">
+
+**colour scheme is playful, modern, child-friendly. Evocative of ice-cream, it emphasises the fun aspect of the product.
+
+
+#FFB86B orange
+
+#E8568B pink
+
+#54A3FF blue
+
+#FFFB84 yellow
+
+#94FF61 green
+
+
+
+### Font Choices 
+<img width="399" alt="image" src="https://github.com/lmcrean/VirtualClassroomMockup/assets/133490867/67cf6cfd-211b-4b1c-aafb-64667387621f">
+
+
+Peace Sans for Headings.
+
+Glacial Indifference for paragraphs.
+
+**Playful on the surface and with profound educational intent.
 
 ## Testing
 
