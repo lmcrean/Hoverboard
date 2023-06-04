@@ -4,13 +4,15 @@
 SaaS businesses with Educational Values that are looking for developers with essential Front-end skills, including CSS and HTML.
 
 ### Important Contraints
-This is being completed by a single developer working within the limit of roughly 50 hours. HTML and CSS should therefore be main focus. The platform and client are fictional in order to focus on the need for front-end skills.
+This is being completed by a single developer working within the limit of roughly 50 hours. HTML and CSS should therefore be main focus. The platform and client are fictional in order to focus on the need for front-end skills. 
+
+Due to the time constraints, one important ommission is "demo mock-up" graphics of the platform in action, it is instead summarised with graphics. This can be revisited once developed.
 
 ### Platform Objective: 
 Hoverboard is a startup company that has developed a virtual classroom software, they are looking for users to trial their software by request-only. They want to communicate an authoritative but playful tone.  
 
 ### Client Objective: 
-The client has heard of the startup company, they may be an educational body or a school. They may need to be persuaded that Hoverboard is a potential virtual classroom.
+The client has heard of the startup company, they may be an educational body or a school. They may need to be persuaded that Hoverboard is a potential virtual classroom. The client already has enthusiasm for technology in classrooms.
 
 The Client wants the site to perform some/all of these actions.
 - read about the platform's features
@@ -31,6 +33,8 @@ Brainstation.io - This website's use of Landing videos and ticker effect is very
 All features will be designed with HTML, CSS, Opensource images/ videos. More indirectly, Canva and CapCut will be used to create graphics and videos.
 
 #### Logo with Floating Navigation Bar. 
+**to be familiar, consistent and easy to use according to user needs
+
 Includes Logo on left (Canva)
 
 Navigation bar links to Home, Explore our Features and Book a Free Trial. (HTML)
@@ -38,53 +42,72 @@ Navigation bar links to Home, Explore our Features and Book a Free Trial. (HTML)
 Hamburger appears below 600px. Link highlights & animates upon hover. (CSS)
 
 #### Footer
+**To reinforce branding and consistent design **
 
 ### Home Page
 
 #### Landing video with slogan.
-Video collage of children using computers, classroom settings, children doing homework, children being happy on comptuer, parent's using computer. (Capcut, Opensource video)
+**To create Intrigue and excitement, summarises the experience of the brand
+
+Video collage of children using computers, classroom settings, children doing homework, children being happy on computer, parent's using computer. (Capcut, Opensource video) *Background video is always fixed to width of screen.
 
 
-Slogan "Let's supercharge our Learning". Large and overlapping. (HTML,CSS)
+Slogan "Let's supercharge our Learning". Large and overlapping. (HTML,CSS) *Text adjusts by % of screen with vh.
+
 
 #### Introduction of Platform.
-Heading: "Hoverboard is an all-in-one platform for forward-thinking schools transitioning to the digital revolution."
+**Summarise the platform's function and mission. Provide eye-catching visuals 
 
-Paragraph: More than ever, schools are in need to function efficiently and effectively to meet the needs of our students. That's why we've created Hoverboard.
+Heading: "Hoverboard is an all-in-one platform for virtual classrooms. Join us on our mission to help schools transition into the digital revolution." *Text adjusts by % of screen with vh.
 
-Images with arrows to flick through. Hover with arrow.
+Paragraph: More than ever, schools are in need to function efficiently and effectively to meet the needs of our students. That's why we've created Hoverboard. *Text adjusts by % of screen with vh, snaps to different position when larger than mobile.
+
+Graphic showing beginning of an online lesson. It is designed on Canva as a mock-up with different features, showing student's connected, upload classwork, create doc icon. *Text adjusts by % of screen with vh.
 
 #### Introduction of Features. 
-Heading: "Collaborate, Communicate, Celebrate". 
+**Client wants to see what the platform can do, direct's client to the Feature page
+*Divide Heading-Image-Caption into 3 columns when above mobile height
 
-Images: Artwork being shared online, Learning Objectives set in classwork, pupil of the week.
+Heading: "Collaborate, Communicate, Celebrate". *Text adjusts by % of screen with vh.
+
+Images: Artwork being shared online, Learning Objectives set in classwork, pupil of the week. 
 
 Caption: Each has a caption summarising in one sentence what Hoverboard can do.
 
 Link: Click here to find out more about our features.
 
 #### 6 Testimonials from different schools.
-Include teacher's picture, Each testimonial has a Staff picture, testimonial message
+**Client needs trust built on the platform's brand.
+Include teacher's picture, Each testimonial has a Staff picture, testimonial message. They are animated with a ticker effect.
+
+*Features adjusts by % height of screen. Images are resized.
 
 ### Hoverboard features
-This page introduces the client to Hoverboard's features. It is divided into 3 features each seperated by a different colour. 
+**This page introduces the client to Hoverboard's features. Each feature should have a tone of be exciting, modern and effective.** 
 
-Hovering over the image offers a specific caption for what is happening. Students at X school promote their news website. A student uploads their homework.
+It is divided into 3 features each seperated by a different colour. 
 
-Heading: Celebrate outcomes with highlighted work, news pages, merits.
+Hovering over the image offers a specific caption for what is happening. e.g. Students at X school promote their news website. A student uploads their homework.
+
+*Divide Heading-Image-Caption into 3 columns when above mobile height
+
+Heading: Celebrate outcomes with highlighted work, news pages and merits.
 
 Heading: Communicate with parents and students about their progress, with customised feedback.
 
 Heading: Collaborate with live-lessons, allowing students to share their work instantly.
 
 #### Book a free trial today. 
-Form request with phone number. School.
+**Allows Client to book the trial, it should be simple, easy to read and use
+Form request with phone number. School. Email address. How did you hear about us.
 
+## Design Choices
+Colour palette is orange.
 
-### Structure, Skeleton and Surface
-
+Font Choices are.
 
 ## Testing
+
 ### Fixed bugs
 Documented here LINK
 
@@ -112,7 +135,7 @@ The live link can be found here - [LINK](LINK)
 
 ### Content
 
-- Much of the text content for this school was generated by ChatGPT. [LINK](LINK) to results here.
+- All graphics were designed on Canva.
 - The icons were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
