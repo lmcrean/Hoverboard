@@ -26,9 +26,9 @@ SatchelOne https://www.teamsatchel.com/ - Homework with deadlines on a calendar.
 
 Brainstation.io - This website's use of Landing videos and ticker effect is very visually appealing.
 
-## Scope
-### Features to include
-All features will be designed with Canva, HTML, CSS, Opensource images/ videos.
+## Features to include
+### All Pages
+All features will be designed with HTML, CSS, Opensource images/ videos. More indirectly, Canva and CapCut will be used to create graphics and videos.
 
 #### Logo with Floating Navigation Bar. 
 Includes Logo on left (Canva)
@@ -37,23 +37,49 @@ Navigation bar links to Home, Explore our Features and Book a Free Trial. (HTML)
 
 Hamburger appears below 600px. Link highlights & animates upon hover. (CSS)
 
-#### Landing video for intrigue with slogan. "Let's supercharge our Learning".
+#### Footer
+
+### Home Page
+
+#### Landing video with slogan.
 Video collage of children using computers, classroom settings, children doing homework, children being happy on comptuer, parent's using computer. (Capcut, Opensource video)
 
-Slogan "Let's supercharge our Learning". Large and overlapping.
 
-#### Overview of Platform "Hoverboard is an all-in-one platform for forward-thinking schools transitioning to the digital revolution." 
-Proceed with paragraph about the context of school's why we need them. Gallery with arrows to flick through.
+Slogan "Let's supercharge our Learning". Large and overlapping. (HTML,CSS)
 
-#### "Collaborate, Communicate, Celebrate". Values at a glance. 
-Link to find out more about our features.
+#### Introduction of Platform.
+Heading: "Hoverboard is an all-in-one platform for forward-thinking schools transitioning to the digital revolution."
 
-#### 6 Testimonials from different schools. Include teacher's picture, testimonial and five-star rating. Animate with Ticker effect.
+Paragraph: More than ever, schools are in need to function efficiently and effectively to meet the needs of our students. That's why we've created Hoverboard.
+
+Images with arrows to flick through. Hover with arrow.
+
+#### Introduction of Features. 
+Heading: "Collaborate, Communicate, Celebrate". 
+
+Images: Artwork being shared online, Learning Objectives set in classwork, pupil of the week.
+
+Caption: Each has a caption summarising in one sentence what Hoverboard can do.
+
+Link: Click here to find out more about our features.
+
+#### 6 Testimonials from different schools.
+Include teacher's picture, Each testimonial has a Staff picture, testimonial message
+
+### Hoverboard features
+This page introduces the client to Hoverboard's features. It is divided into 3 features each seperated by a different colour. 
+
+Hovering over the image offers a specific caption for what is happening. Students at X school promote their news website. A student uploads their homework.
+
+Heading: Celebrate outcomes with highlighted work, news pages, merits.
+
+Heading: Communicate with parents and students about their progress, with customised feedback.
+
+Heading: Collaborate with live-lessons, allowing students to share their work instantly.
 
 #### Book a free trial today. 
-See if it saves you 30 hours. Graphic. Summary text.
+Form request with phone number. School.
 
-#### Footer with Hoverboard Logo.
 
 ### Structure, Skeleton and Surface
 
