@@ -125,6 +125,15 @@ Glacial Indifference for paragraphs.
 
 **Playful on the surface and with profound educational intent.
 
+### Background Squiggles
+<img width="354" alt="image" src="https://github.com/lmcrean/VirtualClassroomMockup/assets/133490867/17d980ba-8046-46ef-924d-a62b17bd3c5d">
+
+<img width="405" alt="image" src="https://github.com/lmcrean/VirtualClassroomMockup/assets/133490867/6f86d062-3411-4869-8992-b5554fb13d02">
+
+<img width="303" alt="image" src="https://github.com/lmcrean/VirtualClassroomMockup/assets/133490867/56bb4ef3-0f80-4591-8eb1-dc9ce36a676e">
+
+**Creativity, children-appropriate.
+
 ## Testing
 
 ### Fixed bugs
