@@ -28,19 +28,32 @@ Brainstation.io - This website's use of Landing videos and ticker effect is very
 
 ## Scope
 ### Features to include
-- Logo with Floating Navigation Bar. Navigation bar links to Home, Explore our Features and Book a Free Trial.
+All features will be designed with Canva, HTML, CSS, Opensource images/ videos.
 
-- Landing video for intrigue with slogan. "Let's supercharge our Learning".
+#### Logo with Floating Navigation Bar. 
+Includes Logo on left (Canva)
 
-- Overview of Platform "Hoverboard is an all-in-one platform for forward-thinking schools transitioning to the digital revolution." Proceed with paragraph about the context of school's why we need them. Gallery with arrows to flick through.
+Navigation bar links to Home, Explore our Features and Book a Free Trial. (HTML)
 
-- Values at a glance "Collaborate, Communicate, Celebrate". Link to find out more about our features.
+Hamburger appears below 600px. Link highlights & animates upon hover. (CSS)
 
-- 6 Testimonials from different schools. Include teacher's picture, testimonial and five-star rating. Animate with Ticker effect.
+#### Landing video for intrigue with slogan. "Let's supercharge our Learning".
+Video collage of children using computers, classroom settings, children doing homework, children being happy on comptuer, parent's using computer. (Capcut, Opensource video)
 
-- Book a free trial today. See if it saves you 30 hours. Persuasive slogan. Graphic. Summary text.
+Slogan "Let's supercharge our Learning". Large and overlapping.
 
-- Footer with Hoverboard Logo.
+#### Overview of Platform "Hoverboard is an all-in-one platform for forward-thinking schools transitioning to the digital revolution." 
+Proceed with paragraph about the context of school's why we need them. Gallery with arrows to flick through.
+
+#### "Collaborate, Communicate, Celebrate". Values at a glance. 
+Link to find out more about our features.
+
+#### 6 Testimonials from different schools. Include teacher's picture, testimonial and five-star rating. Animate with Ticker effect.
+
+#### Book a free trial today. 
+See if it saves you 30 hours. Graphic. Summary text.
+
+#### Footer with Hoverboard Logo.
 
 ### Structure, Skeleton and Surface
 
