@@ -49,6 +49,9 @@ The Client wants the site to perform some/all of these actions.
 
 
 ## Features to include, grouped by page
+
+Figma prototype https://www.figma.com/proto/W7mEdTvxLgNZTvh1ODiuwD/HOVERBOARD?type=design&node-id=5-2&scaling=scale-down&page-id=0%3A1
+
 ### All Pages
 All features will be designed with HTML, CSS, Opensource images/ videos. More indirectly, Canva and CapCut will be used to create graphics and videos.
 
