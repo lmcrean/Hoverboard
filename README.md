@@ -1,5 +1,32 @@
-# Virtual Classroom Product mockup
-As someone with an educational backgorund, I am interested in the revolutionary possibilities of Educational Technology services. I designed this page for a mock-up product, thereby allowing to prioritise essential Front-end skills.
+# Front-End Design for Virtual Classroom Product 
+
+## Introduction from the Developer
+As someone with an educational backgorund, I am interested in the revolutionary potential of Educational Technology services. I designed this page for a mock-up EdTech product as an opportunity to progress essential Front-end skills.
+
+# Table of Contents
+- [Strategy](#strategy)
+- [Important Constraints](#important-contraints)
+  - [Premise](#premise)
+  - [Client Objective](#client-objective)
+- [Features to include](#features-to-include)
+  - [All Pages](#all-pages)
+  - [Home Page](#home-page)
+  - [Hoverboard Features](#hoverboard-features)
+  - [Book a Free Trial](#book-a-free-trial)
+- [Design Choices](#design-choices)
+  - [Colour Palette](#colour-palette)
+  - [Font Choices](#font-choices)
+  - [Background Squiggles](#background-squiggles)
+- [Testing](#testing)
+  - [Fixed Bugs](#fixed-bugs)
+  - [Validator Testing](#validator-testing)
+  - [Unfixed Bugs](#unfixed-bugs)
+- [Deployment](#deployment)
+- [Credits](#credits)
+  - [Content](#content)
+  - [Media](#media)
+  - [Inspiration](#inspiration)
+
 
 ## Strategy 
 
@@ -90,12 +117,13 @@ Heading: Communicate with parents and students about their progress, with custom
 
 Heading: Collaborate with live-lessons, allowing students to share their work instantly.
 
-#### Book a free trial today. 
+### Book a Free Trial 
 **Allows Client to book the trial, it should be simple, easy to read and use
 Form request with phone number. School. Email address. How did you hear about us.
 
 ## Design Choices
-###Colour palette
+
+### Colour palette
 
 
 <img width="209" alt="image" src="https://github.com/lmcrean/VirtualClassroomMockup/assets/133490867/3a759852-d382-46db-b2ed-201cb30f7fee">
@@ -139,7 +167,7 @@ Glacial Indifference for paragraphs.
 ### Fixed bugs
 Documented here LINK
 
-### Validator Testing (template state)
+### Validator Testing
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](LINK)
