@@ -8,11 +8,11 @@ As someone with an educational backgorund, I am interested in the revolutionary 
 - [Important Constraints](#important-contraints)
   - [Premise](#premise)
   - [Client Objective](#client-objective)
-- [Features to include](#features-to-include)
+- [Features to include, grouped by page](#features-to-include-grouped-by-page)
   - [All Pages](#all-pages)
   - [Home Page](#home-page)
-  - [Hoverboard Features](#hoverboard-features)
-  - [Book a Free Trial](#book-a-free-trial)
+  - [Hoverboard Features (Page)](#hoverboard-features-page)
+  - [Book a Free Trial (Page)](#book-a-free-trial-page)
 - [Design Choices](#design-choices)
   - [Colour Palette](#colour-palette)
   - [Font Choices](#font-choices)
@@ -48,7 +48,7 @@ The Client wants the site to perform some/all of these actions.
 
 
 
-## Features to include
+## Features to include, grouped by page
 ### All Pages
 All features will be designed with HTML, CSS, Opensource images/ videos. More indirectly, Canva and CapCut will be used to create graphics and videos.
 
@@ -102,7 +102,7 @@ Include teacher's picture, Each testimonial has a Staff picture, testimonial mes
 
 *Features adjusts by % height of screen. Images are resized.
 
-### Hoverboard features
+### Hoverboard features (page)
 **This page introduces the client to Hoverboard's features. Each feature should have a tone of be exciting, modern and effective.** 
 
 It is divided into 3 features each seperated by a different colour. 
@@ -117,7 +117,7 @@ Heading: Communicate with parents and students about their progress, with custom
 
 Heading: Collaborate with live-lessons, allowing students to share their work instantly.
 
-### Book a Free Trial 
+### Book a Free Trial (page)
 **Allows Client to book the trial, it should be simple, easy to read and use
 Form request with phone number. School. Email address. How did you hear about us.
 
