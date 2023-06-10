@@ -3,35 +3,11 @@
 ## Introduction from the Developer
 As someone with an educational background, I am interested in the revolutionary potential of Educational Technology services. I designed this site for a mock-up EdTech product as an opportunity to develop my essential Front-end skills. The key focus for the project was responsive CSS.
 
-# Table of Contents
-- [Strategy](#strategy)
-- [Important Constraints](#important-contraints)
-  - [Premise](#premise)
-  - [Client Objective](#client-objective)
-- [Features to include, grouped by page](#features-to-include-grouped-by-page)
-  - [All Pages](#all-pages)
-  - [Home Page](#home-page)
-  - [Hoverboard Features (Page)](#hoverboard-features-page)
-  - [Book a Free Trial (Page)](#book-a-free-trial-page)
-- [Design Choices](#design-choices)
-  - [Colour Palette](#colour-palette)
-  - [Font Choices](#font-choices)
-  - [Background Squiggles](#background-squiggles)
-- [Testing](#testing)
-  - [Fixed Bugs](#fixed-bugs)
-  - [Validator Testing](#validator-testing)
-  - [Unfixed Bugs](#unfixed-bugs)
-- [Deployment](#deployment)
-- [Credits](#credits)
-  - [Content](#content)
-  - [Media](#media)
-  - [Inspiration](#inspiration)
-
-
 ## User Experience Strategy 
 
-> A recent study conducted showed that schools in the UK spent nearly half a billion pounds on paper each year, which is the equivalent of 3m Chromebook devices. 
-- Ieva Kulikovska, Education Software Specialist, Blog Post for theaccessgroup.com
+> A recent study conducted showed that schools in the UK spent nearly half a billion pounds on paper each year, which is the equivalent of 3m Chromebook devices
+
+      Ieva Kulikovska, Education Software Specialist, Blog Post for theaccessgroup.com
 
 ### Client Premise:
 Dr. Emily Williams is Headmaster at Meadowbrook Academy. She is expecting an Ofsted School Inspection in the next 5 years. Although her recent inspection feedback was positive, inspectors pointed out that various problems deriving from the sheer volume of paper. The top 5 include:
