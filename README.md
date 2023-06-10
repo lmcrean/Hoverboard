@@ -1,7 +1,7 @@
 # Front-End Design for Virtual Classroom Product 
 
 ## Introduction from the Developer
-As someone with an educational backgorund, I am interested in the revolutionary potential of Educational Technology services. I designed this page for a mock-up EdTech product as an opportunity to progress essential Front-end skills.
+As someone with an educational background, I am interested in the revolutionary potential of Educational Technology services. I designed this site for a mock-up EdTech product as an opportunity to progress essential Front-end skills.
 
 # Table of Contents
 - [Strategy](#strategy)
@@ -28,23 +28,35 @@ As someone with an educational backgorund, I am interested in the revolutionary 
   - [Inspiration](#inspiration)
 
 
-## Strategy 
+## User Experience Strategy 
 
-### Important Contraints
-This is being completed by a single developer working within the limit of roughly 50 hours. HTML and CSS should therefore be main focus. The platform and client are fictional in order to focus on the need for front-end skills. 
+> A recent study conducted showed that schools in the UK spent nearly half a billion pounds on paper each year, which is the equivalent of 3m Chromebook devices. 
+- Ieva Kulikovska, Education Software Specialist, Blog Post for theaccessgroup.com
 
-Due to the time constraints, one important ommission is "demo mock-up" graphics of the platform in action, it is instead summarised with graphics. This can be revisited once developed.
+### Client Premise:
+Dr. Emily Williams is Headmaster at Meadowbrook Academy. She is expecting an Ofsted School Inspection in the next 5 years. Although her recent inspection feedback was positive, inspectors pointed out that various problems deriving from the sheer volume of paper. The top 5 include:
 
-### Premise: 
-Hoverboard is a startup company that has developed a virtual classroom software, they are looking for users to trial their software by request-only. They want to communicate a balance of playful and trustworthiness in tone.  
+- it can take weeks for teachers to organise books for review by school leaders
+- learning journeys quickly going out of date as the curriculum changes
+- the paper copiers regularly break down every week
+- important assessment documents/ paper resources occasionally are mislaid
+- while there are VLE's (virtual learning environments) in place, these are limited to setting homework, merits and changing seating plans. They do not account for coursework portfolios.
 
-### Client Objective: 
-The client has heard of the startup company, they may be an educational body or a school. They may need to be persuaded that Hoverboard is a potential virtual classroom. The client already has enthusiasm for technology in classrooms.
+One day her friend, Headmaster Benjamin Reynolds from Green Orchard School, recommends a new and promising Virtual Learning environment called Hoverboard. Benjamin has been trialling Hoverboard to reduce paper usage and organise data. THe software has a more ambitious scope than current VLEs by enabling users a chance to organise classwork on a cloud server. Later that day, Dr. Emily look's up Hoverboard on a search engine and visits their promotional website.
 
-The Client wants the site to perform some/all of these actions.
-- read about the platform's features
-- check the credentials
-- leave details to request a trial
+### Client Objective - Page Structure: 
+Dr. Emily needs to be able to visualise the mission of Hoverboard's product. She sees the homepage which demonstrates that Hoverboard are trying to help transition schools transition to a better and richer VLE. The content is themed around education, technology and ease of use. The client needs the front-end design to be positive, engaging and professional in tone.
+
+She wants to find out more about the features that Hoverboard offers. She visits Page 2 which demonstrates what unique features Hoverboard has to integrate student classwork, such as peer feedback, quick teacher grading and gallery views. The content is informative, persuasive and reassuring. The client needs the front-end design to use a clean layout that clearly visualises the product being used.
+
+Finally Dr. Emily visits page 3 where she books a free trial for one year. She mention's her friend Benjamin Reynolds recommended the product which offers him a special discount. She fills in a form which captures her essential data. At the end a message appears that thanks her and assures her that their customer welcome lead will be in contact. The client needs the front-end design to be easy to read and use.
+
+### Important Contraints for the Developer
+The initial live project was being completed to a live-product within the limit of roughly 50 hours. Essential Front-end skills, specifically HTML and CSS were main focus.   
+
+Due to the time constraints, the platform and client were fictional in order to focus on front-end skills. one important ommission is "demo mock-up" graphics of the platform in action, it is instead summarised with graphics. This can be revisited once developed.
+
+
 
 
 
