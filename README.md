@@ -8,10 +8,6 @@ As someone with an educational background, I am interested in the revolutionary 
 # Documentation 
 ## User Experience Strategy 
 
-> A recent study conducted showed that schools in the UK spent nearly half a billion pounds on paper each year, which is the equivalent of 3m Chromebook devices
-
-      Ieva Kulikovska, Education Software Specialist, Blog Post for theaccessgroup.com
-
 ### Client Premise:
 Dr. Emily Williams is Headmaster at Meadowbrook Academy. She is expecting an Ofsted School Inspection in the next 5 years. Although her recent inspection feedback was positive, inspectors pointed out that various problems deriving from the sheer volume of paper. The top 5 include:
 
@@ -71,31 +67,43 @@ Finally Dr. Emily visits page 3 where she books a free trial for one year. She m
 - when you'd like to start using the product (Month)
 - when is a good time to talk?
 
-## Initial Research Phase
-### SeeSaw as key competitor
-<img width="941" alt="image" src="https://github.com/lmcrean/VirtualClassroomMockup/assets/133490867/4d4a36f0-7c02-43b0-947a-383b1d64a6c8">
-SeeSaw https://web.seesaw.me/ 
-An excellent platform with progressive front and back-end features. 
+## Initial Research
+### SeeSaw Platform
+<img width="941" alt="image" src="https://github.com/lmcrean/VirtualClassroomMockup/assets/133490867/4d4a36f0-7c02-43b0-947a-383b1d64a6c8" caption="Copyright SeeSaw 2023">
+**SeeSaw https://web.seesaw.me/
 
-Students are able to upload their classwork, can comment on students' work, teachers can quickly assess. 
+An excellent platform with progressive front and back-end features. Students are able to upload their classwork, can comment on students' work, teachers can quickly assess. The welcome page introduces the platform's features, credentials and reassures the user about privacy concerns.
 
-Uses simple icons to visualise the learning and show the platform on a phone, tablet and computer.
+The front-end is efficient, user friendly, intuitively designed. It ues simple icons to visualise the learning and show the platform on a phone, tablet and computer.
 
-The welcome page reassures the user about privacy concerns.
+### Other VLE Websites
+**ClassCharts https://www.classcharts.com/
 
-The front-end is efficient, user friendly, intuitively designed.
+Notable features: teachers can see their students visually on a seating plan. 
 
-### Other Competitor Websites
-ClassCharts - Very good user interface/ UX. Notable features: teachers can see their students visually on a seating plan.
+Front-end of welcome page has a nice use of overlapping phone and content, summarising features with icons, use of graphs to make relevant to assessment data.
 
-SatchelOne https://www.teamsatchel.com/ - Homework with deadlines on a calendar. Seating plan is virtual as well.
+**SatchelOne https://www.teamsatchel.com/
+
+Homework with deadlines on a calendar. Seating plan is virtual as well.
+
+Front-end has an appealing loading graphic, summary of app graphics works really well, use of fade in animation as page scrolls.
 
 ### Articles on Paperless Schools
+
+> A recent study conducted showed that schools in the UK spent nearly half a billion pounds on paper each year, which is the equivalent of 3m Chromebook devices
+
+\- Ieva Kulikovska, Education Software Specialist, 2022
+
 "Steps towards becoming a paperless school - reduce waste and save money"
-https://www.theaccessgroup.com/en-gb/blog/edu-steps-towards-becoming-a-paperless-school-reduce-waste-and-save-money/#:~:text=Being%20a%20paperless%20school%20means,forms%2C%20permissions%20slips%20and%20newsletters. Interesting use of persusive content.
+https://www.theaccessgroup.com/en-gb/blog/edu-steps-towards-becoming-a-paperless-school-reduce-waste-and-save-money/#:~:text=Being%20a%20paperless%20school%20means,forms%2C%20permissions%20slips%20and%20newsletters. 
+
+This article discusses the benefits and steps towards becoming a paperless school. It emphasizes that going paperless can reduce waste, inefficiency, and costs, while improving school security, communication, and teaching methods. The article highlights the advantages of digital systems, such as creating a secure database, better communication with parents, increased student engagement, and the ability to automate paper-heavy processes. However, it also acknowledges potential challenges, such as digital literacy barriers and the importance of maintaining personal interactions in education.
 
 ### Front-end Design
-Brainstation.io  https://brainstation.io/ - This website's use of Landing videos and ticker effect is very visually appealing. Can be done on CSS. Also has effective use of floating navbar.
+Brainstation.io  https://brainstation.io/ 
+
+This website's use of Landing videos and ticker effect is very visually appealing. Can be done on CSS. Also has effective use of floating navbar.
 ## Designing phase
 
 
