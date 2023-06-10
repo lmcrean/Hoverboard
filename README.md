@@ -1,7 +1,7 @@
 # Front-End Design for Virtual Classroom Product 
 
 ## Introduction from the Developer
-As someone with an educational background, I am interested in the revolutionary potential of Educational Technology services. I designed this site for a mock-up EdTech product as an opportunity to progress essential Front-end skills.
+As someone with an educational background, I am interested in the revolutionary potential of Educational Technology services. I designed this site for a mock-up EdTech product as an opportunity to develop my essential Front-end skills. The key focus for the project was responsive CSS.
 
 # Table of Contents
 - [Strategy](#strategy)
@@ -44,138 +44,81 @@ Dr. Emily Williams is Headmaster at Meadowbrook Academy. She is expecting an Ofs
 
 One day her friend, Headmaster Benjamin Reynolds from Green Orchard School, recommends a new and promising Virtual Learning environment called Hoverboard. Benjamin has been trialling Hoverboard to reduce paper usage and organise data. THe software has a more ambitious scope than current VLEs by enabling users a chance to organise classwork on a cloud server. Later that day, Dr. Emily look's up Hoverboard on a search engine and visits their promotional website.
 
-### Client Objective - Page Structure: 
+### Client Experience of the website and objective: 
+Dr. Emily visit's the website on 2 occasions, first when she is on her phone in conversation with Benjamin, then the next day while she is on her office desktop.
+
 Dr. Emily needs to be able to visualise the mission of Hoverboard's product. She sees the homepage which demonstrates that Hoverboard are trying to help transition schools transition to a better and richer VLE. The content is themed around education, technology and ease of use. The client needs the front-end design to be positive, engaging and professional in tone.
 
 She wants to find out more about the features that Hoverboard offers. She visits Page 2 which demonstrates what unique features Hoverboard has to integrate student classwork, such as peer feedback, quick teacher grading and gallery views. The content is informative, persuasive and reassuring. The client needs the front-end design to use a clean layout that clearly visualises the product being used.
 
 Finally Dr. Emily visits page 3 where she books a free trial for one year. She mention's her friend Benjamin Reynolds recommended the product which offers him a special discount. She fills in a form which captures her essential data. At the end a message appears that thanks her and assures her that their customer welcome lead will be in contact. The client needs the front-end design to be easy to read and use.
 
-### Important Contraints for the Developer
-The initial live project was being completed to a live-product within the limit of roughly 50 hours. Essential Front-end skills, specifically HTML and CSS were main focus.   
+### Page Structure and scope
 
-Due to the time constraints, the platform and client were fictional in order to focus on front-end skills. one important ommission is "demo mock-up" graphics of the platform in action, it is instead summarised with graphics. This can be revisited once developed.
+#### Home Page:
+
+- Landing video with slogan *visualises the experience
+- Hoverboard's Mission *introduces the product persuasively in the context of VLE's - why we're different
+- Testimonials from different schools 
+*builds authority and trust
+- Find out about our Features *directs to page
+- Why you should claim your Free Trial *directs to page
+
+#### Hoverboard Features:
+
+- gallery views 
+*the client needs to visualise how it works on a laptop, and be persuaded it that it works well.
+- peer feedback 
+*need to see how chat function in action
+- quick teacher grading *needs to see how function is better.
+- Why you should claim your Free Trial 
+*directs to page
+
+#### Book your Free Trial:
+
+*needs to be easy to read and use
+- essential details: name, address, school.
+- how did you find out about our product?
+
+#### Future features to include
+
+**Home Page/ after Hoverboard's mission, more educational info about the need for VLE's/ paperless schools
+- persuasive statistics
+- advantages of paperless schools
+- visualise the BEFORE and AFTER difference with img slider 
+
+**After form 1 add Form 2 collects:
+- if someone recommended then who?
+- when you'd like to start using the product (Month)
+- when is a good time to talk?
 
 
-
-
-
-## Features to include, grouped by page
+## Designing phase
 
 Figma prototype https://www.figma.com/proto/W7mEdTvxLgNZTvh1ODiuwD/HOVERBOARD?type=design&node-id=5-2&scaling=scale-down&page-id=0%3A1
 
-### All Pages
-All features will be designed with HTML, CSS, Opensource images/ videos. More indirectly, Canva and CapCut will be used to create graphics and videos.
+A figma prototype was developed to visualise responsive design. 
 
-#### Logo with Floating Navigation Bar. 
-**to be familiar, consistent and easy to use according to user needs
+Canva was also used to generate appealing vector graphics.
 
-Includes Logo on left (Canva)
+**Creativity, children-appropriate.
 
-Navigation bar links to Home, Explore our Features and Book a Free Trial. (HTML)
-
-Hamburger appears below 600px. Link highlights & animates upon hover. (CSS)
-
-#### Footer
-**To reinforce branding and consistent design **
-
-### Home Page
-
-#### Landing video with slogan.
-**To create Intrigue and excitement, summarises the experience of the brand
-
-Video collage of children using computers, classroom settings, children doing homework, children being happy on computer, parent's using computer. (Capcut, Opensource video) *Background video is always fixed to width of screen.
+## Features included, grouped by page
 
 
-Slogan "Let's supercharge our Learning". Large and overlapping. (HTML,CSS) *Text adjusts by % of screen with vh.
 
 
-#### Introduction of Platform.
-**Summarise the platform's function and mission. Provide eye-catching visuals 
 
-Heading: "Hoverboard is an all-in-one platform for virtual classrooms. Join us on our mission to help schools transition into the digital revolution." *Text adjusts by % of screen with vh.
 
-Paragraph: More than ever, schools are in need to function efficiently and effectively to meet the needs of our students. That's why we've created Hoverboard. *Text adjusts by % of screen with vh, snaps to different position when larger than mobile.
-
-Graphic showing beginning of an online lesson. It is designed on Canva as a mock-up with different features, showing student's connected, upload classwork, create doc icon. *Text adjusts by % of screen with vh.
-
-#### Introduction of Features. 
-**Client wants to see what the platform can do, direct's client to the Feature page
-*Divide Heading-Image-Caption into 3 columns when above mobile height
-
-Heading: "Collaborate, Communicate, Celebrate". *Text adjusts by % of screen with vh.
-
-Images: Artwork being shared online, Learning Objectives set in classwork, pupil of the week. 
-
-Caption: Each has a caption summarising in one sentence what Hoverboard can do.
-
-Link: Click here to find out more about our features.
-
-#### 6 Testimonials from different schools.
-**Client needs trust built on the platform's brand.
-Include teacher's picture, Each testimonial has a Staff picture, testimonial message. They are animated with a ticker effect.
-
-*Features adjusts by % height of screen. Images are resized.
-
-### Hoverboard features (page)
-**This page introduces the client to Hoverboard's features. Each feature should have a tone of be exciting, modern and effective.** 
-
-It is divided into 3 features each seperated by a different colour. 
-
-Hovering over the image offers a specific caption for what is happening. e.g. Students at X school promote their news website. A student uploads their homework.
-
-*Divide Heading-Image-Caption into 3 columns when above mobile height
-
-Heading: Celebrate outcomes with highlighted work, news pages and merits.
-
-Heading: Communicate with parents and students about their progress, with customised feedback.
-
-Heading: Collaborate with live-lessons, allowing students to share their work instantly.
 
 ### Book a Free Trial (page)
 **Allows Client to book the trial, it should be simple, easy to read and use
-Form request with phone number. School. Email address. How did you hear about us.
 
 ## Design Choices
 
-### Colour palette
-
-
-<img width="209" alt="image" src="https://github.com/lmcrean/VirtualClassroomMockup/assets/133490867/3a759852-d382-46db-b2ed-201cb30f7fee">
-
-**colour scheme is playful, modern, child-friendly. Evocative of ice-cream, it emphasises the fun aspect of the product.
-
-
-#FFB86B orange
-
-#E8568B pink
-
-#54A3FF blue
-
-#FFFB84 yellow
-
-#94FF61 green
 
 
 
-### Font Choices 
-<img width="399" alt="image" src="https://github.com/lmcrean/VirtualClassroomMockup/assets/133490867/67cf6cfd-211b-4b1c-aafb-64667387621f">
-
-
-Peace Sans for Headings.
-
-Glacial Indifference for paragraphs.
-
-**Playful on the surface and with profound educational intent.
-
-### Background Squiggles
-<img width="354" alt="image" src="https://github.com/lmcrean/VirtualClassroomMockup/assets/133490867/17d980ba-8046-46ef-924d-a62b17bd3c5d">
-
-<img width="405" alt="image" src="https://github.com/lmcrean/VirtualClassroomMockup/assets/133490867/6f86d062-3411-4869-8992-b5554fb13d02">
-
-<img width="303" alt="image" src="https://github.com/lmcrean/VirtualClassroomMockup/assets/133490867/56bb4ef3-0f80-4591-8eb1-dc9ce36a676e">
-
-**Creativity, children-appropriate.
 
 ## Testing
 
