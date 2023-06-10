@@ -3,6 +3,9 @@
 ## Introduction from the Developer
 As someone with an educational background, I am interested in the revolutionary potential of Educational Technology services. I designed this site for a mock-up EdTech product as an opportunity to develop my essential Front-end skills. The key focus for the project was responsive CSS.
 
+## Features included
+
+# Documentation 
 ## User Experience Strategy 
 
 > A recent study conducted showed that schools in the UK spent nearly half a billion pounds on paper each year, which is the equivalent of 3m Chromebook devices
@@ -68,9 +71,35 @@ Finally Dr. Emily visits page 3 where she books a free trial for one year. She m
 - when you'd like to start using the product (Month)
 - when is a good time to talk?
 
+## Initial Research Phase
+### SeeSaw as key competitor
+<img width="941" alt="image" src="https://github.com/lmcrean/VirtualClassroomMockup/assets/133490867/4d4a36f0-7c02-43b0-947a-383b1d64a6c8">
+SeeSaw https://web.seesaw.me/ 
+An excellent platform with progressive front and back-end features. 
 
+Students are able to upload their classwork, can comment on students' work, teachers can quickly assess. 
+
+Uses simple icons to visualise the learning and show the platform on a phone, tablet and computer.
+
+The welcome page reassures the user about privacy concerns.
+
+The front-end is efficient, user friendly, intuitively designed.
+
+### Other Competitor Websites
+ClassCharts - Very good user interface/ UX. Notable features: teachers can see their students visually on a seating plan.
+
+SatchelOne https://www.teamsatchel.com/ - Homework with deadlines on a calendar. Seating plan is virtual as well.
+
+### Articles on Paperless Schools
+"Steps towards becoming a paperless school - reduce waste and save money"
+https://www.theaccessgroup.com/en-gb/blog/edu-steps-towards-becoming-a-paperless-school-reduce-waste-and-save-money/#:~:text=Being%20a%20paperless%20school%20means,forms%2C%20permissions%20slips%20and%20newsletters. Interesting use of persusive content.
+
+### Front-end Design
+Brainstation.io  https://brainstation.io/ - This website's use of Landing videos and ticker effect is very visually appealing. Can be done on CSS. Also has effective use of floating navbar.
 ## Designing phase
 
+
+## Design Phase
 Figma prototype https://www.figma.com/proto/W7mEdTvxLgNZTvh1ODiuwD/HOVERBOARD?type=design&node-id=5-2&scaling=scale-down&page-id=0%3A1
 
 A figma prototype was developed to visualise responsive design. 
@@ -78,23 +107,6 @@ A figma prototype was developed to visualise responsive design.
 Canva was also used to generate appealing vector graphics.
 
 **Creativity, children-appropriate.
-
-## Features included, grouped by page
-
-
-
-
-
-
-
-### Book a Free Trial (page)
-**Allows Client to book the trial, it should be simple, easy to read and use
-
-## Design Choices
-
-
-
-
 
 ## Testing
 
@@ -135,11 +147,4 @@ The live link can be found here - [LINK](LINK)
   - Pexels
 - The videos used are from Pexels.
 
-### Inspiration
-SeeSaw https://web.seesaw.me/ A truly excellent platform with forward thinking features. Students are able to upload their classwork, can comment on students' work, teacher's can quickly assess. The website is efficient, user friendly, intuitively designed.
 
-ClassCharts - Very good user interface/ UX. Notable features: teachers can see their students visually on a seating plan.
-
-SatchelOne https://www.teamsatchel.com/ - Homework with deadlines on a calendar. Seating plan is virtual as well.
-
-Brainstation.io - This website's use of Landing videos and ticker effect is very visually appealing.
