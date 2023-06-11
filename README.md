@@ -156,3 +156,9 @@ The live link can be found here - [LINK](LINK)
 - The videos used are from Pexels.
 
 
+# Tasklist
+[X] UX Strategy
+[ ] Scope
+[ ] Structure
+[ ] Surface 
+[ ] Testing
