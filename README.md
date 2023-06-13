@@ -156,9 +156,5 @@ The live link can be found here - [LINK](LINK)
 - The videos used are from Pexels.
 
 
-# Tasklist
-[X] UX Strategy
-[ ] Scope
-[ ] Structure
-[ ] Surface 
-[ ] Testing
+# Changelog (non-code)
+11.06.23 Updated figma model, drafted Features page with screen     responsiveness.
