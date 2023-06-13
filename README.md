@@ -156,5 +156,6 @@ The live link can be found here - [LINK](LINK)
 - The videos used are from Pexels.
 
 
-# Changelog (non-code)
+# Figma Changelog
 11.06.23 Updated figma model, drafted Features page with screen     responsiveness.
+13.6.23 Updated Home page, replaced images, spread out navbar, improved subheadings. Need to draft in Form and then review surface design. Would be good to reuse app icons from features page.
