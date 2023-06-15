@@ -7,6 +7,7 @@ As someone with an educational background, I am interested in the revolutionary 
 
 # Documentation 
 ## User Experience Strategy 
+[ !TODO put user stories here, relate to features ]
 
 ### Client Premise:
 Dr. Emily Williams is Headmaster at Meadowbrook Academy. She is expecting an Ofsted School Inspection in the next 5 years. Although her recent inspection feedback was positive, inspectors pointed out that various problems deriving from the sheer volume of paper. The top 5 include:
