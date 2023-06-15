@@ -158,4 +158,5 @@ The live link can be found here - [LINK](LINK)
 
 # Figma Changelog
 11.06.23 Updated figma model, drafted Features page with screen     responsiveness.
-13.6.23 Updated Home page, replaced images, spread out navbar, improved subheadings. Need to draft in Form and then review surface design. Would be good to reuse app icons from features page.
+13.6.23 Update Home page, replaced images, spread out navbar, improved subheadings. Need to draft in Form and then review surface design. Would be good to reuse app icons from features page.
+15.6.23 12:40 Complete form page, add background squiggles, recolor as Orange design. TODO: complete background squiggles on Features page, copy over app icons to Hoverboard mission feature on home page.
