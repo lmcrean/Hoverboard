@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Green Orchard School">
+  <meta name="keywords" content="Green Orchard, School, London, Hanwell">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lusitana:wght@700&family=Montserrat&family=Source+Serif+Pro:ital,wght@1,200&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c7515a9d31.js" crossorigin="anonymous"></script>
+
+  <link rel="icon" href="assets/graphics/favicon.ico" type="image/x-icon">
+  <title>Green Orchard School</title>
+</head>
+
+<body>
+  <header>
+    <a href="index.html">
+      <img src="assets/graphics/navbar_school-title.svg" id="navbar_school-title" alt="Green Orchard School Logo">
+    </a>
+    <div class="navbar" id="mynavbar">
+      <a href="index.html" >Home</a>
+      <a href="news.html" class="active">News</a>
+      <a href="book-now.html">Book an Open Day</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("mynavbar");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+    </script>
+  </header>
+  
