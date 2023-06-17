@@ -1,5 +1,5 @@
 /* Navbar_Mobile */
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 744px) {
   .navbar a:not(:first-child) {
     display: none;
   }
@@ -13,11 +13,13 @@
 .navbar .icon i {
   color: #FF6100;
   font-size: 2.6em;
+  display: flex;
+  align-items: flex-end;
 }
 
 /*Nav Bar_background */
 .navbar {
-  background-color: white;
+  background-color: blue;
   overflow: hidden;
 }
 
@@ -69,6 +71,6 @@
 .navbar.responsive a {
   float: none;
   display: flex;
-  text-align: left;
+  text-align: right;
 }
 }
