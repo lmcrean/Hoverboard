@@ -1,35 +1,33 @@
-/*font-family*/
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@1&display=swap') * {
-  margin: 0;
-  padding: 0;
-  border: none;
+/* Navbar_Mobile hide all links, except for the first one ("Home"). Show the link that contains should open and close the navbar (.icon) */
+@media screen and (max-width: 390px) {
+  .navbar a:not(:first-child) {
+    display: none;
+  }
+
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+
+  .navbar .icon i {
+    color: #FF6100;
+  }
+
+  .navbar {
+    padding-top: -5px;
+    padding-bottom: -5px;
+  }
+
+  .navbar a {
+    padding: 10px 13px;
+    /* Adjust the padding as needed */
+  }
+
+  .navbar.responsive a.icon {
+    right: 10px;
+    /* Adjust the right positioning of the navbar icon */
+  }
 }
-
-body {
-  font-family: 'Montserrat';
-  font-size: medium;
-  color: #ecf39eff;
-  background-color: white;
-}
-
-h1 {
-  font-family: 'Lusitana';
-  font-size: 7.2vw;
-  font-weight: bold;
-}
-
-h2 {
-  font-family: 'Source Serif Pro', serif;
-  font-weight: 300;
-}
-
-
-
-/*Nav Bar_Text Logo img*/
-
-
-
-/*Nav Bar_navigation links */
 
 /*Nav Bar_background */
 .navbar {
@@ -66,47 +64,19 @@ h2 {
 /*Navbar_Hide the link that should open and close the navbar on small screens */
 .navbar .icon {
   display: none;
+  font-size: 2.6em;
 }
 
-.navbartitle {
+#navbartitle {
+  float: left;
   width: auto;
-  height: 57px;
+  max-height: 57px;
   display: block;
-  margin: 10px;
+  margin: 0px;
+  padding: 0px
 }
 
 /* Navbar_Media queries */
-
-/* When the screen is less than 390 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the navbar (.icon) */
-@media screen and (max-width: 390px) {
-  .navbar a:not(:first-child) {
-    display: none;
-  }
-
-  .navbar a.icon {
-    float: right;
-    display: block;
-  }
-
-  .navbar .icon i {
-    color: #FF6100;
-  }
-
-  .navbar {
-    padding-top: -5px;
-    padding-bottom: -5px;
-  }
-
-  .navbar a {
-    padding: 10px 13px;
-    /* Adjust the padding as needed */
-  }
-
-  .navbar.responsive a.icon {
-    right: 10px;
-    /* Adjust the right positioning of the navbar icon */
-  }
-}
 
 @media screen and (max-width: 600px) {
   .navbar.responsive {
