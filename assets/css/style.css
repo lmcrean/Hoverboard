@@ -5,16 +5,18 @@
   }
 
   .navbar a.icon {
-    float: right;
-    display: flex;
-  }
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .navbar .icon i {
   color: #FF6100;
   font-size: 2.6em;
   display: flex;
-  align-items: flex-end;
+  align-self: center;
+  justify-content: flex-end;
 }
 
 /*Nav Bar_background */
@@ -35,11 +37,12 @@
   border-radius: 6px;
 }
 
-.navbar a:hover {
+.navbar a:hover:not(#navbartitle) {
   background-color: #FFDF7F;
   color: black;
-  border-radius: 12;
+  border-radius: 12px;
 }
+
 
 .navbar a.active {
   background-color: #FFB86B;
@@ -56,19 +59,20 @@
   padding: 0px
 }
 
-/*Navbar_.responsive = Open Menu*/
+/*Navbar_Open Menu*/
 
-.navbar.responsive {
+.navbar.menuOpen {
   position: relative;
 }
 
-.navbar.responsive a.icon {
+.navbar.menuOpen a.icon {
   position: absolute;
+  display: flex;
   right: 0;
-  top: 0;
+  top: 1em;
 }
 
-.navbar.responsive a {
+.navbar.menuOpen a {
   float: none;
   display: flex;
   text-align: right;
