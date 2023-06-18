@@ -25,28 +25,16 @@ nav {
   padding: 0px
 }
 
-.navbar .icon {
-  position: absolute;
-  top: 0;
-  right: 0;
-  color: red;
-  font-size: 2.6em;
-  padding: 0.2em;
-}
-
-.navbar #icon-close {
+.navbar .icon #icon-close {
   display: none;
+  color: blueviolet;
+  font-size: 0.8em;
+  padding: 0.2em;
+  text-decoration: none;
 }
 
 .navbar.menuOpen .icon #icon-open {
   display: none;
-}
-
-.navbar.menuOpen .icon #icon-close {
-  display: flex;
-  color:  orange;
-  font-size: 0.8em;
-  padding: 0.2em;
 }
 
 .menu-items {
@@ -55,7 +43,7 @@ nav {
 
 .menu-items a:hover {
   background-color: green;
-  border-radius: 12px
+  border-radius: 4px
 }
 
 .menu-items a {
