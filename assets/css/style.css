@@ -4,6 +4,10 @@
 /*FEATURE 1: NAVBAR 
 Elements = navbartitle, icon, menuitems */
 
+* {
+  text-decoration: none;
+}
+
 nav {
   position: sticky;
   height: 57px;
@@ -29,8 +33,15 @@ nav {
   position: absolute;
   top: 0;
   right: 0;
-  color: blue;
   font-size: 2.6em;
+  padding: 0.2em;
+}
+
+.navbar #icon-open {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: yellow;
   padding: 0.2em;
 }
 
@@ -39,22 +50,21 @@ nav {
   color: blueviolet;
   font-size: 0.8em;
   padding: 0.2em;
-  text-decoration: none;
-}
-
-.navbar.menuOpen i {
-  text-decoration: none;
 }
 
 .navbar.menuOpen .icon #icon-open {
   display: none;
 }
 
-.navbar .icon #icon-close {
-  display: none;
+.navbar.menuOpen .icon #icon-close {
+  display: flex;
   color: blueviolet;
   font-size: 0.8em;
   padding: 0.2em;
+  text-decoration: none;
+}
+
+.navbar.menuOpen .icon #icon-close a {
   text-decoration: none;
 }
 
@@ -68,7 +78,7 @@ nav {
 }
 
 .menu-items a {
-  padding: 0em 0.8em 0em;
+  padding: 0em 0.7em 0em;
   margin-right: 0.4em;
   font-size: 1.5em;
   font-family: 'Glacial Indifference', sans-serif;
@@ -101,7 +111,7 @@ nav {
 }
 }
 
-@media screen and (min-width: 744px) {
+@media screen and (min-width: 743.99px) {
   .menu-items a {
     display: flex;
     justify-content: space-between;
