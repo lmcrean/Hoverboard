@@ -50,11 +50,16 @@ nav {
 }
 
 .menu-items {
-  margin-top: 0.78em
+  border-bottom: 0em
+}
+
+.menu-items a:hover {
+  background-color: green;
+  border-radius: 12px
 }
 
 .menu-items a {
-  padding: 0em 0.8em 0.6em;
+  padding: 0em 0.8em 0em;
   margin-right: 0.4em;
   font-size: 1.5em;
   font-family: 'Glacial Indifference', sans-serif;
