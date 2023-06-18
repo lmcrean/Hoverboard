@@ -23,7 +23,7 @@ nav {
   padding: 0px
 }
 
-.navbar .icon i {
+.navbar .icon {
   color: #FF6100;
   font-size: 2.6em;
   padding: 0.2em
@@ -39,7 +39,7 @@ nav {
 }
 
 .navbar.menuOpen i {
-  background-color: blue;
+  display: none
 } 
 
 .navbar.menuOpen ul {

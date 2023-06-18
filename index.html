@@ -22,23 +22,24 @@
       <div class="navbar" id="mynavbar">
         <a href="index.html"><img src="assets/media/navbarlogo.png" class="navbartitle" alt="Hoverboard Company Logo"></a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i></a>
+        <i class="fa fa-bars" id="icon-hamburger"></i>
+        <i class="fa-solid fa-xmark-large" id="icon-close"></i></a>
       <ul class="menu-items">
       <li><a href="features.html.html">About our Features</a></li>
       <li><a href="booktrial.htmlhtml">Book Free Trial</a></li>
       </ul>
     </div>
     </nav>
+    <script> /*Script for Menu open */
+      function myFunction() {
+        var x = document.getElementById("mynavbar");
+        if (x.className === "navbar") {
+          x.className += " menuOpen";
+        } else {
+          x.className = "navbar";
+        }
+      }
+  </script>
   </header>
 
 
-<script> /*Script for Menu open */
-    function myFunction() {
-      var x = document.getElementById("mynavbar");
-      if (x.className === "navbar") {
-        x.className += " menuOpen";
-      } else {
-        x.className = "navbar";
-      }
-    }
-</script>
