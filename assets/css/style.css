@@ -1,84 +1,50 @@
-/* Navbar_Mobile */
+/*FEATURE 1: NAVBAR 
+Elements = navbartitle, icon, menuitems */
 
-@media screen and (max-width: 744px) {
-  .navbar a:not(:first-child) {
-    display: none;
-  }
+/*Navbar_Mobile */ 
+
+nav {
+  position: sticky;
+  height: 57px;
+  background-color: grey;
+}
 
 .navbar {
-  background-color: blue;
   overflow: hidden;
-  display:flex;
+  display: flex;
   justify-content: space-between;
+  align-content: center;
 }
 
-#navbartitle {
-  float: left;
+.navbartitle {
   width: auto;
   max-height: 57px;
-  display: block;
   margin: 0px;
   padding: 0px
-}
-
-/*Navbar_links style */
-.navbar a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 10px 13px;
-  text-decoration: none;
-  font-size: 1em;
-  border-radius: 6px;
-}
-
-.navbar a.icon {
-  float: right;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
 }
 
 .navbar .icon i {
   color: #FF6100;
   font-size: 2.6em;
-  display: flex;
-  align-self: center;
-  justify-content: flex-end;
+  padding: 0.2em
 }
 
-.navbar a:hover:not(#navbartitle) {
-  background-color: #FFDF7F;
-  color: black;
-  border-radius: 12px;
-}
-
-
-.navbar a.active {
-  background-color: #FFB86B;
-  color: white;
-  border-radius: 12;
-}
-
-
-
-/*Navbar_Open Menu*/
+@media screen and (max-width: 744px) {
+  .menu-items {
+    display: none;
+  }
 
 .navbar.menuOpen {
-  position: relative;
+  flex-direction: column;
 }
 
-.navbar.menuOpen a.icon {
-  position: absolute;
-  display: flex;
-  right: 0;
-  top: 1em;
-}
+.navbar.menuOpen i {
+  background-color: blue;
+} 
 
-.navbar.menuOpen a {
-  float: none;
-  display: flex;
-  text-align: right;
+.navbar.menuOpen ul {
+    display: flex;
+    flex-direction: column;
+
 }
 }
