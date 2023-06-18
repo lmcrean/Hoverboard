@@ -1,7 +1,8 @@
+/*IMPORTS*/
+@import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
+
 /*FEATURE 1: NAVBAR 
 Elements = navbartitle, icon, menuitems */
-
-/*Navbar_Mobile */ 
 
 nav {
   position: sticky;
@@ -48,11 +49,22 @@ nav {
   padding: 0.2em;
 }
 
+.menu-items {
+  margin-top: 0.78em
+}
+
 .menu-items a {
   padding: 0em 0.8em 0.6em;
   margin-right: 0.4em;
-  margin-bottom: 0.5em;
-  font-size: 1.7em;
+  font-size: 1.5em;
+  font-family: 'Glacial Indifference', sans-serif;
+  color:black;
+  text-decoration: none;
+}
+
+.menu-items li {
+  margin-bottom: 1em;
+  list-style: none;
 }
 
 @media screen and (max-width: 744px) {
@@ -81,7 +93,6 @@ nav {
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    color: red;
   }
   .menu-items li {
     display: inline-block; 
