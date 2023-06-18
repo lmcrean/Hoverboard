@@ -48,6 +48,13 @@ nav {
   padding: 0.2em;
 }
 
+.menu-items a {
+  padding: 0em 0.8em 0.6em;
+  margin-right: 0.4em;
+  margin-bottom: 0.5em;
+  font-size: 1.7em;
+}
+
 @media screen and (max-width: 744px) {
   .menu-items {
     display: none;
@@ -73,9 +80,13 @@ nav {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    color: red
+    align-items: center;
+    color: red;
   }
-  .navbar #icon-open{
+  .menu-items li {
+    display: inline-block; 
+  }
+  .navbar #icon-open {
     display: none;
   }
 }
