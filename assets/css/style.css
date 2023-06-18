@@ -1,28 +1,24 @@
 /* Navbar_Mobile */
+
 @media screen and (max-width: 744px) {
   .navbar a:not(:first-child) {
     display: none;
   }
 
-  .navbar a.icon {
-  float: right;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.navbar .icon i {
-  color: #FF6100;
-  font-size: 2.6em;
-  display: flex;
-  align-self: center;
-  justify-content: flex-end;
-}
-
-/*Nav Bar_background */
 .navbar {
   background-color: blue;
   overflow: hidden;
+  display:flex;
+  justify-content: space-between;
+}
+
+#navbartitle {
+  float: left;
+  width: auto;
+  max-height: 57px;
+  display: block;
+  margin: 0px;
+  padding: 0px
 }
 
 /*Navbar_links style */
@@ -35,6 +31,21 @@
   text-decoration: none;
   font-size: 1em;
   border-radius: 6px;
+}
+
+.navbar a.icon {
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar .icon i {
+  color: #FF6100;
+  font-size: 2.6em;
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
 }
 
 .navbar a:hover:not(#navbartitle) {
@@ -50,14 +61,7 @@
   border-radius: 12;
 }
 
-#navbartitle {
-  float: left;
-  width: auto;
-  max-height: 57px;
-  display: block;
-  margin: 0px;
-  padding: 0px
-}
+
 
 /*Navbar_Open Menu*/
 
