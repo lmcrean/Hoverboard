@@ -11,6 +11,7 @@ nav {
 
 .navbar {
   overflow: hidden;
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -23,23 +24,27 @@ nav {
   padding: 0px
 }
 
-.navbar .icon-hamburger {
-  color: black;
+.navbar .icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: red;
   font-size: 2.6em;
   padding: 0.2em;
 }
 
-.navbar .icon-close {
+.navbar #icon-close {
   display: none;
-  color: black;
-  font-size: 2.6em;
-  padding: 0.2em
 }
 
-.navbar.menuOpen .icon .icon-close {
+.navbar.menuOpen .icon #icon-open {
+  display: none;
+}
+
+.navbar.menuOpen .icon #icon-close {
   display: flex;
-  color:  black;
-  font-size: 2.6em;
+  color:  orange;
+  font-size: 0.8em;
   padding: 0.2em;
 }
 
@@ -61,4 +66,16 @@ nav {
     flex-direction: column;
 
 }
+}
+
+@media screen and (min-width: 744px) {
+  .menu-items a {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: red
+  }
+  .navbar #icon-open{
+    display: none;
+  }
 }
