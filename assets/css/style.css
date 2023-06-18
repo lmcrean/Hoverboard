@@ -72,18 +72,20 @@ nav {
   border-bottom: 0em
 }
 
-.menu-items a:hover {
-  background-color: green;
-  border-radius: 4px
-}
-
 .menu-items a {
-  padding: 0em 0.7em 0em;
+  position: relative;
+  padding: 2em 0.7em 0em;
   margin-right: 0.4em;
   font-size: 1.5em;
   font-family: 'Glacial Indifference', sans-serif;
   color:black;
   text-decoration: none;
+  border-radius: 6px;
+}
+
+.menu-items a:hover {
+  background-color: green;
+  
 }
 
 .menu-items li {
