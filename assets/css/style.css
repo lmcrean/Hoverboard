@@ -25,6 +25,15 @@ nav {
   padding: 0px
 }
 
+.navbar .icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: blue;
+  font-size: 2.6em;
+  padding: 0.2em;
+}
+
 .navbar .icon #icon-close {
   display: none;
   color: blueviolet;
@@ -33,8 +42,20 @@ nav {
   text-decoration: none;
 }
 
+.navbar.menuOpen i {
+  text-decoration: none;
+}
+
 .navbar.menuOpen .icon #icon-open {
   display: none;
+}
+
+.navbar .icon #icon-close {
+  display: none;
+  color: blueviolet;
+  font-size: 0.8em;
+  padding: 0.2em;
+  text-decoration: none;
 }
 
 .menu-items {
