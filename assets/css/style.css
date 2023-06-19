@@ -6,6 +6,9 @@ Elements = navbartitle, icon, menuitems */
 
 * {
   text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
 }
 
 nav {
@@ -25,7 +28,7 @@ nav {
 .navbartitle {
   width: auto;
   max-height: 57px;
-  margin: 0px;
+  margin: 0px 0px 1em;
   padding: 0px
 }
 
@@ -74,8 +77,8 @@ nav {
 
 .menu-items a {
   position: relative;
-  padding: 2em 0.7em 0em;
-  margin-right: 0.4em;
+  margin: 0.49em 0.4em 0.2em;
+  padding: 0.15em 0.7em 0.27em;
   font-size: 1.5em;
   font-family: 'Glacial Indifference', sans-serif;
   color:black;
