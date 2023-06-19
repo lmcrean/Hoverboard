@@ -88,7 +88,7 @@ nav {
 
 .menu-items a:hover {
   background-color: green;
-  
+  color: white
 }
 
 .menu-items li {
