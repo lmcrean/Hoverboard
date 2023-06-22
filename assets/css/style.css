@@ -27,7 +27,7 @@
   border: 0px;
 }
 
-h1 {
+h1,h2,h3,h4 {
   font-family: 'Peace Sans', sans-serif;
   font-weight: 300px;
 }
@@ -250,3 +250,9 @@ Elements: */
   margin-bottom: 2em;
 }
 
+/*BOOK TRIAL FORM*/
+form input[type="text"],
+form input[type="password"],
+form input[type="tel"] {
+  border: 1px solid black;
+}
