@@ -30,6 +30,7 @@ Elements = navbartitle, icon, menuitems */
 
 h1 {
   font-family: 'Peace Sans', sans-serif;}
+  font-weight: 300px;
 
 p {
   font-family: 'Glacial Indifference', sans-serif;
