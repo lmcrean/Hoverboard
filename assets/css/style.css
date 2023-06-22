@@ -1,7 +1,8 @@
 /*IMPORTS*/
 @import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
+@import url('https://fonts.cdnfonts.com/css/peace-sans');
 
-/*FEATURE 1: NAVBAR 
+/*NAVBAR FEATURE
 Elements = navbartitle, icon, menuitems */
 
 * {
@@ -9,6 +10,10 @@ Elements = navbartitle, icon, menuitems */
   padding: 0px;
   margin: 0px;
   border: 0px;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Peace Sans', sans-serif;
 }
 
 p {
@@ -146,7 +151,7 @@ nav {
   }
 }
 
-/*FEATURE 2: FOOTER 
+/*FOOTER FEATURE 
 Elements = footer-small-print, footer icons */
 
 footer {
@@ -205,3 +210,7 @@ footer {
     flex: 1;
   }
 }
+
+/*BOOK TRIAL LANDING FEATURE
+Elements: */
+
