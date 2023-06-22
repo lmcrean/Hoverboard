@@ -21,6 +21,8 @@ nav {
   background-color: grey;
 }
 
+
+
 .navbar {
   overflow: hidden;
   position: relative;
@@ -93,6 +95,10 @@ nav {
   color:black;
   text-decoration: none;
   border-radius: 6px;
+}
+
+.menu-items a .tab-active {
+  background-color: orange
 }
 
 .menu-items a:hover {
