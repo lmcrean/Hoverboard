@@ -1,3 +1,4 @@
+/*CSS STYLESHEET*/
 /*IMPORTS*/
 @import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
 @import url('https://fonts.cdnfonts.com/css/peace-sans');
@@ -6,15 +7,15 @@
 Elements = navbartitle, icon, menuitems */
 
 * {
+  
   text-decoration: none;
   padding: 0px;
   margin: 0px;
   border: 0px;
 }
 
-h1,h2,h3,h4 {
-  font-family: 'Peace Sans', sans-serif;
-}
+.booktrial-h1 h1 {
+  font-family: 'Peace Sans', sans-serif;}
 
 p {
   font-family: 'Glacial Indifference', sans-serif;
