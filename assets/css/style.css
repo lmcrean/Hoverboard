@@ -3,6 +3,21 @@
 @import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
 @import url('https://fonts.cdnfonts.com/css/peace-sans');
 
+@font-face {
+  font-family: 'Peace Sans';
+  src: url('/assets/fonts/peace_sans.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('/assets/fonts/GlacialIndifference-Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 /*NAVBAR FEATURE
 Elements = navbartitle, icon, menuitems */
 
