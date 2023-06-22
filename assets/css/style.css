@@ -6,7 +6,7 @@
 @font-face {
   font-family: 'Peace Sans';
   src: local('/assets/fonts/peace_sans.woff2') format('woff2');
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -18,8 +18,7 @@
 }
 
 
-/*NAVBAR FEATURE
-Elements = navbartitle, icon, menuitems */
+/*GENERIC STYLING*/
 
 * {
   text-decoration: none;
@@ -29,12 +28,16 @@ Elements = navbartitle, icon, menuitems */
 }
 
 h1 {
-  font-family: 'Peace Sans', sans-serif;}
+  font-family: 'Peace Sans', sans-serif;
   font-weight: 300px;
+}
 
 p {
   font-family: 'Glacial Indifference', sans-serif;
 }
+
+/*NAVBAR FEATURE
+Elements = navbartitle, icon, menuitems */
 
 nav {
   position: sticky;
@@ -229,4 +232,21 @@ footer {
 
 /*BOOK TRIAL LANDING FEATURE
 Elements: */
+
+.booktrial-landing h1 {
+  background-color: red;
+  margin: 1.5em;
+  padding: 4em 2em 4em;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.booktrial-landing img {
+  display: float;
+  justify-content: center;
+  align-content: flex-end;
+  margin-bottom: 2em;
+}
 
