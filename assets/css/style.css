@@ -5,14 +5,14 @@
 
 @font-face {
   font-family: 'Peace Sans';
-  src: url('/assets/fonts/peace_sans.otf') format('otf');
+  src: url('/assets/fonts/peace_sans.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Glacial Indifference';
-  src: url('/assets/fonts/GlacialIndifference-Regular.otf') format('otf');
+  src: url('/assets/fonts/GlacialIndifference-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -22,14 +22,13 @@
 Elements = navbartitle, icon, menuitems */
 
 * {
-  
   text-decoration: none;
   padding: 0px;
   margin: 0px;
   border: 0px;
 }
 
-.booktrial-h1 h1 {
+h1 {
   font-family: 'Peace Sans', sans-serif;}
 
 p {
