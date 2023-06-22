@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hoverboard, the online Education platform">
+  <meta name="keywords" content="Hoverboard, Classroom, VLE,">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.cdnfonts.com/css/glacial-indifference-2" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/c7515a9d31.js" crossorigin="anonymous"></script>
+
+  <link rel="icon" href="assets/media/favicon.ico" type="image/x-icon">
+  <title>Hoverboard</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="navbar" id="mynavbar">
+        <a href="index.html"><img src="assets/media/navbarlogo.png" class="navbartitle" alt="Hoverboard Company Logo"></a>
+
+        <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars" id="icon-open"></i></a>
+
+        <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+        <i class="fa-solid fa-x"  id="icon-close"></i></a>
+
+      <ul class="menu-items">
+      <li><a href="features.html">About our Features</a></li>
+      <li><a href="booktrial.html" class="tab-active">Book Free Trial</a></li>
+      </ul>
+
+    </div>
+    </nav>
+    <script> /*Script for Menu open */
+      function myFunction() {
+        var x = document.getElementById("mynavbar");
+        if (x.className === "navbar") {
+          x.className += " menuOpen";
+        } else {
+          x.className = "navbar";
+        }
+      }
+  </script>
+  </header>
+
+  <footer>
+
+    <div class="footer-small-print">
+      <p>
+      © 2023 Hoverboard
+      </p>
+    </div>
+    
+
+    <div class = "footer-links">
+
+      <div class = "footer-row1">
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.intagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.twitter.com/">
+        <i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+
+      <div class = "footer-row2">
+        <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.discord.com/"><i class="fa-brands fa-discord"></i></a>
+        <a href="https://www.slack.com/"><i class="fa-brands fa-slack"></i></a>
+        <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+      
+    </div>  
+
+  </footer>
+</body>
+
