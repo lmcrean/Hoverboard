@@ -70,7 +70,7 @@ nav {
   position: fixed;
   width:100%;
   height: 57px;
-  background-color: grey;
+  background-color: white;
 }
 
 
@@ -102,13 +102,13 @@ nav {
   position: absolute;
   top: 0;
   right: 0;
-  color: yellow;
+  color: orange;
   padding: 0.2em;
 }
 
 .navbar .icon #icon-close {
   display: none;
-  color: blueviolet;
+  color: orange;
   font-size: 0.8em;
   padding: 0.2em;
 }
@@ -124,7 +124,7 @@ nav {
 
 .navbar.menuOpen .icon #icon-close {
   display: flex;
-  color: blueviolet;
+  color: orange;
   font-size: 0.8em;
   padding: 0.2em;
   text-decoration: none;
