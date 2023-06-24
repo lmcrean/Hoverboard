@@ -318,6 +318,20 @@ Elements: */
   height: auto;
 }
 
+/*FEATURES LANDING*/
+.features-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-container img {
+  max-width: 8em;
+  display: inline-block;
+  align-items: center;
+  height: auto;
+  flex-direction: row;
+}
 
 /*BOOK TRIAL FORM*/
 .booktrial-bg-img img{
