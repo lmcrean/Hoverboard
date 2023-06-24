@@ -308,3 +308,16 @@ h2, p, form {
   color: green;
   display: none;
 }
+
+button[type="submit"] {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: red;
+}
