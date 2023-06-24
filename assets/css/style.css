@@ -282,8 +282,19 @@ Elements: */
 }
 
 /*BOOK TRIAL FORM*/
+.booktrial-bg-img img{
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  position: absolute;
+}
+
 form input[type="text"],
 form input[type="password"],
 form input[type="tel"] {
   border: 1px solid black;
+}
+
+h2, p, form {
+  text-align: center;
 }
