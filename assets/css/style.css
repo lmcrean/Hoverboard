@@ -317,6 +317,7 @@ Elements: */
 /*BOOK TRIAL FORM*/
 .booktrial-bg-img img{
   width: 100%;
+  top: 19em;
   height: auto;
   z-index: -1;
   position: absolute;
