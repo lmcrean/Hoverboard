@@ -298,3 +298,13 @@ form input[type="tel"] {
 h2, p, form {
   text-align: center;
 }
+
+.fa-square-xmark:before, .booktrial-form .error {
+  display: none;
+  color: red;
+}
+
+.fa-square-check:before {
+  color: green;
+  display: none;
+}
