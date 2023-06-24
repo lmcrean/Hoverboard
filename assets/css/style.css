@@ -257,17 +257,17 @@ footer {
   }
 }
 
-/*BOOK TRIAL LANDING FEATURE
-Elements: */
 
-.booktrial-landing {
+/*FEATURES & BOOK TRIAL LANDING */
+
+.booktrial-landing, .features-landing {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.booktrial-landing h1 {
+.booktrial-landing h1, .features-landing h1 {
   display: inline;
   font-size: 5.2vw;
   text-align: center;
@@ -275,17 +275,17 @@ Elements: */
 }
 
 @media screen and (min-width: 800px) {
-  .booktrial-landing h1 {
+  .booktrial-landing h1, .features-landing h1 {
     font-size: 3em;
   }
 }
 
-.booktrial-form h2 {
+.booktrial-form h2, .features-landing h2 {
   display: flex;
   justify-content: center;
 }
 
-.booktrial-h1-container {
+.booktrial-h1-container, .features-container {
   background-color: orange;
   border-color: orangered;
   border-width: 0em 5em;
@@ -298,6 +298,9 @@ Elements: */
   width: 80%;
   flex-direction: column;
 }
+
+/*BOOK TRIAL LANDING FEATURE
+Elements: */
 
 .booktrial-landing .img-container {
   display: flex;
@@ -313,6 +316,7 @@ Elements: */
   width:46%;
   height: auto;
 }
+
 
 /*BOOK TRIAL FORM*/
 .booktrial-bg-img img{
