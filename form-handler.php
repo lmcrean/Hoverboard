@@ -1,3 +1,12 @@
+<html>
+<body>
+
+<h2> Thank you <?php echo $_POST["fname"]; ?> </h2><br><br>
+<p> Your form has been submitted a member of our team will contact you soon. Meanwhile click <a href="index.html">here to visit our homepage.</a></p>
+
+</body>
+</html>
+
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Retrieve form data
@@ -27,3 +36,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     exit;
 }
 ?>
+
