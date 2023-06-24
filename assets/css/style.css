@@ -364,3 +364,11 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: red;
 }
+
+@media  screen and (min-width:744px) {
+
+}
+
+@media  screen and (min-width:1728px) {
+  
+}
