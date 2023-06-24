@@ -148,8 +148,8 @@ nav {
   border-radius: 6px;
 }
 
-.menu-items a .tab-active {
-  background-color: orange
+a.tab-active {
+  background-color: lightblue;
 }
 
 .menu-items a:hover {
