@@ -286,6 +286,7 @@ footer {
 }
 
 .booktrial-h1-container, .features-container {
+  color: white; 
   background-color: orange;
   border-color: orangered;
   border-width: 0em 5em;
