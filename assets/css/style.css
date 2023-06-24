@@ -264,6 +264,7 @@ Elements: */
   margin-top: 5%;
   margin-bottom: 0%;
   width: 80%;
+  flex-direction: column;
 }
 
 .booktrial-landing .img-container {
