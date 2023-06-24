@@ -67,7 +67,8 @@ p {
 Elements = navbartitle, icon, menuitems */
 
 nav {
-  position: sticky;
+  position: fixed;
+  width:100%;
   height: 57px;
   background-color: grey;
 }
