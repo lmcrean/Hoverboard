@@ -28,8 +28,14 @@
 }
 
 h1,h2,h3,h4 {
+  display: inline;
   font-family: 'Peace Sans', sans-serif;
   font-weight: 300px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 2em;
 }
 
 p {
@@ -262,7 +268,7 @@ Elements: */
 }
 
 .booktrial-landing h1 {
-  display: flex;
+  display: inline;
   font-size: 5.2vw;
   text-align: center;
   color: white;
@@ -272,6 +278,11 @@ Elements: */
   .booktrial-landing h1 {
     font-size: 3em;
   }
+}
+
+.booktrial-form h2 {
+  display: flex;
+  justify-content: center;
 }
 
 .booktrial-h1-container {
@@ -311,10 +322,19 @@ Elements: */
   position: absolute;
 }
 
+label {
+  font-family: 'peace sans';
+}
+
 form input[type="text"],
 form input[type="password"],
 form input[type="tel"] {
-  border: 1px solid black;
+  padding: 0.7em 1em;
+  border: 0.15em solid black;
+  border-radius: 0.7em;
+  font-size: 14px;
+  font-family: 'glacial indifference';
+  text-align: center;
 }
 
 h2, p, form {
