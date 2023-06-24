@@ -36,6 +36,27 @@ p {
   font-family: 'Glacial Indifference', sans-serif;
 }
 
+.button {
+  text-align: center;
+}
+
+.button p {
+  display: inline;
+  justify-content: center;
+  border-color: yellow;
+  border-style: solid;
+  border-width: 0.2em;
+  border-radius: 12em;
+  color: white;
+  padding: 0.5em 1em;
+}
+
+.button p:hover {
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+}
+
 /*NAVBAR FEATURE
 Elements = navbartitle, icon, menuitems */
 
