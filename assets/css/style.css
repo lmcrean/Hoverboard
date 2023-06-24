@@ -233,6 +233,13 @@ footer {
 /*BOOK TRIAL LANDING FEATURE
 Elements: */
 
+.booktrial-landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .booktrial-landing h1 {
   background-color: orange;
   margin: 1.5em;
@@ -240,14 +247,23 @@ Elements: */
   border-radius: 12px;
   display: flex;
   justify-content: center;
+  text-align: center;
   color: white;
 }
 
+.booktrial-landing .img-container {
+  display: flex;
+  justify-content: center;
+  margin-top: -7em;
+}
+
 .booktrial-landing img {
-  display: float;
+  display: flex;
   justify-content: center;
   align-content: flex-end;
-  margin-bottom: 2em;
+  
+  width:46%;
+  height: auto;
 }
 
 /*BOOK TRIAL FORM*/
