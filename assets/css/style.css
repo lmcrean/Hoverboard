@@ -75,8 +75,6 @@ nav {
   background-color: white;
 }
 
-
-
 .navbar {
   overflow: hidden;
   position: relative;
@@ -201,6 +199,7 @@ a.tab-active {
 }
 
 
+
 /*FOOTER FEATURE 
 Elements = footer-small-print, footer icons */
 
@@ -306,17 +305,46 @@ footer {
 
 /*HOME PAGE*/
 
+.landing-feature-container {
+  display: flex;
+  flex-direction: column;
+}
 
-/*FEATURES Page*/
+#landing-feature h1 {
+  z-index: 1;
+}
 
-#features-page .main-body {
-  margin:1em;
-  }
+#landing-feature img {
+  width: 100%
+}
 
-  #features-page .main-body img {
-    
-    width: auto;
-  }
+
+#landing-feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: -1;
+}
+
+#landing-feature img {
+  display: block;
+  max-width: 100%;
+  border-radius: 1em;
+}
+
+#landing-feature h1 {
+  position: absolute;
+  bottom: 0;
+  margin: 0em;
+  padding: 0.3em;
+  background-color: orange;
+  color: white;
+  font-size: 4vh;
+  text-align: center;
+  border-radius: 0.3em;
+}
 
 .booktrial-link {
   justify-content: center;
