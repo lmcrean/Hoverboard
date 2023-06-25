@@ -116,7 +116,7 @@ nav {
 }
 
 .navbar.menuOpen {
-  margin-bottom: 200em;
+  margin-bottom: 0em;
   background-color: white;
 }
 
