@@ -200,6 +200,7 @@ a.tab-active {
   }
 }
 
+
 /*FOOTER FEATURE 
 Elements = footer-small-print, footer icons */
 
@@ -301,9 +302,21 @@ footer {
   margin-bottom: 0%;
   width: 80%;
   flex-direction: column;
-}
+} 
+
+/*HOME PAGE*/
+
 
 /*FEATURES Page*/
+
+#features-page .main-body {
+  margin:1em;
+  }
+
+  #features-page .main-body img {
+    
+    width: auto;
+  }
 
 .booktrial-link {
   justify-content: center;
