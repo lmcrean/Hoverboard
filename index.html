@@ -18,7 +18,7 @@
   <title>Hoverboard</title>
 </head>
 
-<body id="#home-page">
+<body id="home-page">
   <header>
     <nav>
       <div class="navbar" id="mynavbar">
@@ -57,7 +57,7 @@
 </div>
 </section>
 <br>
-<section id="#mission-intro">
+<section id="mission-intro">
   <h1>Hoverboard is on a mission to help schools transform with the digital revolution</h1>
   <img src="/assets/media/mission-image.png" alt="Hoverboard in action, students watching online lesson">
 
@@ -93,7 +93,7 @@
 
 
 
-<section id="#testimonials">
+<section id="testimonials">
   <h2>What our users say:</h2>
   <div class="slideshow-container">
   <div class="testimonial fade">
@@ -137,6 +137,7 @@
     <div class="testimonial-text"><p>"Hoverboard has revolutionized the way we handle classwork and assessments. It's made the process more efficient and streamlined, saving us valuable time. As a teacher at Lincoln High School, I highly recommend Hoverboard for its user-friendly interface and comprehensive features."
     </p></div>
   </div>
+
   <div class="testimonial fade">
     <div class="testimonial-name"><p>Danielle Turner
       </p></div>
@@ -167,25 +168,33 @@
   </div>
 
   <script>
-    let slideIndex = 0;
-    showSlides();
-    
-    function showSlides() {
-      let i;
-      let slides = document.getElementsByClassName("testimonial");
-      let dots = document.getElementsByClassName("carouselDot");
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-      }
-      slideIndex++;
-      if (slideIndex > slides.length) {slideIndex = 1}    
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";  
-      dots[slideIndex-1].className += " active";
-      setTimeout(showSlides, 6000); // Change image every 6 seconds
-    }
+ let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("testimonial");
+  let dots = document.getElementsByClassName("carouselDot");
+
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  
+  slideIndex++;
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  }
+  
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " active";
+
+  setTimeout(showSlides, 6000); // Change slide every 6 seconds
+}
+
     </script>
     
 </section>
