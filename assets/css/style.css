@@ -306,6 +306,7 @@ footer {
 /*HOME PAGE*/
 
 .landing-feature-container {
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -315,7 +316,11 @@ footer {
 }
 
 #landing-feature img {
-  width: 100%
+  width: 100%;
+  height: 600px;
+  object-fit: contain; /* Use this if you want to keep the aspect ratio of the pic*/
+  /* object-fit: cover; Use this if you want to the picture to cover the whole available space */
+  /* object-position: center;  This goes with object-fit: cover; and centers the picture */
 }
 
 
