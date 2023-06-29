@@ -260,49 +260,6 @@ footer {
   }
 }
 
-
-/*FEATURES & BOOK TRIAL LANDING */
-
-#booktrial-landing, .features-landing {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-#booktrial-landing h1, .features-landing h1 {
-  display: inline;
-  font-size: 5.2vw;
-  text-align: center;
-  color: white;
-}
-
-@media screen and (min-width: 800px) {
-#booktrial-landing h1, .features-landing h1 {
-    font-size: 3em;
-  }
-}
-
-.booktrial-form h2, .features-landing h2 {
-  display: flex;
-  justify-content: center;
-}
-
-.heading-container, .features-container {
-  color: white; 
-  background-color: orange;
-  border-color: orangered;
-  border-width: 0em 5em;
-  padding: 3em 1em 3em;
-  border-radius: 12px;
-  display: flex;
-  justify-content: center;
-  margin-top: 5%;
-  margin-bottom: 0%;
-  width: 80%;
-  flex-direction: column;
-} 
-
 /*HOME PAGE*/
 
 .landing-feature-container {
@@ -390,7 +347,7 @@ footer {
   text-align: center;
 }
 
-/* The dots/bullets/indicators */
+/* HOMEPAGE The dots/bullets/indicators */
 .carouselDot {
   height: 15px;
   width: 15px;
@@ -405,7 +362,7 @@ footer {
   background-color: #420909;
 }
 
-/* Fading animation */
+/* HOMEPAGE Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -420,7 +377,6 @@ footer {
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
-
 
 /*FEATURES LANDING*/
 .features-container {
@@ -437,13 +393,101 @@ footer {
   flex-direction: row;
 }
 
+.features-landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.features-landing h1 {
+  display: inline;
+  font-size: 5.2vw;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (min-width: 800px) {
+.features-landing h1 {
+    font-size: 3em;
+  }
+}
+
+.features-landing h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.features-container {
+  color: white; 
+  background-color: orange;
+  border-color: orangered;
+  border-width: 0em 5em;
+  padding: 3em 1em 3em;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  width: 80%;
+  flex-direction: column;
+} 
+
 /*BOOK TRIAL LANDING FEATURE
 Elements: */
+
+#booktrial-landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#booktrial-landing h1 {
+  display: inline;
+  font-size: 5.2vw;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (min-width: 800px) {
+#booktrial-landing h1, .features-landing h1 {
+    font-size: 3em;
+  }
+}
+
+.booktrial-form h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.heading-container {
+  color: white; 
+  background-color: orange;
+  border-color: orangered;
+  border-width: 0em 5em;
+  padding: 3em 1em 3em;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  width: 80%;
+  flex-direction: column;
+} 
 
 #booktrial-landing .img-container {
   display: flex;
   justify-content: center;
   margin-top: -3em;
+}
+
+@media only screen and (min-width: 1200px) {
+  
+  
+  #booktrial-landing {
+    flex-direction: row;
+  }
 }
 
 #booktrial-landing img {
