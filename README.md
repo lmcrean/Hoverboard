@@ -146,6 +146,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 The live link can be found here - [LINK](LINK)
 
 ## Credits
+Thank you to [Syed Anwaar](https://github.com/syed-anwaar) for supporting with .[landing-feature img width issue](https://github.com/lmcrean/Hoverboard/pull/22)
 
 ### Content
 
