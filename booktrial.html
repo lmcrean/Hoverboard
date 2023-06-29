@@ -75,31 +75,33 @@
         </p>
         </div>
     <form action="./thankyou.html" method="GET" id="booktrial"> 
+<div id="form-grid-container">
+        <div id="fname"><label for="fname">First name:<i class="fa-solid fa-square-xmark"></i></h2><i class="fa-solid fa-square-check"></i><br>
+        <input type="text" id="fname" name="fname" required></div><br><br>
 
-        <label for="fname">First name:<i class="fa-solid fa-square-xmark"></i></h2><i class="fa-solid fa-square-check"></i><br>
-        <input type="text" id="fname" name="fname" required><br><br>
+        <div id="lname"><label for="lname">Last name:<i class="fa-solid fa-square-xmark"></i></h2><i class="fa-solid fa-square-check"></i></label><br>
+        <input type="text" id="lname" name="lname" required></div><br><br><br>
 
-        <label for="lname">Last name:<i class="fa-solid fa-square-xmark"></i></h2><i class="fa-solid fa-square-check"></i></label><br>
-        <input type="text" id="lname" name="lname" required><br><br><br>
+        <div id="school"><label for="school">School:<i class="fa-solid fa-square-xmark"></i></h2><i class="fa-solid fa-square-check"></i></label><br>
+        <input type="text" id="school" name="school" required></div><br><br>
 
-        <label for="school">School:<i class="fa-solid fa-square-xmark"></i></h2><i class="fa-solid fa-square-check"></i></label><br>
-        <input type="text" id="school" name="school" required><br><br>
+        <div id="job-title"><label for="job-title">Job Title:<i class="fa-solid fa-square-xmark"></i></h2><i class="fa-solid fa-square-check"></i></label><br>
+        <input type="text" id="job-title" name="job-title" required></div><br><br>
 
-        <label for="job-title">Job Title:<i class="fa-solid fa-square-xmark"></i></h2><i class="fa-solid fa-square-check"></i></label><br>
-        <input type="text" id="job-title" name="job-title" required><br><br>
+        <div id="email"><label for="email">Email:<i class="fa-solid fa-square-xmark"></i></h2><i class="fa-solid fa-square-check"></i></label><br>
+        <input type="text" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" required title="Enter a valid email address"></div><br><br>
 
-        <label for="email">Email:<i class="fa-solid fa-square-xmark"></i></h2><i class="fa-solid fa-square-check"></i></label><br>
-        <input type="text" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" required title="Enter a valid email address"><br><br>
+        <div id="mobile-number"><label for="mobile-number">Mobile Number:<i class="fa-solid fa-square-xmark"></i></h2><i class="fa-solid fa-square-check"></i></label><br>
+        <input type="tel" id="mobile-number" name="mobile-number" pattern="[0-9]{11}" required title="Enter a valid 11-digit mobile number" required></div><br><br>
 
-        <label for="mobile-number">Mobile Number:<i class="fa-solid fa-square-xmark"></i></h2><i class="fa-solid fa-square-check"></i></label><br>
-        <input type="tel" id="mobile-number" name="mobile-number" pattern="[0-9]{11}" required title="Enter a valid 11-digit mobile number" required><br><br>
+        <div id="password"><label for="password">Password:<i class="fa-solid fa-square-xmark"></i></h2><i class="fa-solid fa-square-check"></i></label><br>
+        <input type="password" id="password" name="password" required></div><br><br>
 
-        <label for="password">Password:<i class="fa-solid fa-square-xmark"></i></h2><i class="fa-solid fa-square-check"></i></label><br>
-        <input type="password" id="password" name="password" required><br><br>
+        <div id="confirm-password"><label for="confirm-password">Confirm Password:<i class="fa-solid fa-square-xmark"></i><br></label><i class="fa-solid fa-square-check"></i></label><input type="password" id="confirm-password" name="confirm-password" required><br>
+        <span id="password-match-error" class="error"></span></div><br></div>
+     
+       <br><br>
 
-        <label for="confirm-password">Confirm Password:<i class="fa-solid fa-square-xmark"></i></label><i class="fa-solid fa-square-check"></i></label><br>
-      <input type="password" id="confirm-password" name="confirm-password" required><br>
-      <span id="password-match-error" class="error"></span><br><br>
 
         <script>
           // Script for password confirmation validation - must match password

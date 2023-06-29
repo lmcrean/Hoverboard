@@ -506,7 +506,19 @@ button[type="submit"]:hover {
 }
 
 @media  screen and (min-width:744px) {
+#form-grid-container {
+  display:grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 10px;
+}
 
+#fname, #school, #email, #password {
+  grid-column-start: 1;
+}
+
+#lname, #job-title, #mobile-number, #confirm-password {
+  grid-column-start: 2;
+}
 }
 
 @media  screen and (min-width:1728px) {
