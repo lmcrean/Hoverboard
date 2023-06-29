@@ -508,8 +508,21 @@ button[type="submit"]:hover {
 @media  screen and (min-width:744px) {
 #form-grid-container {
   display:grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
+}
+
+form input {
+  width: 70%;
+  text-align: center;
+  justify-content: center;
+  margin: 0px 10%;
+}
+
+#form-grid-container > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 #fname, #school, #email, #password {
@@ -519,8 +532,14 @@ button[type="submit"]:hover {
 #lname, #job-title, #mobile-number, #confirm-password {
   grid-column-start: 2;
 }
+
+
 }
 
 @media  screen and (min-width:1728px) {
-  
+  #booktrial-form {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
 }
