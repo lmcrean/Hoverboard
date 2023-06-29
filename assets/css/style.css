@@ -451,7 +451,7 @@ Elements: */
 }
 
 @media screen and (min-width: 800px) {
-#booktrial-landing h1, .features-landing h1 {
+#booktrial-landing h1 {
     font-size: 3em;
   }
 }
@@ -483,11 +483,31 @@ Elements: */
 }
 
 @media only screen and (min-width: 1200px) {
-  
-  
   #booktrial-landing {
     flex-direction: row;
   }
+
+  #booktrial-landing {
+    color: white; 
+    background-color: orange;
+    border-color: orangered;
+    border-width: 0em 5em;
+    margin-left: 4%;
+    padding: 3em 1em 3em;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 90%;
+  } 
+
+  .heading-container {
+    font-size: 1.3vh;
+    padding: 0px;
+    margin: 0px;
+  }
+
 }
 
 #booktrial-landing img {
