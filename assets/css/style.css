@@ -263,14 +263,14 @@ footer {
 
 /*FEATURES & BOOK TRIAL LANDING */
 
-.booktrial-landing, .features-landing {
+#booktrial-landing, .features-landing {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.booktrial-landing h1, .features-landing h1 {
+#booktrial-landing h1, .features-landing h1 {
   display: inline;
   font-size: 5.2vw;
   text-align: center;
@@ -278,7 +278,7 @@ footer {
 }
 
 @media screen and (min-width: 800px) {
-  .booktrial-landing h1, .features-landing h1 {
+#booktrial-landing h1, .features-landing h1 {
     font-size: 3em;
   }
 }
@@ -288,7 +288,7 @@ footer {
   justify-content: center;
 }
 
-.booktrial-h1-container, .features-container {
+.heading-container, .features-container {
   color: white; 
   background-color: orange;
   border-color: orangered;
@@ -421,23 +421,6 @@ footer {
   .text {font-size: 11px}
 }
 
-/*BOOK TRIAL LANDING FEATURE
-Elements: */
-
-.booktrial-landing .img-container {
-  display: flex;
-  justify-content: center;
-  margin-top: -3em;
-}
-
-.booktrial-landing img {
-  display: flex;
-  justify-content: center;
-  align-content: flex-end;
-  
-  width:46%;
-  height: auto;
-}
 
 /*FEATURES LANDING*/
 .features-container {
@@ -454,6 +437,24 @@ Elements: */
   flex-direction: row;
 }
 
+/*BOOK TRIAL LANDING FEATURE
+Elements: */
+
+#booktrial-landing .img-container {
+  display: flex;
+  justify-content: center;
+  margin-top: -3em;
+}
+
+#booktrial-landing img {
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  
+  width:46%;
+  height: auto;
+}
+
 /*BOOK TRIAL FORM*/
 .booktrial-bg-img img{
   width: 100%;
@@ -462,6 +463,8 @@ Elements: */
   z-index: -1;
   position: absolute;
 }
+
+
 
 label {
   font-family: 'peace sans';
