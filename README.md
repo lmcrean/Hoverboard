@@ -42,10 +42,12 @@ The focus of this website is new users of the website and three pages were desig
 - submit button, *redirects to thank you page, form method="GET"*
 
 ## Initial Research
-[see full documentation of initial research here](https://github.com/lmcrean/Hoverboard/wiki/Initial-Research)
+[see full documentation here](https://github.com/lmcrean/Hoverboard/wiki/Initial-Research)
+
+In my initial research, I drew inspiration from websites like SeeSaw, ClassCharts and SatchelOne, which offer progressive features for virtual learning environments (VLEs). These platforms excel in terms of user-friendly design, intuitive interfaces, and effective visualization of learning materials. Additionally, articles on paperless schools highlighted the relevance that a fully developed version of this mock-up website might have.
 
 ## Figma Design Prototype
-[see prototype design on Figma](https://www.figma.com/proto/W7mEdTvxLgNZTvh1ODiuwD/HOVERBOARD?type=design&node-id=5-2&scaling=scale-down&page-id=0%3A1)
+[view prototype design on Figma](https://www.figma.com/proto/W7mEdTvxLgNZTvh1ODiuwD/HOVERBOARD?type=design&node-id=5-2&scaling=scale-down&page-id=0%3A1)
 
 A figma prototype was developed to visualise responsive design. 
 
@@ -60,32 +62,26 @@ Home page/ Features page/  Sign up page:
 
 
 ## Testing
-
-[You can find the full testing documentation, including design, manual testing, and automatic testing, here](https://github.com/lmcrean/Hoverboard/wiki/Testing).
+[full documentation here](https://github.com/lmcrean/Hoverboard/wiki/Testing).
 
 ### Fixed bugs
-[The fixed bugs are documented on GitHub and can be found here](https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aclosed).
+[full documentation here](https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aclosed).
 
 ### Validator Testing
-
-- No HTML errors were returned when passing through the official [W3C validator](LINK).
-- No CSS errors were found when passing through the official [Jigsaw validator](LINK).
+No HTML errors were returned when passing through the official [W3C validator](LINK).
+No CSS errors were found when passing through the official [Jigsaw validator](LINK).
 
 ### Unfixed Bugs
-The unfixed bugs are documented on Github and can be found [here](https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aopen).
+[full documentation here](https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aopen).
 
 ## Deployment
-
 The site was deployed to GitHub pages. You can access the live link [here](https://lmcrean.github.io/Hoverboard/).
 
 ## Contributor credits
 Thank you to [Syed Anwaar](https://github.com/syed-anwaar) for supporting with [.landing-feature img width issue](https://github.com/lmcrean/Hoverboard/pull/22). You can see the pull request [here](https://github.com/lmcrean/Hoverboard/pull/22).
 
-### Content Credits
-- All graphics were designed with Canva's open source library.
-- The icons in the footer and navbar were taken from [Font Awesome](https://fontawesome.com/).
-- Photography for the landing image and testimonials were imported from Pexels.
-- John Anderson's picture in the testimonial was from Unsplash.
+## Open Source media credits
+All graphics were designed with Canva's open source library. The icons in the footer and navbar were taken from [Font Awesome](https://fontawesome.com/). Photography for the landing image and testimonials were imported from Pexels. John Anderson's picture in the testimonial was from Unsplash.
 
 ## Future features to include
 - PHP database
