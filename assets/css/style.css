@@ -260,6 +260,26 @@ footer {
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*HOME PAGE*/
 
 .landing-feature-container {
@@ -466,10 +486,26 @@ footer {
   display: flex;
   flex-direction: row;
   }
-
-
 }
   
+/*Description of 3 FEATURES*/
+
+@media screen and (min-width: 850px) {
+  .img-text-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .img-text-wrapper-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .img-text-wrapper p, .img-text-wrapper-reverse p{
+    align-items: center;
+    display: flex;
+  }
+}
 
 
 
