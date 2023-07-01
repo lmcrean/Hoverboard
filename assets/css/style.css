@@ -20,6 +20,12 @@
 
 /*GENERIC STYLING*/
 
+@media only screen and (max-width: 767px) {
+  body {
+    overflow-x: hidden; /*responsive design to prevent horizontal scrolling*/
+  }
+}
+
 * {
   text-decoration: none;
   padding: 0px;
@@ -48,7 +54,7 @@ p {
   text-align: center;
 }
 
-.button p {
+.button a {
   display: inline;
   justify-content: center;
   border-color: yellow;
@@ -59,7 +65,7 @@ p {
   padding: 0.5em 1em;
 }
 
-.button p:hover {
+.button a:hover {
   background-color: yellow;
   color: black;
   cursor: pointer;
@@ -550,9 +556,11 @@ footer {
   }
 }
 
+/* FEATURES LINK */
 
-
-
+.features-link-img-wrapper img {
+  width: 80%;
+} 
 
 
 
