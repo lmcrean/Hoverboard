@@ -282,17 +282,17 @@ footer {
 
 /*HOME PAGE*/
 
-.landing-feature-container {
+.hero-feature-container {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-#landing-feature h1 {
+#hero-feature h1 {
   z-index: 1;
 }
 
-#landing-feature img {
+#hero-feature img {
   width: 100%;
   height: auto;
   object-fit: contain; /* Use this if you want to keep the aspect ratio of the pic*/
@@ -301,7 +301,7 @@ footer {
 }
 
 
-#landing-feature {
+#hero-feature {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -310,13 +310,13 @@ footer {
   z-index: -1;
 }
 
-#landing-feature img {
+#hero-feature img {
   display: block;
   max-width: 100%;
   border-radius: 1em;
 }
 
-#landing-feature h1 {
+#hero-feature h1 {
   position: absolute;
   bottom: 0;
   margin: 0em;
@@ -328,20 +328,7 @@ footer {
   border-radius: 0.3em;
 }
 
-.booktrial-link {
-  justify-content: center;
-  background-color: orange;
-  border-radius: 2em;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  color: white;
-}
 
-.booktrial-link img {
-    height: auto;
-    width: 8vh;
-}
 
 /*HOME PAGE FEATURES INTRO*/
 /*Code is almost identical to Features Page Landing Section - there are overlapping classes - EDIT FEATURES PAGE Landing SECTION*/
@@ -415,6 +402,22 @@ footer {
 }
 
 
+/*HOME PAGE to Book trial link*/
+
+.booktrial-link {
+  justify-content: center;
+  background-color: orange;
+  border-radius: 2em;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: white;
+}
+
+.booktrial-link img {
+    height: auto;
+    width: 8vh;
+}
 
 
 
