@@ -45,18 +45,6 @@ The focus of this website is new users of the website and three pages were desig
 - essential details: name, address, school.
 - how did you find out about our product?
 
-#### Future features to include
-
-*Home Page/ after Hoverboard's mission, more educational info about the need for VLE's/ paperless schools*
-
-*persuasive statistics*
-
-*advantages of paperless schools*
-
-*visualise the BEFORE and AFTER customer experience with img slider*
-
-*PHP database*
-
 ## Initial Research
 [see full documentation of initial research here](https://github.com/lmcrean/Hoverboard/wiki/Initial-Research)
 
@@ -100,6 +88,18 @@ Documented here LINK
 
 ### Unfixed Bugs
 
+#### Future features to include
+
+*Home Page/ after Hoverboard's mission, more educational info about the need for VLE's/ paperless schools*
+
+*persuasive statistics*
+
+*advantages of paperless schools*
+
+*visualise the BEFORE and AFTER customer experience with img slider*
+
+*PHP database*
+
 ## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -124,15 +124,3 @@ Thank you to [Syed Anwaar](https://github.com/syed-anwaar) for supporting with .
   - Unsplash
   - Pexels
 - The videos used are from Pexels.
-
-
-# Figma Changelog
-11.06.23 Updated figma model, drafted Features page with screen responsiveness.
-
-13.6.23 Update Home page, replaced images, spread out navbar, improved subheadings. Need to draft in Form and then review surface design. Would be good to reuse app icons from features page.
-
-15.6.23 
-
-12:40 Complete form page, add background squiggles, recolor as Orange design. TODO: complete background squiggles on Features page, copy over app icons to Hoverboard mission feature on home page.
-
-19:00 Orange rebranding designed. Still need a bit of image rebranding on homepage. TODO: Start coding on HTML, keep all the imgs as they are and recolor them later. Complete pages in this order: SIGN UP, FEATURES, HOMEPAGE as the latter is the most difficult.
