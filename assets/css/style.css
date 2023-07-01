@@ -302,24 +302,42 @@ footer {
 
 #hero-feature h1 {
   z-index: 1;
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  bottom: 14em;
   margin: 0em;
   padding: 0.3em;
-  background-color: orange;
+  background-color: rgba(255, 166, 0, 0.495);
   color: white;
-  font-size: 4vh;
+  font-size: 8vw;
   text-align: center;
   border-radius: 0.3em;
 }
 
-#hero-feature img {
+.hero-image-container {
   width: 100%;
   height: auto;
   object-fit: contain;
   display: block;
   max-width: 100%;
   border-radius: 1em;
+}
+
+.hero-image-desktop-container {
+  display:none;
+}
+
+@media only screen and (min-width: 900px){
+  .hero-image-desktop-container {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+    border-radius: 1em;
+  }
+
+  .hero-image-container {
+    display: none;
+  }
 }
 
 
