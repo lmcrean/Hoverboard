@@ -65,43 +65,37 @@ Home page/ Features page/  Sign up page:
 
 ## Testing
 
-(full testing documented here, including design, manual testing and automatic testing)[https://github.com/lmcrean/Hoverboard/wiki/Testing]
+[You can find the full testing documentation, including design, manual testing, and automatic testing, here](https://github.com/lmcrean/Hoverboard/wiki/Testing).
 
 ### Fixed bugs
-(Fixed bugs documented on GitHub)[https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aclosed]
+[The fixed bugs are documented on GitHub and can be found here](https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aclosed).
 
 ### Validator Testing
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](LINK)
-
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](LINK)
+- No HTML errors were returned when passing through the official [W3C validator](LINK).
+- No CSS errors were found when passing through the official [Jigsaw validator](LINK).
 
 ### Unfixed Bugs
-(unfixed bugs documented on Github)[https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aopen]
+The unfixed bugs are documented on Github and can be found [here](https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aopen).
 
 #### Future features to include
 
-- *PHP database*
-
-- *Home Page/ after Hoverboard's mission, more educational info about the need for VLE's/ paperless schools*
-
-- *persuasive statistics*
-
-- *advantages of paperless schools*
-
-- *visualise the BEFORE and AFTER customer experience with img slider*
+- PHP database
+- Home Page/ after Hoverboard's mission, more educational info about the need for VLE's/ paperless schools
+- Persuasive statistics
+- Advantages of paperless schools
+- Visualize the BEFORE and AFTER customer experience with an image slider
 
 ## Deployment
 
-The site was deployed to GitHub pages. The live link can be found here: [https://lmcrean.github.io/Hoverboard/](https://lmcrean.github.io/Hoverboard/)
+The site was deployed to GitHub pages. You can access the live link [here](https://lmcrean.github.io/Hoverboard/).
 
 ## Contributor credits
-Thank you to [Syed Anwaar](https://github.com/syed-anwaar) for supporting with [.landing-feature img width issue](https://github.com/lmcrean/Hoverboard/pull/22). (See pull request)[https://github.com/lmcrean/Hoverboard/pull/22] 
+Thank you to [Syed Anwaar](https://github.com/syed-anwaar) for supporting with [.landing-feature img width issue](https://github.com/lmcrean/Hoverboard/pull/22). You can see the pull request [here](https://github.com/lmcrean/Hoverboard/pull/22).
 
 ### Content Credits
 - All graphics were designed with Canva's open source library.
-- The icons in the footer and navbar were taken from [Font Awesome](https://fontawesome.com/)
-- Photography for landing-image and testimonials were imported from Pexels
-- John Anderson picture in testimonial was from Unsplash.
+- The icons in the footer and navbar were taken from [Font Awesome](https://fontawesome.com/).
+- Photography for the landing image and testimonials were imported from Pexels.
+- John Anderson's picture in the testimonial was from Unsplash.
+
