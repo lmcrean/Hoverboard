@@ -282,24 +282,8 @@ footer {
 
 /*HOME PAGE*/
 
-.hero-feature-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
 
-#hero-feature h1 {
-  z-index: 1;
-}
-
-#hero-feature img {
-  width: 100%;
-  height: auto;
-  object-fit: contain; /* Use this if you want to keep the aspect ratio of the pic*/
-  /* object-fit: cover; Use this if you want to the picture to cover the whole available space */
-  /* object-position: center;  This goes with object-fit: cover; and centers the picture */
-}
-
+/*HERO FEATURE*/
 
 #hero-feature {
   display: flex;
@@ -310,13 +294,14 @@ footer {
   z-index: -1;
 }
 
-#hero-feature img {
-  display: block;
-  max-width: 100%;
-  border-radius: 1em;
+.hero-feature-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 #hero-feature h1 {
+  z-index: 1;
   position: absolute;
   bottom: 0;
   margin: 0em;
@@ -328,6 +313,14 @@ footer {
   border-radius: 0.3em;
 }
 
+#hero-feature img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  max-width: 100%;
+  border-radius: 1em;
+}
 
 
 /*HOME PAGE FEATURES INTRO*/
