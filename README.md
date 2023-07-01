@@ -53,25 +53,15 @@ The focus of this website is new users of the website and three pages were desig
 
 A figma prototype was developed to visualise responsive design. 
 
-Home page:
+Home page/ Features page/  Sign up page:
+
 
 <img width="552" alt="Home page" src="https://github.com/lmcrean/Hoverboard/assets/133490867/b4a61935-c7fc-4034-88d0-cbbfa790acec">
 
-Features page: 
-
 <img width="552" alt="Features page" src="https://github.com/lmcrean/Hoverboard/assets/133490867/0bf3d32b-083d-48f7-8066-0acc58b5c5f9">
-
-Sign up page:
 
 <img width="552" alt="Sign up page" src="https://github.com/lmcrean/Hoverboard/assets/133490867/718a6020-07f5-4f2a-94f3-5b253780ff8a">
 
-
-
-Canva was also used to generate appealing vector graphics.
-
-**Creativity, children-appropriate.
-
-Home page
 
 ## Testing
 
