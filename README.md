@@ -9,33 +9,19 @@
 ## Introduction from the Developer
 I designed a responsive homepage and product introduction for a Virtual Learning Environment. The key focus for the project was responsive CSS, using flex and grid displays to allow the website to be viewed comfortably on different devices. 
 
-## Features included
-
 # Documentation 
-## User Experience Strategy 
-[ !TODO put user stories here, relate to features ]
+## User Stories
+New User:
+- I am prospective client of Hoverboard, if I am convinced enough by the product I will sign up for a free software trial.
+- I need to comfortably view this website on any device
+- I need to visualise this product's mission
+- I need to understand the products features
+- I need to be able to sign up for a free trial easily.
 
-### Client Premise:
-Dr. Emily Williams is Headmaster at Meadowbrook Academy. She is expecting an Ofsted School Inspection in the next 5 years. Although her recent inspection feedback was positive, inspectors pointed out that various problems deriving from the sheer volume of paper. The top 5 include:
-
-- it can take weeks for teachers to organise books for review by school leaders
-- learning journeys quickly going out of date as the curriculum changes
-- the paper copiers regularly break down every week
-- important assessment documents/ paper resources occasionally are mislaid
-- while there are VLE's (virtual learning environments) in place, these are limited to setting homework, merits and changing seating plans. They do not account for coursework portfolios.
-
-One day her friend, Headmaster Benjamin Reynolds from Green Orchard School, recommends a new and promising Virtual Learning environment called Hoverboard. Benjamin has been trialling Hoverboard to reduce paper usage and organise data. THe software has a more ambitious scope than current VLEs by enabling users a chance to organise classwork on a cloud server. Later that day, Dr. Emily look's up Hoverboard on a search engine and visits their promotional website.
-
-### Client Experience of the website and objective: 
-Dr. Emily visit's the website on 2 occasions, first when she is on her phone in conversation with Benjamin, then the next day while she is on her office desktop.
-
-Dr. Emily needs to be able to visualise the mission of Hoverboard's product. She sees the homepage which demonstrates that Hoverboard are trying to help transition schools transition to a better and richer VLE. The content is themed around education, technology and ease of use. The client needs the front-end design to be positive, engaging and professional in tone.
-
-She wants to find out more about the features that Hoverboard offers. She visits Page 2 which demonstrates what unique features Hoverboard has to integrate student classwork, such as peer feedback, quick teacher grading and gallery views. The content is informative, persuasive and reassuring. The client needs the front-end design to use a clean layout that clearly visualises the product being used.
-
-Finally Dr. Emily visits page 3 where she books a free trial for one year. She mention's her friend Benjamin Reynolds recommended the product which offers him a special discount. She fills in a form which captures her essential data. At the end a message appears that thanks her and assures her that their customer welcome lead will be in contact. The client needs the front-end design to be easy to read and use.
+[Full documentation of client premise and experience of website here](https://github.com/lmcrean/Hoverboard/wiki/Client-Premise)
 
 ### Page Structure and scope
+The focus of this website is new users of the website and three pages were designed to meet their needs.
 
 #### Home Page:
 
@@ -53,26 +39,23 @@ Finally Dr. Emily visits page 3 where she books a free trial for one year. She m
 - peer feedback 
 *need to see how chat function in action
 - quick teacher grading *needs to see how function is better.
-- Why you should claim your Free Trial 
-*directs to page
+- Why you should claim your Free Trial *directs to page*
 
 #### Book your Free Trial:
-
-*needs to be easy to read and use
 - essential details: name, address, school.
 - how did you find out about our product?
 
 #### Future features to include
 
-**Home Page/ after Hoverboard's mission, more educational info about the need for VLE's/ paperless schools
-- persuasive statistics
-- advantages of paperless schools
-- visualise the BEFORE and AFTER difference with img slider 
+*Home Page/ after Hoverboard's mission, more educational info about the need for VLE's/ paperless schools*
 
-**After form 1 add Form 2 collects:
-- if someone recommended then who?
-- when you'd like to start using the product (Month)
-- when is a good time to talk?
+*persuasive statistics*
+
+*advantages of paperless schools*
+
+*visualise the BEFORE and AFTER customer experience with img slider*
+
+*PHP database*
 
 ## Initial Research
 [see full documentation of initial research here](https://github.com/lmcrean/Hoverboard/wiki/Initial-Research)
