@@ -343,6 +343,22 @@ footer {
     width: 8vh;
 }
 
+/*HOME PAGE FEATURES INTRO*/
+/*Code is almost identical to Features Page Landing Section - there are overlapping classes - EDIT FEATURES PAGE Landing SECTION*/
+
+.features-intro-homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.features-intro-homepage h2 {
+  display: flex;
+  justify-content: center;
+}
+
+
 /*HOME PAGE TESTIMONIAL FEATURE*/
 
 #testimonials * {box-sizing: border-box;}
@@ -416,6 +432,7 @@ footer {
 
 
 /*FEATURES LANDING*/
+/*these classes effect Homepage features intro */
 
 .features-wrapper {
   display: flex;
