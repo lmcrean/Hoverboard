@@ -3,8 +3,11 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
+
+<img width="710" alt="website preview as responsive design" src="https://github.com/lmcrean/Hoverboard/assets/133490867/9436e6e3-25d5-43df-9a30-454d3e24d154">
+
 ## Introduction from the Developer
-As someone with an educational background, I am interested in the revolutionary potential of Educational Technology services. I designed this site for a mock-up EdTech product as an opportunity to develop my essential Front-end skills. The key focus for the project was responsive CSS.
+I designed a responsive homepage and product introduction for a Virtual Learning Environment. The key focus for the project was responsive CSS, using flex and grid displays to allow the website to be viewed comfortably on different devices. 
 
 ## Features included
 
