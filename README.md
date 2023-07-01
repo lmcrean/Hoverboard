@@ -75,8 +75,10 @@ Home page
 
 ## Testing
 
+(full testing documented here, including design, manual testing and automatic testing)[https://github.com/lmcrean/Hoverboard/wiki/Testing]
+
 ### Fixed bugs
-Documented here LINK
+(Fixed bugs documented on GitHub)[https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aclosed]
 
 ### Validator Testing
 
@@ -87,40 +89,29 @@ Documented here LINK
   - No errors were found when passing through the official [(Jigsaw) validator](LINK)
 
 ### Unfixed Bugs
+(unfixed bugs documented on Github)[https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aopen]
 
 #### Future features to include
 
-*Home Page/ after Hoverboard's mission, more educational info about the need for VLE's/ paperless schools*
+- *PHP database*
 
-*persuasive statistics*
+- *Home Page/ after Hoverboard's mission, more educational info about the need for VLE's/ paperless schools*
 
-*advantages of paperless schools*
+- *persuasive statistics*
 
-*visualise the BEFORE and AFTER customer experience with img slider*
+- *advantages of paperless schools*
 
-*PHP database*
+- *visualise the BEFORE and AFTER customer experience with img slider*
 
 ## Deployment
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:
+The site was deployed to GitHub pages. The live link can be found here: [https://lmcrean.github.io/Hoverboard/](https://lmcrean.github.io/Hoverboard/)
 
-- In the GitHub repository, navigate to the Settings tab
-- From the source section drop-down menu, select the Master Branch
-- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+## Contributor credits
+Thank you to [Syed Anwaar](https://github.com/syed-anwaar) for supporting with [.landing-feature img width issue](https://github.com/lmcrean/Hoverboard/pull/22). (See pull request)[https://github.com/lmcrean/Hoverboard/pull/22] 
 
-The live link can be found here - [LINK](LINK)
-
-## Credits
-Thank you to [Syed Anwaar](https://github.com/syed-anwaar) for supporting with .[landing-feature img width issue](https://github.com/lmcrean/Hoverboard/pull/22)
-
-### Content
-
-- All graphics were designed on Canva.
-- The icons were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- Images were imported from Opensource websites including
-  - Unsplash
-  - Pexels
-- The videos used are from Pexels.
+### Content Credits
+- All graphics were designed with Canva's open source library.
+- The icons in the footer and navbar were taken from [Font Awesome](https://fontawesome.com/)
+- Photography for landing-image and testimonials were imported from Pexels
+- John Anderson picture in testimonial was from Unsplash.
