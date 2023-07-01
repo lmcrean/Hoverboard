@@ -77,6 +77,10 @@ No CSS errors were found when passing through the official [Jigsaw validator](LI
 ## Deployment
 The site was deployed to GitHub pages. You can access the live link [here](https://lmcrean.github.io/Hoverboard/).
 
+## Code snippet credits
+
+W3 School's [Navbar](https://www.w3schools.com/css/css_navbar.asp) and [Slideshow Carousel](https://www.w3schools.com/howto/howto_js_slideshow.asp) were used in the code and then adapted to meet the design standards set by the Figma wireframe.
+
 ## Contributor credits
 Thank you to [Syed Anwaar](https://github.com/syed-anwaar) for supporting with [.landing-feature img width issue](https://github.com/lmcrean/Hoverboard/pull/22). You can see the pull request [here](https://github.com/lmcrean/Hoverboard/pull/22).
 
