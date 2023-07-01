@@ -4,8 +4,7 @@
 
 <img width="710" alt="website preview as responsive design" src="https://github.com/lmcrean/Hoverboard/assets/133490867/9436e6e3-25d5-43df-9a30-454d3e24d154">
 
-## Introduction from the Developer
-I designed a responsive homepage and product introduction for a Virtual Learning Environment. The key focus for the project was responsive CSS, using flex and grid displays to allow the website to be viewed comfortably on different devices. 
+I designed a responsive product introduction for a Virtual Learning Environment. The key focus for the project was responsive CSS, using flex and grid displays to allow the website to be viewed comfortably on different devices. The design utilised consistent font pairings, border-styles, padding and color themes to reinforce the visual branding of the product.
 
 # Documentation 
 ## User Stories
@@ -23,25 +22,22 @@ The focus of this website is new users of the website and three pages were desig
 
 #### Home Page:
 
-- Landing video with slogan *visualises the experience
-- Hoverboard's Mission *introduces the product persuasively in the context of VLE's - why we're different
-- Testimonials from different schools 
-*builds authority and trust
-- Find out about our Features *directs to page
-- Why you should claim your Free Trial *directs to page
+- Landing video with slogan, *visualises the experience*
+- Hoverboard's Mission, *introduces the product persuasively in the context of VLE's - why we're different*
+- Testimonials from different schools, *builds authority and trust*
+- Find out about our Features, *directs to page*
+- Why you should claim your Free Trial, *directs to page*
 
 #### Hoverboard Features:
 
-- gallery views 
-*the client needs to visualise how it works on a laptop, and be persuaded it that it works well.
-- peer feedback 
-*need to see how chat function in action
-- quick teacher grading *needs to see how function is better.
-- Why you should claim your Free Trial *directs to page*
+- Gallery Views, *visualises easy navigation of classwork on a browser*
+- Peer Feedback, *visualises student chat function in action*
+- Deep Assessment, *visualises chatbot in action*
+- Why you should claim your Free Trial, *directs to page*
 
 #### Book your Free Trial:
-- essential details: name, address, school.
-- how did you find out about our product?
+- form input, *records essential details: name, address, school.*
+- submit button, *redirects to thank you page, form method="GET"*
 
 ## Initial Research
 [see full documentation of initial research here](https://github.com/lmcrean/Hoverboard/wiki/Initial-Research)
