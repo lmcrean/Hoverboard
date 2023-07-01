@@ -396,13 +396,21 @@ footer {
 
 
 /*FEATURES LANDING*/
+
+.features-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 .features-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.features-container img {
+.app-wrapper img {
   max-width: 8em;
   display: inline-block;
   align-items: center;
@@ -417,25 +425,20 @@ footer {
   flex-direction: column;
 }
 
-.features-landing h1 {
+.features-heading-container h1 {
   display: inline;
   font-size: 5.2vw;
   text-align: center;
   color: white;
 }
 
-@media screen and (min-width: 800px) {
-.features-landing h1 {
-    font-size: 3em;
-  }
-}
 
 .features-landing h2 {
   display: flex;
   justify-content: center;
 }
 
-.features-container {
+.features-wrapper {
   color: white; 
   background-color: orange;
   border-color: orangered;
@@ -449,6 +452,26 @@ footer {
   width: 80%;
   flex-direction: column;
 }
+
+.features-heading-container {
+  display: block;
+}
+
+@media screen and (min-width: 800px) {
+  .features-heading-container h1 {
+      font-size: 3em;
+    }
+  
+  .app-wrapper {
+  display: flex;
+  flex-direction: row;
+  }
+
+
+}
+  
+
+
 
 
 
