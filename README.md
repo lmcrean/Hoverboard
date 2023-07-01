@@ -1,8 +1,6 @@
 # Front-End Design for Virtual Classroom Product 
 
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) 
 
 <img width="710" alt="website preview as responsive design" src="https://github.com/lmcrean/Hoverboard/assets/133490867/9436e6e3-25d5-43df-9a30-454d3e24d154">
 
@@ -78,14 +76,6 @@ Home page/ Features page/  Sign up page:
 ### Unfixed Bugs
 The unfixed bugs are documented on Github and can be found [here](https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aopen).
 
-#### Future features to include
-
-- PHP database
-- Home Page/ after Hoverboard's mission, more educational info about the need for VLE's/ paperless schools
-- Persuasive statistics
-- Advantages of paperless schools
-- Visualize the BEFORE and AFTER customer experience with an image slider
-
 ## Deployment
 
 The site was deployed to GitHub pages. You can access the live link [here](https://lmcrean.github.io/Hoverboard/).
@@ -99,3 +89,9 @@ Thank you to [Syed Anwaar](https://github.com/syed-anwaar) for supporting with [
 - Photography for the landing image and testimonials were imported from Pexels.
 - John Anderson's picture in the testimonial was from Unsplash.
 
+## Future features to include
+- PHP database
+- Home Page/ after Hoverboard's mission, more educational info about the need for VLE's/ paperless schools
+- Persuasive statistics
+- Advantages of paperless schools
+- Visualize the BEFORE and AFTER customer experience with an image slider
