@@ -405,6 +405,9 @@ footer {
 }
 
 /*MISSION INTRO*/
+
+
+
 #mission-intro img {
   width: 80%;
   max-height: 500px;
@@ -413,15 +416,23 @@ footer {
 }
 
 @media (min-width: 768px) {
-  #mission-intro img {
-  max-height: 500px; 
-  width: auto;}
-}
+  .responsive-1to2-columns {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+  }
 
-@media (min-width: 768px) {
   #mission-intro img {
+    grid-column: 1;
   max-height: 500px; 
-  width: auto;}
+  width: 80%;
+margin-left: 10%;
+margin-right 10%;}
+
+  #mission-intro p {
+    grid-row: 1;
+    grid-column: 2;
+  }
+
 }
 
 @media (min-width: 1368px) {
