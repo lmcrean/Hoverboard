@@ -4,7 +4,7 @@
 
 [Live page](https://lmcrean.github.io/Hoverboard/) • [Full Documentation](https://github.com/lmcrean/Hoverboard/wiki) • [Fixed bugs](https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aclosed)
 
-<img width="637" alt="figma preview as responsive design"" src="https://github.com/lmcrean/Hoverboard/assets/133490867/5b774eca-b6a0-4bde-84e0-7518eb9bf69e">
+<img width="636" alt="figma preview as responsive design" src="https://github.com/lmcrean/Hoverboard/assets/133490867/b0efbf8c-b575-4061-a472-18a68541c9e2">
 
 
 I designed a responsive product introduction for a Virtual Learning Environment. The key focus for the project was responsive CSS, using flex and grid displays to allow the website to be viewed comfortably on different devices. The design utilised consistent font pairings, border-styles, padding and color themes to reinforce the visual branding of the product.
