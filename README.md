@@ -82,7 +82,10 @@ The site was deployed to GitHub pages. You can access the live link [here](https
 W3 School's [Navbar](https://www.w3schools.com/css/css_navbar.asp) and [Slideshow Carousel](https://www.w3schools.com/howto/howto_js_slideshow.asp) were used in the code and then adapted to meet the design standards set by the Figma wireframe.
 
 ## Contributor credits
-Thank you to [Syed Anwaar](https://github.com/syed-anwaar) for supporting with [.landing-feature img width issue](https://github.com/lmcrean/Hoverboard/pull/22). You can see the pull request [here](https://github.com/lmcrean/Hoverboard/pull/22).
+Special thank you to [Syed Anwaar](https://github.com/syed-anwaar) for contributing to this project with the following notable mentions: 
+-supporting with [.landing-feature img width issue](https://github.com/lmcrean/Hoverboard/pull/22).
+-adding [animation to navbar](https://github.com/lmcrean/Hoverboard/pull/33)
+-contributions to [form-handler.php](https://github.com/lmcrean/Hoverboard/pull/33)
 
 ## Open Source media credits
 All graphics were designed with Canva's open source library. The icons in the footer and navbar were taken from [Font Awesome](https://fontawesome.com/). Photography for the landing image and testimonials were imported from Pexels. John Anderson's picture in the testimonial was from Unsplash.
