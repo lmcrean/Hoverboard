@@ -717,7 +717,8 @@ label {
 
 form input[type="text"],
 form input[type="password"],
-form input[type="tel"] {
+form input[type="tel"],
+form input[type="email"] {
   padding: 0.7em 1em;
   border: 0.15em solid black;
   border-radius: 0.7em;
