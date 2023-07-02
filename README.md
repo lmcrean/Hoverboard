@@ -1,10 +1,11 @@
-# Front-End Design for Virtual Classroom Product 
+# Responsive Front-End Design for Virtual Classroom Product 
 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) 
 
 [Live page](https://lmcrean.github.io/Hoverboard/) • [Full Documentation](https://github.com/lmcrean/Hoverboard/wiki) • [Fixed bugs](https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aclosed)
 
-<img width="710" alt="website preview as responsive design" src="https://github.com/lmcrean/Hoverboard/assets/133490867/9436e6e3-25d5-43df-9a30-454d3e24d154">
+<img width="636" alt="figma preview as responsive design" src="https://github.com/lmcrean/Hoverboard/assets/133490867/b0efbf8c-b575-4061-a472-18a68541c9e2">
+
 
 I designed a responsive product introduction for a Virtual Learning Environment. The key focus for the project was responsive CSS, using flex and grid displays to allow the website to be viewed comfortably on different devices. The design utilised consistent font pairings, border-styles, padding and color themes to reinforce the visual branding of the product.
 
@@ -82,7 +83,11 @@ The site was deployed to GitHub pages. You can access the live link [here](https
 W3 School's [Navbar](https://www.w3schools.com/css/css_navbar.asp) and [Slideshow Carousel](https://www.w3schools.com/howto/howto_js_slideshow.asp) were used in the code and then adapted to meet the design standards set by the Figma wireframe.
 
 ## Contributor credits
-Thank you to [Syed Anwaar](https://github.com/syed-anwaar) for supporting with [.landing-feature img width issue](https://github.com/lmcrean/Hoverboard/pull/22). You can see the pull request [here](https://github.com/lmcrean/Hoverboard/pull/22).
+Special thank you to [Syed Anwaar](https://github.com/syed-anwaar) for contributing to this project with the following notable mentions:
+
+- supporting with [.landing-feature img width issue](https://github.com/lmcrean/Hoverboard/pull/22).
+- adding [animation to navbar](https://github.com/lmcrean/Hoverboard/pull/33)
+- contributions to [form-handler.php](https://github.com/lmcrean/Hoverboard/pull/33)
 
 ## Open Source media credits
 All graphics were designed with Canva's open source library. The icons in the footer and navbar were taken from [Font Awesome](https://fontawesome.com/). Photography for the landing image and testimonials were imported from Pexels. John Anderson's picture in the testimonial was from Unsplash.
