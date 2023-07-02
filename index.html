@@ -39,12 +39,8 @@
     </nav>
     <script> /*Script for Menu open */
       function myFunction() {
-        var x = document.getElementById("mynavbar");
-        if (x.className === "navbar") {
-          x.className += " menuOpen";
-        } else {
-          x.className = "navbar";
-        }
+        document.getElementById("mynavbar").classList.toggle("menuOpen");
+        document.querySelector("main").classList.toggle("move-down");
       }
   </script>
   </header>
@@ -62,7 +58,7 @@
 
 
 
-
+<main>
 <section id="hero-feature">
   <div class="hero-feature-container">
   <img src="assets/media/landing-image.png" alt="landing image, student on computer">
@@ -275,7 +271,7 @@ function showSlides() {
   <div class="button"><p href="booktrial.html" >click here</p></div>
 <br><br>
 </section>
-
+</main>
 
 
 
