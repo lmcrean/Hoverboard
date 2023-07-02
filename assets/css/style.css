@@ -218,6 +218,7 @@ main {
 Elements = footer-small-print, footer icons */
 
 footer {
+  margin-top: 2em;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -524,30 +525,37 @@ margin-right: 10%;}
   margin: auto;
 }
 
+/*Testimonial img*/
+
+.testimonial img {
+  margin-top: 2em;
+}
+
 /* Caption text */
 .testimonial-text .testimonial-name .testimonial-title{
   color: #f2f2f2;
   font-size: 15px;
-  padding: 8px 12px;
+  padding: 2em 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
+  margin-bottom: 2em;
 }
 
 /* HOMEPAGE The dots/bullets/indicators */
 .carouselDot {
   height: 15px;
   width: 15px;
-  margin: 0 2px;
-  background-color: #ff0101;
+  margin: 2em 1%;
+  background-color: rgb(192, 192, 192);
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active {
-  background-color: #420909;
+  background-color: orange;
 }
 
 /* HOMEPAGE Fading animation */
