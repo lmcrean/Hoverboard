@@ -40,12 +40,8 @@
     </nav>
     <script> /*Script for Menu open */
       function myFunction() {
-        var x = document.getElementById("mynavbar");
-        if (x.className === "navbar") {
-          x.className += " menuOpen";
-        } else {
-          x.className = "navbar";
-        }
+        document.getElementById("mynavbar").classList.toggle("menuOpen");
+        document.querySelector("main").classList.toggle("move-down");
       }
   </script>
   </header>
@@ -59,7 +55,7 @@
 
 
 
-
+<main>
     <section id="booktrial-landing">
       <div class="heading-container">
         <h1>
@@ -105,54 +101,74 @@
 
 
 
-    <form action="./thankyou.html" method="GET" id="booktrial"> 
-<div id="form-grid-container">
-        <div id="fname"><label for="fname">First name:<i class="fa-solid fa-square-xmark"></i></h2><i class="fa-solid fa-square-check"></i></label><br>
-        <input type="text" id="fname" name="fname" required></div>
-
-        <div id="lname"><label for="lname">Last name:<i class="fa-solid fa-square-xmark"></i></h2><i class="fa-solid fa-square-check"></i></label><br>
-        <input type="text" id="lname" name="lname" required></div>
-
-        <div id="school"><label for="school">School:<i class="fa-solid fa-square-xmark"></i></h2><i class="fa-solid fa-square-check"></i></label><br>
-        <input type="text" id="school" name="school" required></div>
-
-        <div id="job-title"><label for="job-title">Job Title:<i class="fa-solid fa-square-xmark"></i></h2><i class="fa-solid fa-square-check"></i></label><br>
-        <input type="text" id="job-title" name="job-title" required></div>
-
-        <div id="email"><label for="email">Email:<i class="fa-solid fa-square-xmark"></i></h2><i class="fa-solid fa-square-check"></i></label><br>
-        <input type="text" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" required title="Enter a valid email address"></div>
-
-        <div id="mobile-number"><label for="mobile-number">Mobile Number:<i class="fa-solid fa-square-xmark"></i></h2><i class="fa-solid fa-square-check"></i></label><br>
-        <input type="tel" id="mobile-number" name="mobile-number" pattern="[0-9]{11}" required title="Enter a valid 11-digit mobile number" required></div>
-
-        <div id="password"><label for="password">Password:<i class="fa-solid fa-square-xmark"></i></h2><i class="fa-solid fa-square-check"></i></label><br>
-        <input type="password" id="password" name="password" required></div>
-
-        <div id="confirm-password"><label for="confirm-password">Confirm Password:<i class="fa-solid fa-square-xmark"></i><br></label><i class="fa-solid fa-square-check"></i></label><input type="password" id="confirm-password" name="confirm-password" required><br>
-        <span id="password-match-error" class="error"></span></div><br></div>
-     
-        <script>
-          // Script for password confirmation validation - must match password
-          const passwordInput = document.getElementById('password');
-          const confirmPasswordInput = document.getElementById('confirm-password');
-          const passwordMatchError = document.getElementById('password-match-error');
-      
-          function validatePassword() {
-            if (passwordInput.value !== confirmPasswordInput.value) {
-              passwordMatchError.textContent = "Passwords do not match.";
-            } else {
-              passwordMatchError.textContent = "";
+        <form action="form-handler.php" method="POST" id="booktrial">
+          <div id="form-grid-container">
+            <div id="fname">
+              <label for="fname">First name:<i class="fa-solid fa-square-xmark"></i></label><i class="fa-solid fa-square-check"></i><br>
+              <input type="text" id="fname" name="fname" required>
+            </div>
+        
+            <div id="lname">
+              <label for="lname">Last name:<i class="fa-solid fa-square-xmark"></i></label><i class="fa-solid fa-square-check"></i><br>
+              <input type="text" id="lname" name="lname" required>
+            </div>
+        
+            <div id="school">
+              <label for="school">School:<i class="fa-solid fa-square-xmark"></i></label><i class="fa-solid fa-square-check"></i><br>
+              <input type="text" id="school" name="school" required>
+            </div>
+        
+            <div id="job-title">
+              <label for="job-title">Job Title:<i class="fa-solid fa-square-xmark"></i></label><i class="fa-solid fa-square-check"></i><br>
+              <input type="text" id="job-title" name="job-title" required>
+            </div>
+        
+            <div id="email">
+              <label for="email">Email:<i class="fa-solid fa-square-xmark"></i></label><i class="fa-solid fa-square-check"></i><br>
+              <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" required title="Enter a valid email address">
+            </div>
+        
+            <div id="mobile-number">
+              <label for="mobile-number">Mobile Number:<i class="fa-solid fa-square-xmark"></i></label><i class="fa-solid fa-square-check"></i><br>
+              <input type="tel" id="mobile-number" name="mobile-number" pattern="[0-9]{11}" required title="Enter a valid 11-digit mobile number">
+            </div>
+        
+            <div id="password">
+              <label for="password">Password:<i class="fa-solid fa-square-xmark"></i></label><i class="fa-solid fa-square-check"></i><br>
+              <input type="password" id="password" name="password" required>
+            </div>
+        
+            <div id="confirm-password">
+              <label for="confirm-password">Confirm Password:<i class="fa-solid fa-square-xmark"></i></label><i class="fa-solid fa-square-check"></i><br>
+              <input type="password" id="confirm-password" name="confirm-password" required><br>
+              <span id="password-match-error" class="error"></span>
+            </div>
+          </div>
+        
+          <script>
+            // Script for password confirmation validation - must match password
+            const passwordInput = document.getElementById('password');
+            const confirmPasswordInput = document.getElementById('confirm-password');
+            const passwordMatchError = document.getElementById('password-match-error');
+        
+            function validatePassword() {
+              if (passwordInput.value !== confirmPasswordInput.value) {
+                passwordMatchError.textContent = "Passwords do not match.";
+              } else {
+                passwordMatchError.textContent = "";
+              }
             }
-          }
-      
-          confirmPasswordInput.addEventListener('input', validatePassword);
-        </script>
-
-        <div class="submit">
-        <button type="submit" form="booktrial" value="Submit" >SUBMIT</button></div><br><br>
-      </form>
+        
+            confirmPasswordInput.addEventListener('input', validatePassword);
+          </script>
+        
+          <div class="submit">
+            <button type="submit" value="Submit">SUBMIT</button>
+          </div>
+        </form>
       </section>
-      </body>
+    </main>
+    
 
 
 

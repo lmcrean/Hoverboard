@@ -1,12 +1,3 @@
-<html>
-<body>
-
-<h2> Thank you <?php echo $_POST["fname"]; ?> </h2><br><br>
-<p> Your form has been submitted a member of our team will contact you soon. Meanwhile click <a href="index.html">here to visit our homepage.</a></p>
-
-</body>
-</html>
-
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Retrieve form data
@@ -29,7 +20,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $data .= "Password: $password\n";
     $data .= "Confirm Password: $confirm_password\n";
 
-    file_put_contents('form-data.txt', $data, FILE_APPEND);
+    $filename = "form-data.txt";
+
+    file_put_contents($filename, $data);
 
     // Redirect to the thank you page
     header('Location: thankyou.html');
@@ -37,3 +30,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
+<html>
+<body>
+
+<h2> Thank you <?php echo $_POST["fname"]; ?> </h2><br><br>
+<p> Your form has been submitted a member of our team will contact you soon. Meanwhile click <a href="index.html">here to visit our homepage.</a></p>
+
+</body>
+</html>
