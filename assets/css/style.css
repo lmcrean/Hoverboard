@@ -351,6 +351,7 @@ footer {
   width: 80%;
   max-height: 500px;
   max-width: auto;
+  object-fit: contain;
 }
 
 @media (min-width: 768px) {
@@ -389,26 +390,27 @@ footer {
 
 /*HOMEPAGE FEATURES LINK*/
 
-#mission-intro img {
+#features-link img {
   width: 80%;
   max-height: 500px;
   max-width: auto;
+  object-fit: contain;
 }
 
 @media (min-width: 768px) {
-  #mission-intro img {
+  #features-link img {
   max-height: 500px; 
-  width: auto;}
+  max-width: auto;}
 }
 
 @media (min-width: 768px) {
-  #mission-intro img {
+  #features-link img {
   max-height: 500px; 
-  width: auto;}
+  max-width: auto;}
 }
 
 @media (min-width: 1368px) {
-  #mission-intro img {
+  #features-link img {
   max-height: 700px; 
   width: auto;}
 }
