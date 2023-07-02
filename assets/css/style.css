@@ -327,32 +327,81 @@ footer {
   border-radius: 1em;
 }
 
+.hero-image-desktop-container {
+    display:none;
+  }
+  
+.hero-image-desktop-container img {
+    display:none;
+  }
+
+
 @media (min-width: 768px) {
   .hero-image-container img {
-    object-position: center;
+    display: none;
+  }
+
+  .hero-image-desktop-container {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    display: block;
+    border-radius: 1em;
+    overflow: hidden;
+  }
+  
+.hero-image-desktop-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: inline;
+  border-radius: 1em;
   }
 }
 
-.hero-image-desktop-container {
-  display:none;
-}
 
-.hero-image-desktop-container img {
-  display:none;
-}
 
 .hero-heading {
   z-index: 1;
   position: absolute;
   top: 10em;
+  left: 3%;
+  right: 3%;
   margin: 0em;
   padding: 0.5em;
   background-color: rgba(255, 166, 0, 0.495);
   color: white;
-  font-size: 1em;
+  font-size: 2.4em;
   text-align: center;
   border-radius: 0.3em;
   height: auto;
+}
+
+@media (max-width: 452px) {
+  .hero-heading {
+    top: 5em;
+    font-size: 1.4em;
+  }
+}
+
+@media (min-width: 768px) {
+    .hero-heading {
+      display: flex;
+      align-items: center;
+      z-index: 1;
+      position: absolute;
+      top: 4em;
+      left: 10%;
+      right: 10%;
+      margin: 0em;
+      padding: 0.5em;
+      background-color: rgba(255, 166, 0, 0.495);
+      color: white;
+      font-size: 2.4em;
+      text-align: center;
+      border-radius: 0.3em;
+      height: auto;
+  }
 }
 
 /*MISSION INTRO*/
