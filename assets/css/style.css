@@ -94,6 +94,12 @@ nav {
   padding: 0px
 }
 
+@media only screen and (max-width: 340px) {
+  .navbartitle {
+  max-height: 35px;
+}
+}
+
 .navbar .icon {
   position: absolute;
   top: 0;
@@ -303,7 +309,6 @@ footer {
   height: auto;
   object-fit: contain;
   display: block;
-  max-width: 100%;
   border-radius: 1em;
 }
 
@@ -317,18 +322,22 @@ footer {
 
 .hero-heading {
   z-index: 1;
-  position: relative;
-  bottom: 14em;
+  position: absolute;
+  top: 10em;
   margin: 0em;
-  padding: 0.3em;
+  padding: 0.5em;
   background-color: rgba(255, 166, 0, 0.495);
   color: white;
-  font-size: 8vw;
+  font-size: 1em;
   text-align: center;
   border-radius: 0.3em;
   height: auto;
 }
 
+/*MISSION INTRO*/
+#mission-intro img {
+  width: 100%;
+}
 
 
 /*HOME PAGE FEATURES INTRO*/
