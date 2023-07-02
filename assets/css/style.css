@@ -113,11 +113,6 @@ nav {
   padding: 0.2em;
 }
 
-.navbar.menuOpen {
-  margin-bottom: 0em;
-  background-color: white;
-}
-
 .navbar.menuOpen .icon #icon-open {
   display: none;
 }
@@ -169,7 +164,16 @@ a.tab-active {
   }
 
 .navbar.menuOpen {
+  background-color: white;
   flex-direction: column;
+}
+
+main {
+  transition: margin-top 0.45s ease-in-out;
+}
+
+.move-down {
+  margin-top: 88px;
 }
 
 .navbar.menuOpen i {

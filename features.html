@@ -39,12 +39,8 @@
     </nav>
     <script> /*Script for Menu open */
       function myFunction() {
-        var x = document.getElementById("mynavbar");
-        if (x.className === "navbar") {
-          x.className += " menuOpen";
-        } else {
-          x.className = "navbar";
-        }
+        document.getElementById("mynavbar").classList.toggle("menuOpen");
+        document.querySelector("main").classList.toggle("move-down");
       }
   </script>
   </header>
@@ -68,7 +64,7 @@
 
   
 
-
+<main>
   <section class="features-landing">
 
   <div class="features-wrapper">
@@ -151,7 +147,7 @@
 
     <br><br> <br><br>
   </section>
-
+</main>
 
 
 

@@ -40,16 +40,13 @@
     </nav>
     <script> /*Script for Menu open */
       function myFunction() {
-        var x = document.getElementById("mynavbar");
-        if (x.className === "navbar") {
-          x.className += " menuOpen";
-        } else {
-          x.className = "navbar";
-        }
+        document.getElementById("mynavbar").classList.toggle("menuOpen");
+        document.querySelector("main").classList.toggle("move-down");
       }
   </script>
   </header>
 
+  <main>
     <section class="booktrial-landing">
         <div class="booktrial-h1-container">
             <h1>
@@ -62,8 +59,7 @@
             <img src="/assets/media/booktrial-clipboard-icon.png" alt="signup icon">
         </div>
     </section>
-
-      </body>
+  </main>
 
   <footer>
 
