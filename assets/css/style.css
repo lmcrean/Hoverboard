@@ -426,7 +426,7 @@ footer {
   max-height: 500px; 
   width: 80%;
 margin-left: 10%;
-margin-right 10%;}
+margin-right: 10%;}
 
   #mission-intro p {
     grid-row: 1;
@@ -445,19 +445,37 @@ margin-right 10%;}
 /*HOME PAGE FEATURES INTRO*/
 /*Code is almost identical to Features Page Landing Section - there are overlapping classes - EDIT FEATURES PAGE Landing SECTION*/
 
-.features-intro-homepage {
+#features-intro-homepage {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.features-intro-homepage h2 {
+#features-intro-homepage h2 {
   display: flex;
   justify-content: center;
 }
 
 /*HOMEPAGE FEATURES LINK*/
+
+#features-link {
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  margin-bottom: 2em;
+}
+
+.background-wrapper-black {
+  background-color: black;
+  color: white;
+  width: 80%;
+  border-radius: 1em;
+  padding-top: 2em;
+  padding-bottom: 3.5em;
+}
 
 #features-link img {
   width: 80%;
