@@ -1,10 +1,11 @@
-# Front-End Design for Virtual Classroom Product 
+# Responsive Front-End Design for Virtual Classroom Product 
 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) 
 
 [Live page](https://lmcrean.github.io/Hoverboard/) • [Full Documentation](https://github.com/lmcrean/Hoverboard/wiki) • [Fixed bugs](https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aclosed)
 
-<img width="710" alt="website preview as responsive design" src="https://github.com/lmcrean/Hoverboard/assets/133490867/9436e6e3-25d5-43df-9a30-454d3e24d154">
+<img width="637" alt="figma preview as responsive design"" src="https://github.com/lmcrean/Hoverboard/assets/133490867/5b774eca-b6a0-4bde-84e0-7518eb9bf69e">
+
 
 I designed a responsive product introduction for a Virtual Learning Environment. The key focus for the project was responsive CSS, using flex and grid displays to allow the website to be viewed comfortably on different devices. The design utilised consistent font pairings, border-styles, padding and color themes to reinforce the visual branding of the product.
 
