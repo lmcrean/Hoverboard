@@ -359,6 +359,7 @@ footer {
   object-fit: cover;
   display: inline;
   border-radius: 1em;
+  margin-top: -6em;
   }
 }
 
