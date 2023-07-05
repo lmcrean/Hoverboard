@@ -608,14 +608,27 @@ margin-right: 10%;}
 
 .testimonial img {
   grid-column: 1;
+  grid-row: 1/5;
 }
 
 .testimonial-text, .testimonial-name, .testimonial-title{
   grid-column: 2;
 }
 
+.testimonial-name p {
+  grid-column: 2;
+  grid-row: 3;
+  margin: auto;
+}
+
+.testimonial-title {
+  grid-column: 2;
+  grid-row: 4;
+}
+
 .testimonial-text{
   margin: auto;
+  grid-row: 1/3;
 }
 
 }
