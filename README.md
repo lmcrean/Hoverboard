@@ -84,12 +84,11 @@ The site was deployed to GitHub pages. You can access the live link [here](https
 W3 School's [Navbar](https://www.w3schools.com/css/css_navbar.asp) and [Slideshow Carousel](https://www.w3schools.com/howto/howto_js_slideshow.asp) were used in the code and then adapted to meet the design standards set by the Figma wireframe.
 
 ## Contributor credits
-Special thank you to [Syed Anwaar](https://github.com/syed-anwaar) for contributing to this project with the following notable mentions:
+Special thank you to [Syed Anwaar](https://github.com/syed-anwaar) for contributing to this project with the following:
 
 - supporting with [.landing-feature img width issue](https://github.com/lmcrean/Hoverboard/pull/22).
 - adding [animation to navbar](https://github.com/lmcrean/Hoverboard/pull/33)
 - contributions to [form-handler.php](https://github.com/lmcrean/Hoverboard/pull/33)
-- 
 
 Thank you to [Sahil4883](https://github.com/Sahil4883) for [fixing footer height.](https://github.com/lmcrean/Hoverboard/commit/638a73b8cd1dbfaf1d39b4f19d83126b130c7958)
 
@@ -97,6 +96,7 @@ Thank you to [Sahil4883](https://github.com/Sahil4883) for [fixing footer height
 All graphics were designed with Canva's open source library. The icons in the footer and navbar were taken from [Font Awesome](https://fontawesome.com/). Photography for the landing image and testimonials were imported from Pexels. John Anderson's picture in the testimonial was from Unsplash.
 
 ## Future features to include
+- Dark mode
 - PHP database
 - Home Page/ after Hoverboard's mission, more educational info about the need for VLE's/ paperless schools
 - Persuasive statistics
