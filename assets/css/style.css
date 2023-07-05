@@ -546,7 +546,7 @@ margin-right: 10%;}
   margin-bottom: 2em;
 }
 
-/* HOMEPAGE The dots/bullets/indicators */
+/* Testimonials The dots/bullets/indicators */
 .carouselDot {
   height: 15px;
   width: 15px;
@@ -561,7 +561,7 @@ margin-right: 10%;}
   background-color: orange;
 }
 
-/* HOMEPAGE Fading animation */
+/* Testimonials Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -577,8 +577,30 @@ margin-right: 10%;}
   .text {font-size: 11px}
 }
 
+/* in tablet view, present testimonials as 2 columns */
 
-/*HOME PAGE to Book trial link*/
+@media (min-width: 768px) {
+  .slideshow-container {
+display: grid;
+  }
+}
+
+/* in desktop view, present testimonials as floating ticker row */
+
+@media (min-width: 1268px) {
+    .slideshow-container {
+    
+  }
+}
+
+@media (min-width: 1768px) {
+  .slideshow-container {
+    
+  }
+}
+
+
+/*Book trial link*/
 
 .booktrial-link {
   justify-content: center;
