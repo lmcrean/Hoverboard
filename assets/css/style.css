@@ -569,6 +569,7 @@ margin-right: 10%;}
 }
 
 /* Testimonials Fading animation */
+@media (max-width: 1208px) {}
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -599,7 +600,7 @@ margin-right: 10%;}
    }
 }
 
-/* in tablet view, present testimonials as 2 columns */
+/* in tablet view, present testimonials as 2 columns, .*/
 
 @media (min-width: 768px) {
 
@@ -634,7 +635,7 @@ margin-right: 10%;}
 }
 
 }
-/* in desktop view, present testimonials as floating ticker row */
+/* in laptop view, remove carousel dots and animations, the images alternate between left and right, the text now alternates between align-left and align-right */
 
 @media (min-width: 1208px) {
 
@@ -656,9 +657,9 @@ margin-right: 10%;}
       to {
          opacity: 1
      }
- }
+ }}
 
-
+/* in desktop view, the images start on staggered lines in grid view, text always aligns to the left and is on left of the image, there are 2 running sets of images*/
 
 
 
@@ -989,6 +990,5 @@ form input {
 
   button[type="submit"] {
     grid-column-start: 1;
-}
 }
 }
