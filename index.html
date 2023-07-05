@@ -284,9 +284,29 @@ function showSlides() {
   dots[slideIndex - 1].className += " active";
   setTimeout(showSlides, 6000); // Change slide every 6 seconds
 }
+
+if (window.innerWidth > 1208) {
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "grid";
+  }
+  slides[slideIndex - 1].style.display = "grid"; 
 }
+}
+
+function resetTimer() {
+  clearTimeout(timer);
+  showSlides();
+}
+
+// Run the function initially
 showSlides();
-    </script></section>
+
+// Add event listener for screen resize
+window.addEventListener('resize', resetTimer);
+</script>
+  
+</script>
+</section>
 
 
 
