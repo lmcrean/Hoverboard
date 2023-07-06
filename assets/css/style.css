@@ -159,11 +159,11 @@ nav {
 }
 
 a.tab-active {
-  background-color: lightblue;
+  background-color: lightgray;
 }
 
 .menu-items a:hover {
-  background-color: green;
+  background-color: lightsalmon;
   color: white
 }
 
