@@ -583,7 +583,7 @@ margin-right: 10%;}
 
 /*testimonials mobile view, force all into 1 column*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (max-width: 767px) {
   .testimonial {
     display: grid;
     grid-template-columns: 1;
@@ -603,7 +603,7 @@ margin-right: 10%;}
 
 /* in tablet view, present testimonials as 2 columns, .*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1207px) {
 
 .testimonial {
   display: grid;
@@ -661,10 +661,10 @@ margin-right: 10%;}
   display: flex;
   }
 
-  .slideshow-container {
+  .grid-container {
   display: grid;
-  grid-template-columns: 4;
-  grid-template-rows: 4;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   width: 100%;
   }
 
@@ -693,6 +693,57 @@ grid-column: 3;
 grid-column: 4;
   }
 }
+
+
+.desktop-row-1 .testimonial-text,
+.desktop-row-1 .testimonial-name,
+.desktop-row-1 .testimonial-title
+{
+grid-row: 1;
+}
+
+.desktop-row-1 img
+{
+grid-row: 1;
+}
+
+.desktop-row-2 .testimonial-text,
+.desktop-row-2 .testimonial-name,
+.desktop-row-2 .testimonial-title
+{
+grid-row: 2;
+}
+
+.desktop-row-2 img
+{
+grid-row: 2;
+}
+
+.desktop-row-3 .testimonial-text,
+.desktop-row-3 .testimonial-name,
+.desktop-row-3 .testimonial-title
+{
+grid-row: 3;
+}
+
+.desktop-row-3 img
+{
+grid-row: 3;
+}
+
+.desktop-row-4 .testimonial-text,
+.desktop-row-4 .testimonial-name,
+.desktop-row-4 .testimonial-title
+{
+grid-row: 4;
+}
+
+.desktop-row-4 img
+{
+grid-row: 4;
+}
+
+
 
 /* in desktop view, the padding increases */
 
