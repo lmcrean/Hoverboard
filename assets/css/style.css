@@ -519,9 +519,9 @@ margin-right: 10%;}
 
 /*HOME PAGE TESTIMONIAL FEATURE*/
 
-#testimonials * {box-sizing: border-box;}
+#testimonials-feature * {box-sizing: border-box;}
 .testimonial {display: none;}
-#testimonials img {vertical-align: middle;}
+#testimonials-feature img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
@@ -635,7 +635,7 @@ margin-right: 10%;}
 }
 
 }
-/* in laptop view, remove carousel dots and animations, the images alternate between left and right, the text now alternates between align-left and align-right */
+/* in laptop view, remove carousel dots and animations, the images are displayed on a 4x4 view */
 
 @media (min-width: 1208px) {
 
@@ -643,8 +643,9 @@ margin-right: 10%;}
       display: none;
  }
   .testimonial {
-      display: flex;
-      flex-direction:row;
+      display: grid;
+      grid-template-columns: 4;
+      grid-template-rows: 4;
  }
   .fade {
       animation-name: none;
@@ -657,9 +658,13 @@ margin-right: 10%;}
       to {
          opacity: 1
      }
- }}
+ }
 
-/* in desktop view, the images start on staggered lines in grid view, text always aligns to the left and is on left of the image, there are 2 running sets of images*/
+
+
+}
+
+/* in desktop view, the padding increases */
 
 
 
