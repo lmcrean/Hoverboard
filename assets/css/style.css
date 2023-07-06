@@ -569,7 +569,7 @@ margin-right: 10%;}
 }
 
 /* Testimonials Fading animation */
-@media (max-width: 1208px) {}
+@media screen and (max-width: 1208px) {
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -579,10 +579,11 @@ margin-right: 10%;}
   from {opacity: .4} 
   to {opacity: 1}
 }
+}
 
 /*testimonials mobile view, force all into 1 column*/
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .testimonial {
     display: grid;
     grid-template-columns: 1;
@@ -602,7 +603,7 @@ margin-right: 10%;}
 
 /* in tablet view, present testimonials as 2 columns, .*/
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
 .testimonial {
   display: grid;
@@ -637,16 +638,12 @@ margin-right: 10%;}
 }
 /* in laptop view, remove carousel dots and animations, the images are displayed on a 4x4 view */
 
-@media (min-width: 1208px) {
+@media screen and (min-width: 1208px) {
 
   .carouselDot {
       display: none;
  }
-  .testimonial {
-      display: grid;
-      grid-template-columns: 4;
-      grid-template-rows: 4;
- }
+
   .fade {
       animation-name: none;
       animation-duration: 0s;
@@ -660,8 +657,41 @@ margin-right: 10%;}
      }
  }
 
+ .testimonial {
+  display: flex;
+  }
+
+  .slideshow-container {
+  display: grid;
+  grid-template-columns: 4;
+  grid-template-rows: 4;
+  width: 100%;
+  }
+
+  .desktop-column-1 .testimonial-text,
+  .desktop-column-1 .testimonial-name,
+  .desktop-column-1 .testimonial-title
+  {
+  grid-column: 1;
+  }
+
+.desktop-column-1 img
+{
+grid-column: 2;
+}
 
 
+.desktop-column-4 img
+{
+grid-column: 3;
+}
+
+.desktop-column-4 .testimonial-text,
+.desktop-column-4 .testimonial-name,
+.desktop-column-4 .testimonial-title
+{
+grid-column: 4;
+  }
 }
 
 /* in desktop view, the padding increases */
@@ -995,5 +1025,5 @@ form input {
 
   button[type="submit"] {
     grid-column-start: 1;
-}
+  }
 }
