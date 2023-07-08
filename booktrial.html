@@ -79,7 +79,7 @@
 
     <section id="booktrial-form">
       <div class="booktrial-bg-img">
-        <img src="/assets/media/booktrial-bg-quiggles.png" alt="background squiggle image" style="display:none">
+        <img src="assets/media/booktrial-bg-quiggles.png" alt="background squiggle image" style="display:none">
     </div>
         <h2>
           Essential Details
@@ -87,6 +87,9 @@
         <p class="error">
             Please enter the following details correctly:
         </p>
+        <div class="submit hide-in-mobile-and-tablet-and-laptop show-in-desktop">
+          <button type="submit" value="Submit">SUBMIT</button>
+        </div>
         </div>
 
 
@@ -162,7 +165,7 @@
             confirmPasswordInput.addEventListener('input', validatePassword);
           </script>
         
-          <div class="submit">
+          <div class="submit hide-in-desktop">
             <button type="submit" value="Submit">SUBMIT</button>
           </div>
         </form>
