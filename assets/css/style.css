@@ -17,16 +17,25 @@
   font-style: normal;
 }
 
-
-/* VIEWPORT SHOW SWITCHES */
+/* VIEWPORT SHOW/HIDE SWITCHES */
 /* For responsive design, some elements will disappear at certain viewport breakpoints and "switch" to another element. Note that CSS is mobile-first.*/
 
-
-@media screen and (min-width: 1208px){
-  .show-in-laptop-and-desktop {
-    display: inherit;
+@media screen and (max-width: 1208px) {
+  .hide-in-tablet-and-mobile {
+    display: none !important;
   }
 }
+
+@media screen and (min-width: 1208px) {
+  .hide-in-laptop-and-desktop {
+    display: none !important;
+  }
+
+  .show-in-laptop-and-desktop {
+    display: inherit !important;
+  }
+  }
+
 
 /*GENERIC STYLING*/
 
@@ -212,7 +221,7 @@ main {
     flex-direction: column;
 
 }
-}
+
 
 @media screen and (min-width: 743.99px) {
   .menu-items a {
@@ -425,8 +434,6 @@ footer {
 
 /*MISSION INTRO*/
 
-
-
 #mission-intro img {
   width: 80%;
   max-height: 500px;
@@ -441,39 +448,48 @@ footer {
   }
 
   #mission-intro img {
-    grid-column: 1;
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
   max-height: 500px; 
   width: 80%;
 margin-left: 10%;
-margin-right: 10%;}
+margin-right: 10%;
+}
 
   #mission-intro p {
-    grid-row: 1;
-    grid-column: 2;
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
   }
 
 }
 
-@media (min-width: 1368px) {
-  #mission-intro img {
-  max-height: 700px; 
-  width: auto;}
-}
-
 
 /*HOME PAGE FEATURES INTRO*/
-/*Code is almost identical to Features Page Landing Section - there are overlapping classes - EDIT FEATURES PAGE Landing SECTION*/
+/*Code is almost identical to Features Page Landing Section - there are overlapping classes - GO TO FEATURES PAGE Landing SECTION*/
+/*from 1208px, #features-intro-homepage swtiches to .features-wrapper-nested, the feature nests into the #mission-intro (see above)*/
 
-#features-intro-homepage {
+#features-intro-homepage, #features-wrapper-nested {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-#features-intro-homepage h2 {
+#features-intro-homepage h2, #features-wrapper-nested h2 {
   display: flex;
   justify-content: center;
+}
+
+#features-wrapper-nested {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background-color: white;
+  color: black;
+}
+
+#features-wrapper-nested h1 {
+  color: black;
+  font-size: 1.6em;
 }
 
 /*HOMEPAGE FEATURES LINK*/
@@ -1069,17 +1085,3 @@ form input {
 
 
 
-/* VIEWPORT HIDE SWITCHES */
-/* For responsive design, some elements will disappear at certain viewport breakpoints and "switch" to another element. Note that CSS is mobile-first.*/
-
-@media screen and (max-width: 1208px) {
-  .hide-in-tablet-and-mobile {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 1208px) {
-  .hide-in-laptop-and-desktop {
-    display: none;
-  }
-  }
