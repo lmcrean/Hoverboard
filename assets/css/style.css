@@ -447,22 +447,22 @@ footer {
     grid-template-columns:  1fr 1fr;
   }
 
-  #mission-intro img {
+  #mission-image {
+  max-width: auto;
+  object-fit: contain;
   grid-column: 1 / 2;
   grid-row: 1 / 4;
   max-height: 500px; 
   width: 80%;
 margin-left: 10%;
 margin-right: 10%;
+float: right;
 }
 
   #mission-intro p {
     grid-row: 1 / 2;
     grid-column: 2 / 3;
   }
-
-}
-
 
 /*HOME PAGE FEATURES INTRO*/
 /*Code is almost identical to Features Page Landing Section - there are overlapping classes - GO TO FEATURES PAGE Landing SECTION*/
@@ -512,12 +512,7 @@ margin-right: 10%;
   padding-bottom: 3.5em;
 }
 
-#features-link img {
-  width: 80%;
-  max-height: 500px;
-  max-width: auto;
-  object-fit: contain;
-}
+
 
 @media (min-width: 768px) {
   .background-wrapper-black {
