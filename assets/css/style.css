@@ -18,6 +18,16 @@
 }
 
 
+/* VIEWPORT SHOW SWITCHES */
+/* For responsive design, some elements will disappear at certain viewport breakpoints and "switch" to another element. Note that CSS is mobile-first.*/
+
+
+@media screen and (min-width: 1208px){
+  .show-in-laptop-and-desktop {
+    display: inherit;
+  }
+}
+
 /*GENERIC STYLING*/
 
 body {
@@ -70,6 +80,9 @@ p {
   color: black;
   cursor: pointer;
 }
+
+
+
 
 /*NAVBAR FEATURE
 Elements = navbartitle, icon, menuitems */
@@ -176,7 +189,7 @@ a.tab-active {
   .menu-items {
     display: none;
   }
-
+}
 .navbar.menuOpen {
   background-color: white;
   flex-direction: column;
@@ -1053,3 +1066,20 @@ form input {
     grid-column-start: 1;
   }
 }
+
+
+
+/* VIEWPORT HIDE SWITCHES */
+/* For responsive design, some elements will disappear at certain viewport breakpoints and "switch" to another element. Note that CSS is mobile-first.*/
+
+@media screen and (max-width: 1208px) {
+  .hide-in-tablet-and-mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1208px) {
+  .hide-in-laptop-and-desktop {
+    display: none;
+  }
+  }
