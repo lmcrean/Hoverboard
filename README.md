@@ -11,8 +11,12 @@
 
 I designed a responsive product introduction for a Virtual Learning Environment. The key focus for the project was responsive CSS, using flex and grid displays to allow the website to be viewed comfortably on different devices. The design utilised consistent font pairings, border-styles, padding and color themes to reinforce the visual branding of the product.
 
-# Documentation 
+# Documentation
+
 ## User Stories
+
+[Full documentation of User Experience Testing](https://github.com/lmcrean/Hoverboard/wiki/2.-User-Experience-Testing)
+
 New User:
 - I am prospective client of Hoverboard, if I am convinced enough by the product I will sign up for a free software trial.
 - I need to comfortably view this website on any device
@@ -20,7 +24,7 @@ New User:
 - I need to understand the products features
 - I need to be able to sign up for a free trial easily.
 
-[Full documentation of client premise and experience of website here](https://github.com/lmcrean/Hoverboard/wiki/Client-Premise)
+
 
 ### Page Structure and scope
 The focus of this website is new users of the website and three pages were designed to meet their needs.
