@@ -1,6 +1,6 @@
 # Responsive Front-End Design for Virtual Classroom Product 
 
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
 [<img width="15" src="https://cdn-icons-png.flaticon.com/512/4387/4387430.png"> Live page](https://lmcrean.github.io/Hoverboard/) • [Full Documentation](https://github.com/lmcrean/Hoverboard/wiki) • [Design Testing via Figma Wireframe](https://github.com/lmcrean/Hoverboard/wiki/3.-Design-Testing-via-Figma-wireframe) • [Front End Testing](https://github.com/lmcrean/Hoverboard/wiki/4.-Front-End-Testing) • [Back End Testing](https://github.com/lmcrean/Hoverboard/wiki/5.-Back-End-Testing)
 
