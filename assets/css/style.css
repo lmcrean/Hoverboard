@@ -707,6 +707,7 @@ float: right;
 
  #testimonials-feature-laptop-desktop-view {
   display: grid;
+  grid-gap: 1em 0em;
 }
 
  .testimonial {
@@ -723,6 +724,9 @@ float: right;
 .desktop-column-1
   {
   grid-column: 1 / 2;
+  text-align: right;
+  font-size: 1.2em;
+  padding: 0.8em;
   }
 
 .desktop-column-2
@@ -738,6 +742,9 @@ grid-column: 3 / 4;
 .desktop-column-4
 {
 grid-column: 4 / 5 ;
+text-align: left;
+font-size: 1.2em;
+padding: 0.8em;
   }
 
   .desktop-row-1 {
@@ -755,7 +762,20 @@ grid-column: 4 / 5 ;
   .desktop-row-4 {
     grid-row: 4 / 5;
   }
+  
+  #testimonials-feature-laptop-desktop-view img {
+    height: 25.6em;
+    border-radius: 1em;
+    margin: 0px auto;
+  }
 
+  #testimonials-feature-laptop-desktop-view .testimonial-name{
+    margin-top:26em;
+  }
+
+  #testimonials-feature-laptop-desktop-view .testimonial-title{
+    margin-top:27em;
+  }
 }
 
 
