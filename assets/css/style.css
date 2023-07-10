@@ -1090,5 +1090,12 @@ form input {
 
   button[type="submit"] {
     grid-column-start: 1;
+    grid-column-start: 1;
+    width: 20%;
+    height: 20%;
+    font-size: 2.2vh;
+    font-family: 'glacial indifference';
+    margin: 0em auto;
+}
   }
 }
