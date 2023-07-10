@@ -1039,7 +1039,8 @@ button[type="submit"] {
   border: none;
   border-radius: 0.5em;
   cursor: pointer;
-  transition: 0.5s; /*Trasition Added*/
+  transition: 0.5s;
+  margin: 1em;
 }
 
 button[type="submit"]:hover {
@@ -1077,7 +1078,7 @@ form input {
 
 }
 
-@media  screen and (min-width:1728px) {
+@media  screen and (min-width:1208px) {
   #booktrial-form {
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -1091,11 +1092,11 @@ form input {
   button[type="submit"] {
     grid-column-start: 1;
     grid-column-start: 1;
-    width: 20%;
-    height: 20%;
+    margin: 0em auto;
+    width: 6em;
+    height: 2em;
     font-size: 2.2vh;
     font-family: 'glacial indifference';
-    margin: 0em auto;
 }
   }
 }
