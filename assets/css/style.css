@@ -767,15 +767,17 @@ padding: 0.8em;
   #testimonials-feature-laptop-desktop-view img {
     height: 25.6em;
     border-radius: 1em;
-    margin: 0px auto;
+    margin: auto auto;
   }
 
   #testimonials-feature-laptop-desktop-view .testimonial-name{
-    margin-top:26em;
+    margin-top: 24em;
+    font-weight: bold;
   }
 
   #testimonials-feature-laptop-desktop-view .testimonial-title{
-    margin-top:27em;
+    margin-top: 25em;
+    font-style: italic;
   }
 }
 
