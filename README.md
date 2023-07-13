@@ -1,6 +1,7 @@
 # Responsive Front-End Design for Virtual Classroom Product 
 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![GitHub issues by-label](https://img.shields.io/github/issues/lmcrean/Hoverboard/css?logo=css3&logoColor=Blue&label=CSS3%20&labelColor=Blue&color=Blue&link=https%3A%2F%2Fgithub.com%2Flmcrean%2FHoverboard%2Flabels%2F0%2520High%2520Priority)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/lmcrean/Hoverboard?color=green)
 ![GitHub issues by-label](https://img.shields.io/github/issues/lmcrean/Hoverboard/0%20High%20Priority?label=High%20priority%20&labelColor=Red&color=red&link=https%3A%2F%2Fgithub.com%2Flmcrean%2FHoverboard%2Flabels%2F0%2520High%2520Priority)
 
 [<img width="15" src="https://cdn-icons-png.flaticon.com/512/4387/4387430.png"> Live page](https://lmcrean.github.io/Hoverboard/) • [Full Documentation](https://github.com/lmcrean/Hoverboard/wiki) • [Design Testing via Figma Wireframe](https://github.com/lmcrean/Hoverboard/wiki/3.-Design-Testing-via-Figma-wireframe) • [Front End Testing](https://github.com/lmcrean/Hoverboard/wiki/4.-Front-End-Testing) • [Back End Testing](https://github.com/lmcrean/Hoverboard/wiki/5.-Back-End-Testing)
