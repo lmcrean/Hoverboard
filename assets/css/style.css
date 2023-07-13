@@ -399,11 +399,17 @@ footer {
   object-fit: cover;
   display: inline;
   border-radius: 1em;
-  margin-top: -6em;
+  margin-top: -22%;
   }
-}
 
-
+.hero-image-desktop-container wide img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: inline;
+  border-radius: 1em;
+  margin-top: -9%;
+  }
 
 .hero-heading {
   z-index: 1;
