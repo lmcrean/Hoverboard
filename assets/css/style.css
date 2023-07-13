@@ -727,7 +727,7 @@ float: right;
   grid-column: 1 / 2;
   text-align: right;
   font-size: 1.2em;
-  padding: 0.8em;
+  padding: 0.4em;
   }
 
 .desktop-column-2
@@ -745,7 +745,7 @@ grid-column: 3 / 4;
 grid-column: 4 / 5 ;
 text-align: left;
 font-size: 1.2em;
-padding: 0.8em;
+padding: 0.4em;
   }
 
   .desktop-row-1 {
@@ -782,10 +782,31 @@ padding: 0.8em;
 }
 
 
-/* in desktop view, the padding increases */
+/* testimonials, desktop view */
+@media screen and (min-width: 1728px) {
 
+#testimonials-feature-laptop-desktop-view img {
+  height: 30.6em;
+  border-radius: 1em;
+  margin: auto auto;
+}
 
+.desktop-column-1
+  {
+  grid-column: 1 / 2;
+  text-align: right;
+  font-size: 1.2em;
+  padding: 0.8em;
+  }
 
+.desktop-column-4
+  {
+  grid-column: 4 / 5 ;
+  text-align: left;
+  font-size: 1.2em;
+  padding: 0.8em;
+    }  
+}
 
 /*Book trial link*/
 
