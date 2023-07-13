@@ -903,9 +903,33 @@ padding: 0.8em;
     flex-direction: row-reverse;
   }
 
+  .img-text-wrapper, .img-text-wrapper-reverse {
+    padding-inline: 12%;
+  }
+
+  .img-text-wrapper img, .img-text-wrapper-reverse img {
+  width: 35%;
+  height: auto;
+}
+
   .img-text-wrapper p, .img-text-wrapper-reverse p{
     align-items: center;
     display: flex;
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .img-text-wrapper, .img-text-wrapper-reverse {
+    padding-inline: 54px;
+    margin-inline: 20%;
+  }
+
+  .img-text-wrapper p, .img-text-wrapper-reverse p{
+    align-items: center;
+    display: flex;
+    font-size: 27px;
+    margin: 80px 0px;
   }
 }
 
