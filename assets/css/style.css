@@ -1007,12 +1007,12 @@ Elements: */
 
 #booktrial-landing h1 {
   display: inline;
-  font-size: 5.2vw;
+  font-size: 72px;
   text-align: center;
   color: white;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
 #booktrial-landing h1 {
     font-size: 3em;
   }
@@ -1044,34 +1044,6 @@ Elements: */
   margin-top: -3em;
 }
 
-@media only screen and (min-width: 1200px) {
-  #booktrial-landing {
-    flex-direction: row;
-  }
-
-  #booktrial-landing {
-    color: white; 
-    background-color: orange;
-    border-color: orangered;
-    border-width: 0em 5em;
-    margin-left: 4%;
-    padding: 3em 1em 3em;
-    border-radius: 12px;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    width: 90%;
-  } 
-
-  .heading-container {
-    font-size: 1.3vh;
-    padding: 0px;
-    margin: 0px;
-  }
-
-}
-
 #booktrial-landing img {
   display: flex;
   justify-content: center;
@@ -1079,6 +1051,52 @@ Elements: */
   
   width:46%;
   height: auto;
+}
+
+/*laptop view, landing switches to grid display*/
+
+@media only screen and (min-width: 1208px) {
+  #booktrial-landing {
+    display: grid;
+    grid-auto-columns: 3fr 1fr;
+    grid-auto-rows: 3fr 1fr;
+  }
+
+#booktrial-landing .heading-container {
+  grid-area: 1/1/2/3;
+
+
+  color: white; 
+  background-color: orange;
+  border-color: orangered;
+  font-size: 1.3vh;
+  padding: 0px;
+  margin: 0px;
+
+
+  border-width: 0em 5em;
+  margin-left: 4%;
+  padding: 3em 1em 3em;
+  border-radius: 12px;
+  width: 90%;
+}
+
+#booktrial-landing .img-container {
+  grid-area: 1/2/3/3;
+  margin: 0px 0px;
+  justify-content: left;
+}
+
+#booktrial-landing .img {
+  object-fit:fill;
+  height:fit-content;
+  margin:0px;
+  padding:0px;
+  width: 300px;
+}
+
+
+
 }
 
 /*BOOK TRIAL FORM*/
