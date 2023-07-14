@@ -1,10 +1,18 @@
-# Responsive Front-End Design for Virtual Classroom Product 
+# Responsive Front-End Design for Virtual Classroom Product
 
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![GitHub issues by-label](https://img.shields.io/github/issues/lmcrean/Hoverboard/css?logo=css3&logoColor=Blue&label=CSS3%20&labelColor=Blue&color=Blue&link=https%3A%2F%2Fgithub.com%2Flmcrean%2FHoverboard%2Flabels%2F0%2520High%2520Priority)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/lmcrean/Hoverboard?color=green)
-![GitHub issues by-label](https://img.shields.io/github/issues/lmcrean/Hoverboard/0%20High%20Priority?label=High%20priority%20&labelColor=Red&color=red&link=https%3A%2F%2Fgithub.com%2Flmcrean%2FHoverboard%2Flabels%2F0%2520High%2520Priority)
+### [<img width="15" src="https://cdn-icons-png.flaticon.com/512/4387/4387430.png"> Live page](https://lmcrean.github.io/Hoverboard/) • [Research](https://github.com/lmcrean/Hoverboard/wiki/1.-Research) • [User Experience Testing](https://github.com/lmcrean/Hoverboard/wiki/2.-User-Experience-Testing) • [Design Testing](https://github.com/lmcrean/Hoverboard/wiki/3.-Design-Testing) • [Front End Testing](https://github.com/lmcrean/Hoverboard/wiki/4.-Front-End-Testing) • [Back End Testing](https://github.com/lmcrean/Hoverboard/wiki/5.-Back-End-Testing)
 
-[<img width="15" src="https://cdn-icons-png.flaticon.com/512/4387/4387430.png"> Live page](https://lmcrean.github.io/Hoverboard/) • [Full Documentation](https://github.com/lmcrean/Hoverboard/wiki) • [Design Testing via Figma Wireframe](https://github.com/lmcrean/Hoverboard/wiki/3.-Design-Testing-via-Figma-wireframe) • [Front End Testing](https://github.com/lmcrean/Hoverboard/wiki/4.-Front-End-Testing) • [Back End Testing](https://github.com/lmcrean/Hoverboard/wiki/5.-Back-End-Testing)
+
+[![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/lmcrean/Hoverboard?color=green)](https://github.com/lmcrean/Hoverboard/commits/main) 
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/lmcrean/Hoverboard?color=green)](https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aclosed) 
+[![GitHub issues](https://img.shields.io/github/issues/lmcrean/Hoverboard?label=%20
+)](https://github.com/lmcrean/Hoverboard/issues) 
+[![HTML](https://img.shields.io/github/issues/lmcrean/Hoverboard/html?logo=html5&logoColor=white&label=HTML&color=yellow)](https://github.com/lmcrean/Hoverboard/labels/html)
+[![CSSl](https://img.shields.io/github/issues/lmcrean/Hoverboard/css?logo=css3&label=CSS&color=yellow)](https://github.com/lmcrean/Hoverboard/labels/css) 
+[![High priority](https://img.shields.io/github/issues/lmcrean/Hoverboard/0%20High%20Priority?label=High%20priority%20&labelColor=Red&color=red)](https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aopen+label%3A%220+High+Priority%22) 
+
+
+
 
 
 
