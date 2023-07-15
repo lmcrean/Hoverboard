@@ -460,6 +460,22 @@ margin: auto;
   }
 }
 
+@media (min-width: 1208px) {
+  .hero-heading {
+  top: 4em;
+  }
+
+  .hero-heading h1 {
+    font-size: 122px;
+}
+}
+
+@media (min-width: 1728px) {
+  .hero-heading {
+  top: 2em;
+  }
+}
+
 /*MISSION INTRO*/
 
 #mission-intro img {
