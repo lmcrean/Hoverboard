@@ -4,13 +4,6 @@
 @import url('https://fonts.cdnfonts.com/css/peace-sans');
 
 @font-face {
-  font-family: 'Peace Sans';
-  src: local('/assets/fonts/peace_sans.woff2') format('woff2');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'Glacial Indifference';
   src: url('/assets/fonts/GlacialIndifference-Regular.otf') format('opentype');
   font-weight: normal;
@@ -84,7 +77,7 @@ body {
 h1,h2,h3,h4 {
   display: inline;
   font-family: 'Peace Sans', sans-serif;
-  font-weight: 300px;
+  font-weight: 300;
   text-align: center;
 }
 
@@ -481,7 +474,6 @@ margin: auto;
 #mission-intro img {
   width: 80%;
   max-height: 500px;
-  max-width: auto;
   object-fit: contain;
 }
 
@@ -492,7 +484,6 @@ margin: auto;
   }
 
   #mission-image {
-  max-width: auto;
   object-fit: contain;
   grid-column: 1 / 2;
   grid-row: 1 / 4;
@@ -567,14 +558,14 @@ float: right;
 
   #features-link img {
   max-height: 500px; 
-  max-width: auto;}
+  }
 
 }
 
 @media (min-width: 768px) {
   #features-link img {
   max-height: 500px; 
-  max-width: auto;}
+  }
 }
 
 @media (min-width: 1368px) {
