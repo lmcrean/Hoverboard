@@ -1,14 +1,22 @@
 /*CSS STYLESHEET*/
 /*IMPORTS*/
-@import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
-@import url('https://fonts.cdnfonts.com/css/peace-sans');
 
 @font-face {
-  font-family: 'Glacial Indifference';
-  src: url('/assets/fonts/GlacialIndifference-Regular.otf') format('opentype');
-  font-weight: normal;
+  font-family: 'glacialindifference';
   font-style: normal;
+  font-weight: 400;
+  src: local('Glacial Indifference'),
+       url(https://fonts.cdnfonts.com/s/31913/GlacialIndifference-Regular.woff) format('woff');
 }
+
+
+@font-face {
+  font-family: 'PeaceSans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Peace Sans'), url('https://fonts.cdnfonts.com/s/16323/peace_sans.woff') format('woff');
+}
+
 
 /* VIEWPORT SHOW/HIDE SWITCHES */
 /* For responsive design, some elements will disappear at certain viewport breakpoints and "switch" to another element. Note that CSS is mobile-first.*/
@@ -627,7 +635,7 @@ float: right;
 @media screen and (max-width: 768px) {
   .testimonial {
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
   }
   .testimonial-text{
     margin-top: 1em;
