@@ -6,7 +6,7 @@
   font-style: normal;
   font-weight: 400;
   src: local('Glacial Indifference'),
-       url(https://fonts.cdnfonts.com/s/31913/GlacialIndifference-Regular.woff) format('woff');
+       url('https://fonts.cdnfonts.com/s/31913/GlacialIndifference-Regular.woff') format('woff');
 }
 
 
