@@ -919,7 +919,16 @@ padding: 0.4em;
 }
   
 /*Description of 3 FEATURES*/
+@media screen and (max-width: 850px) {
+  .img-text-wrapper-reverse, 
+    .img-text-wrapper, {
+    width: 90%
+  }
 
+.img-text-wrapper img, .img-text-wrapper-reverse img  {
+  max-width: 90%;
+}
+}
 @media screen and (min-width: 850px) {
   .img-text-wrapper {
     display: flex;
