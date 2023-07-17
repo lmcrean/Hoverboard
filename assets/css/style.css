@@ -241,7 +241,7 @@ main {
 }
 
 .move-down {
-  margin-top: 88px;
+  margin-top: 88px !important;
 }
 
 .navbar.menuOpen i {

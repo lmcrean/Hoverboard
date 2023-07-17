@@ -17,7 +17,7 @@
   <title>Hoverboard</title>
 </head>
 
-<body id="home-page">
+<body id="features-page">
   <header>
     <nav>
       <div class="navbar" id="mynavbar">
@@ -36,12 +36,7 @@
 
     </div>
     </nav>
-    <script> /*Script for Menu open */
-      function myFunction() {
-        document.getElementById("mynavbar").classList.toggle("menuOpen");
-        document.querySelector("main").classList.toggle("move-down");
-      }
-  </script>
+
   </header>
   <br>
 
@@ -289,17 +284,6 @@
           moreText.style.display = "inline";
         }
       }
-
-function resetTimer() {
-  clearTimeout(timer);
-  showSlides();
-}
-
-// Run the function initially
-showSlides();
-
-// Add event listener for screen resize
-window.addEventListener('resize', resetTimer);
 </script>
 </div>
 </section>
@@ -393,19 +377,6 @@ window.addEventListener('resize', resetTimer);
 </section>
 </main>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
   <footer>
 
     <div class="footer-small-print">
@@ -436,4 +407,9 @@ window.addEventListener('resize', resetTimer);
 
   </footer>
 </body>
-
+<script> /*Script for Menu open */
+  function myFunction() {
+    document.getElementById("mynavbar").classList.toggle("menuOpen");
+    document.querySelector("main").classList.toggle("move-down");
+  }
+</script>
