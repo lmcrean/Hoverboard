@@ -485,11 +485,21 @@ margin: auto;
 
 /*MISSION INTRO*/
 
-#mission-intro img {
-  width: 80%;
-  max-height: 500px;
-  object-fit: contain;
+#mission-intro h1 {
+  font-size: clamp(1rem, 0.3467rem + 3.7333vw, 4.5rem);
 }
+
+.responsive-1to2-columns {
+  display: flex;
+}
+
+#mission-image {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+}
+
+
 
 @media (min-width: 768px) {
   .responsive-1to2-columns {
@@ -501,8 +511,8 @@ margin: auto;
   object-fit: contain;
   grid-column: 1 / 2;
   grid-row: 1 / 4;
-  max-height: 500px; 
-  width: 80%;
+  max-height: auto; 
+  max-width: 100%;
 margin-left: 10%;
 margin-right: 10%;
 float: right;
@@ -513,6 +523,7 @@ float: right;
     grid-column: 2 / 3;
   }
 }
+
 /*HOME PAGE FEATURES INTRO*/
 /*Code is almost identical to Features Page Landing Section - there are overlapping classes - GO TO FEATURES PAGE Landing SECTION*/
 /*from 1208px, #features-intro-homepage swtiches to .features-wrapper-nested, the feature nests into the #mission-intro (see above)*/
@@ -534,6 +545,7 @@ float: right;
   grid-row: 2 / 3;
   background-color: white;
   color: black;
+  z-index: -1;
 }
 
 #features-wrapper-nested h1 {
