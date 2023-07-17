@@ -226,7 +226,7 @@ a.tab-active {
   list-style: none;
 }
 
-@media screen and (max-width: 744px) {
+@media screen and (max-width: 769px) {
   .menu-items {
     display: none;
   }
@@ -255,7 +255,7 @@ main {
 }
 
 
-@media screen and (min-width: 743.99px) {
+@media screen and (min-width: 768.99px) {
   .menu-items a {
     display: flex;
     justify-content: space-between;
