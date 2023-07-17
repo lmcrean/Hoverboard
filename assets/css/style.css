@@ -29,7 +29,7 @@
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .hide-in-tablet-laptop-and-desktop
   {
     display: none !important;
@@ -42,7 +42,7 @@
     }
   }
 
-@media screen and (min-width: 1208px) {
+@media screen and (min-width: 1209px) {
   .hide-in-laptop-and-desktop {
     display: none !important;
   }
@@ -52,7 +52,7 @@
   }
   }
 
-@media screen and (max-width: 1728px) {
+@media screen and (max-width: 1727.99px) {
     .hide-in-mobile-and-tablet-and-laptop {
       display: none !important;
     }
