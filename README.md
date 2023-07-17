@@ -1,6 +1,12 @@
 # Responsive Front-End Design for Virtual Classroom Product
 
-### [<img width="15" src="https://cdn-icons-png.flaticon.com/512/4387/4387430.png"> Live page](https://lmcrean.github.io/Hoverboard/) • [Research](https://github.com/lmcrean/Hoverboard/wiki/1.-Research) • [User Experience Testing](https://github.com/lmcrean/Hoverboard/wiki/2.-User-Experience-Testing) • [Design Testing](https://github.com/lmcrean/Hoverboard/wiki/3.-Design-Testing) • [Front End Testing](https://github.com/lmcrean/Hoverboard/wiki/4.-Front-End-Testing) • [Back End Testing](https://github.com/lmcrean/Hoverboard/wiki/5.-Back-End-Testing)
+[<img alt="Live page Badge" src="https://img.shields.io/badge/live_page-purple?logo=googlechrome&logoColor=white">](https://lmcrean.github.io/Hoverboard/) 
+[<img alt="Full Documentation Research Badge" src="https://img.shields.io/badge/research-purple?logo=mdBook">](https://github.com/lmcrean/Hoverboard/wiki/1.-Research)
+[<img alt="User Experience Testing Badge" src="https://img.shields.io/badge/User_Experience_Testing-8e44ad?logo=mdBook">](https://github.com/lmcrean/Hoverboard/wiki/2.-User-Experience-Testing)
+[<img alt="Design Testing Badge" src="https://img.shields.io/badge/Design_Testing-9b59b6?logo=mdBook">](https://github.com/lmcrean/Hoverboard/wiki/3.-Design-Testing)
+[<img alt="Front-end Testing Badge" src="https://img.shields.io/badge/Front_End_Testing-2980b9?logo=mdBook">](https://github.com/lmcrean/Hoverboard/wiki/4.-Front-End-Testing)
+[<img alt="Back-end Testing Badge" src="https://img.shields.io/badge/Back_End_Testing-3498db?logo=mdBook">](https://github.com/lmcrean/Hoverboard/wiki/5.-Back-End-Testing)
+
 
 
 [![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/lmcrean/Hoverboard?color=green)](https://github.com/lmcrean/Hoverboard/commits/main) 
