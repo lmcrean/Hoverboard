@@ -461,7 +461,7 @@ margin: auto;
       border-radius: 0.3em;
       height: auto;
   }
-
+}
   .hero-heading h1 {
     font-size: 72px;
     text-align: center;
@@ -485,12 +485,17 @@ margin: auto;
 
 /*MISSION INTRO*/
 
+#mission-intro {
+  margin-top: 150px;
+}
+
 #mission-intro h1 {
-  font-size: clamp(1rem, 0.3467rem + 3.7333vw, 4.5rem);
+  font-size: clamp(2.5rem, 2.1267rem + 2.1333vw, 4.5rem);
 }
 
 .responsive-1to2-columns {
   display: flex;
+  margin-top: 50px;
 }
 
 #mission-image {
@@ -504,6 +509,7 @@ margin: auto;
 @media (min-width: 768px) {
   .responsive-1to2-columns {
     display: grid;
+    margin-top: 70px;
     grid-template-columns:  1fr 1fr;
   }
 
@@ -529,6 +535,7 @@ float: right;
 /*from 1208px, #features-intro-homepage swtiches to .features-wrapper-nested, the feature nests into the #mission-intro (see above)*/
 
 #features-intro-homepage, #features-wrapper-nested {
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -603,9 +610,19 @@ float: right;
 
 
 /*HOME PAGE TESTIMONIAL FEATURE*/
+#testimonials-feature, #testimonials-feature-laptop-desktop-view {
+  margin-top: 100px
+}
 
-#testimonials-feature * {box-sizing: border-box;}
-.testimonial {display: none;}
+
+#testimonials-feature * {
+  box-sizing: border-box;
+}
+
+.testimonial {
+  display: none;
+}
+
 #testimonials-feature img {vertical-align: middle;}
 
 /* Slideshow container */
@@ -641,6 +658,7 @@ float: right;
 
 #testimonials-feature-laptop-desktop-view {
   display: none;
+  
 }
 
 /*readmore button*/
@@ -1225,4 +1243,4 @@ form input {
     font-size: 2.2vh;
     font-family: 'glacial indifference';
 }
-  }}
+  }
