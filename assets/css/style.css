@@ -137,7 +137,11 @@ p {
   cursor: pointer;
 }
 
+/*Utilities*/
 
+.display-grid {
+  display:grid;
+}
 
 
 /*NAVBAR FEATURE
@@ -526,6 +530,16 @@ margin: auto;
   height: auto;
 }
 
+#bg-squiggle-spring {
+  margin: auto;
+  max-width: 100%;
+  z-index: -4;
+  position: absolute;
+  top: 1000px;
+  left:30%
+  overflow:hidden;
+}
+
 
 
 
@@ -536,6 +550,11 @@ margin: auto;
     margin-top: 70px;
     grid-template-columns:  50% 50%;
   }
+
+  #bg-squiggle-spring {
+    top: 500px;
+  }
+  
 
   #mission-image {
   object-fit: contain;
@@ -564,6 +583,10 @@ margin: auto;
     max-width: 90%;
   }
   
+
+  #bg-squiggle-spring {
+    top: 700px;
+  }
     #mission-intro p {
       grid-row: 1 / 4;
       grid-column: 2 / 3;
@@ -572,6 +595,13 @@ margin: auto;
       margin: auto;
     }
 
+}
+
+@media (min-width: 1728px) {
+  #bg-squiggle-spring {
+    top: 350px;
+    left: 32%
+  }
 }
 
 /*HOME PAGE FEATURES INTRO*/
