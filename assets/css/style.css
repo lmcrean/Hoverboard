@@ -531,15 +531,22 @@ margin: auto;
 }
 
 #bg-squiggle-spring {
+  object-fit: contain;
   margin: auto;
   max-width: 100%;
-  z-index: -4;
+  z-index: -3;
   position: absolute;
   top: 1000px;
-  left:30%
+  left:30%;
   overflow:hidden;
 }
 
+#bg-squiggle-flash {
+  top:1900px;
+  object-fit: contain;
+  margin: auto;
+  max-width: 100%;
+}
 
 
 
@@ -553,6 +560,10 @@ margin: auto;
 
   #bg-squiggle-spring {
     top: 500px;
+  }
+
+  #bg-squiggle-flash {
+    top:1600px;
   }
   
 
@@ -569,7 +580,6 @@ margin: auto;
     grid-column: 1 / 3;
     text-align:left;
     align-content: center;
-    font-size: ;
     margin: auto;
   }
 }
@@ -586,6 +596,17 @@ margin: auto;
 
   #bg-squiggle-spring {
     top: 700px;
+
+  }
+
+  #bg-squiggle-flash {
+    display: none;
+    position:fixed;
+    grid-area:1/3/3/3;
+    left:900px;
+    top: 1300px;
+    width:30%;
+
   }
     #mission-intro p {
       grid-row: 1 / 4;
