@@ -716,6 +716,7 @@ margin: auto;
 
 
 /*HOME PAGE TESTIMONIAL FEATURE*/
+
 #testimonials-feature, #testimonials-feature-laptop-desktop-view {
   margin-top: 100px
 }
@@ -723,6 +724,16 @@ margin: auto;
 
 #testimonials-feature * {
   box-sizing: border-box;
+}
+
+#testimonials-mobile-container {
+  margin-top: 50px;
+}
+
+.testimonials-intro {
+  grid-area:1/1/2/5;
+  font-size: clamp(2.5rem, 2.1267rem + 2.1333vw, 4.5rem);
+  margin-bottom: 100px;
 }
 
 .testimonial {
@@ -827,9 +838,17 @@ margin: auto;
 }
 
 }
+
+/*VIEWPORT SWITCH*/
 /* in laptop view, remove carousel dots and animations, the images are displayed on a 4x4 view */
 
 @media screen and (min-width: 1208px) {
+
+  #desktop-logo-inline{
+    height: 200px;
+    margin-top: 50px;
+    position: relative;
+  }
 
   .carouselDot {
       display: none;
