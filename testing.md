@@ -1,3 +1,36 @@
+Table of Contents:
+- [Client Premise:](#client-premise)
+- [Client Experience of the website and objective:](#client-experience-of-the-website-and-objective)
+- [User Stories](#user-stories)
+- [Design Testing  ](#design-testing--)
+  - [Figma Changelog](#figma-changelog)
+- [Testing Criteria](#testing-criteria)
+  - [Browser Testing ](#browser-testing-)
+  - [Mobile View](#mobile-view)
+  - [Tablet View](#tablet-view)
+  - [Laptop View](#laptop-view)
+  - [Desktop View](#desktop-view)
+  - [Home page   ](#home-page---)
+  - [Features Page   ](#features-page---)
+  - [Sign Up Page   ](#sign-up-page---)
+  - [Early Testing with Navbar and Footer ](#early-testing-with-navbar-and-footer-)
+    - [Navbar](#navbar)
+    - [Footer](#footer)
+- [Back End Testing](#back-end-testing)
+- [HTML Hyperlinks test](#html-hyperlinks-test)
+  - [HTML form test](#html-form-test)
+- [Lighthouse Testing](#lighthouse-testing)
+  - [Home page](#home-page)
+  - [Features page](#features-page)
+  - [Sign Up page](#sign-up-page)
+- [Validator Testing](#validator-testing)
+  - [Links: W3C Validator for index.html, features.html, booktrial.html, style.css](#links-w3c-validator-for-indexhtml-featureshtml-booktrialhtml-stylecss)
+  - [W3C HTML Validator](#w3c-html-validator)
+    - [W3C HTML Validator for index.html](#w3c-html-validator-for-indexhtml)
+    - [W3 HTML Validator for features.html and booktrial.html](#w3-html-validator-for-featureshtml-and-booktrialhtml)
+  - [W3 CSS Jigsaw Validator](#w3-css-jigsaw-validator)
+
+
 ## Initial Research
 ### SeeSaw Platform
 <img width="941" alt="image" src="https://github.com/lmcrean/VirtualClassroomMockup/assets/133490867/4d4a36f0-7c02-43b0-947a-383b1d64a6c8" caption="Copyright SeeSaw 2023">

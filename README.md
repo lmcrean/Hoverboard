@@ -1,21 +1,7 @@
-# Responsive Front-End Design for Virtual Classroom Product
+# Responsive Front-End Design for Virtual Classroom Product <!-- omit in toc -->
 
-[<img alt="Live page Badge" src="https://img.shields.io/badge/live_page-purple?logo=googlechrome&logoColor=white">](https://lmcrean.github.io/Hoverboard/) 
-[<img alt="Full Documentation Research Badge" src="https://img.shields.io/badge/research-purple?logo=mdBook">](https://github.com/lmcrean/Hoverboard/wiki/1.-Research)
-[<img alt="User Experience Testing Badge" src="https://img.shields.io/badge/User_Experience_Testing-8e44ad?logo=mdBook">](https://github.com/lmcrean/Hoverboard/wiki/2.-User-Experience-Testing)
-[<img alt="Design Testing Badge" src="https://img.shields.io/badge/Design_Testing-9b59b6?logo=mdBook">](https://github.com/lmcrean/Hoverboard/wiki/3.-Design-Testing)
-[<img alt="Front-end Testing Badge" src="https://img.shields.io/badge/Front_End_Testing-2980b9?logo=mdBook">](https://github.com/lmcrean/Hoverboard/wiki/4.-Front-End-Testing)
-[<img alt="Back-end Testing Badge" src="https://img.shields.io/badge/Back_End_Testing-3498db?logo=mdBook">](https://github.com/lmcrean/Hoverboard/wiki/5.-Back-End-Testing)
-
-
-
-[![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/lmcrean/Hoverboard?color=green)](https://github.com/lmcrean/Hoverboard/commits/main) 
-[![GitHub closed issues](https://img.shields.io/github/issues-closed/lmcrean/Hoverboard?color=green)](https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aclosed) 
-[![GitHub issues](https://img.shields.io/github/issues/lmcrean/Hoverboard?label=%20
-)](https://github.com/lmcrean/Hoverboard/issues) 
-[![HTML](https://img.shields.io/github/issues/lmcrean/Hoverboard/html?logo=html5&logoColor=white&label=HTML&color=yellow)](https://github.com/lmcrean/Hoverboard/labels/html)
-[![CSSl](https://img.shields.io/github/issues/lmcrean/Hoverboard/css?logo=css3&label=CSS&color=yellow)](https://github.com/lmcrean/Hoverboard/labels/css) 
-[![High priority](https://img.shields.io/github/issues/lmcrean/Hoverboard/0%20High%20Priority?label=High%20priority%20&labelColor=Red&color=red)](https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aopen+label%3A%220+High+Priority%22) 
+[<img alt="Live page Badge" src="https://img.shields.io/badge/live_page-purple?logo=googlechrome&logoColor=white">](https://lmcrean.github.io/Hoverboard/) [<img alt="Full Documentation Research Badge" src="https://img.shields.io/badge/Testing-purple?logo=mdBook">](https://github.com/lmcrean/Hoverboard/blob/main/testing.md) [![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/lmcrean/Hoverboard?color=green)](https://github.com/lmcrean/Hoverboard/commits/main) [![GitHub closed issues](https://img.shields.io/github/issues-closed/lmcrean/Hoverboard?color=green)](https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aclosed) [![GitHub issues](https://img.shields.io/github/issues/lmcrean/Hoverboard?label=%20
+)](https://github.com/lmcrean/Hoverboard/issues) [![HTML](https://img.shields.io/github/issues/lmcrean/Hoverboard/html?logo=html5&logoColor=white&label=HTML&color=yellow)](https://github.com/lmcrean/Hoverboard/labels/html) [![CSSl](https://img.shields.io/github/issues/lmcrean/Hoverboard/css?logo=css3&label=CSS&color=yellow)](https://github.com/lmcrean/Hoverboard/labels/css) [![High priority](https://img.shields.io/github/issues/lmcrean/Hoverboard/0%20High%20Priority?label=High%20priority%20&labelColor=Red&color=red)](https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aopen+label%3A%220+High+Priority%22) 
 
 
 
@@ -28,6 +14,27 @@
 I designed a responsive product introduction for a Virtual Learning Environment. The key focus for the project was responsive CSS, using flex and grid displays to allow the website to be viewed comfortably on different devices. The design utilised consistent font pairings, border-styles, padding and color themes to reinforce the visual branding of the product.
 
 This readme aims to summarise the full documentation of this project which can be found in the links provided below the headers.
+
+## Table of Contents <!-- omit in toc -->
+
+- [Summary of Documentation](#summary-of-documentation)
+  - [User Stories](#user-stories)
+    - [Page Structure and scope](#page-structure-and-scope)
+  - [Research](#research)
+  - [Design Testing](#design-testing)
+  - [Front End Testing](#front-end-testing)
+  - [Back End Testing](#back-end-testing)
+    - [HTML Testing](#html-testing)
+    - [Lighthouse Testing](#lighthouse-testing)
+    - [Validator Testing](#validator-testing)
+    - [Fixed bugs](#fixed-bugs)
+    - [Unfixed Bugs](#unfixed-bugs)
+  - [Deployment](#deployment)
+  - [Code snippet credits](#code-snippet-credits)
+  - [Contributor credits](#contributor-credits)
+  - [Open Source media credits](#open-source-media-credits)
+  - [Future features to include](#future-features-to-include)
+
 
 # Summary of Documentation
 
@@ -48,7 +55,7 @@ New User:
 ### Page Structure and scope
 The focus of this website is new users of the website and three pages were designed to meet their needs.
 
-#### Home Page:
+#### Home Page: <!-- omit in toc -->
 
 - Landing video with slogan, *visualises the experience*
 - Hoverboard's Mission, *introduces the product persuasively in the context of VLE's - why we're different*
@@ -56,14 +63,14 @@ The focus of this website is new users of the website and three pages were desig
 - Find out about our Features, *directs to page*
 - Why you should claim your Free Trial, *directs to page*
 
-#### Hoverboard Features:
+#### Hoverboard Features: <!-- omit in toc -->
 
 - Gallery Views, *visualises easy navigation of classwork on a browser*
 - Peer Feedback, *visualises student chat function in action*
 - Deep Assessment, *visualises chatbot in action*
 - Why you should claim your Free Trial, *directs to page*
 
-#### Book your Free Trial:
+#### Book your Free Trial: <!-- omit in toc -->
 - form input, *records essential details: name, address, school.*
 - submit button, *redirects to thank you page, form method="GET"*
 
@@ -114,7 +121,7 @@ The front-end was tested in with the following criteria:
 Lighthouse testing returned these results [TODO].
 
 ### Validator Testing
-#### Links: W3C Validator for [index.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&checkerrorpages=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2F#l311c10), [features.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2Ffeatures#l311c10), [booktrial.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2Fbooktrial#l311c10), [style.css](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2F&usermedium=all&vextwarning=&warning=1)
+#### Links: W3C Validator for [index.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&checkerrorpages=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2F#l311c10), [features.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2Ffeatures#l311c10), [booktrial.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2Fbooktrial#l311c10), [style.css](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2F&usermedium=all&vextwarning=&warning=1) <!-- omit in toc -->
 
 ![image](https://github.com/lmcrean/Hoverboard/assets/133490867/a1a1e73b-ad52-4e9f-b59f-4badd89639a7)
 
