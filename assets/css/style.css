@@ -505,8 +505,15 @@ margin: auto;
 
 .responsive-1to2-columns {
   display: flex;
+  flex-direction: column;
   margin-top: 50px;
 }
+
+#mission-intro p {
+  font-size: clamp(1.125rem, 0.915rem + 1.2vw, 2.25rem);
+}
+
+
 
 #mission-image {
   object-fit: contain;
@@ -516,28 +523,50 @@ margin: auto;
 
 
 
+
+
 @media (min-width: 768px) {
   .responsive-1to2-columns {
     display: grid;
     margin-top: 70px;
-    grid-template-columns:  1fr 1fr;
+    grid-template-columns:  50% 50%;
   }
 
   #mission-image {
   object-fit: contain;
-  grid-column: 1 / 2;
+  grid-column: 1 / 3;
   grid-row: 1 / 4;
   max-height: auto; 
-  max-width: 100%;
-margin-left: 10%;
-margin-right: 10%;
-float: right;
+  max-width: 90%;
 }
 
   #mission-intro p {
-    grid-row: 1 / 2;
-    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+    grid-column: 1 / 3;
+    text-align:left;
+    align-content: center;
+    font-size: ;
+    margin: auto;
   }
+}
+
+@media (min-width: 1208px) {
+  #mission-image {
+    object-fit: contain;
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    max-height: auto; 
+    max-width: 90%;
+  }
+  
+    #mission-intro p {
+      grid-row: 1 / 4;
+      grid-column: 2 / 3;
+      text-align:left;
+      align-content: center;
+      margin: auto;
+    }
+
 }
 
 /*HOME PAGE FEATURES INTRO*/
@@ -559,15 +588,26 @@ float: right;
 
 #features-wrapper-nested {
   grid-column: 2 / 3;
-  grid-row: 2 / 3;
+  grid-row: 4 / 5;
   background-color: white;
   color: black;
   z-index: -1;
+  margin: auto;
+  margin-top: -33px;
 }
 
 #features-wrapper-nested h1 {
   color: black;
   font-size: 1.6em;
+}
+
+#features-wrapper-nested img {
+  object-fit: contain;
+  margin: auto;
+}
+
+#features-wrapper-nested p {
+  text-align: center;
 }
 
 /*HOMEPAGE FEATURES LINK*/
