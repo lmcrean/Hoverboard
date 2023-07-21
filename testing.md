@@ -161,45 +161,14 @@ The Automatic Testing set out to
 
 ### Home page
 
-<details><summary> Lighthouse Mobile Test 5th July. 
-<img width="391" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/11da47d7-67c4-41aa-b4da-0f08fa49c2a8">
-</summary>
-<img width="547" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/c8ea0ce3-d9b0-4cae-a5a0-9c0b7c92a8b6">
-
-</details>
-
-***
-
-<details><summary> Lighthouse mobile test 15th July 
+Lighthouse mobile test 15th July 
 <img width="325" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/4d00296a-68c7-4f24-bea3-8369292a0f50"> 
 
-<a href="https://github.com/lmcrean/Hoverboard/issues/53"> Hero imgs were resized:
-  <img src="https://img.shields.io/github/issues/detail/state/lmcrean/Hoverboard/53">
-</a>
-
-</summary>
-
-<img width="442" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/aea7b0e7-867c-4fbb-b262-bed4a6b7a796">
-<img width="474" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/efbe464f-4da2-4607-b5d4-142fe7c637da">
-
-> Serve images in next-gen formats
-> Image formats like WebP and AVIF often provide better compression than PNG or JPEG, which means faster downloads and less data consumption. [Learn more about modern image formats]
-(https://developer.chrome.com/docs/lighthouse/performance/uses-webp-images/?utm_source=lighthouse&utm_medium=devtools).
-
-<img width="456" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/ce1345d2-3909-4fcb-ae9d-a48622ce6919">
-<img width="464" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/465564e5-778b-4285-9453-a65e5bf3ff30">
-</details>
-
-
-
 ***
 
-<details><summary>
+
 Lighthouse Desktop Test 15th July '23 <img width="332" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/d7a9cbae-8dad-4f17-8667-3753e0d9b5e6">
 </summary>
-<img width="459" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/353c39d8-fae2-4a93-86dc-98ea5c4407a7">
-<img width="465" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/901f0d02-f4e6-4ca9-84c1-46c247ae61df">
-</details>
 
 ***
 
@@ -208,29 +177,18 @@ Lighthouse Desktop Test 15th July '23 <img width="332" alt="image" src="https://
 
 ### Features page
 
-<details><summary> Mobile View 15.Jul.23 <img width="405" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/bf182cb3-0f05-42fe-b33a-d1f31bd01114"> </summary>
-<img width="467" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/67727628-26ac-4a6d-b30c-be3db607da00">
-<img width="467" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/63c03ee2-4872-4ec0-81ad-dd763880e064">
-</details>
-
-
-<details><summary> Desktop View 15.Jul.23 <img width="408" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/2270a0ae-19a1-483f-a15b-0ac0d548e721"> </summary>
-<img width="570" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/358e8dc4-9d6b-4dd7-bfc2-6faaa0a2d99a">
-<img width="556" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/fde5a693-f075-4efb-9c65-80fb1f5ca177">
-</details>
+ Mobile View 15.Jul.23 <img width="405" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/bf182cb3-0f05-42fe-b33a-d1f31bd01114">
+ 
+Desktop View 15.Jul.23 <img width="408" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/2270a0ae-19a1-483f-a15b-0ac0d548e721">
 
 
 ### Sign Up page
 
-<details><summary>Mobile View 15.Jul.23 
-<img width="424" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/1afa9be2-07bd-4455-a4e8-b955cc0a98b6"></summary>
-<img width="582" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/f9fcc2d9-9417-4305-9bf5-09c5c1c00f1c"></details>
+Mobile View 15.Jul.23 
+<img width="424" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/1afa9be2-07bd-4455-a4e8-b955cc0a98b6">
 
-
-<details><summary>Desktop View 15.Jul.23 
-<img width="436" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/c9cd9bea-752f-4d6f-9263-43826bb2ece1"></summary>
-
-<img width="536" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/3b65e22e-e641-45fa-9e6b-c6f57a729c57"></details>
+Desktop View 15.Jul.23 
+<img width="436" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/c9cd9bea-752f-4d6f-9263-43826bb2ece1">
 
 
 ***
