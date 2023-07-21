@@ -89,7 +89,7 @@ section {
 
 h1,h2,h3,h4 {
   display: inline;
-  font-family: 'Peace Sans', sans-serif;
+  font-family: 'PeaceSans', sans-serif;
   font-weight: 300;
   text-align: center;
 }
@@ -99,7 +99,7 @@ h2 {
 }
 
 p {
-  font-family: 'Glacial Indifference', sans-serif;
+  font-family: 'glacialindifference', sans-serif;
   padding: 0em 2em;
   margin: auto;
   font-size: 1.5em;
@@ -107,7 +107,7 @@ p {
 
 .button {
   text-align: center;
-  font-family: 'Glacial indifference';
+  font-family: 'glacialindifference';
 }
 
 .button a, #myBtn {
@@ -224,7 +224,7 @@ nav {
   margin: 0.49em 0.4em 0.2em;
   padding: 0.15em 0.7em 0.27em;
   font-size: 1.5em;
-  font-family: 'Glacial Indifference', sans-serif;
+  font-family: 'glacialindifference', sans-serif;
   color:black;
   text-decoration: none;
   border-radius: 6px;
@@ -1273,7 +1273,7 @@ Elements: */
 
 
 label {
-  font-family: 'peace sans';
+  font-family: 'PeaceSans';
 }
 
 form input[type="text"],
@@ -1284,7 +1284,7 @@ form input[type="email"] {
   border: 0.15em solid black;
   border-radius: 0.7em;
   font-size: 14px;
-  font-family: 'Glacial indifference';
+  font-family: 'glacialindifference';
   text-align: center;
 }
 
