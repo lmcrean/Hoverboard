@@ -43,50 +43,23 @@ form input[type="email"] {
 --yellow: yellow;
 --lightblue: lightblue;
 --transparent-orange: rgba(255, 166, 0, 0.495);
---black-dark: black;
---black-medium: black;
---black-light: black;
+--black-dark: rgba(23, 23, 25, 0.922);
+--black-medium: rgba(23, 23, 25, 0.79);
+--black-light: rgba(23, 23, 25, 0.338);
 --grey: grey;
---lightgrey:lightgray;
+--lightgrey:lightgrey;
 --white: white;
 }
 
-/*Here I have begun grouping all the color values together from the rest of the document*/
+/*Animations & Interactions*/
 
-/* Background color classes */
-.bg-color-white { background-color: var(--white); }
-.bg-color-orange { background-color: var(--orange); }
-.bg-color-orangered { background-color: var(--orangered); }
-.bg-color-salmon { background-color: var(--salmon); }
-.bg-color-lightsalmon { background-color: var(--lightsalmon); }
-.bg-color-yellow { background-color: var(--yellow); }
-.bg-color-lightblue { background-color: var(--lightblue); }
-.bg-color-transparent-orange { background-color: var(--transparent-orange); }
-.bg-color-black-dark { background-color: var(--black-dark); }
-.bg-color-black-medium { background-color: var(--black-medium); }
-.bg-color-black-light { background-color: var(--black-light); }
-.bg-color-grey { background-color: var(--grey); }
-.bg-color-lightgrey { background-color: var(--lightgrey); }
+.button a, #myBtn, .menu-items a, button[type="submit"], .navbar.menuOpen, a {
+  transition: 0.5s; 
+}
 
-/* Color classes */
-.color-orange { color: var(--orange); }
-.color-orangered { color: var(--orangered); }
-.color-salmon { color: var(--salmon); }
-.color-lightsalmon { color: var(--lightsalmon); }
-.color-yellow { color: var(--yellow); }
-.color-lightblue { color: var(--lightblue); }
-.color-transparent-orange { color: var(--transparent-orange); }
-.color-black-dark { color: var(--black-dark); }
-.color-black-medium { color: var(--black-medium); }
-.color-black-light { color: var(--black-light); }
-.color-grey { color: var(--grey); }
-.color-lightgrey { color: var(--lightgrey); }
-
-/*border-color*/
-.button a, #myBtn {border-color: var(--yellow)}
-#myBtn {  border-color: var(--white)}
-.label-border-black {  border-color: var(--black)}
-
+main {
+  transition: margin-top 0.45s ease-in-out;
+}
 
 
 /*GENERIC STYLING*/
@@ -131,27 +104,26 @@ p {
 .button a, #myBtn {
   display: inline;
   justify-content: center;
-  border-color: yellow;
+  border-color: var(--yellow);
   border-style: solid;
   border-width: 0.2em;
   border-radius: 12em;
-  color: white;
+  color: var(--white);
   padding: 0.5em 1em;
-  transition: 0.5s; /*Transition Added*/
 }
 
 #myBtn {
-  background-color: salmon;
-  border-color: white;
+  background-color: var(--salmon);
+  border-color: var(--white);
 }
 
 #myBtn:hover {
-  background-color: rgb(193, 66, 52);
+  background-color: var(--orangered);
 }
 
 .button a:hover {
-  background-color: yellow;
-  color: black;
+  background-color: var(--yellow);
+  color: var(--black-medium);
   cursor: pointer;
 }
 
@@ -223,7 +195,7 @@ nav {
   position: fixed;
   width:100%;
   height: 57px;
-  background-color: white;
+  background-color: var(--white);
   z-index: 3;
 }
 
@@ -260,13 +232,13 @@ nav {
   position: absolute;
   top: 0;
   right: 0;
-  color: orange;
+  color: var(--orange);
   padding: 0.2em;
 }
 
 .navbar .icon #icon-close {
   display: none;
-  color: orange;
+  color: var(--orange);
   font-size: 0.8em;
   padding: 0.2em;
 }
@@ -277,7 +249,7 @@ nav {
 
 .navbar.menuOpen .icon #icon-close {
   display: flex;
-  color: orange;
+  color: var(--orange);
   font-size: 0.8em;
   padding: 0.2em;
   text-decoration: none;
@@ -299,16 +271,15 @@ nav {
   color:black;
   text-decoration: none;
   border-radius: 6px;
-  transition: 0.5s; /*Trasition Added*/
 }
 
 a.tab-active {
-  background-color: lightgray;
+  background-color: var(--lightgrey);
 }
 
 .menu-items a:hover {
-  background-color: lightsalmon;
-  color: white
+  background-color: var(--lightsalmon);
+  color: var(--white)
 }
 
 .menu-items li {
@@ -322,12 +293,8 @@ a.tab-active {
   }
 }
 .navbar.menuOpen {
-  background-color: white;
+  background-color: var(--white);
   flex-direction: column;
-}
-
-main {
-  transition: margin-top 0.45s ease-in-out;
 }
 
 .move-down {
@@ -372,7 +339,7 @@ footer {
   flex-direction: column;
   align-items: center;
   min-height: 5rem;/* height of the footer changed*/
-  background-color: lightblue;
+  background-color: var(--lightblue);
 }
 
 .footer-small-print {
@@ -393,7 +360,7 @@ footer {
 .footer-links a {
   background-color: grey;
   background-size: auto;
-  color: white;
+  color: var(--white);
   border-radius: 10%;
   padding: 0.2em;
   margin: 0.2em;
@@ -401,7 +368,7 @@ footer {
 }
 
 .footer-links a:hover {
-  background-color: black;
+  background-color: var(--black-light);
 }
 
 @media screen and (min-width: 700px) {
@@ -512,7 +479,7 @@ footer {
   margin: 0em;
   padding: 0.5em;
   background-color: rgba(255, 166, 0, 0.495);
-  color: white;
+  color: var(--white);
   font-size: 2.4em;
   text-align: center;
   border-radius: 0.3em;
@@ -545,8 +512,8 @@ margin: auto;
       right: 10%;
       margin: 0em;
       padding: 0.5em;
-      background-color: rgba(255, 166, 0, 0.495);
-      color: white;
+      background-color: var(--transparent-orange);
+      color: var(--white);
       border-radius: 0.3em;
       height: auto;
   }
@@ -715,15 +682,15 @@ margin: auto;
 #features-wrapper-nested {
   grid-column: 2 / 3;
   grid-row: 4 / 5;
-  background-color: white;
-  color: black;
+  background-color: var(--white);
+  color: var(--black-medium);
   z-index: -1;
   margin: auto;
   margin-top: -33px;
 }
 
 #features-wrapper-nested h1 {
-  color: black;
+  color: var(--black-light);
   font-size: 1.6em;
 }
 
@@ -748,8 +715,8 @@ margin: auto;
 }
 
 .background-wrapper-black {
-  background-color: black;
-  color: white;
+  background-color: var(--black-medium);
+  color: var(--white);
   width: 80%;
   border-radius: 1em;
   padding-top: 2em;
@@ -832,7 +799,7 @@ margin: auto;
 
 /* Caption text */
 .testimonial-text .testimonial-name .testimonial-title{
-  color: #f2f2f2;
+  color: var(--white);
   font-size: 15px;
   padding: 2em 12px;
   position: absolute;
@@ -1047,12 +1014,12 @@ padding: 0.4em;
 
 .booktrial-link {
   justify-content: center;
-  background-color: orange;
+  background-color: var(--orange);
   border-radius: 2em;
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  color: white;
+  color: var(--white);
 }
 
 .booktrial-link img {
@@ -1110,7 +1077,7 @@ padding: 0.4em;
   display: inline;
   font-size: 5.2vw;
   text-align: center;
-  color: white;
+  color: var(--white);
 }
 
 
@@ -1120,8 +1087,8 @@ padding: 0.4em;
 }
 
 .features-wrapper {
-  color: white; 
-  background-color: orange;
+  color: var(--white); 
+  background-color: var(--orange);
   border-width: 0em 5em;
   padding: 3em 1em 3em;
   border-radius: 12px;
@@ -1240,7 +1207,7 @@ Elements: */
   display: inline;
   font-size: 72px;
   text-align: center;
-  color: white;
+  color: var(--white);
 }
 
 @media screen and (min-width: 768px) {
@@ -1255,8 +1222,8 @@ Elements: */
 }
 
 .heading-container {
-  color: white; 
-  background-color: orange;
+  color: var(--white); 
+  background-color: var(--orange);
   border-width: 0em 5em;
   padding: 3em 1em 3em;
   border-radius: 12px;
@@ -1294,8 +1261,8 @@ Elements: */
 
 #booktrial-landing .heading-container {
   grid-area: 1/1/2/3;
-  color: white; 
-  background-color: orange;
+  color: var(--white); 
+  background-color: var(--orange);
   font-size: 1.3vh;
   padding: 0px;
   margin: 0px;
@@ -1365,15 +1332,13 @@ h2, p, form {
 }
 
 button[type="submit"] {
-  background-color: orange;
-  color: white;
+  background-color: var(--orange);
+  color: var(--white);
   padding: 10px 20px;
   border: none;
   border-radius: 0.5em;
   cursor: pointer;
-  transition: 0.5s;
   margin: 1em;
-
 }
 
 button[type="submit"]:hover {
