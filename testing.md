@@ -4,11 +4,18 @@
 )](https://github.com/lmcrean/Hoverboard/issues) [<img alt="workflow" src="https://img.shields.io/badge/Issues_workflow-grey?logo=github">](https://github.com/lmcrean/Hoverboard/blob/main/testing.md) [![HTML](https://img.shields.io/github/issues/lmcrean/Hoverboard/html?logo=html5&logoColor=white&label=HTML&color=yellow)](https://github.com/lmcrean/Hoverboard/labels/html) [![CSSl](https://img.shields.io/github/issues/lmcrean/Hoverboard/css?logo=css3&label=CSS&color=yellow)](https://github.com/lmcrean/Hoverboard/labels/css) [![Documentation](https://img.shields.io/github/issues/lmcrean/Hoverboard/documentation?logo=mdBook&label=Documentation&color=yellow)](https://github.com/lmcrean/Hoverboard/labels/css)
 
 Table of Contents:
-- [Client Premise:](#client-premise)
+- [Research](#research)
+    - [SeeSaw Platform](#seesaw-platform)
+    - [Other VLE Websites](#other-vle-websites)
+    - [Articles on Paperless Schools](#articles-on-paperless-schools)
+  - [CSS resources](#css-resources)
+- [Client Premise Testing:](#client-premise-testing)
 - [Client Experience of the website and objective:](#client-experience-of-the-website-and-objective)
 - [User Stories](#user-stories)
 - [Design Testing](#design-testing)
 - [Manual Testing](#manual-testing)
+  - [Responsiveness by Feature](#responsiveness-by-feature)
+  - [Design comparison to Figma](#design-comparison-to-figma)
   - [Browser Testing](#browser-testing)
   - [HTML Hyperlinks test](#html-hyperlinks-test)
   - [HTML form test](#html-form-test)
@@ -24,7 +31,10 @@ Table of Contents:
   - [W3 CSS Jigsaw Validator](#w3-css-jigsaw-validator)
 
 
-## Initial Research
+# Research
+
+In my initial research, I drew inspiration from websites like SeeSaw, ClassCharts and SatchelOne, which offer progressive features for virtual learning environments (VLEs). These platforms excel in terms of user-friendly design, intuitive interfaces, and effective visualization of learning materials. Additionally, articles on paperless schools highlighted the relevance that a fully developed version of this mock-up website might have.
+
 ### SeeSaw Platform
 <img width="941" alt="image" src="https://github.com/lmcrean/VirtualClassroomMockup/assets/133490867/4d4a36f0-7c02-43b0-947a-383b1d64a6c8" caption="Copyright SeeSaw 2023">
 **SeeSaw https://web.seesaw.me/
@@ -66,7 +76,7 @@ https://youtu.be/VQraviuwbzU
 
 Kevin Powell also offers useful info here about min-height, max-width, font-size: clamp(,,) as alternatives to media queries 
 
-# Client Premise:
+# Client Premise Testing:
 Dr. Emily Williams is Headmaster at Meadowbrook Academy. She is expecting an Ofsted School Inspection in the next 5 years. Although her recent inspection feedback was positive, inspectors pointed out that various problems deriving from the sheer volume of paper. The top 5 include:
 
 - it can take weeks for teachers to organise books for review by school leaders
@@ -102,7 +112,7 @@ New User:
 
 In my Figma Design I set out to
 
-- visualise a clean layout that would demonstrate mobile, tablet and desktop view. For the homepage I differentiated laptop and desktop.
+- visualise a clean layout that would demonstrate mobile, tablet and desktop view. For the homepage I also differentiated laptop and desktop.
 
 ***
 <img width="1100" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/67586ebe-34ba-4c0a-9929-57195b0a6924">
@@ -110,12 +120,11 @@ In my Figma Design I set out to
 <img width="1100" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/d534f456-7ef9-4992-a1c0-6e7e79abbfd3">
 
 
-**
+***
 
 # Manual Testing
 
-[![GitHub CSS open issues by-label](https://img.shields.io/github/issues/lmcrean/Hoverboard/css?label=CSS%20Issues&color=yellow)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Acss+is%3Aopen)
-[![GitHub CSS closed issues by-label](https://img.shields.io/github/issues-closed/lmcrean/Hoverboard/css?label=%20&color=green)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Acss+is%3Aclosed)
+[![GitHub CSS open issues by-label](https://img.shields.io/github/issues/lmcrean/Hoverboard/css?label=CSS%20Issues&color=yellow)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Acss+is%3Aopen) [![GitHub CSS closed issues by-label](https://img.shields.io/github/issues-closed/lmcrean/Hoverboard/css?label=%20&color=green)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Acss+is%3Aclosed) [![GitHub HTML open issues by-label](https://img.shields.io/github/issues/lmcrean/Hoverboard/html?label=HTML%20Issues&color=yellow)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Ahtml+is%3Aopen) [![GitHub HTML closed issues by-label](https://img.shields.io/github/issues-closed/lmcrean/Hoverboard/html?label=%20&color=green)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Ahtml+is%3Aclosed)
 
 Manual testing was executed with the following criteria:
 
@@ -124,18 +133,18 @@ Manual testing was executed with the following criteria:
 - Testing on different browsers, specifically Chrome, Firefox, Edge, Opera and Safari
 - test HTML5 Hyperlinks and Forms so that they are all working as expected, identifying potential syntax errors or with the form requirements
 
+## Responsiveness by Feature
+
+## Design comparison to Figma
+
 ## Browser Testing 
-
-
 
 ## HTML Hyperlinks test
 https://github.com/lmcrean/Hoverboard/assets/133490867/739c450a-0fd7-4da3-bf7e-5b1fb6b2b2e6
 
 15th Jul '23
 
-navbar links are working, as are article links, footer links are mostly working
-
-* instagram link worked after fixing misspelt url in html tab.
+navbar links are working, as are article links, footer links are mostly working. Instagram link worked after fixing misspelt url in html tab.
   
 ***
 ## HTML form test
@@ -150,7 +159,7 @@ The video demonstrates initially enterring the form correctly, then tests loopho
 * the directed thank page heading and button doesn't appear, lacks a UX design, img link appears broken
 
 # Automatic Testing
-[![GitHub HTML open issues by-label](https://img.shields.io/github/issues/lmcrean/Hoverboard/html?label=HTML%20Issues&color=yellow)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Ahtml+is%3Aopen) [![GitHub HTML closed issues by-label](https://img.shields.io/github/issues-closed/lmcrean/Hoverboard/html?label=%20&color=green)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Ahtml+is%3Aclosed)
+
 
 The Automatic Testing set out to 
 * use lighthouse testing to identify files that could be resized and accessibility that can be improved.
@@ -161,8 +170,7 @@ The Automatic Testing set out to
 
 ### Home page
 
-Lighthouse mobile test 15th July 
-<img width="325" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/4d00296a-68c7-4f24-bea3-8369292a0f50"> 
+Lighthouse mobile test 15th July  <img width="325" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/4d00296a-68c7-4f24-bea3-8369292a0f50"> 
 
 ***
 
@@ -202,7 +210,7 @@ Desktop View 15.Jul.23
 
 ## W3C HTML Validator
 ### W3C HTML Validator for index.html
-W3 Validator results 15th July '23
+W3 Validator results 15th July '23 
 
 <img width="701" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/aea19703-ddf3-461d-a36b-2cc2446da299">
 

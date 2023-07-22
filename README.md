@@ -1,49 +1,67 @@
-# Responsive Front-End Design for Virtual Classroom Product <!-- omit in toc -->
+f<div align="center">
+
+<img src="/assets/media/navbarlogo.png" height="100">
+
+#  Responsive Website for a Virtual Classroom Product <!-- omit in toc -->
 
 [<img alt="Live page Badge" src="https://img.shields.io/badge/live_page-purple?logo=googlechrome&logoColor=white">](https://lmcrean.github.io/Hoverboard/) [<img alt="Full Documentation Research Badge" src="https://img.shields.io/badge/Testing-purple?logo=mdBook">](https://github.com/lmcrean/Hoverboard/blob/main/testing.md) [![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/lmcrean/Hoverboard?color=green)](https://github.com/lmcrean/Hoverboard/commits/main) [![GitHub closed issues](https://img.shields.io/github/issues-closed/lmcrean/Hoverboard?color=green)](https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aclosed) [![GitHub issues](https://img.shields.io/github/issues/lmcrean/Hoverboard?label=%20
-)](https://github.com/lmcrean/Hoverboard/issues) [![HTML](https://img.shields.io/github/issues/lmcrean/Hoverboard/html?logo=html5&logoColor=white&label=HTML&color=yellow)](https://github.com/lmcrean/Hoverboard/labels/html) [![CSSl](https://img.shields.io/github/issues/lmcrean/Hoverboard/css?logo=css3&label=CSS&color=yellow)](https://github.com/lmcrean/Hoverboard/labels/css) [![High priority](https://img.shields.io/github/issues/lmcrean/Hoverboard/0%20High%20Priority?label=High%20priority%20&labelColor=Red&color=red)](https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aopen+label%3A%220+High+Priority%22) 
+)](https://github.com/lmcrean/Hoverboard/issues) [![HTML](https://img.shields.io/github/issues/lmcrean/Hoverboard/html?logo=html5&logoColor=white&label=HTML&color=yellow)](https://github.com/lmcrean/Hoverboard/labels/html) [![CSSl](https://img.shields.io/github/issues/lmcrean/Hoverboard/css?logo=css3&label=CSS&color=yellow)](https://github.com/lmcrean/Hoverboard/labels/css) 
 
 
-
-
-
+<br>
 
 <img width="636" alt="figma preview as responsive design" src="https://github.com/lmcrean/Hoverboard/assets/133490867/b0efbf8c-b575-4061-a472-18a68541c9e2">
 
+<br><br>
+ I designed a responsive product introduction for a Virtual Learning Environment. The key focus for the project was responsive CSS, using ```flex``` and ```grid``` displays to allow the website to be viewed comfortably on different devices. The design utilised consistent font pairings, border-styles, padding and color themes to reinforce the visual branding of the product.
 
-I designed a responsive product introduction for a Virtual Learning Environment. The key focus for the project was responsive CSS, using flex and grid displays to allow the website to be viewed comfortably on different devices. The design utilised consistent font pairings, border-styles, padding and color themes to reinforce the visual branding of the product.
+This readme aims to introduce the key features of website, generally focusing on the 5 user experience planes. It summarises key challenges addressed along the way and also provides credits.
 
-This readme aims to summarise the full documentation of this project which can be found in the links provided below the headers.
+A Testing file is dedicated to a more specific technical account of the developments.
+
+In the issues I have logged written, video or screenshot accounts.
+
+</div>
+
+
+***
 
 ## Table of Contents <!-- omit in toc -->
 
-- [Summary of Documentation](#summary-of-documentation)
-  - [User Stories](#user-stories)
-    - [Page Structure and scope](#page-structure-and-scope)
-  - [Research](#research)
-  - [Design Testing](#design-testing)
-  - [Front End Testing](#front-end-testing)
-  - [Back End Testing](#back-end-testing)
-    - [HTML Testing](#html-testing)
-    - [Lighthouse Testing](#lighthouse-testing)
-    - [Validator Testing](#validator-testing)
-    - [Fixed bugs](#fixed-bugs)
-    - [Unfixed Bugs](#unfixed-bugs)
-  - [Deployment](#deployment)
-  - [Code snippet credits](#code-snippet-credits)
+- [UX Development Planes](#ux-development-planes)
+  - [Strategy Plane](#strategy-plane)
+  - [Scope plane](#scope-plane)
+  - [Structure Plane](#structure-plane)
+  - [Skeleton Plane](#skeleton-plane)
+  - [Surface Plane](#surface-plane)
+- [Features](#features)
+- [Testing](#testing)
+  - [Link Here](#link-here)
+- [Fixed bugs](#fixed-bugs)
+- [Unfixed Bugs](#unfixed-bugs)
+- [Deployment](#deployment)
+- [Future features](#future-features)
+- [Credits](#credits)
+  - [Code snippets](#code-snippets)
+  - [](#)
+  - [Technologies Used](#technologies-used)
+- [Acknowledgements](#acknowledgements)
   - [Contributor credits](#contributor-credits)
-  - [Open Source media credits](#open-source-media-credits)
-  - [Future features to include](#future-features-to-include)
 
+***
 
-# Summary of Documentation
+# UX Development Planes
 
-## User Stories
+- [ ] Intro
 
-[Full documentation of User Experience Testing](https://github.com/lmcrean/Hoverboard/wiki/2.-User-Experience-Testing)
+## Strategy Plane
 
-For the scope of the project I limited the website's function to new users who were prospective clients of the product.
+The product was aimed at education proffessionals. These could be teachers, headteachers. The product is used by students. 
 
+### User Stories <!-- omit in toc -->
+
+- [ ] User pictures x2
+  
 New User:
 - If I am convinced enough by the product I will sign up for a free software trial.
 - I need to comfortably view this website on any device such as mobile, tablet, laptop or desktop.
@@ -52,113 +70,130 @@ New User:
 - I need to be able to sign up for a free trial easily.
 
 
-### Page Structure and scope
+## Scope plane
 The focus of this website is new users of the website and three pages were designed to meet their needs.
 
-#### Home Page: <!-- omit in toc -->
+For the scope of the project I limited the website's intended audience to new users who were prospective clients of the product.
 
-- Landing video with slogan, *visualises the experience*
-- Hoverboard's Mission, *introduces the product persuasively in the context of VLE's - why we're different*
-- Testimonials from different schools, *builds authority and trust*
-- Find out about our Features, *directs to page*
-- Why you should claim your Free Trial, *directs to page*
-
-#### Hoverboard Features: <!-- omit in toc -->
-
-- Gallery Views, *visualises easy navigation of classwork on a browser*
-- Peer Feedback, *visualises student chat function in action*
-- Deep Assessment, *visualises chatbot in action*
-- Why you should claim your Free Trial, *directs to page*
-
-#### Book your Free Trial: <!-- omit in toc -->
-- form input, *records essential details: name, address, school.*
-- submit button, *redirects to thank you page, form method="GET"*
-
-## Research
-[see full documentation of Research here](https://github.com/lmcrean/Hoverboard/wiki/Initial-Research)
-
-In my initial research, I drew inspiration from websites like SeeSaw, ClassCharts and SatchelOne, which offer progressive features for virtual learning environments (VLEs). These platforms excel in terms of user-friendly design, intuitive interfaces, and effective visualization of learning materials. Additionally, articles on paperless schools highlighted the relevance that a fully developed version of this mock-up website might have.
-
-## Design Testing
-[Full documentation of Design Testing](https://github.com/lmcrean/Hoverboard/wiki/3.-Design-Testing)
-[view prototype design on Figma](https://www.figma.com/proto/W7mEdTvxLgNZTvh1ODiuwD/HOVERBOARD?type=design&node-id=5-2&scaling=scale-down&page-id=0%3A1)
-
-A figma prototype was developed to visualise responsive design. 
-
-Home page/ Features page/  Sign up page:
+Frameworks were not used for the scope of this project, in order to focus on learning CSS responsivity.
 
 
-<img width="552" alt="Home page" src="https://github.com/lmcrean/Hoverboard/assets/133490867/b4a61935-c7fc-4034-88d0-cbbfa790acec">
+<!-- Add thumbnails 3rd column?--->
+| Feature       | Function    | 
+| ------------- | ----------- |
+| Landing video with slogan | Visualizes the experience |
+| Hoverboard's Mission      | Introduces the product persuasively in the context of VLE's, why we're different         | |
+| Testimonials from different schools   | Builds authority and trust |
+| Find out about our Features            | Directs to page            |
+| Why you should claim your Free Trial   | Directs to page            |
+| Gallery Views            | Visualizes easy navigation of classwork on a browser  |        |
+| Peer Feedback            | Visualizes student chat function in action            |        |
+| Deep Assessment          | Visualizes chatbot in action|        |
+| Why you should claim your Free Trial   | Directs to page            |        |
+| Form input | Records essential details: name, address, school      |        |
+| Submit button            | Redirects to thank you page, form method="GET"        |        |
 
-<img width="552" alt="Features page" src="https://github.com/lmcrean/Hoverboard/assets/133490867/0bf3d32b-083d-48f7-8066-0acc58b5c5f9">
 
-<img width="552" alt="Sign up page" src="https://github.com/lmcrean/Hoverboard/assets/133490867/718a6020-07f5-4f2a-94f3-5b253780ff8a">
+## Structure Plane
+
+- [ ] CREATELY DIAGRAM
+
+## Skeleton Plane
+
+- [ ] CSS OVERVIEW
+- [ ] MENTION FIGMA
+
+## Surface Plane
+- [ ] FIGMA OVERVIEW
+- [ ] MOTIFS, TYPEFACE & COLORS
 
 
-## Front End Testing
-[Full documentation of Front End Testing](https://github.com/lmcrean/Hoverboard/wiki/4.-Front-End-Testing)
-
-[![GitHub CSS open issues by-label](https://img.shields.io/github/issues/lmcrean/Hoverboard/css?label=CSS%20Issues&color=yellow)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Acss+is%3Aopen)
-[![GitHub CSS closed issues by-label](https://img.shields.io/github/issues-closed/lmcrean/Hoverboard/css?label=%20&color=green)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Acss+is%3Aclosed)
+# Features
+- [ ] TABLE WITH Feature Image 
 
 
 
+# Testing
 
-The front-end was tested in with the following criteria:
+## [Link Here](testing.md)
 
-- CSS media queries' responsivity to viewport width, key breakpoints being at mobile view, tablet view, laptop view (1208px) and desktop view (1728px). The videos demonstrate varying viewport widths between 483 to 2500px. Grid and Flex displays were used to switch between differing arrangements of content contributing to the readability.
-- Design choices that are similar to those concieved in the Figma Wireframe, documented here. Effective positioning, sizing and style.
+# Fixed bugs
 
-## Back End Testing
-[Full documentation of Back End Testing](https://github.com/lmcrean/Hoverboard/wiki/5.-Back-End-Testing)
+The key challenge for this project was responsive design with ```style.css```. 
 
-### HTML Testing
-[![GitHub HTML open issues by-label](https://img.shields.io/github/issues/lmcrean/Hoverboard/html?label=HTML%20Issues&color=yellow)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Ahtml+is%3Aopen)
-[![GitHub HTML closed issues by-label](https://img.shields.io/github/issues-closed/lmcrean/Hoverboard/html?label=%20&color=green)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Ahtml+is%3Aclosed)
+CSS breakthroughs included formatting images such as ```object-fit: cover``` to fit the hero-picture, using  ```display: grid```, devising a system for switching html elements over using classes with
 
-### Lighthouse Testing
+There were fewer challenges with the HTML form, mainly getting the ```labels``` syntax correct.
 
-Lighthouse testing returned these results [TODO].
+Although Javascript was kept to a mininum, one bug realised the DOM wasn't loading without placing the ```<script>``` container at the bottom.
 
-### Validator Testing
-#### Links: W3C Validator for [index.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&checkerrorpages=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2F#l311c10), [features.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2Ffeatures#l311c10), [booktrial.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2Fbooktrial#l311c10), [style.css](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2F&usermedium=all&vextwarning=&warning=1) <!-- omit in toc -->
+# Unfixed Bugs
+For the website to function better, PHP would need to log the form data.
+The navbar animation could be smoother.
 
-![image](https://github.com/lmcrean/Hoverboard/assets/133490867/a1a1e73b-ad52-4e9f-b59f-4badd89639a7)
-
-No HTML errors were returned when passing through the official W3C validator on all pages.
-
-***
-
-<img width="913" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/f1d9dee6-bb6f-4fdf-a1de-8a32bc930deb">
-
-No CSS errors were found when passing through the official Jigsaw validator.
-
-
-### Fixed bugs
-[full documentation here](https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aclosed).
-
-### Unfixed Bugs
-[full documentation here](https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aopen).
-
-## Deployment
+# Deployment
 The site was deployed to GitHub pages. You can access the live link [here](https://lmcrean.github.io/Hoverboard/).
 
-## Code snippet credits
+# Future features
+
+In the near-term future I would like to further the Front-End Design of this website with Bootstrap features and Dark mode switch.
+
+In the long term, I would like to practise back-end features such as a PHP database.
+
+
+# Credits
+
+
+## Code snippets
 
 W3 School's [Navbar](https://www.w3schools.com/css/css_navbar.asp) and [Slideshow Carousel](https://www.w3schools.com/howto/howto_js_slideshow.asp) were used in the code and then adapted to meet the design standards set by the Figma wireframe.
 
-## Contributor credits
-Special thank you to [Syed Anwaar](https://github.com/syed-anwaar) for contributing to this project with the following:
 
-- supporting with [.landing-feature img width issue](https://github.com/lmcrean/Hoverboard/pull/22).
-- adding [animation to navbar](https://github.com/lmcrean/Hoverboard/pull/33)
-- contributions to [form-handler.php](https://github.com/lmcrean/Hoverboard/pull/33)
+
+## 
+
+ 
+Photography for the landing image and testimonials were imported from Pexels. 
+
+
+## Technologies Used
+
+The main languages used were HTML5 and CSS3. Javascript was also used to for smaller features such as the Navbar hamburger, or read more - read less button.
+
+|Programme| How they were used|
+|---|---|
+Canva|
+Figma|
+VSCode|
+Github|
+
+Tools|How they were used|
+---|---
+Clamp tool|
+amiresponsive|
+browserstack|
+mermaid|
+gifcap|
+shields.io|
+[FontJoy](https://fontjoy.com/) |
+
+
+Below are credits to open-source libraries that I used.
+
+|Library| How they were used|
+|---|---|
+Canva | All graphics were designed with Canva's open source library.|
+Pexels' | Used for Testimonials Feature|
+Unsplash | John Anderson's picture in the testimonial was from Unsplash|
+Font Awesome | The icons in the footer and navbar were taken from [Font Awesome](https://fontawesome.com/).
+[CDN Fonts](https://www.cdnfonts.com/) | Fonts sourced
+
+
+# Acknowledgements
+
+A special thank you to the wonderful tutors and mentors at Code Institute, who I consulted for advice throughout the project. 
+
+## Contributor credits
+Special thank you to [Syed Anwaar](https://github.com/syed-anwaar) for contributing to this project by addressing the [.landing-feature img width issue](https://github.com/lmcrean/Hoverboard/pull/22), adding [animation to navbar](https://github.com/lmcrean/Hoverboard/pull/33), contributions to [form-handler.php](https://github.com/lmcrean/Hoverboard/pull/33)
 
 Thank you to [Sahil4883](https://github.com/Sahil4883) for [fixing footer height.](https://github.com/lmcrean/Hoverboard/commit/638a73b8cd1dbfaf1d39b4f19d83126b130c7958)
-
-## Open Source media credits
-All graphics were designed with Canva's open source library. The icons in the footer and navbar were taken from [Font Awesome](https://fontawesome.com/). Photography for the landing image and testimonials were imported from Pexels. John Anderson's picture in the testimonial was from Unsplash.
-
-## Future features to include
-- Dark mode
-- PHP database
