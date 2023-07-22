@@ -1,5 +1,8 @@
 /*CSS STYLESHEET*/
-/*IMPORTS*/
+/* This CSS Stylesheet is structured by Fixed Styling, Vague Styling, Responsive Design Utilities then Responsive Design.*/
+
+
+/*FIXED STYLING - TYPEFACES*/
 
 @font-face {
   font-family: 'glacialindifference';
@@ -9,7 +12,6 @@
        url('https://fonts.cdnfonts.com/s/31913/GlacialIndifference-Regular.woff') format('woff');
 }
 
-
 @font-face {
   font-family: 'PeaceSans';
   font-style: normal;
@@ -17,56 +19,75 @@
   src: local('Peace Sans'), url('https://fonts.cdnfonts.com/s/16323/peace_sans.woff') format('woff');
 }
 
-
-/* VIEWPORT SHOW/HIDE SWITCHES */
-/* For responsive design, some elements will disappear at certain viewport breakpoints and "switch" to another element. Note that CSS is mobile-first.*/
-/*breakpoints: 768px 1208px 1728px - desktop - max */
-
-@media screen and (max-width: 768px) {
-.hide-in-mobile {
-  display: none !important;
+h1, h2, h3, h4, label {
+  font-family: 'PeaceSans', sans-serif;
 }
 
+p, 
+a,
+form input[type="text"],
+form input[type="password"],
+form input[type="tel"],
+form input[type="email"] {
+  font-family: 'glacialindifference', sans-serif;
 }
 
-@media screen and (min-width: 769px) {
-  .hide-in-tablet-laptop-and-desktop
-  {
-    display: none !important;
-  }
+/*FIXED STYLING - COLORS*/
+
+:root {
+/* Primary colors */
+--orange: orange;
+--orangered: orangered;
+--salmon: salmon;
+--lightsalmon: lightsalmon;
+--yellow: yellow;
+--lightblue: lightblue;
+--transparent-orange: rgba(255, 166, 0, 0.495);
+--black-dark: black;
+--black-medium: black;
+--black-light: black;
+--grey: grey;
+--lightgrey:lightgray;
+--white: white;
 }
 
-@media screen and (max-width: 1208px) {
-    .hide-in-mobile-and-tablet {
-      display: none !important;
-    }
-  }
+/*Here I have begun grouping all the color values together from the rest of the document*/
 
-@media screen and (min-width: 1209px) {
-  .hide-in-laptop-and-desktop {
-    display: none !important;
-  }
+/* Background color classes */
+.bg-color-white { background-color: var(--white); }
+.bg-color-orange { background-color: var(--orange); }
+.bg-color-orangered { background-color: var(--orangered); }
+.bg-color-salmon { background-color: var(--salmon); }
+.bg-color-lightsalmon { background-color: var(--lightsalmon); }
+.bg-color-yellow { background-color: var(--yellow); }
+.bg-color-lightblue { background-color: var(--lightblue); }
+.bg-color-transparent-orange { background-color: var(--transparent-orange); }
+.bg-color-black-dark { background-color: var(--black-dark); }
+.bg-color-black-medium { background-color: var(--black-medium); }
+.bg-color-black-light { background-color: var(--black-light); }
+.bg-color-grey { background-color: var(--grey); }
+.bg-color-lightgrey { background-color: var(--lightgrey); }
 
-  .show-in-laptop-and-desktop {
-    display: inherit !important;
-  }
-  }
+/* Color classes */
+.color-orange { color: var(--orange); }
+.color-orangered { color: var(--orangered); }
+.color-salmon { color: var(--salmon); }
+.color-lightsalmon { color: var(--lightsalmon); }
+.color-yellow { color: var(--yellow); }
+.color-lightblue { color: var(--lightblue); }
+.color-transparent-orange { color: var(--transparent-orange); }
+.color-black-dark { color: var(--black-dark); }
+.color-black-medium { color: var(--black-medium); }
+.color-black-light { color: var(--black-light); }
+.color-grey { color: var(--grey); }
+.color-lightgrey { color: var(--lightgrey); }
 
-@media screen and (max-width: 1727.99px) {
-    .hide-in-mobile-and-tablet-and-laptop {
-      display: none !important;
-    }
-  }
-  
-@media screen and (min-width: 1728px) {
-    .hide-in-desktop {
-      display: none !important;
-    }
+/*border-color*/
+.button a, #myBtn {border-color: var(--yellow)}
+#myBtn {  border-color: var--white)}
+.label-border-black {  border-color: var(--black)}
 
-    .show-in-desktop {
-      display: inherit !important;
-    }
-    }
+
 
 /*GENERIC STYLING*/
 
@@ -89,7 +110,6 @@ section {
 
 h1,h2,h3,h4 {
   display: inline;
-  font-family: 'PeaceSans', sans-serif;
   font-weight: 300;
   text-align: center;
 }
@@ -99,7 +119,6 @@ h2 {
 }
 
 p {
-  font-family: 'glacialindifference', sans-serif;
   padding: 0em 2em;
   margin: auto;
   font-size: 1.5em;
@@ -107,7 +126,6 @@ p {
 
 .button {
   text-align: center;
-  font-family: 'glacialindifference';
 }
 
 .button a, #myBtn {
@@ -119,7 +137,7 @@ p {
   border-radius: 12em;
   color: white;
   padding: 0.5em 1em;
-  transition: 0.5s; /*Trasition Added*/
+  transition: 0.5s; /*Transition Added*/
 }
 
 #myBtn {
@@ -137,12 +155,66 @@ p {
   cursor: pointer;
 }
 
+
+
+/* UTILITIES VIEWPORT SHOW/HIDE SWITCHES */
+/* For responsive design, some elements will disappear at certain viewport breakpoints and "switch" to another element. Note that CSS is mobile-first.*/
+/*breakpoints: 768px 1208px 1728px - desktop - max */
+
+@media screen and (max-width: 768px) {
+  .hide-in-mobile {
+    display: none !important;
+  }
+  
+  }
+  
+  @media screen and (min-width: 769px) {
+    .hide-in-tablet-laptop-and-desktop
+    {
+      display: none !important;
+    }
+  }
+  
+  @media screen and (max-width: 1208px) {
+      .hide-in-mobile-and-tablet {
+        display: none !important;
+      }
+    }
+  
+  @media screen and (min-width: 1209px) {
+    .hide-in-laptop-and-desktop {
+      display: none !important;
+    }
+  
+    .show-in-laptop-and-desktop {
+      display: inherit !important;
+    }
+    }
+  
+  @media screen and (max-width: 1727.99px) {
+      .hide-in-mobile-and-tablet-and-laptop {
+        display: none !important;
+      }
+    }
+    
+  @media screen and (min-width: 1728px) {
+      .hide-in-desktop {
+        display: none !important;
+      }
+  
+      .show-in-desktop {
+        display: inherit !important;
+      }
+      }
+      
 /*Utilities*/
 
 .display-grid {
   display:grid;
 }
 
+/*RESPONSIVE DESIGN BY FEATURE*/
+/*With 
 
 /*NAVBAR FEATURE
 Elements = navbartitle, icon, menuitems */
@@ -224,7 +296,6 @@ nav {
   margin: 0.49em 0.4em 0.2em;
   padding: 0.15em 0.7em 0.27em;
   font-size: 1.5em;
-  font-family: 'glacialindifference', sans-serif;
   color:black;
   text-decoration: none;
   border-radius: 6px;
@@ -327,7 +398,6 @@ footer {
   padding: 0.2em;
   margin: 0.2em;
   width: 3em;
-  
 }
 
 .footer-links a:hover {
@@ -1052,7 +1122,6 @@ padding: 0.4em;
 .features-wrapper {
   color: white; 
   background-color: orange;
-  border-color: orangered;
   border-width: 0em 5em;
   padding: 3em 1em 3em;
   border-radius: 12px;
@@ -1188,7 +1257,6 @@ Elements: */
 .heading-container {
   color: white; 
   background-color: orange;
-  border-color: orangered;
   border-width: 0em 5em;
   padding: 3em 1em 3em;
   border-radius: 12px;
@@ -1226,11 +1294,8 @@ Elements: */
 
 #booktrial-landing .heading-container {
   grid-area: 1/1/2/3;
-
-
   color: white; 
   background-color: orange;
-  border-color: orangered;
   font-size: 1.3vh;
   padding: 0px;
   margin: 0px;
@@ -1272,9 +1337,7 @@ Elements: */
 
 
 
-label {
-  font-family: 'PeaceSans';
-}
+
 
 form input[type="text"],
 form input[type="password"],
@@ -1284,7 +1347,6 @@ form input[type="email"] {
   border: 0.15em solid black;
   border-radius: 0.7em;
   font-size: 14px;
-  font-family: 'glacialindifference';
   text-align: center;
 }
 
