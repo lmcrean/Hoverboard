@@ -84,7 +84,7 @@ form input[type="email"] {
 
 /*border-color*/
 .button a, #myBtn {border-color: var(--yellow)}
-#myBtn {  border-color: var--white)}
+#myBtn {  border-color: var(--white)}
 .label-border-black {  border-color: var(--black)}
 
 
@@ -206,7 +206,7 @@ p {
         display: inherit !important;
       }
       }
-      
+
 /*Utilities*/
 
 .display-grid {
