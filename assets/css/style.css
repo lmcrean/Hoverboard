@@ -1,5 +1,5 @@
 /*CSS STYLESHEET*/
-/* This CSS Stylesheet is structured by Fixed Styling, Vague Styling, Responsive Design Utilities then Responsive Design.*/
+/* This CSS Stylesheet is structured by Fixed Styling and Responsive Design Utilities*/
 
 
 /*FIXED STYLING - TYPEFACES*/
@@ -33,10 +33,10 @@ form input[type="email"] {
 }
 
 /*FIXED STYLING - COLORS*/
+/*Root variables are used to define the color palette. The colors are used throughout the stylesheet. It's a useful function because it allows the color palette to be changed easily.*/
 
 :root {
 --orange: orange; /* Brand color */
-
 --lightblue: lightblue; /*background color*/
 
 /*Harmonious palette*/
@@ -55,7 +55,53 @@ form input[type="email"] {
 --lightgrey:lightgrey;
 }
 
-/*Animations & Interactions*/
+/*Here I have extracted all color: values from the CSS file and grouped them into one section. This is useful for responsivity because it allows the color palette to be changed easily.*/
+/*TODO: group further together by color*/
+
+.button a, #myBtn {
+  border-color: var(--yellow);
+  color: var(--white);}
+#myBtn {
+  background-color: var(--salmon);
+  border-color: var(--white);}
+#myBtn:hover {background-color: var(--orangered);}
+.button a:hover {
+  background-color: var(--yellow);
+  color: var(--black-medium);}
+
+.navbar {background-color: var(--white);}
+.navbar .icon #icon-open {color: var(--orange);}
+.navbar .icon #icon-close {color: var(--orange);}
+.navbar.menuOpen .icon #icon-close {color: var(--orange);}
+.menu-items a {color: var(--black-medium);}
+a.tab-active {background-color: var(--lightgrey);}
+.menu-items a:hover { 
+  background-color: var(--lightsalmon);
+  color: var(--white)
+}
+.navbar.menuOpen { background-color: var(--white);}
+
+footer { background-color: var(--lightblue);}
+.footer-links a {background-color: var(--grey);}
+.footer-links a:hover {background-color: var(--black-light);}
+
+.hero-heading { background-color: var(--transparent-orange); color: var(--white);}
+#features-wrapper-nested {background-color: var(--white); color: var(--black-medium);}
+#features-wrapper-nested h1 {color: var(--black-medium);}
+.background-wrapper-black {background-color: var(--black-medium); color: var(--white);}
+.testimonial-name, .testimonial-title {background-color: var(--black-medium); color: var(--white);}
+.booktrial-link {background-color: var(--orange); color: var(--white);}
+
+.features-heading-container h1 {color: var(--white);}
+.features-wrapper { background-color: var(--orange); color: var(--white);}
+
+#booktrial-landing h1 {color: var(--white);}
+.heading-container {background-color: var(--orange); color: var(--white);}
+#booktrial-landing .heading-container {background-color: var(--orange); color: var(--white);}
+button[type="submit"] { background-color: var(--orange); color: var(--white);}
+
+
+/*Animations*/
 .button a, #myBtn, .menu-items a, button[type="submit"], header, a {
   transition: 0.5s; 
 }
@@ -64,8 +110,30 @@ main {
   transition: margin-top 0.45s ease-in-out;
 }
 
+/*Hover Interactions*/
+
+/*TODO: add hover interactions
+.button a:hover, #myBtn:hover, .menu-items a:hover, button[type="submit"]:hover  {
+}
+*/
+
+button[type="submit"]:hover {
+  background-color: red;
+}
+
+.button a:hover {
+  background-color: var(--yellow);
+  color: var(--black-medium);
+  cursor: pointer;
+}
+
+.footer-links a:hover {
+  background-color: var(--black-light);
+}
+
 /*Font Sizes*/
 /* In this section I have used Fixed font sizes, Font sizes with Media Queries and Font sizes with Clamp. The selectors are grouped according to page.*/
+/*TODO: use clamp to replace all font sizes*/
 
 /*Fixed font sizes*/
 
@@ -113,7 +181,8 @@ p { font-size: clamp(1.125rem, 0.915rem + 1.2vw, 2.25rem) }
 @media only screen and (min-width: 1208px) { #booktrial-landing .heading-container {font-size: 1.3vh; }}
 @media  screen and (min-width:1208px) {  button[type="submit"] { font-size: 2.2vh; }}
 
-/*GENERIC STYLING*/
+/*GENERIC Fixed Styling*/
+/*TODO: remove generic styling and replace with more specific selectors*/
 
 body {
     overflow-x: hidden; /*responsive design to prevent horizontal scrolling*/
@@ -128,8 +197,8 @@ body {
 }
 
 section {
-  max-width: 2000px;
-  margin: auto
+  max-width: 2000px; /*This rule is useful for responsivity because it prevents the section from expanding too much on giant viewports*/
+  margin: auto;
 }
 
 h1,h2,h3,h4 {
@@ -154,80 +223,27 @@ p {
 .button a, #myBtn {
   display: inline;
   justify-content: center;
-  border-color: var(--yellow);
   border-style: solid;
   border-width: 0.2em;
   border-radius: 12em;
-  color: var(--white);
   padding: 0.5em 1em;
 }
 
-#myBtn {
-  background-color: var(--salmon);
-  border-color: var(--white);
-}
-
-#myBtn:hover {
-  background-color: var(--orangered);
-}
-
-.button a:hover {
-  background-color: var(--yellow);
-  color: var(--black-medium);
-  cursor: pointer;
-}
 
 
 
 /* UTILITIES VIEWPORT SHOW/HIDE SWITCHES */
 /* For responsive design, some elements will disappear at certain viewport breakpoints and "switch" to another element. Note that CSS is mobile-first.*/
-/*breakpoints: 768px 1208px 1728px - desktop - max */
+/*breakpoints: mininum | 768px | 1208px | 1728px | max */
 
-@media screen and (max-width: 768px) {
-  .hide-in-mobile {
-    display: none !important;
-  }
+@media screen and (max-width: 768px) {.hide-in-mobile { display: none !important;}}
+@media screen and (min-width: 769px) {.hide-in-tablet-laptop-and-desktop{ display: none !important;}}
   
-  }
-  
-  @media screen and (min-width: 769px) {
-    .hide-in-tablet-laptop-and-desktop
-    {
-      display: none !important;
-    }
-  }
-  
-  @media screen and (max-width: 1208px) {
-      .hide-in-mobile-and-tablet {
-        display: none !important;
-      }
-    }
-  
-  @media screen and (min-width: 1209px) {
-    .hide-in-laptop-and-desktop {
-      display: none !important;
-    }
-  
-    .show-in-laptop-and-desktop {
-      display: inherit !important;
-    }
-    }
-  
-  @media screen and (max-width: 1727.99px) {
-      .hide-in-mobile-and-tablet-and-laptop {
-        display: none !important;
-      }
-    }
-    
-  @media screen and (min-width: 1728px) {
-      .hide-in-desktop {
-        display: none !important;
-      }
-  
-      .show-in-desktop {
-        display: inherit !important;
-      }
-      }
+@media screen and (max-width: 1208px) {.hide-in-mobile-and-tablet {display: none !important;}}
+@media screen and (min-width: 1209px) {.hide-in-laptop-and-desktop {display: none !important; .show-in-laptop-and-desktop {display: inherit !important;}}}
+
+@media screen and (max-width: 1727.99px) {.hide-in-mobile-and-tablet-and-laptop {display: none !important;}}
+@media screen and (min-width: 1728px) {.hide-in-desktop {display: none !important; .show-in-desktop {display: inherit !important;}}}
 
 /*Utilities*/
 
@@ -236,7 +252,6 @@ p {
 }
 
 /*RESPONSIVE DESIGN BY FEATURE*/
-/*With 
 
 /*NAVBAR FEATURE
 Elements = navbartitle, icon, menuitems */
@@ -245,7 +260,6 @@ nav {
   position: fixed;
   width:100%;
   height: 57px;
-  background-color: var(--white);
   z-index: 3;
 }
 
@@ -281,13 +295,11 @@ nav {
   position: absolute;
   top: 0;
   right: 0;
-  color: var(--orange);
   padding: 0.2em;
 }
 
 .navbar .icon #icon-close {
   display: none;
-  color: var(--orange);
   padding: 0.2em;
 }
 
@@ -297,7 +309,6 @@ nav {
 
 .navbar.menuOpen .icon #icon-close {
   display: flex;
-  color: var(--orange);
   padding: 0.2em;
   text-decoration: none;
 }
@@ -314,19 +325,11 @@ nav {
   position: relative;
   margin: 0.49em 0.4em 0.2em;
   padding: 0.15em 0.7em 0.27em;
-  color:black;
   text-decoration: none;
   border-radius: 6px;
 }
 
-a.tab-active {
-  background-color: var(--lightgrey);
-}
 
-.menu-items a:hover {
-  background-color: var(--lightsalmon);
-  color: var(--white)
-}
 
 .menu-items li {
   margin-bottom: 1em;
@@ -339,8 +342,7 @@ a.tab-active {
   }
 }
 .navbar.menuOpen {
-  background-color: var(--white);
-  flex-direction: column;
+    flex-direction: column;
 }
 
 .move-down {
@@ -385,7 +387,6 @@ footer {
   flex-direction: column;
   align-items: center;
   min-height: 5rem;/* height of the footer changed*/
-  background-color: var(--lightblue);
 }
 
 .footer-small-print {
@@ -404,18 +405,14 @@ footer {
 }
 
 .footer-links a {
-  background-color: grey;
   background-size: auto;
-  color: var(--white);
   border-radius: 10%;
   padding: 0.2em;
   margin: 0.2em;
   width: 3em;
 }
 
-.footer-links a:hover {
-  background-color: var(--black-light);
-}
+
 
 @media screen and (min-width: 700px) {
   .footer-links {
@@ -434,26 +431,6 @@ footer {
     flex: 1;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*HOME PAGE*/
 
@@ -524,8 +501,6 @@ footer {
   right: 3%;
   margin: 0em;
   padding: 0.5em;
-  background-color: rgba(255, 166, 0, 0.495);
-  color: var(--white);
   text-align: center;
   border-radius: 0.3em;
   height: auto;
@@ -556,8 +531,6 @@ margin: auto;
       right: 10%;
       margin: 0em;
       padding: 0.5em;
-      background-color: var(--transparent-orange);
-      color: var(--white);
       border-radius: 0.3em;
       height: auto;
   }
@@ -714,15 +687,9 @@ margin: auto;
 #features-wrapper-nested {
   grid-column: 2 / 3;
   grid-row: 4 / 5;
-  background-color: var(--white);
-  color: var(--black-medium);
   z-index: -1;
   margin: auto;
   margin-top: -33px;
-}
-
-#features-wrapper-nested h1 {
-  color: var(--black-medium);
 }
 
 #features-wrapper-nested img {
@@ -746,8 +713,6 @@ margin: auto;
 }
 
 .background-wrapper-black {
-  background-color: var(--black-medium);
-  color: var(--white);
   width: 80%;
   border-radius: 1em;
   padding-top: 2em;
@@ -828,15 +793,9 @@ margin: auto;
 }
 
 /* Caption text */
-.testimonial-name, .testimonial-title{
-  color: var(--white);
-  background-color: var(--black-medium);
-}
-
 
 #testimonials-feature-laptop-desktop-view {
   display: none;
-  
 }
 
 /*readmore button*/
@@ -1037,33 +996,16 @@ padding: 0.4em;
 
 .booktrial-link {
   justify-content: center;
-  background-color: var(--orange);
   border-radius: 2em;
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  color: var(--white);
 }
 
 .booktrial-link img {
     height: auto;
     width: 8vh;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*FEATURES LANDING*/
 /*these classes effect Homepage features intro */
@@ -1099,7 +1041,6 @@ padding: 0.4em;
 .features-heading-container h1 {
   display: inline;
   text-align: center;
-  color: var(--white);
 }
 
 
@@ -1109,8 +1050,6 @@ padding: 0.4em;
 }
 
 .features-wrapper {
-  color: var(--white); 
-  background-color: var(--orange);
   border-width: 0em 5em;
   padding: 3em 1em 3em;
   border-radius: 12px;
@@ -1126,10 +1065,7 @@ padding: 0.4em;
   display: block;
 }
 
-@media screen and (min-width: 800px) {
-  .features-heading-container h1 {
-    }
-  
+@media screen and (min-width: 800px) { 
   .app-wrapper {
   display: flex;
   flex-direction: row;
@@ -1203,15 +1139,6 @@ padding: 0.4em;
 } 
 
 
-
-
-
-
-
-
-
-
-
 /*BOOK TRIAL LANDING FEATURE
 Elements: */
 
@@ -1225,7 +1152,6 @@ Elements: */
 #booktrial-landing h1 {
   display: inline;
   text-align: center;
-  color: var(--white);
 }
 
 .booktrial-form h2 {
@@ -1234,8 +1160,6 @@ Elements: */
 }
 
 .heading-container {
-  color: var(--white); 
-  background-color: var(--orange);
   border-width: 0em 5em;
   padding: 3em 1em 3em;
   border-radius: 12px;
@@ -1273,8 +1197,6 @@ Elements: */
 
 #booktrial-landing .heading-container {
   grid-area: 1/1/2/3;
-  color: var(--white); 
-  background-color: var(--orange);
   padding: 0px;
   margin: 0px;
 
@@ -1331,19 +1253,13 @@ h2, p, form {
   text-align: center;
 }
 
-.fa-square-xmark:before, .booktrial-form .error {
-  display: none;
-  color: red;
+.fa-square-xmark:before, .booktrial-form .error { display: none;
 }
 
 .fa-square-check:before {
-  color: green;
-  display: none;
-}
+  display: none;}
 
 button[type="submit"] {
-  background-color: var(--orange);
-  color: var(--white);
   padding: 10px 20px;
   border: none;
   border-radius: 0.5em;
@@ -1351,9 +1267,7 @@ button[type="submit"] {
   margin: 1em;
 }
 
-button[type="submit"]:hover {
-  background-color: red;
-}
+
 
 @media  screen and (min-width:744px) {
 #form-grid-container {
