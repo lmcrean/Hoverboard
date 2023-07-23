@@ -35,25 +35,28 @@ form input[type="email"] {
 /*FIXED STYLING - COLORS*/
 
 :root {
-/* Primary colors */
---orange: orange;
+--orange: orange; /* Brand color */
+
+--lightblue: lightblue; /*background color*/
+
+/*Harmonious palette*/
 --orangered: orangered;
 --salmon: salmon;
 --lightsalmon: lightsalmon;
 --yellow: yellow;
---lightblue: lightblue;
 --transparent-orange: rgba(255, 166, 0, 0.495);
+
+/*Neutral palette*/
+--white: white;
 --black-dark: rgba(23, 23, 25, 0.922);
 --black-medium: rgba(23, 23, 25, 0.79);
 --black-light: rgba(23, 23, 25, 0.338);
 --grey: grey;
 --lightgrey:lightgrey;
---white: white;
 }
 
 /*Animations & Interactions*/
-
-.button a, #myBtn, .menu-items a, button[type="submit"], .navbar.menuOpen, a {
+.button a, #myBtn, .menu-items a, button[type="submit"], header, a {
   transition: 0.5s; 
 }
 
@@ -61,6 +64,54 @@ main {
   transition: margin-top 0.45s ease-in-out;
 }
 
+/*Font Sizes*/
+/* In this section I have used Fixed font sizes, Font sizes with Media Queries and Font sizes with Clamp. The selectors are grouped according to page.*/
+
+/*Fixed font sizes*/
+
+.navbar .icon, .navbar.menuOpen .icon { font-size: 3rem ; }
+.menu-items a { font-size: 1.5em ; }
+
+.hero-heading {font-size: 2.4em;}
+#features-wrapper-nested h1 { font-size: 1.6em; }
+.testimonial-text, .testimonial-name, .testimonial-title { font-size: 15px; }
+.desktop-column-1, .desktop-column-4  { font-size: 1.2em; }
+
+.features-heading-container h1 { font-size: 5.2vw; }
+
+#booktrial-landing h1 { font-size: 72px }
+form input[type="text"], form input[type="password"], form input[type="tel"], form input[type="email"] { font-size: 14px; }
+
+/* The clamp() CSS function clamps a value between an upper and lower bound. It takes three parameters: a minimum value, a preferred value, and a maximum allowed value. The clamp() function is supported in all major browsers, except Internet Explorer, which has now been replaced by Microsoft Edge. It is useful for responsivity because it allows the font size to be responsive to the viewport width.*/
+
+p { font-size: clamp(1.125rem, 0.915rem + 1.2vw, 2.25rem) }
+
+#mission-intro h1 {
+  font-size: clamp(2.5rem, 2.1267rem + 2.1333vw, 4.5rem);
+}
+
+#mission-intro p {
+  font-size: clamp(1.125rem, 0.915rem + 1.2vw, 2.25rem);
+}
+
+.testimonials-intro {
+  font-size: clamp(2.5rem, 2.1267rem + 2.1333vw, 4.5rem);
+}
+
+/* Font sizes with Media Queries */
+/* The Media Queries are used to override the font sizes for different viewport widths. The font sizes are responsive to the viewport width.*/
+
+@media (max-width: 452px) { .hero-heading h1 {font-size: 1.4em;}}
+@media (min-width: 768px) { .hero-heading h1 {font-size: 72px;}}
+@media (min-width: 1208px) { .hero-heading h1 {font-size: 122px;}}
+
+@media screen and (min-width: 800px) { .features-heading-container h1 { font-size: 3em;}}
+@media screen and (min-width: 850px) { .img-text-wrapper p, .img-text-wrapper-reverse p { font-size: 1.5vw;}}
+@media screen and (min-width: 1728px) { .img-text-wrapper p, .img-text-wrapper-reverse p { font-size: 27px}}
+
+@media screen and (min-width: 768px) { #booktrial-landing h1 { font-size: 3em }}
+@media only screen and (min-width: 1208px) { #booktrial-landing .heading-container {font-size: 1.3vh; }}
+@media  screen and (min-width:1208px) {  button[type="submit"] { font-size: 2.2vh; }}
 
 /*GENERIC STYLING*/
 
@@ -94,7 +145,6 @@ h2 {
 p {
   padding: 0em 2em;
   margin: auto;
-  font-size: 1.5em;
 }
 
 .button {
@@ -224,7 +274,6 @@ nav {
   position: absolute;
   top: 0;
   right: 0;
-  font-size: 2.6em;
   padding: 0.2em;
 }
 
@@ -239,7 +288,6 @@ nav {
 .navbar .icon #icon-close {
   display: none;
   color: var(--orange);
-  font-size: 0.8em;
   padding: 0.2em;
 }
 
@@ -250,7 +298,6 @@ nav {
 .navbar.menuOpen .icon #icon-close {
   display: flex;
   color: var(--orange);
-  font-size: 0.8em;
   padding: 0.2em;
   text-decoration: none;
 }
@@ -267,7 +314,6 @@ nav {
   position: relative;
   margin: 0.49em 0.4em 0.2em;
   padding: 0.15em 0.7em 0.27em;
-  font-size: 1.5em;
   color:black;
   text-decoration: none;
   border-radius: 6px;
@@ -480,7 +526,6 @@ footer {
   padding: 0.5em;
   background-color: rgba(255, 166, 0, 0.495);
   color: var(--white);
-  font-size: 2.4em;
   text-align: center;
   border-radius: 0.3em;
   height: auto;
@@ -496,7 +541,6 @@ margin: auto;
   }
 
   .hero-heading h1 {
-    font-size: 1.4em;
     text-align: center;
 }
 }
@@ -519,7 +563,6 @@ margin: auto;
   }
 }
   .hero-heading h1 {
-    font-size: 72px;
     text-align: center;
 }
 
@@ -528,9 +571,6 @@ margin: auto;
   top: 4em;
   }
 
-  .hero-heading h1 {
-    font-size: 122px;
-}
 }
 
 @media (min-width: 1728px) {
@@ -545,21 +585,13 @@ margin: auto;
   margin-top: 150px;
 }
 
-#mission-intro h1 {
-  font-size: clamp(2.5rem, 2.1267rem + 2.1333vw, 4.5rem);
-}
+
 
 .responsive-1to2-columns {
   display: flex;
   flex-direction: column;
   margin-top: 50px;
 }
-
-#mission-intro p {
-  font-size: clamp(1.125rem, 0.915rem + 1.2vw, 2.25rem);
-}
-
-
 
 #mission-image {
   object-fit: contain;
@@ -690,8 +722,7 @@ margin: auto;
 }
 
 #features-wrapper-nested h1 {
-  color: var(--black-light);
-  font-size: 1.6em;
+  color: var(--black-medium);
 }
 
 #features-wrapper-nested img {
@@ -769,7 +800,6 @@ margin: auto;
 
 .testimonials-intro {
   grid-area:1/1/2/5;
-  font-size: clamp(2.5rem, 2.1267rem + 2.1333vw, 4.5rem);
   margin-bottom: 100px;
 }
 
@@ -798,15 +828,9 @@ margin: auto;
 }
 
 /* Caption text */
-.testimonial-text .testimonial-name .testimonial-title{
+.testimonial-name, .testimonial-title{
   color: var(--white);
-  font-size: 15px;
-  padding: 2em 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 2em;
+  background-color: var(--black-medium);
 }
 
 
@@ -882,7 +906,10 @@ margin: auto;
 @media screen and (min-width: 1208px) {
 
   #desktop-logo-inline{
-    height: 200px;
+    height: auto;
+    width:100%;
+    max-height: 150px;
+    object-fit: contain;
     margin-top: 50px;
     position: relative;
   }
@@ -928,7 +955,6 @@ margin: auto;
   {
   grid-column: 1 / 2;
   text-align: right;
-  font-size: 1.2em;
   padding: 0.4em;
   }
 
@@ -946,7 +972,6 @@ grid-column: 3 / 4;
 {
 grid-column: 4 / 5 ;
 text-align: left;
-font-size: 1.2em;
 padding: 0.4em;
   }
 
@@ -997,7 +1022,6 @@ padding: 0.4em;
   {
   grid-column: 1 / 2;
   text-align: right;
-  font-size: 1.2em;
   padding: 0.8em;
   }
 
@@ -1005,7 +1029,6 @@ padding: 0.4em;
   {
   grid-column: 4 / 5 ;
   text-align: left;
-  font-size: 1.2em;
   padding: 0.8em;
     }  
 }
@@ -1075,7 +1098,6 @@ padding: 0.4em;
 
 .features-heading-container h1 {
   display: inline;
-  font-size: 5.2vw;
   text-align: center;
   color: var(--white);
 }
@@ -1106,7 +1128,6 @@ padding: 0.4em;
 
 @media screen and (min-width: 800px) {
   .features-heading-container h1 {
-      font-size: 3em;
     }
   
   .app-wrapper {
@@ -1150,7 +1171,6 @@ padding: 0.4em;
   .img-text-wrapper p, .img-text-wrapper-reverse p{
     align-items: center;
     display: flex;
-    font-size: 1.5vw;
   }
 }
 
@@ -1172,7 +1192,6 @@ padding: 0.4em;
   .img-text-wrapper p, .img-text-wrapper-reverse p{
     align-items: center;
     display: flex;
-    font-size: 27px;
     margin: 80px 0px;
   }
 }
@@ -1205,15 +1224,8 @@ Elements: */
 
 #booktrial-landing h1 {
   display: inline;
-  font-size: 72px;
   text-align: center;
   color: var(--white);
-}
-
-@media screen and (min-width: 768px) {
-#booktrial-landing h1 {
-    font-size: 3em;
-  }
 }
 
 .booktrial-form h2 {
@@ -1263,7 +1275,6 @@ Elements: */
   grid-area: 1/1/2/3;
   color: var(--white); 
   background-color: var(--orange);
-  font-size: 1.3vh;
   padding: 0px;
   margin: 0px;
 
@@ -1313,7 +1324,6 @@ form input[type="email"] {
   padding: 0.7em 1em;
   border: 0.15em solid black;
   border-radius: 0.7em;
-  font-size: 14px;
   text-align: center;
 }
 
@@ -1393,7 +1403,5 @@ form input {
     margin: 0em auto;
     width: 6em;
     height: 2em;
-    font-size: 2.2vh;
-
 }
   }
