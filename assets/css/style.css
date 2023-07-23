@@ -135,51 +135,15 @@ button[type="submit"]:hover {
 /* In this section I have used Fixed font sizes, Font sizes with Media Queries and Font sizes with Clamp. The selectors are grouped according to page.*/
 /*TODO: use clamp to replace all font sizes*/
 
-/*Fixed font sizes*/
+/*Fixed font sizes for Navbar*/
 
-.navbar .icon, .navbar.menuOpen .icon { font-size: 3rem ; }
+.navbar .icon, .navbar.menuOpen .icon { font-size: 2.8rem ; }
 .menu-items a { font-size: 1.5em ; }
 
-.hero-heading {font-size: 2.4em;}
-#features-wrapper-nested h1 { font-size: 1.6em; }
-.testimonial-text, .testimonial-name, .testimonial-title { font-size: 15px; }
-.desktop-column-1, .desktop-column-4  { font-size: 1.2em; }
-
-.features-heading-container h1 { font-size: 5.2vw; }
-
-#booktrial-landing h1 { font-size: 72px }
-form input[type="text"], form input[type="password"], form input[type="tel"], form input[type="email"] { font-size: 14px; }
-
 /* The clamp() CSS function clamps a value between an upper and lower bound. It takes three parameters: a minimum value, a preferred value, and a maximum allowed value. The clamp() function is supported in all major browsers, except Internet Explorer, which has now been replaced by Microsoft Edge. It is useful for responsivity because it allows the font size to be responsive to the viewport width.*/
-
-p { font-size: clamp(1.125rem, 0.915rem + 1.2vw, 2.25rem) }
-
-#mission-intro h1 {
-  font-size: clamp(2.5rem, 2.1267rem + 2.1333vw, 4.5rem);
-}
-
-#mission-intro p {
-  font-size: clamp(1.125rem, 0.915rem + 1.2vw, 2.25rem);
-}
-
-.testimonials-intro {
-  font-size: clamp(2.5rem, 2.1267rem + 2.1333vw, 4.5rem);
-}
-
-/* Font sizes with Media Queries */
-/* The Media Queries are used to override the font sizes for different viewport widths. The font sizes are responsive to the viewport width.*/
-
-@media (max-width: 452px) { .hero-heading h1 {font-size: 1.4em;}}
-@media (min-width: 768px) { .hero-heading h1 {font-size: 72px;}}
-@media (min-width: 1208px) { .hero-heading h1 {font-size: 122px;}}
-
-@media screen and (min-width: 800px) { .features-heading-container h1 { font-size: 3em;}}
-@media screen and (min-width: 850px) { .img-text-wrapper p, .img-text-wrapper-reverse p { font-size: 1.5vw;}}
-@media screen and (min-width: 1728px) { .img-text-wrapper p, .img-text-wrapper-reverse p { font-size: 27px}}
-
-@media screen and (min-width: 768px) { #booktrial-landing h1 { font-size: 3em }}
-@media only screen and (min-width: 1208px) { #booktrial-landing .heading-container {font-size: 1.3vh; }}
-@media  screen and (min-width:1208px) {  button[type="submit"] { font-size: 2.2vh; }}
+h1 { font-size: clamp(1.8rem, 1.3893rem + 2.3467vw, 4rem);}
+h2 { font-size: clamp(1.5rem, 1.5rem + 1.2vw, 2.5rem); }
+p { font-size: clamp(1rem, 0.9253rem + 0.4267vw, 1.4rem);}
 
 /*GENERIC Fixed Styling*/
 /*TODO: remove generic styling and replace with more specific selectors*/
@@ -231,6 +195,9 @@ p {
 
 
 
+/*RESPONSIVE DESIGN STYLING*/
+/* For the rest of this stylesheet, the CSS is focused on more viewport specific styling.*/
+
 
 /* UTILITIES VIEWPORT SHOW/HIDE SWITCHES */
 /* For responsive design, some elements will disappear at certain viewport breakpoints and "switch" to another element. Note that CSS is mobile-first.*/
@@ -252,6 +219,7 @@ p {
 }
 
 /*RESPONSIVE DESIGN BY FEATURE*/
+/*The selectors are grouped according to feature. Elements of each feature are then grouped with media queries, starting mobile first.*/
 
 /*NAVBAR FEATURE
 Elements = navbartitle, icon, menuitems */
