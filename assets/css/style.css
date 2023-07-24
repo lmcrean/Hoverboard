@@ -521,24 +521,23 @@ margin: auto;
 }
 
 /*MISSION INTRO*/
+/*I have styled this as a grid with media queries.*/
 
 #mission-intro {
-  margin-top: 150px;
+  margin-top: 10px;
 }
-
-
 
 .responsive-1to2-columns {
   display: grid;
-  /* flex-direction: column; */
   margin-top: 50px;
 }
 
-#mission-image {
-  object-fit: contain;
-  max-width: 100%;
-  height: auto;
-  grid-area: 1/1/2/3;
+@media (min-width: 768px) {
+  .responsive-1to2-columns /*As the class name suggests, this class switches the grid from 1 column to 2 columns.*/
+  {
+    display: grid;
+    grid-template-columns:  50% 50%;
+  }
 }
 
 #bg-squiggle-spring {
@@ -548,88 +547,92 @@ margin: auto;
   z-index: -3;
   position: relative;
   overflow:hidden;
-  grid-area: 1/1/2/2;
+  grid-area: 1/1/2/3;
+}
+
+#mission-heading {
+  grid-area: 1/1/2/3;
+  text-align: center;
+  align-content: center;
+  margin: auto;
+  z-index: 5;
+}
+
+#mission-image {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+  grid-area: 2/1/3/3;
+  max-width: 100%;
+  z-index:4;
+  margin:  auto;
 }
 
 #bg-squiggle-flash {
-  top:1900px;
   object-fit: contain;
   margin: auto;
   max-width: 100%;
-  grid-area: 2/1/3/3;
+  grid-area: 3/2/4/3;
 }
 
-
-
+#mission-more-info {
+  grid-area: 3/1/4/3;
+  text-align: center;
+  align-content: center;
+  margin: auto;
+}
 
 @media (min-width: 768px) {
   .responsive-1to2-columns {
     display: grid;
-    margin-top: 70px;
     grid-template-columns:  50% 50%;
     grid-area: 5/1/6/3;
   }
-
-
-
-  #bg-squiggle-flash {
-    /* top:1600px; */
+  
+  #mission-image {
+    grid-area: 2/1/3/2;
   }
   
+  #bg-squiggle-flash {
+    grid-area: 2/2/3/3;
+  }
 
-  #mission-image {
-  object-fit: contain;
-  grid-column: 1 / 3;
-  grid-row: 1 / 4;
-  max-height: auto; 
-  max-width: 90%;
-}
-
-  #mission-intro p {
-    grid-row: 5 / 6;
-    grid-column: 1 / 3;
-    text-align:left;
-    align-content: center;
-    margin: auto;
+  #mission-more-info {
+    grid-area: 2/2/3/3;
   }
 }
+
 
 @media (min-width: 1208px) {
+  #bg-squiggle-spring {
+    grid-area: 1/1/2/2;
+  }
   #mission-image {
-    object-fit: contain;
-    grid-column: 1 / 2;
-    grid-row: 1 / 4;
-    max-height: auto; 
-    max-width: 90%;
+    grid-area: 2/1/3/2;
   }
-
   #bg-squiggle-flash {
-    /* display: none; */
-    /* position:fixed; */
-    grid-area: 1/2/6/3 !important;
-    /* left:900px; */
-    /* top: 1300px; */
-    width: 100%;
+    grid-area: 2/2/3/3;
   }
-    #mission-intro p {
-      grid-row: 1 / 4;
-      grid-column: 2 / 3;
-      text-align:left;
-      align-content: center;
-      margin: auto;
-    }
-
+  #mission-more-info {
+    grid-area: 2/2/3/3;
+  }
 }
 
 @media (min-width: 1728px) {
-  #bg-squiggle-spring {
-    top: 350px;
+  #mission-image {
+    grid-area: 2/1/4/2;
+    
+  }
+  #bg-squiggle-flash {
+    grid-area: 2/2/3/3;
+  }
+  #mission-more-info {
+    grid-area: 2/2/3/3;
   }
 }
 
 /*HOME PAGE FEATURES INTRO*/
-/*Code is almost identical to Features Page Landing Section - there are overlapping classes - GO TO FEATURES PAGE Landing SECTION*/
-/*from 1208px, #features-intro-homepage swtiches to .features-wrapper-nested, the feature nests into the #mission-intro (see above)*/
+/*the following #features-wrapper-nested is the same feature as #features-intro-homepage". The difference is that #features-intro-homepage is displayed on mobile view, while #features-wrapper-nested is displayed on laptop view, compressed into the right column of the #mission-intro feature */
 
 #features-intro-homepage, #features-wrapper-nested {
   margin-top: 100px;
@@ -645,8 +648,7 @@ margin: auto;
 }
 
 #features-wrapper-nested {
-  grid-column: 2 / 3;
-  grid-row: 4 / 5;
+  grid-area: 3/2/4/3;
   z-index: -1;
   margin: auto;
   margin-top: -33px;
@@ -659,7 +661,8 @@ margin: auto;
 
 #features-wrapper-nested p {
   text-align: center;
-}
+}  
+
 
 /*HOMEPAGE FEATURES LINK*/
 
