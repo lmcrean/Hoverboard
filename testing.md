@@ -3,10 +3,11 @@
 [<img alt="Live page Badge" src="https://img.shields.io/badge/live_page-purple?logo=googlechrome&logoColor=white">](https://lmcrean.github.io/Hoverboard/) [<img alt="Full Documentation Research Badge" src="https://img.shields.io/badge/Testing-purple?logo=mdBook">](https://github.com/lmcrean/Hoverboard/blob/main/testing.md) [![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/lmcrean/Hoverboard?color=green)](https://github.com/lmcrean/Hoverboard/commits/main) [![GitHub closed issues](https://img.shields.io/github/issues-closed/lmcrean/Hoverboard?color=green)](https://github.com/lmcrean/Hoverboard/issues?q=is%3Aissue+is%3Aclosed) [![GitHub issues](https://img.shields.io/github/issues/lmcrean/Hoverboard?label=%20
 )](https://github.com/lmcrean/Hoverboard/issues) [<img alt="workflow" src="https://img.shields.io/badge/Issues_workflow-grey?logo=github">](https://github.com/lmcrean/Hoverboard/blob/main/testing.md) [![HTML](https://img.shields.io/github/issues/lmcrean/Hoverboard/html?logo=html5&logoColor=white&label=HTML&color=yellow)](https://github.com/lmcrean/Hoverboard/labels/html) [![CSSl](https://img.shields.io/github/issues/lmcrean/Hoverboard/css?logo=css3&label=CSS&color=yellow)](https://github.com/lmcrean/Hoverboard/labels/css) [![Documentation](https://img.shields.io/github/issues/lmcrean/Hoverboard/documentation?logo=mdBook&label=Documentation&color=yellow)](https://github.com/lmcrean/Hoverboard/labels/css)
 
+In this testing page, I 
+
 Table of Contents:
 - [Research](#research)
-    - [SeeSaw Platform](#seesaw-platform)
-    - [Other VLE Websites](#other-vle-websites)
+    - [VLE Websites](#vle-websites)
     - [Articles on Paperless Schools](#articles-on-paperless-schools)
   - [CSS resources](#css-resources)
 - [Client Premise Testing:](#client-premise-testing)
@@ -35,26 +36,23 @@ Table of Contents:
 
 In my initial research, I drew inspiration from websites like SeeSaw, ClassCharts and SatchelOne, which offer progressive features for virtual learning environments (VLEs). These platforms excel in terms of user-friendly design, intuitive interfaces, and effective visualization of learning materials. Additionally, articles on paperless schools highlighted the relevance that a fully developed version of this mock-up website might have.
 
-### SeeSaw Platform
+### VLE Websites
 <img width="941" alt="image" src="https://github.com/lmcrean/VirtualClassroomMockup/assets/133490867/4d4a36f0-7c02-43b0-947a-383b1d64a6c8" caption="Copyright SeeSaw 2023">
-**SeeSaw https://web.seesaw.me/
 
-An excellent platform with progressive front and back-end features. Students are able to upload their classwork, can comment on students' work, teachers can quickly assess. The welcome page introduces the platform's features, credentials and reassures the user about privacy concerns.
+Copyright SeeSaw 2023
 
-The front-end is efficient, user friendly, intuitively designed. It ues simple icons to visualise the learning and show the platform on a phone, tablet and computer.
+As part of my research I looked at VLE websites, specifically SeeSaw, ClassCharts, SatchelOne and Showbie. I wanted to gain an understanding of how they presented their product, their features, their testimonials and their sign up forms. I also looked at how they used colour, font, images and icons. I also looked at how they used responsive design, for example how they used media queries to change the layout of their website as the viewport width changed. I created a table below to collect notes on the front-end Design.
 
-### Other VLE Websites
-**ClassCharts https://www.classcharts.com/
+Showbie had the friendliest UI due to it's use of slogans and links.
 
-Notable features: teachers can see their students visually on a seating plan. 
+Seesaw was the most convincing in content, due to it's use of background-videos, clear logos and awards features.
 
-Front-end of welcome page has a nice use of overlapping phone and content, summarising features with icons, use of graphs to make relevant to assessment data.
-
-**SatchelOne https://www.teamsatchel.com/
-
-Homework with deadlines on a calendar. Seating plan is virtual as well.
-
-Front-end has an appealing loading graphic, summary of app graphics works really well, use of fade in animation as page scrolls.
+Website | Design Notes
+---|---
+[SeeSaw](https://web.seesaw.me/) | The welcome page introduces the platform's features, credentials and reassures the user about privacy concerns. Consistent font, consistent photography media, buttons are consistent layout and quite large, Features are summarised in simple colorful graphics, with + icon to visualise, Heading, subheading, sticky button The front-end is efficient, user friendly, intuitively designed. It uses simple icons to visualise the learning and show the platform on a phone, tablet and computer. Banner-button is a motif.
+[ClassCharts](https://www.classcharts.com/)|Welcome page has a nice use of overlapping phone and content, summarising features with icons, use of animated statistics to make relevant to assessment data.
+[SatchelOne](https://www.teamsatchel.com/)|Front-end has an appealing loading graphic, summary of app graphics works really well, use of fade in animation as page scrolls.
+[Showbie](https://www.showbie.com/)|Divided by banners, interspersed with testimonials throughout the website. Sign up page reminds of the brand and it's purpose. Circular motifs with vector graphics. JS Carousel.|
 
 ### Articles on Paperless Schools
 
@@ -92,9 +90,9 @@ Dr. Emily visit's the website on 2 occasions, first when she is on her phone in 
 
 | Page | user needs  | experience  | content  | design  | 
 |---|---|---|---|---|
-| 1|  Dr. Emily needs to be able to visualise the mission of Hoverboard's product. | **She sees the homepage which demonstrates that Hoverboard are trying to help transition schools transition to a better and richer VLE.**   |   The content is themed around education, technology and ease of use. |  The client needs the front-end design to be positive, engaging and professional in tone.   |
+| 1 |  Dr. Emily needs to be able to visualise the mission of Hoverboard's product. | **She sees the homepage which demonstrates that Hoverboard are trying to help transition schools transition to a better and richer VLE.**   |   The content is themed around education, technology and ease of use. |  The client needs the front-end design to be positive, engaging and professional in tone.   |
 | 2 | She wants to find out more about the features that Hoverboard offers,  |  **She visits Page 2 which demonstrates what unique features Hoverboard has**  | The content informs how the product integrates student classwork, such as peer feedback, quick teacher grading and gallery views | The tone is informative, persuasive and reassuring. The client needs the front-end design to use a clean layout that clearly visualises the product being used. |
-|3| needs to access the free trial product| **Finally Dr. Emily visits page 3 where she books a free trial for one year.** She fills in a form which captures her essential data. At the end a message appears that thanks her and assures her that their customer welcome lead will be in contact. | a sign up form with a submit button |  The client needs the front-end design to be easy to read and use.|
+|3| needs to access the free trial product| ** Dr. Emily visits page 3 where she books a free trial for one year.** She fills in a form which captures her essential data. At the end a message appears that thanks her and assures her that their customer welcome lead will be in contact. | a sign up form with a submit button |  The client needs the front-end design to be easy to read and use.|
 
 # User Stories
 For the scope of the project I limited the website's function to new users who were prospective clients of the product.

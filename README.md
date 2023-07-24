@@ -1,4 +1,4 @@
-f<div align="center">
+<div align="center">
 
 <img src="/assets/media/navbarlogo.png" height="100">
 
@@ -13,13 +13,16 @@ f<div align="center">
 <img width="636" alt="figma preview as responsive design" src="https://github.com/lmcrean/Hoverboard/assets/133490867/b0efbf8c-b575-4061-a472-18a68541c9e2">
 
 <br><br>
- I designed a responsive product introduction for a Virtual Learning Environment. The key focus for the project was responsive CSS, using ```flex``` and ```grid``` displays to allow the website to be viewed comfortably on different devices. The design utilised consistent font pairings, border-styles, padding and color themes to reinforce the visual branding of the product.
+ I designed a responsive product introduction for a Virtual Learning Environment. The key focus to meet the users' needs was responsive CSS, using ```flex``` and ```grid``` displays to allow the website to be viewed comfortably on different devices. The design also utilised consistent font pairings, border-styles, padding and color themes to reinforce the tone of the product. The website was designed with a mobile-first approach, using Figma, and then implemented with HTML, CSS and Javascript. The website was deployed to GitHub pages.
 
 This readme aims to introduce the key features of website, generally focusing on the 5 user experience planes. It summarises key challenges addressed along the way and also provides credits.
 
 A Testing file is dedicated to a more specific technical account of the developments.
 
-In the issues I have logged written, video or screenshot accounts.
+In the issues I have logged written, video or screenshot accounts. 
+
+.
+
 
 </div>
 
@@ -52,11 +55,14 @@ In the issues I have logged written, video or screenshot accounts.
 
 # UX Development Planes
 
-- [ ] Intro
+The UX development planes are for the purpose of explaining the design process of the website. The website was designed for a virtual classroom product called Hoverboard. The product enables teachers to set classwork, assess and give feedback to students. The website was designed to introduce the product to new users and encourage them to sign up for a free trial.
+
 
 ## Strategy Plane
 
 The product was aimed at education proffessionals. These could be teachers, headteachers. The product is used by students. 
+
+The business goals were to increase the number of new users signing up for a free trial, for this to be successful, the website needed to be persuasive, informative and for the user to navigate. 
 
 ### User Stories <!-- omit in toc -->
 
