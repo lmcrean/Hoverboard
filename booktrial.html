@@ -6,28 +6,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Hoverboard, the online Education platform">
-  <meta name="keywords" content="Hoverboard, Classroom, VLE,">
+  <meta name="keywords" content="Hoverboard, Classroom, VLE, Education, Learning, Homework, School, Teacher, Student, Virtual Learning Environment, Online Learning, Online Classroom, Online Education, Online Teacher, Online Student, Online Homework, Online School, Homework Plaform, Learning Platform, Homework Cloud, Complete classwork online"> 
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <script src="https://kit.fontawesome.com/c7515a9d31.js" crossorigin="anonymous"></script>
-
   <link rel="icon" href="assets/media/favicon.ico" type="image/x-icon">
   <title>Hoverboard</title>
 </head>
 
 <body>
   <header>
+    <!-- The header contains a responsive Navbar that is displayed on all pages. The Navbar contains the logo, a menu icon and menu items. The menu icon is only displayed on mobile devices, it is used to open and close the menu items on mobile devices.  The menu items are displayed as a list on mobile devices and as a row on larger devices. -->
     <nav>
       <div class="navbar" id="mynavbar">
         <a href="index.html"><img src="assets/media/navbarlogo.png" class="navbartitle" alt="Hoverboard Company Logo"></a>
-
         <a href="javascript:void(0)" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars" id="icon-open"></i></a>
-
-        <a href="javascript:void(0)" class="icon" onclick="myFunction()">
-        <i class="fa-solid fa-x"  id="icon-close"></i></a>
-
+        <i class="fa fa-bars" id="icon-open"></i></a> <!--Menu-open icon only displayed on mobile devices --->
+        <a href="javascript:void(0)" class="icon" onclick="myFunction()"> 
+        <i class="fa-solid fa-x"  id="icon-close"></i></a> <!-- closes the menu-->
       <ul class="menu-items">
       <li><a href="index.html">Home</a></li>
       <li><a href="features.html">About our Features</a></li>
@@ -40,14 +37,6 @@
   </header>
 <br><br><br><br>
 
-
-
-
-
-
-
-
-
 <main>
     <section id="booktrial-landing">
       <div class="heading-container">
@@ -59,16 +48,6 @@
         <img src="assets/media/booktrial-clipboard-icon.png" alt="signup icon">
       </div>
     </section>
-
-
-
-    
-
-
-
-
-
-
 
     <section id="booktrial-form">
       <div class="booktrial-bg-img">
@@ -83,18 +62,6 @@
         <div class="submit hide-in-mobile-and-tablet show-in-laptop-and-desktop">
           <button type="submit" value="Submit">SUBMIT</button>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
         <form action="./thankyou.html" method="GET">     
           <div id="form-grid-container">
@@ -140,22 +107,7 @@
             </div>
           </div>
         
-          <script>
-            // Script for password confirmation validation - must match password
-            const passwordInput = document.getElementById('password');
-            const confirmPasswordInput = document.getElementById('confirm-password');
-            const passwordMatchError = document.getElementById('password-match-error');
-        
-            function validatePassword() {
-              if (passwordInput.value !== confirmPasswordInput.value) {
-                passwordMatchError.textContent = "Passwords do not match.";
-              } else {
-                passwordMatchError.textContent = "";
-              }
-            }
-        
-            confirmPasswordInput.addEventListener('input', validatePassword);
-          </script>
+
         
           <div class="submit hide-in-laptop-and-desktop">
             <button type="submit" value="Submit" class="hide-in-laptop-and-desktop">SUBMIT</button>
@@ -163,51 +115,29 @@
         </form>
       </section>
     </main>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       
-  <footer>
-
-    <div class="footer-small-print">
-      <p>
-      © 2023 Hoverboard
-      </p>
-    </div>
-    
-
-    <div class = "footer-links">
-
-      <div class = "footer-row1">
-        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="https://www.intagram.com/"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.twitter.com/">
-        <i class="fa-brands fa-twitter"></i></a>
-        <a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a>
+    <footer>
+      <!-- The footer contains a copyright note and links to the company's social media pages. The links are displayed as 2 columns on smaller devices and as a single row on larger devices. -->
+      <div class="footer-small-print">
+        <p>
+          © 2023 Hoverboard
+        </p>
       </div>
-
-      <div class = "footer-row2">
-        <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
-        <a href="https://www.discord.com/"><i class="fa-brands fa-discord"></i></a>
-        <a href="https://www.slack.com/"><i class="fa-brands fa-slack"></i></a>
-        <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
-      </div>
-      
-    </div>  
-
-  </footer>
+      <div class = "footer-links">
+        <div class = "footer-row1">
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+        <div class = "footer-row2"> <!-- displayed as second row on smaller devices -->
+          <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.discord.com/"><i class="fa-brands fa-discord"></i></a>
+          <a href="https://www.slack.com/"><i class="fa-brands fa-slack"></i></a>
+          <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>  
+    </footer>
 </body>
 
 <script> /*Script for Menu open */
@@ -215,4 +145,21 @@
     document.getElementById("mynavbar").classList.toggle("menuOpen");
     document.querySelector("main").classList.toggle("move-down");
   }
+</script>
+
+<script>
+  // Script for password confirmation validation - must match password
+  const passwordInput = document.getElementById('password');
+  const confirmPasswordInput = document.getElementById('confirm-password');
+  const passwordMatchError = document.getElementById('password-match-error');
+
+  function validatePassword() {
+    if (passwordInput.value !== confirmPasswordInput.value) {
+      passwordMatchError.textContent = "Passwords do not match.";
+    } else {
+      passwordMatchError.textContent = "";
+    }
+  }
+
+  confirmPasswordInput.addEventListener('input', validatePassword);
 </script>
