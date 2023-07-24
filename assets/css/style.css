@@ -86,20 +86,20 @@ footer { background-color: var(--lightblue);}
 .footer-links a:hover {background-color: var(--black-light);}
 
 .hero-heading { background-color: var(--transparent-orange); color: var(--white);}
-#features-wrapper-nested {background-color: #cd5a5a00;opacity: normal;color: var(--black-medium);}
-#features-wrapper-nested h1 {color: var(--black-medium);}
+#app-intro-nested {background-color: #cd5a5a00;opacity: normal;color: var(--black-medium);}
+#app-intro-nested h1 {color: var(--black-medium);}
 .background-wrapper-black {background-color: var(--black-medium); color: var(--white);}
 .testimonial-name, .testimonial-title {background-color: var(--black-medium); color: var(--white);}
 .booktrial-link {background-color: var(--orange); color: var(--white);}
 
-.features-heading-container h1 {color: var(--white);}
+
 .features-wrapper { background-color: var(--orange); color: var(--white);}
 
-#booktrial-landing h1 {color: var(--white);}
 .heading-container {background-color: var(--orange); color: var(--white);}
 #booktrial-landing .heading-container {background-color: var(--orange); color: var(--white);}
 button[type="submit"] { background-color: var(--orange); color: var(--white);}
 
+.text-white {color: var(--white);} /*here I am beginning to replace the previous id styling with class="text-[color]" styling, for easier workflow*/
 
 /*Animations*/
 .button a, #myBtn, .menu-items a, button[type="submit"], header, a {
@@ -616,6 +616,10 @@ margin: auto;
   #mission-more-info {
     grid-area: 2/2/3/3;
   }
+
+  #app-intro-nested {
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 1728px) {
@@ -631,10 +635,10 @@ margin: auto;
   }
 }
 
-/*HOME PAGE FEATURES INTRO*/
-/*the following #features-wrapper-nested is the same feature as #features-intro-homepage". The difference is that #features-intro-homepage is displayed on mobile view, while #features-wrapper-nested is displayed on laptop view, compressed into the right column of the #mission-intro feature */
+/*HOME PAGE APP INTRO*/
+/*the following #app-intro-nested is the same feature as #app-intro-parent". The difference is that #app-intro-parent is displayed on mobile view, while #app-intro-nested is displayed on laptop view, compressed into the right column of the #mission-intro feature */
 
-#features-intro-homepage, #features-wrapper-nested {
+#app-intro-parent, #app-intro-nested {
   margin-top: 100px;
   display: flex;
   justify-content: center;
@@ -642,33 +646,33 @@ margin: auto;
   flex-direction: column;
 }
 
-#features-intro-homepage h2, #features-wrapper-nested h2 {
+#app-intro-parent h2, #app-intro-nested h2 {
   display: flex;
   justify-content: center;
 }
 
-#features-wrapper-nested {
+#app-intro-nested {
   grid-area: 3/2/4/3;
   z-index: -1;
   margin: auto;
   margin-top: -33px;
 }
 
-#features-wrapper-nested img {
+#app-intro-nested img {
   object-fit: contain;
   margin: auto;
 }
 
-#features-wrapper-nested p {
+#app-intro-nested p {
   text-align: center;
 }  
 
 
 /*HOMEPAGE FEATURES LINK*/
 
-#features-link {
+#features-call-to-action {
   grid-template-columns: 1fr 1.5fr;
-  grid-area: 1/1/;
+  grid-area: 1/1/4/3;
 }
 
 .background-wrapper-black {
@@ -679,7 +683,7 @@ margin: auto;
   margin:auto;
 }
 
-#features-link img {
+#features-call-to-action img {
   margin: auto;
   grid-area: 1/1/3/3;
   max-width: 330px;
@@ -694,7 +698,7 @@ margin: auto;
 } */
 
 @media (min-width: 1208px) {
-  #features-link img {
+  #features-call-to-action img {
     margin: auto 0 auto auto;
     grid-area: 1/1/3/2;
   }
@@ -709,7 +713,7 @@ margin: auto;
 }
 
 /*@media (min-width: 1368px) {
-  #features-link img {
+  #features-call-to-action img {
   max-height: 700px; 
   width: auto;}
 }
@@ -717,6 +721,10 @@ margin: auto;
 
 
 /*HOME PAGE TESTIMONIAL FEATURE*/
+
+#testimonial-logo-inline {
+  max-width: 600px;
+}
 
 #testimonials-feature, #testimonials-feature-laptop-desktop-view {
   margin-top: 100px
