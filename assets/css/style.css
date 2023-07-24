@@ -1157,8 +1157,7 @@ Elements: */
   display: flex;
   justify-content: center;
   align-content: flex-end;
-  
-  width:46%;
+  max-width: 320px;
   height: auto;
 }
 
