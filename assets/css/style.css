@@ -86,7 +86,7 @@ footer { background-color: var(--lightblue);}
 .footer-links a:hover {background-color: var(--black-light);}
 
 .hero-heading { background-color: var(--transparent-orange); color: var(--white);}
-#features-wrapper-nested {background-color: var(--white); color: var(--black-medium);}
+#features-wrapper-nested {background-color: #cd5a5a00;opacity: normal;color: var(--black-medium);}
 #features-wrapper-nested h1 {color: var(--black-medium);}
 .background-wrapper-black {background-color: var(--black-medium); color: var(--white);}
 .testimonial-name, .testimonial-title {background-color: var(--black-medium); color: var(--white);}
@@ -529,8 +529,8 @@ margin: auto;
 
 
 .responsive-1to2-columns {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  /* flex-direction: column; */
   margin-top: 50px;
 }
 
@@ -538,6 +538,7 @@ margin: auto;
   object-fit: contain;
   max-width: 100%;
   height: auto;
+  grid-area: 1/1/2/3;
 }
 
 #bg-squiggle-spring {
@@ -545,10 +546,9 @@ margin: auto;
   margin: auto;
   max-width: 100%;
   z-index: -3;
-  position: absolute;
-  top: 1000px;
-  left:30%;
+  position: relative;
   overflow:hidden;
+  grid-area: 1/1/2/2;
 }
 
 #bg-squiggle-flash {
@@ -556,6 +556,7 @@ margin: auto;
   object-fit: contain;
   margin: auto;
   max-width: 100%;
+  grid-area: 2/1/3/3;
 }
 
 
@@ -566,14 +567,13 @@ margin: auto;
     display: grid;
     margin-top: 70px;
     grid-template-columns:  50% 50%;
+    grid-area: 5/1/6/3;
   }
 
-  #bg-squiggle-spring {
-    top: 500px;
-  }
+
 
   #bg-squiggle-flash {
-    top:1600px;
+    /* top:1600px; */
   }
   
 
@@ -602,21 +602,14 @@ margin: auto;
     max-height: auto; 
     max-width: 90%;
   }
-  
-
-  #bg-squiggle-spring {
-    top: 700px;
-
-  }
 
   #bg-squiggle-flash {
-    display: none;
-    position:fixed;
-    grid-area:1/3/3/3;
-    left:900px;
-    top: 1300px;
-    width:30%;
-
+    /* display: none; */
+    /* position:fixed; */
+    grid-area: 1/2/6/3 !important;
+    /* left:900px; */
+    /* top: 1300px; */
+    width: 100%;
   }
     #mission-intro p {
       grid-row: 1 / 4;
@@ -631,7 +624,6 @@ margin: auto;
 @media (min-width: 1728px) {
   #bg-squiggle-spring {
     top: 350px;
-    left: 32%
   }
 }
 
