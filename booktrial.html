@@ -50,18 +50,13 @@
     </section>
 
     <section id="booktrial-form">
-      <div class="booktrial-bg-img">
-        <img src="assets/media/booktrial-bg-quiggles.png" alt="background squiggle image" style="display:none">
-    </div>
+        <img id="bg-squiggles-writing" src="assets/media/bg-squiggles-writing.png" alt="background squiggle image">
         <h2>
           Essential Details
         </h2>
-        <p class="error">
-            Please enter the following details correctly:
+        <p>
+            Fill in the form below and a member of our team will be in touch to set up your free trial.
         </p>
-        <div class="submit hide-in-mobile-and-tablet show-in-laptop-and-desktop">
-          <button type="submit" value="Submit">SUBMIT</button>
-        </div>
 
         <form action="./thankyou.html" method="GET">     
           <div id="form-grid-container">
@@ -94,23 +89,10 @@
               <label for="mobile-number-input">Mobile Number:<i class="fa-solid fa-square-xmark"></i></label><i class="fa-solid fa-square-check"></i><br>
               <input type="tel" id="mobile-number-input" name="mobile-number" pattern="[0-9]{11}" required title="Enter a valid 11-digit mobile number">
             </div>
-        
-            <div id="password">
-              <label for="password-input">Password:<i class="fa-solid fa-square-xmark"></i></label><i class="fa-solid fa-square-check"></i><br>
-              <input type="password" id="password-input" name="password" required>
-            </div>
-        
-            <div id="confirm-password">
-              <label for="confirm-password-input">Confirm Password:<i class="fa-solid fa-square-xmark"></i></label><i class="fa-solid fa-square-check"></i><br>
-              <input type="password" id="confirm-password-input" name="confirm-password" required><br>
-              <span id="password-match-error" class="error"></span>
-            </div>
-          </div>
-        
 
-        
-          <div class="submit hide-in-laptop-and-desktop">
-            <button type="submit" value="Submit" class="hide-in-laptop-and-desktop">SUBMIT</button>
+          </div>
+          <div class="submit">
+            <button type="submit" value="Submit">SUBMIT</button>
           </div>
         </form>
       </section>

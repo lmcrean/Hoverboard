@@ -19,11 +19,11 @@
   src: local('Peace Sans'), url('https://fonts.cdnfonts.com/s/16323/peace_sans.woff') format('woff');
 }
 
-h1, h2, h3, h4, label {
+h1, h2, label {
   font-family: 'PeaceSans', sans-serif;
 }
 
-p, 
+p, h3, h4,
 a,
 form input[type="text"],
 form input[type="password"],
@@ -31,6 +31,10 @@ form input[type="tel"],
 form input[type="email"] {
   font-family: 'glacialindifference', sans-serif;
 }
+
+h3 {/*bolden text*/
+  font-weight: 700 !important;}
+h4 {font-style:italic;}
 
 /*FIXED STYLING - COLORS*/
 /*Root variables are used to define the color palette. The colors are used throughout the stylesheet. It's a useful function because it allows the color palette to be changed easily.*/
@@ -1185,7 +1189,7 @@ Elements: */
 
 #booktrial-landing .img-container {
   grid-area: 1/2/3/3;
-  margin: 0px 0px;
+  margin: 0px 0px 0px -50px;
   justify-content: left;
 }
 
@@ -1202,6 +1206,22 @@ Elements: */
 }
 
 /*BOOK TRIAL FORM*/
+#bg-squiggles-writing {
+  object-fit: contain;
+  margin: auto;
+  max-width: 100%;
+  max-height: 900px;
+  z-index: -4;
+  position: absolute;
+  top: 231px;
+  overflow: hidden;
+  left: 0px;
+}
+
+#form-grid-container > div {
+  margin-top: 15px;
+}
+
 .booktrial-bg-img img{
   width: 100%;
   top: 19em;
@@ -1222,10 +1242,16 @@ form input[type="email"] {
   border: 0.15em solid black;
   border-radius: 0.7em;
   text-align: center;
+  width: 70%;
+  /* margin-top: 0px; */
 }
 
 h2, p, form {
   text-align: center;
+}
+
+form {
+    grid-area: 2/2/3/3;
 }
 
 .fa-square-xmark:before, .booktrial-form .error { display: none;
@@ -1249,6 +1275,7 @@ button[type="submit"] {
   display:grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
+  margin-top: 30px;
 }
 
 form input {
@@ -1275,7 +1302,7 @@ form input {
 
 }
 
-@media  screen and (min-width:1208px) {
+@media  screen and (min-width: 1208px) {
   #booktrial-form {
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -1283,14 +1310,25 @@ form input {
   }
 
   #booktrial-form > h2,p, .submit {
-    grid-column-start: 1;
+    grid-area: 1/2/2/3;
   }
+
+#booktrial-form p {
+    margin-top: 65px;
+}
+
+.submit {
+    margin-top: 30px;
+    /* display: none; */
+    align-content: center;
+}
 
   button[type="submit"] {
     grid-column-start: 1;
     grid-column-start: 1;
     margin: 0em auto;
-    width: 6em;
-    height: 2em;
+    /* width: 6em; */
+    /* height: 2em; */
+    font-weight: 600;
 }
   }
