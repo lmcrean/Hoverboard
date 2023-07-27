@@ -762,6 +762,29 @@ margin: auto;
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 1207.9px) {
+  #testimonials-feature * {
+    grid-column: 1 / span 2;
+  }}
+  
+
+/*mobile view, force all into 1 column*/
+/*image-styling in mobile view*/
+/*mobile view, row1, David Martinez, (grid rows 1-5)*/
+/*mobile view, row2, Emily Wilson, (grid rows 6-11)*/
+/*mobile view, row3, Michael Davis, (grid rows 12-17)*/
+/*mobile view, row4, Danielle Turner, (grid rows 18-23)*/
+/*mobile view, row5, John Anderson, (grid rows 24-29)*/
+/*mobile view, row6, Emma Roberts, (grid rows 30-35)*/
+/*mobile view, row7, Robert Thmpson, (grid rows 36-41)*/
+/*mobile view, row8, Sarah Jones, (grid rows 42-47)*/
+
+
+#testimonials-feature {grid-template-columns: 1fr 1fr;grid-template-rows: repeat(47, minmax(30px, auto));grid-gap: 5px;}
+
+/*selects all elements in the section*/
+
+/*user images*/
 #testimonials-feature img {
   vertical-align: middle;
   margin: auto;
@@ -771,20 +794,20 @@ margin: auto;
   min-height: 310px;
   }
 
-img.user-image.david-martinez.tablet-image-on-left.tablet-row-1.laptop-row-1-left {}
-
-/*mobile view, force all into 1 column*/
-
-#testimonials-feature {
-grid-template-columns: 1fr 1fr;
-grid-gap: 5px;
+img.user-image.david-martinez.tablet-image-on-left.tablet-row-1.laptop-row-1-left {
+    grid-column: 1/span 1;
 }
 
-/*selects all elements in the section*/
-#testimonials-feature * {
-  grid-column: 1 / span 2;
-}
+.user-image.tablet-row-1{grid-row: 1/span 2;}
+.user-image.tablet-row-2{grid-row:6/span 2;}
+.user-image.tablet-row-3{grid-row:12/span 2;}
+.user-image.tablet-row-4{grid-row:18/span 2;}
+.user-image.tablet-row-5{grid-row:24/span 2;}
+.user-image.tablet-row-6{grid-row:30/span 2;}
+.user-image.tablet-row-7{grid-row:36/span 2;}
+.user-image.tablet-row-8{grid-row:42/span 2;}
 
+/*positioning*/
 .testimonial-background {
   margin:auto;
   border-radius:2em;
@@ -792,33 +815,25 @@ grid-gap: 5px;
 
 h3.testimonial-name {
   margin: auto auto auto;
-}
+} 
 
-h4.testimonial-title {
-  margin: 50px auto 10px;
-}
+h4.testimonial-title {margin: 50px auto 10px;}
 
-/*horizontal positioning*/
-#testimonials-feature .user-image 
-#testimonials-feature .testimonial-text 
+#testimonials-feature .user-image {max-width:280px; height: auto;}
+#testimonials-feature .testimonial-text {width: 80%}
 
 #testimonials-feature .testimonial-title 
-.air-quotations-opening, .air-quotations-closing {z-index:-1}
+.air-quotations-closing {z-index:-1; margin: 120px auto 0px !important;}
+.air-quotations-closing {z-index:-1; margin: 120px auto 0px !important;}
 .testimonial-background-blue, .testimonial-background-orange {z-index: -2; width: 100%; height: 100%;}
+.testimonial-background {width: 85%}
 
 /*below are the selectors for each testimonial, specifying the grid area, we will use the tablet selector for mobile*/
 
-.user-image.tablet-row-1{grid-row: 1/span 2;}
-.user-image.tablet-row-2{grid-row:6/span 1;}
-.user-image.tablet-row-3{grid-row:12/span 1;}
-.user-image.tablet-row-4{grid-row:18/span 1;}
-.user-image.tablet-row-5{grid-row:24/span 1;}
-.user-image.tablet-row-6{grid-row:30/span 1;}
-.user-image.tablet-row-7{grid-row:36/span 1;}
-.user-image.tablet-row-8{grid-row:42/span 1;}
 
-.testimonial-text.tablet-row-1{grid-row: 2/ span 1;}
-.testimonial-text.tablet-row-2{grid-row: 7/ span 1;}
+
+.testimonial-text.tablet-row-1{grid-row: 3/ span 1;}
+.testimonial-text.tablet-row-2{grid-row: 8/ span 1;}
 .testimonial-text.tablet-row-3{grid-row: 14/ span 1; }
 .testimonial-text.tablet-row-4{grid-row: 20/ span 1; }
 .testimonial-text.tablet-row-5{grid-row: 26/ span 1; }
@@ -843,7 +858,7 @@ h4.testimonial-title {
 .testimonial-background.tablet-row-7, 
 .air-quotations.tablet-row-7{grid-row: 37/ span 3; }
 .testimonial-background.tablet-row-2, 
-.air-quotations.tablet-row-2{grid-row: 6/ span 3;}
+.air-quotations.tablet-row-2{grid-row: 7/ span 3;}
 .testimonial-background.tablet-row-4, 
 .air-quotations.tablet-row-4{ grid-row: 19/ span 3; }
 .testimonial-background.tablet-row-6, 
@@ -851,18 +866,10 @@ h4.testimonial-title {
 .testimonial-background.tablet-row-8, 
 .air-quotations.tablet-row-8{ grid-row: 43/ span 3; }/*last track=47*/
 
-/*image-styling in mobile view*/
-/*mobile view, row1, David Martinez, (grid rows 1-5)*/
-/*mobile view, row2, Emily Wilson, (grid rows 6-11)*/
-/*mobile view, row3, Michael Davis, (grid rows 12-17)*/
-/*mobile view, row4, Danielle Turner, (grid rows 18-23)*/
-/*mobile view, row5, John Anderson, (grid rows 24-29)*/
-/*mobile view, row6, Emma Roberts, (grid rows 30-35)*/
-/*mobile view, row7, Robert Thmpson, (grid rows 36-41)*/
-/*mobile view, row8, Sarah Jones, (grid rows 42-47)*/
+
 
 /*----------------*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1207.9px) {
 
 /*X-axis positioning spans*/
 #testimonials-feature .user-image.user-image.tablet-image-on-left {grid-column: 1/ span 1;}
@@ -881,13 +888,13 @@ h4.testimonial-title {
 
 /*box positioning*/
 #testimonials-feature .user-image.tablet-image-on-left {margin: 0% 0% 40px 30%;}
-#testimonials-feature .user-image.tablet-image-on-right {margin: 40px 0px 0px 24%;}
+#testimonials-feature .user-image.tablet-image-on-right {margin: 40px 0px 0px 15%;}
 #testimonials-feature .testimonial-text.tablet-image-on-left {margin: 10% 26% 4% 0%;padding: 0% 0% 0% 0%;text-align: left;}
 #testimonials-feature .testimonial-text.tablet-image-on-right {margin: 10% -2% 7% 29%;padding: 0% 0% 0% 0%;text-align: right;}
 #testimonials-feature .testimonial-name.tablet-image-on-left {margin: 0px 0% 0px 0%;text-align: left;} 
 #testimonials-feature .testimonial-name.tablet-image-on-right {margin: -25px 0% 25px 64%;text-align: right;}
 
-h3.testimonial-name.emma-wilson.tablet-row-2.laptop-row-4-right.tablet-image-on-right {
+h3.testimonial-name.emily-wilson.tablet-row-2.laptop-row-4-right.tablet-image-on-right {
     margin: -29px 0% 25px 64% !important;
     /* text-align: right; */
 }
@@ -955,6 +962,7 @@ h3.testimonial-name.emma-wilson.tablet-row-2.laptop-row-4-right.tablet-image-on-
 /*tablet view, row8, Sarah Jones, (grid rows 42-47)*/
 
 }
+
 /*in laptop view, present testimonials as 2 columns and 4 rows*/
 @media screen and (min-width: 1208px) {
 #testimonials-feature {
@@ -962,24 +970,52 @@ h3.testimonial-name.emma-wilson.tablet-row-2.laptop-row-4-right.tablet-image-on-
   grid-gap: 5px;
   }
 
-.LAPTOP-IMAGE-ON-LEFT
-.LAPTOP-IMAGE-ON-RIGHT
-  
+/*box-model positioning - GROUP A - image on upper left*/
 
-/*horizontal positioning*/
-.user-image.laptop-row-1-left, .user-image.laptop-row-2-left, .user-image.laptop-row-3-left, .user-image.laptop-row-4-left {grid-column: 1/ span 1; }
-.user-image.laptop-row-1-right, .user-image.laptop-row-2-right, .user-image.laptop-row-3-right, .user-image.laptop-row-4-right {grid-column: 4/ span 1; }
-.testimonial-text.laptop-row-1-left, .testimonial-text.laptop-row-2-left, .testimonial-text.laptop-row-3-left, .testimonial-text.laptop-row-4-left, .testimonial-name.laptop-row-1-left, .testimonial-name.laptop-row-2-left, .testimonial-name.laptop-row-3-left, .testimonial-name.laptop-row-4-left, .testimonial-title.laptop-row-1-left, .testimonial-title.laptop-row-2-left, .testimonial-title.laptop-row-3-left, .testimonial-title.laptop-row-4-left {grid-column: 2/ span 1; }
-.testimonial-text.laptop-row-1-right, .testimonial-text.laptop-row-2-right, .testimonial-text.laptop-row-3-right, .testimonial-text.laptop-row-4-right, .testimonial-name.laptop-row-1-right, .testimonial-name.laptop-row-2-right, .testimonial-name.laptop-row-3-right, .testimonial-name.laptop-row-4-right, .testimonial-title.laptop-row-1-right, .testimonial-title.laptop-row-2-right, .testimonial-title.laptop-row-3-right, .testimonial-title.laptop-row-4-right {grid-column: 5/ span 1; }
+#testimonials-feature .user-image.grid-group-A {margin: 0px 0px 0px 0px}
 
-.air-quotations.laptop-row-1-left, .air-quotations.laptop-row-2-left, .air-quotations.laptop-row-3-left, .air-quotations.laptop-row-4-left, .testimonial-background.laptop-row-1-left, .testimonial-background.laptop-row-2-left, .testimonial-background.laptop-row-3-left, .testimonial-background.laptop-row-4-left {grid-column: 1/ span 2; }
+#testimonials-feature .testimonials-text.grid-group-A {margin: 0px 0px 0px 0px}
 
-.air-quotations.laptop-row-1-right, .air-quotations.laptop-row-2-right, .air-quotations.laptop-row-3-right, .air-quotations.laptop-row-4-right, .testimonial-background.laptop-row-1-right, .testimonial-background.laptop-row-2-right, .testimonial-background.laptop-row-3-right, .testimonial-background.laptop-row-4-right {grid-column: 4/ span 2; }
+#testimonials-feature .testimonials-title.grid-group-A {margin: 0px 0px 0px 0px}
 
-.david-martinez, .emma-roberts {grid-row: 1/ span 1; }
-.michael-davis, .sarah-jones {grid-row: 3/ span 1; }
-.john-anderson,  .emily-wilson {grid-row: 5/ span 1; }
-.robert-thompson, .danielle-turner {grid-row: 7/ span 1; }
+#testimonials-feature .testimonials-name.grid-group-A {margin: 0px 0px 0px 0px}
+
+#testimonials-feature .air-quotations-opening {margin: 0px 0px 0px 0px}
+
+#testimonials-feature .testimonial-background.grid-group-A {margin: 24px 0px 0px 81px;}
+
+/*box-model positioning - GROUP B - image on lower right*/
+
+#testimonials-feature .user-image.grid-group-B {margin: 0px 0px 0px 0px}
+
+#testimonials-feature .testimonials-text.grid-group-B {margin: 0px 0px 0px 0px}
+
+#testimonials-feature .testimonials-title.grid-group-B {margin: 0px 0px 0px 0px}
+
+#testimonials-feature .testimonials-name.grid-group-B {margin: 0px 0px 0px 0px}
+
+#testimonials-feature .air-quotations-closing {margin: 0px 0px 0px 0px}
+
+#testimonials-feature .testimonial-background.grid-group-B {margin: 0px 0px 0px 0px}
+
+/*horizontal grid positioning*/
+/*TODO -- extra class names in html for elements on the same laptop-grid-column*/
+
+#testimonials-feature .laptop-grid-column-1 {grid-column: 1/ span 1;}
+#testimonials-feature .laptop-grid-column-2 {grid-column: 2/ span 1;}
+#testimonials-feature .laptop-grid-column-3 {grid-column: 3/ span 1;}
+#testimonials-feature .laptop-grid-column-4 {grid-column: 4/ span 1;}
+#testimonials-feature .laptop-grid-column-5 {grid-column: 5/ span 1;}
+#testimonials-feature .laptop-grid-column-1-span-2 {grid-column: 1/ span-2;}
+#testimonials-feature .laptop-grid-column-4-span-2 {grid-column: 4/ span-2;}
+
+
+/* vertical grid positioning*/
+
+#testimonials-feature .david-martinez, #testimonials-feature .air-quotations.laptop-row-1-left, #testimonials-feature .emma-roberts {grid-row: 1/ span 1; }
+#testimonials-feature .john-anderson, #testimonials-feature .sarah-johnson {grid-row: 3/ span 1; }
+#testimonials-feature .robert-thompson, #testimonials-feature .danielle-turner {grid-row: 5/ span 1; }
+#testimonials-feature .emily-wilson, #testimonials-feature .michael-davis {grid-row: 7/ span 1; }
 
 /*laptop view, row1, left column, David Martinez, (grid rows 1-2)*/
 /*laptop view, row1, right column, Emma roberts, (grid rows 1-2)*/
@@ -1337,4 +1373,4 @@ form input {
     /* height: 2em; */
     font-weight: 600;
 }
-  }
+  }v
