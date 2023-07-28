@@ -254,19 +254,16 @@ nav {
   align-content: center;
 }
 
-.navbartitle {
+img.navbartitle {
   width: auto;
   max-height: 57px;
-  margin: 0px 0px 1em;
-  padding: 0px
+  margin: auto;
+  padding: 0px;
+  z-index: 5;
 }
 
 @media only screen and (max-width: 340px) {
-  .navbartitle {
-  /* max-height: 35px; */
-  margin: auto 16px 0px auto;
-  max-width: 200px;
-}
+
 }
 
 .navbar .icon {
