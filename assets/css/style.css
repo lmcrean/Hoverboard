@@ -968,36 +968,37 @@ h3.testimonial-name.emily-wilson.tablet-row-2.laptop-row-4-right.tablet-image-on
 #testimonials-feature {
   grid-template-columns: 1fr 1fr 0.3fr  1fr 1fr; /* 3rd fr is column-gap*/
   grid-gap: 5px;
+  grid-template-rows: min-content;
   }
 /*box-model-positioning - generic*/
-p.testimonials-text {padding: auto auto auto; width: 100% !important;}
+#testimonials-feature p.testimonial-text {padding: auto auto auto;/* width: 109%; *//* margin: auto 20px 72px -38px; */}
 
-h4.testimonials-title {margin: 0px 0px 0px 0px;}
+#testimonials-feature h4.testimonial-title {margin: auto 0px 25px 0px;}
 
-h3.testimonials-name {margin: 0px 0px 0px 0px;}
+#testimonials-feature h3.testimonial-name {margin: auto 0px 45px 0px;}
 
 
 /*box-model positioning - GROUP A - image on upper left*/
-img.user-image.grid-group-A {margin: 0px 0px 0px 0px}
+#testimonials-feature img.user-image.grid-group-A {margin: 0px 13px 38px 12px;}
 
-p.testimonials-text.grid-group-A {margin: 0px 0px 0px 0px}
+#testimonials-feature p.testimonial-text.grid-group-A {margin: 7px 11px 8px -55px;padding: auto;width: 120%;}
 
-h4.testimonials-title.grid-group-A {margin: 0px 0px 0px 0px}
+#testimonials-feature h4.testimonial-title.grid-group-A {/* margin: 0px 0px 0px 0px; */}
 
-h3.testimonials-name.grid-group-A {margin: 0px 0px 0px 0px}
+#testimonials-feature h3.testimonial-name.grid-group-A {/* margin: 0px 0px 0px 0px; */}
 
-img.air-quotations-opening {margin: 0px 0px 0px 0px}
+#testimonials-feature img.air-quotations-opening {margin: 0px 0px 0px 0px}
 
-img.testimonial-background.grid-group-A {margin: 24px 0px 0px 81px;}
+#testimonials-feature img.testimonial-background.grid-group-A {margin: 24px 0px 0px 81px;}
 
 /*box-model positioning - GROUP B - image on lower right*/
 
-#testimonials-feature .user-image.grid-group-B {margin: 0px 0px 0px 0px}
-#testimonials-feature .testimonials-text.grid-group-B {margin: 0px 0px 0px 0px}
-#testimonials-feature .testimonials-title.grid-group-B {margin: 0px 0px 0px 0px}
-#testimonials-feature .testimonials-name.grid-group-B {margin: 0px 0px 0px 0px}
-#testimonials-feature .air-quotations-closing {margin: 0px 0px 0px 0px}
-#testimonials-feature .testimonial-background.grid-group-B {margin: 0px 0px 0px 0px}
+#testimonials-feature img.user-image.grid-group-B {margin: 0px 0px 0px 0px}
+#testimonials-feature p.testimonial-text.grid-group-B {/* margin: 0px 0px 0px 0px; */}
+#testimonials-feature h4.testimonial-title.grid-group-B {/* margin: 0px 0px 0px 0px; */}
+#testimonials-feature h3.testimonial-name.grid-group-B {/* margin: 0px 0px 0px 0px; */}
+#testimonials-feature img.air-quotations-closing {margin: 0px 0px 0px 0px}
+#testimonials-feature img.testimonial-background.grid-group-B {margin: 0px 0px 0px 0px}
 
 /*horizontal grid positioning*/
 /*TODO -- extra class names in html for elements on the same laptop-grid-column*/
