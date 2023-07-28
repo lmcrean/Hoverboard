@@ -94,10 +94,10 @@ footer { background-color: var(--lightblue);}
 #app-intro-nested {background-color: #cd5a5a00;opacity: normal;color: var(--black-medium);}
 #app-intro-nested h1 {color: var(--black-medium);}
 .background-wrapper-black {background-color: var(--black-medium); color: var(--white);}
+.backround-wrapper-orange {background-color: var(--orange); color: var(--white);}
 .testimonial-name, .testimonial-title {color: var(--black-medium);}
 .testimonial-background-blue {background-color: var(--lightblue);}
 .testimonial-background-orange {background-color: var(--lightsalmon);}
-.booktrial-link {background-color: var(--orange); color: var(--white);}
 
 
 
@@ -181,10 +181,6 @@ h1,h2,h3,h4 {
   text-align: center;
 }
 
-h2 {
-  margin-bottom: 2em;
-}
-
 p {
   padding: 0em 2em;
   margin: auto;
@@ -226,6 +222,15 @@ p {
 
 .display-grid {
   display:grid;
+}
+
+.background-wrapper /*this used for the features call to action*/ {
+  grid-area: 2/1/7/3;
+  min-width: 100%;
+  height: 100%;
+  margin:auto auto -30px auto;
+  position: relative;
+  z-index: -4;
 }
 
 /*RESPONSIVE DESIGN BY FEATURE*/
@@ -544,7 +549,7 @@ margin: auto;
 /*I have styled this as a grid with media queries.*/
 
 #mission-intro {
-  margin-top: 10px;
+  margin-top: 8rem;
 }
 
 .responsive-1to2-columns {
@@ -561,29 +566,33 @@ margin: auto;
 }
 
 #bg-squiggle-spring {
+  margin: -29rem 0rem 0rem 0rem;
   object-fit: contain;
-  margin: auto;
+  /* margin: auto; */
   max-width: 100%;
   z-index: -3;
   position: relative;
   overflow:hidden;
-  grid-area: 1/1/2/3;
+  grid-area: 1/1/3/3;
 }
+
+img#bg-squiggle-spring {}
 
 #mission-heading {
   grid-area: 1/1/2/3;
   text-align: center;
   align-content: center;
   margin: auto;
+  padding: 0rem 5%;
   z-index: 5;
 }
 
 #mission-image {
   object-fit: contain;
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   grid-area: 2/1/3/3;
-  max-width: 100%;
+  /* min-height: 293px; */
   z-index:4;
   margin:  auto;
 }
@@ -619,13 +628,16 @@ margin: auto;
 
   #mission-more-info {
     grid-area: 2/2/3/3;
+    text-align: left;
   }
 }
 
 
 @media (min-width: 1208px) {
   #bg-squiggle-spring {
-    grid-area: 1/1/2/2;
+    grid-area: 1/1/3/3;
+    margin: -31rem 0rem 0rem;
+    max-width: 67rem;
   }
   #mission-image {
     grid-area: 2/1/3/2;
@@ -635,6 +647,9 @@ margin: auto;
   }
   #mission-more-info {
     grid-area: 2/2/3/3;
+    text-align: left;
+    padding: 0rem 5rem;
+    margin: 12rem auto auto auto;
   }
 
   #app-intro-nested {
@@ -659,7 +674,7 @@ margin: auto;
 /*the following #app-intro-nested is the same feature as #app-intro-parent". The difference is that #app-intro-parent is displayed on mobile view, while #app-intro-nested is displayed on laptop view, compressed into the right column of the #mission-intro feature */
 
 #app-intro-parent, #app-intro-nested {
-  margin-top: 100px;
+  /* margin-top: 100px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -672,10 +687,10 @@ margin: auto;
 }
 
 #app-intro-nested {
-  grid-area: 3/2/4/3;
-  z-index: -1;
+  grid-area: 2/2/3/3;
+  z-index: 1;
   margin: auto;
-  margin-top: -33px;
+  margin-top: 26rem;
 }
 
 #app-intro-nested img {
@@ -692,15 +707,7 @@ margin: auto;
 
 #features-call-to-action {
   grid-template-columns: 1fr 1.5fr;
-  grid-area: 1/1/4/3;
-}
-
-.background-wrapper-black {
-  grid-area: 2/1/5/3;
-  width: 80%;
-  height: 100%;
-  border-radius: 1em;
-  margin:auto;
+  margin-top: 4rem;
 }
 
 #features-call-to-action img {
@@ -839,8 +846,6 @@ h4.testimonial-title {margin: 50px auto 10px;}
 .testimonial-background {width: 85%;max-height: 89%;}
 
 /*below are the selectors for each testimonial, specifying the grid area, we will use the tablet selector for mobile*/
-
-
 
 .testimonial-text.tablet-row-1{grid-row: 3/ span 1;}
 .testimonial-text.tablet-row-2{grid-row: 8/ span 1;}
@@ -990,17 +995,31 @@ h3.testimonial-name.emily-wilson.tablet-row-2.laptop-row-4-right.tablet-image-on
 
 
 /*box-model positioning - GROUP A - image on upper left*/
-#testimonials-feature img.user-image.grid-group-A {margin: 0px 20px 49px -28px;/* padding: 0px 0px 25px 0px; */max-height: auto;width: auto;height: auto;max-width: 203px;object-fit: cover;}
+#testimonials-feature img.user-image.grid-group-A {
+  margin: 0px 20px 49px -28px;
+  /* padding: 0px 0px 25px 0px; */
+  max-height: auto;
+  width: auto;
+  height: auto;
+  max-width: 203px;
+  object-fit: cover;
+}
 
-#testimonials-feature p.testimonial-text.grid-group-A {margin: 60px 1px 15px -33%;text-align: left;padding: 0px 10px 0px 65px;width: 120%;}
+#testimonials-feature p.testimonial-text.grid-group-A {
+  margin: 60px 1px 15px -33%;
+  text-align: left;
+  padding: 0px 10px 0px 65px;width: 120%;
+}
 
 p.testimonial-text.robert-thompson.grid-group-A.tablet-row-7.laptop-row-3-right.tablet-image-on-left.laptop-grid-column-5 {
     padding: 0px 7% 1px 14px !important;
 }
 
-#testimonials-feature h4.testimonial-title.grid-group-A {margin: auto 0px 12px -20px;text-align: left;/* font-size: 12px; */}
+#testimonials-feature h4.testimonial-title.grid-group-A 
+{margin: auto 0px 12px -20px;text-align: left;/* font-size: 12px; */}
 
-#testimonials-feature h3.testimonial-name.grid-group-A {margin: auto 0px 31px -7%;text-align: left;}
+#testimonials-feature h3.testimonial-name.grid-group-A 
+{margin: auto 0px 31px -7%;text-align: left;}
 
 #testimonials-feature img.air-quotations-opening {margin: 0px 0px 0px 27%;}
 
@@ -1061,21 +1080,80 @@ div.testimonial-background.grid-group-B {
 /*laptop view, row4, left column, Michael Davis, (grid rows 7-8)*/
 /*laptop view, row4, right column, Emily Wilson, (grid rows 7-8)*/
 }
-/*Book trial link*/
+
+/*Book trial call to ACTION*/
 
 .booktrial-link {
+  grid-template-columns: 1.5fr 1fr;
   justify-content: center;
   border-radius: 2em;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  /* width: 80%; */
+  /* margin-left: 10%; */
+  /* margin-right: 10%; */
+  grid-template-rows: min-content;
 }
 
-.booktrial-link img {
-    height: auto;
-    width: 8vh;
+.booktrial-link p {
+    grid-area: 4/1/5/3;
 }
 
+.booktrial-link .button {
+    grid-area: 5/1/6/3;
+    margin: 22px auto auto;
+}
+
+.booktrial-link img{
+  grid-area: 1/1/3/3;
+  height: auto;
+  margin: auto;
+  width: 90%;
+  max-width: 330px;
+}
+
+@media (min-width:1208px) {
+  .booktrial-link img {
+    grid-area: 1/2/3/3;
+    margin: -1px 0px -40px 28px;
+    z-index:  3;
+  }
+}
+
+.booktrial-link h2{
+  grid-area: 3/1/4/3;
+}
+
+@media (min-width:1208px) {
+  .booktrial-link h2 {
+    grid-area: 2/1/3/1;
+    margin: auto 0px auto auto;
+    text-align: right;
+  }
+
+  .booktrial-link p {
+    /* grid-area: 3/2/4/3; */
+    /* margin: 0px auto auto auto; */
+    grid-area: 2/1/4/2;
+    margin: auto 0px 28px auto;
+    text-align: right;
+    padding: 0px 0px;
+  }
+
+  .booktrial-link .button {
+    grid-area: 4/1/5/2;
+    margin: auto 0px auto auto;
+  }
+}
+
+.booktrial-link .background-wrapper-orange {
+  /* grid-area: 2/1/4/3; */
+  background-color: orange;
+  /* z-index: 5; */
+  /* width: 100%; */
+}
+
+img.booktrial-link 
+
+/*-----------New Page----------*/
 /*FEATURES LANDING*/
 /*these classes effect Homepage features intro */
 
@@ -1128,6 +1206,7 @@ div.testimonial-background.grid-group-B {
   margin-bottom: 0%;
   width: 80%;
   flex-direction: column;
+  align-items: center;
 }
 
 .features-heading-container {
@@ -1138,6 +1217,11 @@ div.testimonial-background.grid-group-B {
   .app-wrapper {
   display: flex;
   flex-direction: row;
+  justify-items: stretch;
+  float: center;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: nowrap;
   }
 }
   
@@ -1212,7 +1296,6 @@ div.testimonial-background.grid-group-B {
 Elements: */
 
 #booktrial-landing {
-  display: grid;
   grid-template-columns: 3fr 1fr;
   margin:60px auto auto auto;
   width:100%;
@@ -1388,7 +1471,15 @@ form input {
 
   #booktrial-form > h2,p, .submit {
     grid-area: 1/2/2/3;
+    /* padding: 0px 0px; */
+    /* text-align: left; */
   }
+
+#features-call-to-action #features-h2-p-button > h2,p,.button {
+    text-align: left;
+    padding:  0px;
+    /* margin-right: 0px; */
+}
 
 #booktrial-form p {
     margin-top: 65px;
