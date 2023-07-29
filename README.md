@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="/assets/media/navbarlogo.png" height="100">
+<img src="/assets/media/navbarlogo.png" width="300px" >
 
 #  Responsive Website for a Virtual Classroom Product <!-- omit in toc -->
 
@@ -12,22 +12,19 @@
 
 <img width="636" alt="figma preview as responsive design" src="https://github.com/lmcrean/Hoverboard/assets/133490867/b0efbf8c-b575-4061-a472-18a68541c9e2">
 
-<br><br>
- I designed a responsive product introduction for a Virtual Learning Environment. The key focus to meet the users' needs was responsive CSS, using ```flex``` and ```grid``` displays to allow the website to be viewed comfortably on different devices. The design also utilised consistent font pairings, border-styles, padding and color themes to reinforce the tone of the product. The website was designed with a mobile-first approach, using Figma, and then implemented with HTML, CSS and Javascript. The website was deployed to GitHub pages.
+<br>
 
-This readme aims to introduce the key features of website, generally focusing on the 5 user experience planes. It summarises key challenges addressed along the way and also provides credits.
-
-A Testing file is dedicated to a more specific technical account of the developments.
-
-In the issues I have logged written, video or screenshot accounts. 
-
-.
-
+ **This project presents Hoverboard as an exciting new Virtual Learning Environment for schools.** The key focus for the developer was responsive CSS, using ```flex``` and ```grid``` displays to allow the website to be viewed comfortably on different devices. The design also utilised consistent font pairings, border-styles, padding and color themes to reinforce the tone of the product. The website was designed with a mobile-first approach, using Figma, and then implemented with HTML, CSS and Javascript. *The website was deployed to GitHub pages.*
 
 </div>
 
-
 ***
+## Documentation introduction
+This readme introduces the key features of the project, using the framework of the 5 planes of User Experience. It summarises key challenges addressed along the way and also provides credits and acknowledgesments at the end.
+
+Testing is summarised in the readme, while a seperate Testing file is dedicated to a more specific technical account.
+
+In the issues I have logged written, video or screenshot accounts.
 
 ## Table of Contents <!-- omit in toc -->
 
@@ -35,9 +32,17 @@ In the issues I have logged written, video or screenshot accounts.
   - [Strategy Plane](#strategy-plane)
   - [Scope plane](#scope-plane)
   - [Structure Plane](#structure-plane)
+    - [Submit button](#submit-button)
   - [Skeleton Plane](#skeleton-plane)
+    - [Navbar](#navbar)
+    - [Footer](#footer)
+    - [Hero section](#hero-section)
+    - [Mission intro and Features intro](#mission-intro-and-features-intro)
+    - [Call-to-action](#call-to-action)
+    - [Testimonials](#testimonials)
+    - [Form input](#form-input)
+    - [Submit button](#submit-button-1)
   - [Surface Plane](#surface-plane)
-- [Features](#features)
 - [Testing](#testing)
   - [Link Here](#link-here)
 - [Fixed bugs](#fixed-bugs)
@@ -46,78 +51,177 @@ In the issues I have logged written, video or screenshot accounts.
 - [Future features](#future-features)
 - [Credits](#credits)
   - [Code snippets](#code-snippets)
-  - [](#)
   - [Technologies Used](#technologies-used)
 - [Acknowledgements](#acknowledgements)
-  - [Contributor credits](#contributor-credits)
+      - [Pull request acknowledgements](#pull-request-acknowledgements)
 
 ***
 
 # UX Development Planes
 
-The UX development planes are for the purpose of explaining the design process of the website. The website was designed for a virtual classroom product called Hoverboard. The product enables teachers to set classwork, assess and give feedback to students. The website was designed to introduce the product to new users and encourage them to sign up for a free trial.
+The 5 UX development planes are for the purpose of explaining the design process of the website. Both intention and outcome are recorded.
 
 
 ## Strategy Plane
 
-The product was aimed at education proffessionals. These could be teachers, headteachers. The product is used by students. 
+The website itself was aimed at **Education Professionals** such as teachers and headteachers. The design choices factored in to consideration that **students** also use the product. To meet both user needs in the long term, the tone of the product would need to strike a balance between professional and playful. 
 
-The business goals were to increase the number of new users signing up for a free trial, for this to be successful, the website needed to be persuasive, informative and for the user to navigate. 
+The business goals were to **increase the user population** of Education Professionals signing up for a free trial. To achieve this, the website needed to be persuasive, informative and easy for the user to navigate.
+
+The new user is most likely a **Teacher**.
 
 ### User Stories <!-- omit in toc -->
 
-- [ ] User pictures x2
-  
+<img src="assets/media/emily-wilson.png" height="200"> <img src="assets/media/david-martinez.png" height="200">
+
+
 New User:
-- If I am convinced enough by the product I will sign up for a free software trial.
+- If I am convinced enough that the product will make my job easier, then I will sign up for a free software trial.
 - I need to comfortably view this website on any device such as mobile, tablet, laptop or desktop.
-- I need to visualise this product's mission
-- I need to understand the products features
+- I need to visualise this product's mission.
+- I need to understand the products features and their relevance to my job.
 - I need to be able to sign up for a free trial easily.
 
 
 ## Scope plane
-The focus of this website is new users of the website and three pages were designed to meet their needs.
-
-For the scope of the project I limited the website's intended audience to new users who were prospective clients of the product.
-
-Frameworks were not used for the scope of this project, in order to focus on learning CSS responsivity.
-
-
+The following features were designed to meet the needs of new users.  They were displayed across three main pages, sometimes appearing more than once for the purpose of both making the website easy to navigate and consistent branding design.
 <!-- Add thumbnails 3rd column?--->
-| Feature       | Function    | 
-| ------------- | ----------- |
-| Landing video with slogan | Visualizes the experience |
-| Hoverboard's Mission      | Introduces the product persuasively in the context of VLE's, why we're different         | |
-| Testimonials from different schools   | Builds authority and trust |
-| Find out about our Features            | Directs to page            |
-| Why you should claim your Free Trial   | Directs to page            |
-| Gallery Views            | Visualizes easy navigation of classwork on a browser  |        |
-| Peer Feedback            | Visualizes student chat function in action            |        |
-| Deep Assessment          | Visualizes chatbot in action|        |
-| Why you should claim your Free Trial   | Directs to page            |        |
+| Feature       | Function  |  scope |
+| ------------- | ----------- | ---|
+| Navbar|
+| Footer|
+| Hero image with slogan | Visualizes the experience | background image, background-color, heading and picture at top of page |
+| Page headings | Design appeal | display on Features page and 
+| Hoverboard's Mission      | Introduces the product persuasively in the context of VLE's, why we're different         | 
+| Call-to-action: Find out about our Features, claim-your free trial| provides clear links for the user to navigate, | three call-to-actions throughout the website|
+| Testimonials from different users   | Builds authority and trust |
+| Gallery Views, Peer Feedback, Deep Assessment             | Visualizes easy navigation of classwork on a browser,student chat function in action, chatbot in action|        |
 | Form input | Records essential details: name, address, school      |        |
-| Submit button            | Redirects to thank you page, form method="GET"        |        |
+| Submit button           | Redirects to thank you page, form method="GET"        |        |
+
+Popular frameworks such as bootstrap were not used in this instance in order for the developer to focus on learning CSS responsivity.
 
 
 ## Structure Plane
 
-- [ ] CREATELY DIAGRAM
+**This diagram illustrates a page structure with simple and accessible hyperlinks.** The Navbar links to all 3 main pages. There are 3 call-to-action features that include a hyperlink. The submit button takes user to a thank you page, assuming the form is entered correctly.
+
+<img src="assets/media/documentation/page-structure.png">
+
+
+### Submit button
+The form input requires that the 
+- email includes ```@``` and ```.```
+- mobile number is <font color="green"> 11 digits long.</font>
+
+If the form is entered incorrectly on submission, the user will be prompted to adjust the form.
 
 ## Skeleton Plane
 
-- [ ] CSS OVERVIEW
-- [ ] MENTION FIGMA
+**In the skeleton plane each feature's display changed according to the device size.** As well as adapting to viewport, a sense of depth was achieved by taking background images and discrete overlapping. 
 
+The website was designed with a mobile-first approach, using Figma. The key challenge was to use viewport breakpoints at 768px, 1208px and 1768px to display the website comfortably on different devices.
+
+### Navbar
+- The Navbar uses an open/close icon menu in the right-corner for mobile devices. 
+- The logo is always displayed on the left and the links are always displayed on the right. 
+- The links are displayed in a column for mobile devices and a row for larger devices.
+### Footer
+- The footer displays social media links in 2 rows for mobile devices and a row for larger devices.
+- It is always located at the bottom of the screen.
+### Hero section
+- The hero section displays a background image with a backgruond color layered on top, then a heading. 
+- The feature is displayed in a portrait for mobile devices and a landscape for larger devices. 
+- The hero image siwtches to a different image for larger devices, so as to better fit the aspect ratio.
+### Mission intro and Features intro 
+- The mission intro uses CSS grid to rearrange the features according to the device size.
+- On larger devices, the content below the heading is split into 2 columns, and the features intro is nested into the 2nd column.
+- On smaller devices features intro uses CSS flexbox displays the apps in columns, whereas on larger devices they are rearranged as rows.
+
+### Call-to-action
+- The call to action uses CSS grid to create an appealing **illusion of depth** that the image is slightly **overlapping** the heading banner. The img file starts on an earlier ```grid-template-row: 1 / span 2``` than the banner which starts on row 2.
+- On larger device, the call-to-action splits into 2 columns, using ```grid-template-columns: 1.5fr 1fr```  to keep a 2:1 ratio between text and image.
+- the text includes heading, paragraph and button. They use ```text-align:``` left or right alowing with ```@media``` queries to switch between left and right alignment.
+- Three call-to-actions are displayed throughout the website.
+
+### Testimonials
+- The testimonials use ```CSS grid``` to display 8 testimonials in a single column for mobile devices and a 2x4 grid for larger devices.
+- Being a more ambitious use of CSS grid, various class names were used to utilise the **rows, columns and assigned user** in a clear and efficient manner. Example below.
+  ```html
+  <img src="assets/media/david-martinez.png" alt="user image" class="user-image david-martinez grid-group-A tablet-image-on-left  tablet-row-1 .laptop-grid-column-1 laptop-row-1-left">
+  <p class="testimonial-text david-martinez grid-group-A tablet-image-on-left  tablet-row-1 laptop-row-1-left laptop-grid-column-2">"Hoverboard has significantly reduced our reliance on paper and improved organization within our school. The gallery views feature has made it easier for teachers to access and review student work, promoting efficient assessment. I'm impressed with the positive changes Hoverboard has brought to our institution."</p>
+  <h3 class="testimonial-name david-martinez grid-group-A tablet-image-on-left  tablet-row-1 laptop-row-1-left laptop-grid-column-2">David Martinez</h3>
+  <h4 class="testimonial-title david-martinez grid-group-A tablet-image-on-left  tablet-row-1 laptop-row-1-left laptop-grid-column-2">Headteacher, Maplewood Academy</h4>```
+-  On the 2x4 grid, the testimonials were divided into ```grid-group-A``` and ```grid-group-B``` classes as there was a more challenging rhythm of the page that couldn't simply copy the positioning from the column view.
+### Headings
+- This was a lower priority feature in design and scale of code, serving to introduce the page and reinforce previous design themes.
+- would usually switch between columns and rows.
+- the features page would borrow ```display:flex``` code from the **app icons** on the home page, as a way of continuing the design motif.
+- The sign up and thank you page would utilise the overlapping image effect similar to the call-to-action.
+### Description of Features
+- This was displayed as columns.
+- On larger devices this used a simple ```display: flex``` to display the icons in a row for mobile devices and a column for larger devices. HTML classes were able to easily switch up the column-order of image and text, to keep the reader engaged.
+  ```css
+  @media screen and (min-width: 850px) {
+  .img-text-wrapper {
+    [...]
+    flex-direction: row;
+  }
+
+  .img-text-wrapper-reverse {
+    [...]
+    flex-direction: row-reverse;
+  }
+  ```
+### Form input
+the form input is displays as a column for mobile devices, 2 columns for tablet devices. On largest devices the form is displayed as a column again but on the right hand side.
+
+### Submit button
+The submit button checks that the form is entered correctly, see structure plane for more details. It is placed underneath the form as the user will be in this area once completing the form. 
+
+***
 ## Surface Plane
-- [ ] FIGMA OVERVIEW
-- [ ] MOTIFS, TYPEFACE & COLORS
+In the surface plane we will discuss the choice of typefaces, colors and style themes.
 
+Typefaces used were Peace Sans for headings and Glacial Indifference for body text. The font pairings were chosen for their playful  but professional tone as outlined in the strategy plane.
 
-# Features
-- [ ] TABLE WITH Feature Image 
+<img src="assets/media/documentation/style-test.png" width="400">
 
+```css
+/*These type selectors are all Peace Sans*/
+h1, h2, label {
+  font-family: 'PeaceSans', sans-serif;
+}
 
+/* These type selectors are all Glacial Indifference*/
+p, h3, h4, h5, a,
+form input{
+  font-family: 'glacialindifference', sans-serif;
+}
+
+/* these type selectors are all Glacial Indifference, but with some small changes in style*/
+h3 {font-weight: 700 !important; /*bolden text*/}
+h4 {font-style:italic;/*italicize text*/}
+h5 {font-size: 0.7rem;/*reduce font size*/}
+```
+Regarding font-size, the ```clamp()``` function was mostly used to ensure the font size was responsive to the device size. This was used instead of media queries, as it was more efficient and easier to read, it allowed the media queries to be used more for positioning and to address bugs with the display.
+
+```css
+/* The clamp() CSS function clamps a value between an upper and lower bound. It takes three parameters: a minimum value, a preferred value, and a maximum allowed value. [...]*/
+h1 { font-size: clamp(1.8rem, 1.3893rem + 2.3467vw, 4rem);}
+h2 { font-size: clamp(1.5rem, 1.5rem + 1.2vw, 2.5rem); }
+p { font-size: clamp(1rem, 0.9253rem + 0.4267vw, 1.4rem);}
+```
+***
+The color theme was chosen to be consistent with the logo with the aim of creating a consistent brand identity. To speed up efficiency, root variables were used to store the color values. This allowed the color theme to be changed easily in the future.
+
+<img src="assets/media/documentation/root-styles.png" width="400">
+
+***
+An important design theme was the use of overlapping images and colors, to create a sense of depth.
+
+The ```border-radius``` was chosen to be consistent with the logo and hero image. 
+There was also a design motif of images overlapping colors, the use of border-radius and overlapping is clearly illustrated in the testimonials feature and call to action features.
 
 # Testing
 
@@ -127,7 +231,9 @@ Frameworks were not used for the scope of this project, in order to focus on lea
 
 The key challenge for this project was responsive design with ```style.css```. 
 
-CSS breakthroughs included formatting images such as ```object-fit: cover``` to fit the hero-picture, using  ```display: grid```, devising a system for switching html elements over using classes with
+CSS breakthroughs included formatting images such as ```object-fit: cover``` to fit the hero-picture, 
+
+when using  ```display: grid```, devising a system for switching html elements over using classes with
 
 There were fewer challenges with the HTML form, mainly getting the ```labels``` syntax correct.
 
@@ -156,11 +262,6 @@ W3 School's [Navbar](https://www.w3schools.com/css/css_navbar.asp) and [Slidesho
 
 
 
-## 
-
- 
-Photography for the landing image and testimonials were imported from Pexels. 
-
 
 ## Technologies Used
 
@@ -168,38 +269,38 @@ The main languages used were HTML5 and CSS3. Javascript was also used to for sma
 
 |Programme| How they were used|
 |---|---|
-Canva|
-Figma|
-VSCode|
-Github|
+Canva|Designing Hoverboard Logo
+Figma|Wireframe design
+VSCode| Code editor
+Github| Version control
 
 Tools|How they were used|
 ---|---
-Clamp tool|
+Clamp tool| Responsive font size
 amiresponsive|
-browserstack|
-mermaid|
-gifcap|
-shields.io|
-[FontJoy](https://fontjoy.com/) |
+browserstack| Checking browsers
+gifcap| Recording gifs
+shields.io| Badges
+[FontJoy](https://fontjoy.com/) | Finding font pairings
 
 
 Below are credits to open-source libraries that I used.
 
 |Library| How they were used|
 |---|---|
-Canva | All graphics were designed with Canva's open source library.|
-Pexels' | Used for Testimonials Feature|
-Unsplash | John Anderson's picture in the testimonial was from Unsplash|
-Font Awesome | The icons in the footer and navbar were taken from [Font Awesome](https://fontawesome.com/).
+Canva | All graphics i.e. non-photographic imagery was designed and adapted from Canva's open source library|
+Pexels' | Used for Testimonials user images and the hero images
+Unsplash | John Anderson's picture in the testimonial
+[Font Awesome](https://fontawesome.com/) | The icons in the footer and navbar were taken from 
 [CDN Fonts](https://www.cdnfonts.com/) | Fonts sourced
 
 
 # Acknowledgements
+A special thank you to the wonderful tutors at Code Institute, who I consulted for advice throughout the project. I'm deeply grateful for your prompt support.
 
-A special thank you to the wonderful tutors and mentors at Code Institute, who I consulted for advice throughout the project. 
+Special thank you to Seun Owonikoko, my mentor at Code Institute, for your time and patience taking me through devtools. 
 
-## Contributor credits
-Special thank you to [Syed Anwaar](https://github.com/syed-anwaar) for contributing to this project by addressing the [.landing-feature img width issue](https://github.com/lmcrean/Hoverboard/pull/22), adding [animation to navbar](https://github.com/lmcrean/Hoverboard/pull/33), contributions to [form-handler.php](https://github.com/lmcrean/Hoverboard/pull/33)
+#### Pull request acknowledgements
+Special thank you to [Syed Anwaar](https://github.com/syed-anwaar) for contributing to this project by addressing an early [.landing-feature img width issue](https://github.com/lmcrean/Hoverboard/pull/22), adding [animation to navbar](https://github.com/lmcrean/Hoverboard/pull/33), contributions to [form-handler.php](https://github.com/lmcrean/Hoverboard/pull/33)
 
-Thank you to [Sahil4883](https://github.com/Sahil4883) for [fixing footer height.](https://github.com/lmcrean/Hoverboard/commit/638a73b8cd1dbfaf1d39b4f19d83126b130c7958)
+Thank you to [Sahil4883](https://github.com/Sahil4883) for [fixing footer height.](https://github.com/lmcrean/Hoverboard/commit/638a73b8cd1dbfaf1d39b4f19d83126b130c7958) early on in the project.
