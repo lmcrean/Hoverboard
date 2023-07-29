@@ -362,8 +362,19 @@ Elements = footer-small-print, footer icons */
 
 /*TODO-pin footer to the bottom of the page*/
 
+#container-fixed-footer {
+  display:grid;
+  grid-template-rows:auto 1fr auto;
+  grid-template-columns:100%;
+
+  /* fallback height */
+  min-height:100vh;
+
+  /* new small viewport height for modern browsers */
+  min-height:100svh;
+}
+
 footer {
-  margin-top: 2em;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
