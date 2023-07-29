@@ -45,6 +45,9 @@ In the issues I have logged written, video or screenshot accounts.
   - [Surface Plane](#surface-plane)
 - [Testing](#testing)
   - [Link Here](#link-here)
+  - [Figma prototype](#figma-prototype)
+- [Manual Testing](#manual-testing)
+- [Automatic Testing](#automatic-testing)
 - [Fixed bugs](#fixed-bugs)
 - [Unfixed Bugs](#unfixed-bugs)
 - [Deployment](#deployment)
@@ -224,8 +227,45 @@ The ```border-radius``` was chosen to be consistent with the logo and hero image
 There was also a design motif of images overlapping colors, the use of border-radius and overlapping is clearly illustrated in the testimonials feature and call to action features.
 
 # Testing
+This section summarises the testing process in a linear form from prototype and manual testing to automatic testing. More detailed accounts are available in the testing.md file
 
 ## [Link Here](testing.md)
+
+## Figma prototype
+
+[![Figma](https://img.shields.io/github/issues/lmcrean/Hoverboard/Figma?logo=Figma&logoColor=white&label=Figma&color=yellow)](https://github.com/lmcrean/Hoverboard/labels/Figma) [![GitHub 2 features page closed issues by-label](https://img.shields.io/github/issues-closed/lmcrean/Hoverboard/Figma?label=%20&color=green)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Acss+label%3A%222%20features%20page%22+is%3Aclosed)
+
+Before manual testing, a figma prototype was concieved to visualise the design.
+
+In my Figma Design I set out to
+
+- visualise a clean layout that would demonstrate mobile, tablet and desktop view. For the homepage I also differentiated laptop and desktop.
+- put together design choices that had been concieved in the UX developement process.
+
+***
+<img width="1100" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/67586ebe-34ba-4c0a-9929-57195b0a6924">
+<img width="1100" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/ea620913-f086-4e50-bd61-f85ae3a3106b">
+<img width="1100" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/d534f456-7ef9-4992-a1c0-6e7e79abbfd3">
+
+# Manual Testing
+
+[![GitHub CSS open issues by-label](https://img.shields.io/github/issues/lmcrean/Hoverboard/css?label=CSS%20Issues&color=yellow)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Acss+is%3Aopen) [![GitHub CSS closed issues by-label](https://img.shields.io/github/issues-closed/lmcrean/Hoverboard/css?label=%20&color=green)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Acss+is%3Aclosed) [![GitHub HTML open issues by-label](https://img.shields.io/github/issues/lmcrean/Hoverboard/html?label=HTML%20Issues&color=yellow)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Ahtml+is%3Aopen) [![GitHub HTML closed issues by-label](https://img.shields.io/github/issues-closed/lmcrean/Hoverboard/html?label=%20&color=green)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Ahtml+is%3Aclosed)
+
+Manual testing was executed with the following criteria:
+
+- CSS media queries' responsivity to viewport width, key breakpoints being at mobile view, tablet view (768px), laptop view (1208px) and desktop view (1728px+). The videos demonstrate varying viewport widths between 483 to 2500px. Grid and Flex displays were used to switch between differing arrangements of content contributing to the readability.
+- Design choices that are similar to those concieved in the [Figma Wireframe, documented here](https://github.com/lmcrean/Hoverboard/wiki/3.-Design-Testing-via-Figma-wireframe). Effective positioning, sizing and style.
+- Testing on different browsers, specifically Chrome, Firefox, Edge, Opera and Safari
+- test HTML5 Hyperlinks and Forms so that they are all working as expected, identifying potential syntax errors or with the form requirements
+
+# Automatic Testing
+
+The Automatic Testing achieved
+* use lighthouse testing to identify files that could be resized and accessibility that can be improved.
+* a good lighthouse testing score, particularly for performance, accessibility, best practices.
+* Passed W3C Validator Testing for both HTML5 and CSS3, thereby removing excess code and broken links.
+
+Full documentation here: [<img alt="Full Documentation Research Badge" src="https://img.shields.io/badge/Testing-purple?logo=mdBook">](https://github.com/lmcrean/Hoverboard/blob/main/testing.md)
 
 # Fixed bugs
 
@@ -246,8 +286,7 @@ The navbar animation could be smoother.
 # Deployment
 The site was deployed to GitHub pages. You can access the live link [here](https://lmcrean.github.io/Hoverboard/).
 
-# Future features
-
+# Future features   
 In the near-term future I would like to further the Front-End Design of this website with Bootstrap features and Dark mode switch.
 
 In the long term, I would like to practise back-end features such as a PHP database.
