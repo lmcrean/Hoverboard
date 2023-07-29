@@ -106,6 +106,7 @@ footer { background-color: var(--lightblue);}
 button[type="submit"] { background-color: var(--orange); color: var(--white);}
 
 .text-white {color: var(--white);} /*here I am beginning to replace the previous id styling with class="text-[color]" styling, for easier workflow*/
+.text-black-medium {color: var(--black-medium);}
 
 .air-quotations{mix-blend-mode: screen; opacity: 0.3; z-index: -1;}
 
@@ -224,9 +225,11 @@ p {
 
 .background-wrapper /*this used for the features call to action*/ {
   grid-area: 2/1/7/3;
-  min-width: 100%;
+  margin-left: 0px !important;
+  width: 100vw !important;
   height: 100%;
-  margin:auto auto -30px auto;
+  min-height: 230px;
+  margin:auto auto auto;
   position: relative;
   z-index: -4;
 }
@@ -364,17 +367,19 @@ Elements = footer-small-print, footer icons */
 
 #container-fixed-footer {
   display:grid;
-  grid-template-rows:auto 1fr auto;
+  grid-template-rows: auto 1fr;
   grid-template-columns:100%;
-
-  /* fallback height */
-  min-height:100vh;
-
-  /* new small viewport height for modern browsers */
-  min-height:100svh;
+}
+main {
+  grid-template-rows: 1/ span 1;
 }
 
 footer {
+  grid-template-rows: 2;
+  position: relative;
+  bottom: 0;
+  margin-bottom: 0px;
+  margin-top: 2em;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
