@@ -213,13 +213,11 @@ p {
   
 @media screen and (max-width: 1208px) {.hide-in-mobile-and-tablet {display: none !important;}}
 @media screen and (min-width: 1209px) {
-.hide-in-laptop-and-desktop {display: none !important;} 
-.show-in-laptop-and-desktop {display: inherit !important;}}
+.hide-in-laptop-and-desktop {display: none !important;} }
 
 @media screen and (max-width: 1727.99px) {.hide-in-mobile-and-tablet-and-laptop {display: none !important;}}
 @media screen and (min-width: 1728px) {
-.hide-in-desktop {display: none !important;} 
-.show-in-desktop {display: inherit !important;}}
+.hide-in-desktop {display: none !important;}}
 
 /*Utilities*/
 
