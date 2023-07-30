@@ -365,26 +365,26 @@ Elements = footer-small-print, footer icons */
 
 /*TODO-pin footer to the bottom of the page*/
 
-#container-fixed-footer {
-  display:grid;
-  grid-template-rows: auto 1fr;
-  grid-template-columns:100%;
+.container-fixed-footer {
+  position:relative;
+  min-height: 100vh;
 }
-main {
-  grid-template-rows: 1/ span 1;
+
+.body-content-wrap-for-fixed-footer {
+  padding-bottom: 25rem;    /* Footer height */
 }
 
 footer {
   grid-template-rows: 2;
-  position: relative;
+  position: absolute;
   bottom: 0;
-  margin-bottom: 0px;
+  width:100%;
   margin-top: 2em;
+  min-height: 20rem; /*Contributed by Sahil4883*/
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
-  min-height: 5rem;/* height of the footer changed*/
 }
 
 .footer-small-print {
@@ -409,18 +409,23 @@ margin-bottom: 40px;
 .footer-links a { /*should be perfectly circular without distortion*/
   display: flex;
   border-radius: 1000px;
-  padding: 9px;
-  margin: 5px;
+  padding: 17px;
+  margin: 8px;
   width: auto;
   height: auto;
 }
 
-.fa-brands {
+i.fa-brands {
 
-  font-size: .7em;
-  color: var(--white);
-  margin: auto auto auto auto;
+font-size: 0.7em;
 
+color: var(--white);
+
+margin: auto auto auto auto;
+
+z-index: 3;
+
+/* position: relative; */
 }
 
 
