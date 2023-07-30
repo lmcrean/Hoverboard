@@ -24,7 +24,7 @@
       <div class="navbar" id="mynavbar">
         <a href="index.html"><img src="assets/media/navbarlogo.png" class="navbartitle" alt="Hoverboard Company Logo"></a>
         <a href="javascript:void(0)" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars" id="icon-open"></i></a> <!--Menu-open icon only displayed on mobile devices --->
+        <i class="fa fa-bars" id="icon-open"></i></a> <!--Menu-open icon only displayed on mobile devices -->
         <a href="javascript:void(0)" class="icon" onclick="myFunction()"> 
         <i class="fa-solid fa-x"  id="icon-close"></i></a> <!-- closes the menu-->
       <ul class="menu-items">
@@ -122,28 +122,28 @@
     </footer>
   
   </div>
+  <script> /*Script for Menu open */
+    function myFunction() {
+      document.getElementById("mynavbar").classList.toggle("menuOpen");
+      document.querySelector("main").classList.toggle("move-down");
+    }
+  </script>
+  <!-- Not being used at the moment, in progress
+ <script>
+    // Script for password confirmation validation - must match password
+    const passwordInput = document.getElementById('password');
+    const confirmPasswordInput = document.getElementById('confirm-password');
+    const passwordMatchError = document.getElementById('password-match-error');
+  
+    function validatePassword() {
+      if (passwordInput.value !== confirmPasswordInput.value) {
+        passwordMatchError.textContent = "Passwords do not match.";
+      } else {
+        passwordMatchError.textContent = "";
+      }
+    }
+  
+    confirmPasswordInput.addEventListener('input', validatePassword);
+  </script> -->
 </body>
 
-<script> /*Script for Menu open */
-  function myFunction() {
-    document.getElementById("mynavbar").classList.toggle("menuOpen");
-    document.querySelector("main").classList.toggle("move-down");
-  }
-</script>
-
-<script>
-  // Script for password confirmation validation - must match password
-  const passwordInput = document.getElementById('password');
-  const confirmPasswordInput = document.getElementById('confirm-password');
-  const passwordMatchError = document.getElementById('password-match-error');
-
-  function validatePassword() {
-    if (passwordInput.value !== confirmPasswordInput.value) {
-      passwordMatchError.textContent = "Passwords do not match.";
-    } else {
-      passwordMatchError.textContent = "";
-    }
-  }
-
-  confirmPasswordInput.addEventListener('input', validatePassword);
-</script>

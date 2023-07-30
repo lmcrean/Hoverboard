@@ -89,7 +89,7 @@ footer { background-color: var(--lightblue);}
 .footer-links a:hover {background-color: var(--black-light);}
 
 .hero-heading { background-color: var(--transparent-orange); color: var(--white);}
-#app-intro-nested {background-color: #cd5a5a00;opacity: normal;color: var(--black-medium);}
+#app-intro-nested {background-color: #cd5a5a00;color: var(--black-medium);}
 #app-intro-nested h1 {color: var(--black-medium);}
 .background-wrapper-black {background-color: var(--black-medium); color: var(--white);}
 .backround-wrapper-orange {background-color: var(--orange); color: var(--white);}
@@ -212,10 +212,14 @@ p {
 @media screen and (min-width: 769px) {.hide-in-tablet-laptop-and-desktop{ display: none !important;}}
   
 @media screen and (max-width: 1208px) {.hide-in-mobile-and-tablet {display: none !important;}}
-@media screen and (min-width: 1209px) {.hide-in-laptop-and-desktop {display: none !important; .show-in-laptop-and-desktop {display: inherit !important;}}}
+@media screen and (min-width: 1209px) {
+.hide-in-laptop-and-desktop {display: none !important;} 
+.show-in-laptop-and-desktop {display: inherit !important;}}
 
 @media screen and (max-width: 1727.99px) {.hide-in-mobile-and-tablet-and-laptop {display: none !important;}}
-@media screen and (min-width: 1728px) {.hide-in-desktop {display: none !important; .show-in-desktop {display: inherit !important;}}}
+@media screen and (min-width: 1728px) {
+.hide-in-desktop {display: none !important;} 
+.show-in-desktop {display: inherit !important;}}
 
 /*Utilities*/
 
@@ -388,7 +392,6 @@ Elements = footer-small-print, footer icons */
 }
 
 footer {
-  grid-template-rows: 2;
   position: absolute;
   bottom: 0;
   width:100%;
@@ -987,20 +990,20 @@ h3.testimonial-name.emily-wilson.tablet-row-2.laptop-row-4-right.tablet-image-on
 .testimonial-background.tablet-row-8{ grid-row: 43/ span 4; }
 
 .testimonial-background.tablet-row-1{grid-row: 2/span 3;}
-.testimonial-background.tablet-row-3{grid-row:13/span 3}
-.testimonial-background.tablet-row-5{grid-row:25/span 3}
-.testimonial-background.tablet-row-7{grid-row:37/span 3}
+.testimonial-background.tablet-row-3{grid-row:13/span 3;}
+.testimonial-background.tablet-row-5{grid-row:25/span 3;}
+.testimonial-background.tablet-row-7{grid-row:37/span 3;}
 
 /*last track=47*/
 
-.air-quotations.tablet-row-1 {grid-row: 2/span 2};
-.air-quotations.tablet-row-3 {grid-row: 13/span 2};
-.air-quotations.tablet-row-5 {grid-row: 25/span 2};
-.air-quotations.tablet-row-7 {grid-row: 37/span 2};
-.air-quotations.tablet-row-2 {grid-row: 6/span 2};
-.air-quotations.tablet-row-4 {grid-row: 18/span 2};
-.air-quotations.tablet-row-6 {grid-row: 30/span 2};
-.air-quotations.tablet-row-8 {grid-row: 42/span 2};/*last track=47*/
+.air-quotations.tablet-row-1 {grid-row: 2/span 2;}
+.air-quotations.tablet-row-3 {grid-row: 13/span 2;}
+.air-quotations.tablet-row-5 {grid-row: 25/span 2;}
+.air-quotations.tablet-row-7 {grid-row: 37/span 2;}
+.air-quotations.tablet-row-2 {grid-row: 6/span 2;}
+.air-quotations.tablet-row-4 {grid-row: 18/span 2;}
+.air-quotations.tablet-row-6 {grid-row: 30/span 2;}
+.air-quotations.tablet-row-8 {grid-row: 42/span 2;}/*last track=47*/
 /*tablet view, row1, David Martinez, (grid rows 1-5)*/
 /*tablet view, row2, Emily Wilson, (grid rows 6-11)*/
 /*tablet view, row3, Michael Davis, (grid rows 12-17)*/
