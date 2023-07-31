@@ -155,8 +155,7 @@ The following features were designed to meet the needs of new users.  They were 
 | Feature       | Function  | Most relevant user story |
 | --- | --- | ------- | 
 | Navbar <br><img src="assets/media/documentation-screenshots-desktop-view/navbar.png" width="200">|Navigation | - I need to comfortably access this website on any device such as mobile, tablet, laptop or desktop.|
-| Footer <br><img src="assets/media/documentation-screenshots-desktop-view/footer.png" width="200">| Navigation | [promoting businesses' online profile]
-|
+| Footer <br><img src="assets/media/documentation-screenshots-desktop-view/footer.png" width="200">| Navigation | [promoting businesses' online profile]|
 | Hero image with slogan <img src="assets/media/documentation-screenshots-desktop-view/hero-section.png" width="200"> | Reinforces brand, Visualizes the experience | - I need to visualise this product's mission.|
 | Page headings <br><img src="assets/media/documentation-screenshots-desktop-view/header-features.png" width="200"><br><img src="assets/media/documentation-screenshots-desktop-view/header-sign-up.png" width="200"><img src="assets/media/documentation-screenshots-desktop-view/header-thankyou.png" width="200"> | Design appeal and clear navigation | - I need to comfortably access this website on any device such as mobile, tablet, laptop or desktop.|
 | Hoverboard's Mission <img src="assets/media/documentation-screenshots-desktop-view/mission-intro.png" width="200"> | Introduces the product persuasively in the context of VLE's, why we're different| - I need to visualise this product's mission.
@@ -341,6 +340,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 The result was <b> <font color="green"> passed </font> </b> for HTML5 and CSS3.
 
 further documentation here: [<img alt="Full Documentation Research Badge" src="https://img.shields.io/badge/Testing-purple?logo=mdBook">](https://github.com/lmcrean/Hoverboard/blob/main/testing.md)
+
+## Lighthouse Report
+
+| | Home Page | Features Page | Sign Up Page |
+|---|---|---|---|
+| Mobile |<img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/4d00296a-68c7-4f24-bea3-8369292a0f50">  | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/bf182cb3-0f05-42fe-b33a-d1f31bd01114"> | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/1afa9be2-07bd-4455-a4e8-b955cc0a98b6">
+| Desktop | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/d7a9cbae-8dad-4f17-8667-3753e0d9b5e6"> | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/2270a0ae-19a1-483f-a15b-0ac0d548e721"> | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/c9cd9bea-752f-4d6f-9263-43826bb2ece1">
+|Timestamp| 31st July '23 | 31st July '23 | 15th July '23 |
 
 # Fixed bugs
 
