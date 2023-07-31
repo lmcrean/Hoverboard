@@ -412,7 +412,7 @@ Tools|How it was used|
 [Pexels](https://www.pexels.com/) | Used for Testimonials user images and the hero images
 [Unsplash](https://unsplash.com/) | John Anderson's picture in the testimonial
 [Font Awesome](https://fontawesome.com/) | The icons in the footer and navbar were taken from 
-[CDN Fonts](https://www.cdnfonts.com/) | Fonts sourced
+[CDN Fonts](https://www.cdnfonts.com/) | Peace Sans and Glacial Indifference fonts sourced
 
 
 # Acknowledgements
