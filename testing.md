@@ -95,7 +95,7 @@ The table below summarises how the user's needs influences the design requiremen
 ***
 
 ## Responsiveness by Feature
-The features were tested on the following devices. Below are some early tests of the website on different devices.
+The features were tested on mobile, tablet, laptop and desktop. in this link are some early tests of the website on different devices.  https://github.com/lmcrean/Hoverboard/issues/143
 
 ## Browser Testing 
 Broswer testing was conducted on the following browsers: Opera, firefox, safari, chrome, edge using browsertack.com
