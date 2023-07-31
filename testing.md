@@ -14,7 +14,6 @@ Table of Contents:
   - [Client Premise](#client-premise)
   - [Client Experience of the website and objective:](#client-experience-of-the-website-and-objective)
   - [Responsiveness by Feature](#responsiveness-by-feature)
-  - [Design comparison to Figma](#design-comparison-to-figma)
   - [Browser Testing](#browser-testing)
   - [HTML Hyperlinks test](#html-hyperlinks-test)
   - [HTML form test](#html-form-test)
@@ -96,13 +95,11 @@ The table below summarises how the user's needs influences the design requiremen
 
 ***
 
-
-
 ## Responsiveness by Feature
-
-## Design comparison to Figma
+The features were tested on the following devices. Below are some early tests of the website on different devices.
 
 ## Browser Testing 
+Broswer testing was conducted on the following browsers: Opera, firefox, safari, chrome, edge using browsertack.com
 
 ## HTML Hyperlinks test
 https://github.com/lmcrean/Hoverboard/assets/133490867/739c450a-0fd7-4da3-bf7e-5b1fb6b2b2e6
@@ -139,8 +136,6 @@ The Automatic Testing set out to
 | Desktop | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/d7a9cbae-8dad-4f17-8667-3753e0d9b5e6"> | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/2270a0ae-19a1-483f-a15b-0ac0d548e721"> | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/c9cd9bea-752f-4d6f-9263-43826bb2ece1">
 |Timestamp| 15th July '23 | 15th July '23 | 15th July '23 |
 
-***
-
 
 
 
@@ -156,8 +151,6 @@ W3 Validator results 15th July '23
 
 
 <img width="796" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/7fb7aaa6-75d7-46bd-916f-d4aa97c2b7f5">
-
-
 
 [See Issue and commit links here <img src="https://img.shields.io/github/issues/detail/state/lmcrean/Hoverboard/73">
 ](https://github.com/lmcrean/Hoverboard/issues/73)
