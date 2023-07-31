@@ -22,13 +22,10 @@
     <nav>
       <div class="navbar" id="mynavbar">
         <a href="index.html"><img src="assets/media/navbarlogo.png" class="navbartitle" alt="Hoverboard Company Logo"></a>
-
-        <a href="javascript:void(0)" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars" id="icon-open"></i></a>
-
-        <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+        <a href="javascript:void(0)" class="icon" onclick="myFunction()" aria-label="open mobile menu">
+        <i class="fa fa-bars" id="icon-open"></i></a> <!--Menu-open icon only displayed on mobile devices -->
+        <a href="javascript:void(0)" class="icon" onclick="myFunction()" aria-label="close mobile menu"> 
         <i class="fa-solid fa-x"  id="icon-close"></i></a>
-
       <ul class="menu-items">
       <li><a href="index.html">Home</a></li>
       <li><a href="features.html" class="tab-active">About our Features</a></li>
@@ -114,6 +111,7 @@
         <a href="https://www.discord.com/"><img src="assets/media/icons/discord.svg" alt="icon"></a>
         <a href="https://www.slack.com/"><img src="assets/media/icons/slack.svg" alt="icon"></a>
         <a href="https://www.linkedin.com/"><img src="assets/media/icons/linkedin.svg" alt="icon"></a>
+      </div>
       </div>
   </footer>
   </div>
