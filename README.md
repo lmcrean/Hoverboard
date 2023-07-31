@@ -28,18 +28,29 @@ In the issues I have logged written, video or screenshot accounts.
 
 ## Table of Contents <!-- omit in toc -->
 
+- [Features](#features)
+  - [Navbar](#navbar)
+  - [Hero Section](#hero-section)
+  - [Mission Intro with nested features for teachers](#mission-intro-with-nested-features-for-teachers)
+  - [Call to Action](#call-to-action)
+  - [Testimonials](#testimonials)
+  - [Headers for Features page, Sign up page and Thank you page](#headers-for-features-page-sign-up-page-and-thank-you-page)
+  - [About features](#about-features)
+  - [Sign Up Form](#sign-up-form)
+  - [Footer](#footer)
 - [UX Development Planes](#ux-development-planes)
   - [Strategy Plane](#strategy-plane)
   - [Scope plane](#scope-plane)
   - [Structure Plane](#structure-plane)
     - [Submit button](#submit-button)
   - [Skeleton Plane](#skeleton-plane)
-    - [Navbar](#navbar)
-    - [Footer](#footer)
-    - [Hero section](#hero-section)
-    - [Mission intro and Features intro](#mission-intro-and-features-intro)
-    - [Call-to-action](#call-to-action)
-    - [Testimonials](#testimonials)
+    - [Home page](#home-page)
+      - [Navbar](#navbar-1)
+      - [Footer](#footer-1)
+      - [Hero section](#hero-section-1)
+      - [Mission intro and Features intro](#mission-intro-and-features-intro)
+      - [Call-to-action](#call-to-action-1)
+      - [Testimonials](#testimonials-1)
     - [Form input](#form-input)
     - [Submit button](#submit-button-1)
   - [Surface Plane](#surface-plane)
@@ -48,6 +59,7 @@ In the issues I have logged written, video or screenshot accounts.
   - [Figma prototype](#figma-prototype)
 - [Manual Testing](#manual-testing)
 - [Automatic Testing](#automatic-testing)
+- [Validator Testing](#validator-testing)
 - [Fixed bugs](#fixed-bugs)
 - [Unfixed Bugs](#unfixed-bugs)
 - [Deployment](#deployment)
@@ -57,6 +69,77 @@ In the issues I have logged written, video or screenshot accounts.
   - [Technologies Used](#technologies-used)
 - [Acknowledgements](#acknowledgements)
       - [Pull request acknowledgements](#pull-request-acknowledgements)
+
+***
+# Features
+
+## Navbar
+<img src="assets/media/documentation-screenshots-desktop-view/navbar.png" width="700">
+
+displayed with ```tab-active```, regular and ```:hover``` states
+
+Navigates to all 3 main pages, with a hamburger icon for mobile devices.
+
+***
+
+## Hero Section
+<img src="assets/media/documentation-screenshots-desktop-view/hero-section.png" width="700">
+
+Introductory section with slogan and background image.
+
+***
+
+## Mission Intro with nested features for teachers
+<img src="assets/media/documentation-screenshots-desktop-view/mission-intro.png" width="700">
+
+Introduces the company's mission and the product's features. The features are nested in a grid display, with the features intro displayed in a column for mobile devices and a row for larger devices.
+
+***
+
+## Call to Action
+<img src="assets/media/documentation-screenshots-desktop-view/call-to-action-features.png" width="700">
+
+<img src="assets/media/documentation-screenshots-desktop-view/call-to-action-sign-up.png" width="700">
+
+These are inline links to the features page and sign up page.
+
+***
+
+## Testimonials
+<img src="assets/media/documentation-screenshots-desktop-view/testimonials.png" width="700" >
+
+These display quotations from previous users, with their name and title. They are displayed in a column for mobile devices and a 2x4 grid for larger devices.
+
+***
+
+## Headers for Features page, Sign up page and Thank you page
+<img src="assets/media/documentation-screenshots-desktop-view/header-features.png" width="700">
+<img src="assets/media/documentation-screenshots-desktop-view/header-sign-up.png" width="700">
+<img src="assets/media/documentation-screenshots-desktop-view/header-thankyou.png" width="700">
+
+Introduces the page and reinforces the design theme.
+
+***
+
+## About features
+<img src="assets/media/documentation-screenshots-desktop-view/about-features.png" width="700">
+
+Describes the features of the product, with graphics and text.
+
+***
+
+## Sign Up Form
+<img src="assets/media/documentation-screenshots-desktop-view/sign-up-form.png" width="700">
+
+Allows the user to sign up for a free trial of the product. 
+The form input requires that the email includes ```@``` and ```.``` and that the mobile number is <font color="green"> 11 digits long.</font>
+
+***
+
+## Footer
+<img src="assets/media/documentation-screenshots-desktop-view/footer.png" width="700">
+
+Provides links to social media websites. Displayed on every page and anchored to the bottom of the page.
 
 ***
 
@@ -125,29 +208,31 @@ If the form is entered incorrectly on submission, the user will be prompted to a
 
 The website was designed with a mobile-first approach, using Figma. The key challenge was to use viewport breakpoints at 768px, 1208px and 1768px to display the website comfortably on different devices.
 
-### Navbar
+### Home page
+
+#### Navbar
 - The Navbar uses an open/close icon menu in the right-corner for mobile devices. 
 - The logo is always displayed on the left and the links are always displayed on the right. 
 - The links are displayed in a column for mobile devices and a row for larger devices.
-### Footer
+#### Footer
 - The footer displays social media links in 2 rows for mobile devices and a row for larger devices.
 - It is always located at the bottom of the screen.
-### Hero section
+#### Hero section
 - The hero section displays a background image with a backgruond color layered on top, then a heading. 
 - The feature is displayed in a portrait for mobile devices and a landscape for larger devices. 
 - The hero image siwtches to a different image for larger devices, so as to better fit the aspect ratio.
-### Mission intro and Features intro 
+#### Mission intro and Features intro 
 - The mission intro uses CSS grid to rearrange the features according to the device size.
 - On larger devices, the content below the heading is split into 2 columns, and the features intro is nested into the 2nd column.
 - On smaller devices features intro uses CSS flexbox displays the apps in columns, whereas on larger devices they are rearranged as rows.
 
-### Call-to-action
+#### Call-to-action
 - The call to action uses CSS grid to create an appealing **illusion of depth** that the image is slightly **overlapping** the heading banner. The img file starts on an earlier ```grid-template-row: 1 / span 2``` than the banner which starts on row 2.
 - On larger device, the call-to-action splits into 2 columns, using ```grid-template-columns: 1.5fr 1fr```  to keep a 2:1 ratio between text and image.
 - the text includes heading, paragraph and button. They use ```text-align:``` left or right alowing with ```@media``` queries to switch between left and right alignment.
 - Three call-to-actions are displayed throughout the website.
 
-### Testimonials
+#### Testimonials
 - The testimonials use ```CSS grid``` to display 8 testimonials in a single column for mobile devices and a 2x4 grid for larger devices.
 - Being a more ambitious use of CSS grid, various class names were used to utilise the **rows, columns and assigned user** in a clear and efficient manner. Example below.
   ```html
@@ -220,6 +305,10 @@ The color theme was chosen to be consistent with the logo with the aim of creati
 
 <img src="assets/media/documentation/root-styles.png" width="400">
 
+The footer section used black SVG images that were the filtered to match the color theme.
+```css 
+filter: invert(100%)
+```
 ***
 An important design theme was the use of overlapping images and colors, to create a sense of depth.
 
@@ -267,6 +356,15 @@ The Automatic Testing achieved
 
 Full documentation here: [<img alt="Full Documentation Research Badge" src="https://img.shields.io/badge/Testing-purple?logo=mdBook">](https://github.com/lmcrean/Hoverboard/blob/main/testing.md)
 
+# Validator Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate the project to ensure there were no syntax errors in the project.
+
+The result was <b> <font color="green"> passed </font> </b> for HTML5 and CSS3.
+
+Links: W3C Validator for [index.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&checkerrorpages=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2F#l311c10), [features.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2Ffeatures#l311c10), [booktrial.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2Fbooktrial#l311c10), [style.css](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2F&usermedium=all&vextwarning=&warning=1)
+
+
 # Fixed bugs
 
 The key challenge for this project was responsive design with ```style.css```. 
@@ -287,18 +385,15 @@ The navbar animation could be smoother.
 The site was deployed to GitHub pages. You can access the live link [here](https://lmcrean.github.io/Hoverboard/).
 
 # Future features   
-In the near-term future I would like to further the Front-End Design of this website with Bootstrap features and Dark mode switch.
-
-In the long term, I would like to practise back-end features such as a PHP database.
-
+Animations appear on scroll to improve UX
+Dark mode switch to improve accessibility
 
 # Credits
 
-
 ## Code snippets
+- W3 School's [Navbar](https://www.w3schools.com/css/css_navbar.asp) was used early in the project and then adapted to meet the design standards set by the Figma wireframe.
 
-W3 School's [Navbar](https://www.w3schools.com/css/css_navbar.asp) and [Slideshow Carousel](https://www.w3schools.com/howto/howto_js_slideshow.asp) were used in the code and then adapted to meet the design standards set by the Figma wireframe.
-
+- Dominic Fraser from Free Code Camp had an article on fixing footers to the bottom of the screen, which helped with footer issues [Read here](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
 
 
 
@@ -308,28 +403,25 @@ The main languages used were HTML5 and CSS3. Javascript was also used to for sma
 
 |Programme| How they were used|
 |---|---|
-Canva|Designing Hoverboard Logo
-Figma|Wireframe design
-VSCode| Code editor
-Github| Version control
+[Canva](https://www.canva.com/) | Designing Hoverboard Logo
+[Figma](https://www.figma.com/) | Designing wireframe
+[VSCode](https://code.visualstudio.com/) | Code editor
+[Github](https://www.github.com/) | Version control
 
 Tools|How they were used|
 ---|---
-Clamp tool| Responsive font size
+[Clamp tool](https://clamp.font-size.app/)| Responsive font size
 amiresponsive|
 browserstack| Checking browsers
 gifcap| Recording gifs
 shields.io| Badges
 [FontJoy](https://fontjoy.com/) | Finding font pairings
 
-
-Below are credits to open-source libraries that I used.
-
 |Library| How they were used|
 |---|---|
-Canva | All graphics i.e. non-photographic imagery was designed and adapted from Canva's open source library|
-Pexels' | Used for Testimonials user images and the hero images
-Unsplash | John Anderson's picture in the testimonial
+[Canva](https://www.canva.com/) | All graphics i.e. non-photographic imagery was designed and adapted from Canva's open source library|
+[Pexels](https://www.pexels.com/) | Used for Testimonials user images and the hero images
+[Unsplash](https://unsplash.com/) | John Anderson's picture in the testimonial
 [Font Awesome](https://fontawesome.com/) | The icons in the footer and navbar were taken from 
 [CDN Fonts](https://www.cdnfonts.com/) | Fonts sourced
 

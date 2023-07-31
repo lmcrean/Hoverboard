@@ -19,12 +19,7 @@ Table of Contents:
   - [HTML Hyperlinks test](#html-hyperlinks-test)
   - [HTML form test](#html-form-test)
 - [Automatic Testing](#automatic-testing)
-  - [Lighthouse Testing](#lighthouse-testing)
-    - [Home page](#home-page)
-    - [Features page](#features-page)
-    - [Sign Up page](#sign-up-page)
-- [Validator Testing](#validator-testing)
-  - [Links: W3C Validator for index.html, features.html, booktrial.html, style.css](#links-w3c-validator-for-indexhtml-featureshtml-booktrialhtml-stylecss)
+  - [Lighthouse Report](#lighthouse-report)
   - [W3C HTML Validator](#w3c-html-validator)
     - [W3C HTML Validator for index.html](#w3c-html-validator-for-indexhtml)
   - [W3 CSS Jigsaw Validator](#w3-css-jigsaw-validator)
@@ -136,43 +131,16 @@ The Automatic Testing set out to
 * Pass W3C Validator Testing for both HTML5 and CSS3, therby removing excess code and broken links.
 
 
-## Lighthouse Testing
+## Lighthouse Report
 
-### Home page
-
-Lighthouse mobile test 15th July  <img width="325" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/4d00296a-68c7-4f24-bea3-8369292a0f50"> 
-
-***
-
-
-Lighthouse Desktop Test 15th July '23 <img width="332" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/d7a9cbae-8dad-4f17-8667-3753e0d9b5e6">
-</summary>
+| | Home Page | Features Page | Sign Up Page |
+|---|---|---|---|
+| Mobile |<img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/4d00296a-68c7-4f24-bea3-8369292a0f50">  | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/bf182cb3-0f05-42fe-b33a-d1f31bd01114"> | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/1afa9be2-07bd-4455-a4e8-b955cc0a98b6">
+| Desktop | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/d7a9cbae-8dad-4f17-8667-3753e0d9b5e6"> | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/2270a0ae-19a1-483f-a15b-0ac0d548e721"> | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/c9cd9bea-752f-4d6f-9263-43826bb2ece1">
+|Timestamp| 15th July '23 | 15th July '23 | 15th July '23 |
 
 ***
 
-
-
-
-### Features page
-
- Mobile View 15.Jul.23 <img width="405" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/bf182cb3-0f05-42fe-b33a-d1f31bd01114">
- 
-Desktop View 15.Jul.23 <img width="408" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/2270a0ae-19a1-483f-a15b-0ac0d548e721">
-
-
-### Sign Up page
-
-Mobile View 15.Jul.23 
-<img width="424" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/1afa9be2-07bd-4455-a4e8-b955cc0a98b6">
-
-Desktop View 15.Jul.23 
-<img width="436" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/c9cd9bea-752f-4d6f-9263-43826bb2ece1">
-
-
-***
-
-# Validator Testing
-## Links: W3C Validator for [index.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&checkerrorpages=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2F#l311c10), [features.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2Ffeatures#l311c10), [booktrial.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2Fbooktrial#l311c10), [style.css](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2F&usermedium=all&vextwarning=&warning=1)
 
 
 
