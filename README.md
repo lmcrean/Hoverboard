@@ -10,7 +10,7 @@
 
 <br>
 
-<img width="636" alt="figma preview as responsive design" src="https://github.com/lmcrean/Hoverboard/assets/133490867/b0efbf8c-b575-4061-a472-18a68541c9e2">
+<img width="636" alt="responsive design" src="assets/media/documentation/amiresponsive.png">
 
 <br>
 
@@ -44,26 +44,24 @@ In the issues I have logged written, video or screenshot accounts.
   - [Structure Plane](#structure-plane)
     - [Submit button](#submit-button)
   - [Skeleton Plane](#skeleton-plane)
-    - [Home page](#home-page)
-      - [Navbar](#navbar-1)
-      - [Footer](#footer-1)
+      - [Navbar (used on all pages)](#navbar-used-on-all-pages)
+      - [Footer (used on all pages)](#footer-used-on-all-pages)
       - [Hero section](#hero-section-1)
       - [Mission intro and Features intro](#mission-intro-and-features-intro)
-      - [Call-to-action](#call-to-action-1)
+      - [Call-to-action (also used on features page)](#call-to-action-also-used-on-features-page)
       - [Testimonials](#testimonials-1)
     - [Form input](#form-input)
     - [Submit button](#submit-button-1)
   - [Surface Plane](#surface-plane)
 - [Testing](#testing)
-  - [Link Here](#link-here)
-  - [Figma prototype](#figma-prototype)
 - [Manual Testing](#manual-testing)
 - [Automatic Testing](#automatic-testing)
 - [Validator Testing](#validator-testing)
 - [Fixed bugs](#fixed-bugs)
 - [Unfixed Bugs](#unfixed-bugs)
+  - [Code to be modified](#code-to-be-modified)
 - [Deployment](#deployment)
-- [Future features](#future-features)
+- [Future features to implement](#future-features-to-implement)
 - [Credits](#credits)
   - [Code snippets](#code-snippets)
   - [Technologies Used](#technologies-used)
@@ -147,6 +145,7 @@ Provides links to social media websites. Displayed on every page and anchored to
 
 The 5 UX development planes are for the purpose of explaining the design process of the website. Both intention and outcome are recorded.
 
+The key tool to bridge UX and code was the Figma wireframe: issues are logged here. [![Figma](https://img.shields.io/github/issues/lmcrean/Hoverboard/Figma?logo=Figma&logoColor=white&label=Figma&color=yellow)](https://github.com/lmcrean/Hoverboard/labels/Figma) [![GitHub 2 features page closed issues by-label](https://img.shields.io/github/issues-closed/lmcrean/Hoverboard/Figma?label=%20&color=green)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Acss+label%3A%222%20features%20page%22+is%3Aclosed)
 
 ## Strategy Plane
 
@@ -172,13 +171,13 @@ New User:
 ## Scope plane
 The following features were designed to meet the needs of new users.  They were displayed across three main pages, sometimes appearing more than once for the purpose of both making the website easy to navigate and consistent branding design.
 <!-- Add thumbnails 3rd column?--->
-| Feature       | Function  |  scope |
+| Feature       | Function  |  scope of elements |
 | ------------- | ----------- | ---|
-| Navbar|
-| Footer|
+| Navbar| Navigation | Navbar, Logo, Links, Hamburger icon|
+| Footer| Navigation | Footer, Links, Social Media Icons|
 | Hero image with slogan | Visualizes the experience | background image, background-color, heading and picture at top of page |
 | Page headings | Design appeal | display on Features page and 
-| Hoverboard's Mission      | Introduces the product persuasively in the context of VLE's, why we're different         | 
+| Hoverboard's Mission      | Introduces the product persuasively in the context of VLE's, why we're different| Imagery, heading, background image, app icons.
 | Call-to-action: Find out about our Features, claim-your free trial| provides clear links for the user to navigate, | three call-to-actions throughout the website|
 | Testimonials from different users   | Builds authority and trust |
 | Gallery Views, Peer Feedback, Deep Assessment             | Visualizes easy navigation of classwork on a browser,student chat function in action, chatbot in action|        |
@@ -187,12 +186,14 @@ The following features were designed to meet the needs of new users.  They were 
 
 Popular frameworks such as bootstrap were not used in this instance in order for the developer to focus on learning CSS responsivity.
 
+On the subject of scope, several Javascript features were omitted in the testimonials feature mid-project to prioritise developing the responsivity, such as a carousel and read/more read less button for mobile view.
+
 
 ## Structure Plane
 
 **This diagram illustrates a page structure with simple and accessible hyperlinks.** The Navbar links to all 3 main pages. There are 3 call-to-action features that include a hyperlink. The submit button takes user to a thank you page, assuming the form is entered correctly.
 
-<img src="assets/media/documentation/page-structure.png">
+<div align="center"><img src="assets/media/documentation/page-structure.png"></div>
 
 
 ### Submit button
@@ -208,13 +209,18 @@ If the form is entered incorrectly on submission, the user will be prompted to a
 
 The website was designed with a mobile-first approach, using Figma. The key challenge was to use viewport breakpoints at 768px, 1208px and 1768px to display the website comfortably on different devices.
 
-### Home page
+<div align="center"> <h3> Home page wireframe </h3>
+<img src="assets/media/documentation-wireframe/home-page-1.png" width="300">
+<br>
+<img src="assets/media/documentation-wireframe/home-page-2.png" width="300">
 
-#### Navbar
+*to view wireframe in more detail, ```right click > open image in new tab```* </div>
+
+#### Navbar (used on all pages)
 - The Navbar uses an open/close icon menu in the right-corner for mobile devices. 
 - The logo is always displayed on the left and the links are always displayed on the right. 
 - The links are displayed in a column for mobile devices and a row for larger devices.
-#### Footer
+#### Footer (used on all pages)
 - The footer displays social media links in 2 rows for mobile devices and a row for larger devices.
 - It is always located at the bottom of the screen.
 #### Hero section
@@ -226,13 +232,13 @@ The website was designed with a mobile-first approach, using Figma. The key chal
 - On larger devices, the content below the heading is split into 2 columns, and the features intro is nested into the 2nd column.
 - On smaller devices features intro uses CSS flexbox displays the apps in columns, whereas on larger devices they are rearranged as rows.
 
-#### Call-to-action
+#### Call-to-action (also used on features page)
 - The call to action uses CSS grid to create an appealing **illusion of depth** that the image is slightly **overlapping** the heading banner. The img file starts on an earlier ```grid-template-row: 1 / span 2``` than the banner which starts on row 2.
 - On larger device, the call-to-action splits into 2 columns, using ```grid-template-columns: 1.5fr 1fr```  to keep a 2:1 ratio between text and image.
 - the text includes heading, paragraph and button. They use ```text-align:``` left or right alowing with ```@media``` queries to switch between left and right alignment.
 - Three call-to-actions are displayed throughout the website.
 
-#### Testimonials
+#### Testimonials 
 - The testimonials use ```CSS grid``` to display 8 testimonials in a single column for mobile devices and a 2x4 grid for larger devices.
 - Being a more ambitious use of CSS grid, various class names were used to utilise the **rows, columns and assigned user** in a clear and efficient manner. Example below.
   ```html
@@ -241,13 +247,20 @@ The website was designed with a mobile-first approach, using Figma. The key chal
   <h3 class="testimonial-name david-martinez grid-group-A tablet-image-on-left  tablet-row-1 laptop-row-1-left laptop-grid-column-2">David Martinez</h3>
   <h4 class="testimonial-title david-martinez grid-group-A tablet-image-on-left  tablet-row-1 laptop-row-1-left laptop-grid-column-2">Headteacher, Maplewood Academy</h4>```
 -  On the 2x4 grid, the testimonials were divided into ```grid-group-A``` and ```grid-group-B``` classes as there was a more challenging rhythm of the page that couldn't simply copy the positioning from the column view.
-### Headings
+
+<div align="center"> <h3> Features page wireframe </h3>
+<img src="assets/media/documentation-wireframe/features.png" width="300">
+
+*to view wireframe in more detail, ```right click > open image in new tab```*</div>
+
+
+### Headings (also used on sign up page and thank you page)
 - This was a lower priority feature in design and scale of code, serving to introduce the page and reinforce previous design themes.
 - would usually switch between columns and rows.
 - the features page would borrow ```display:flex``` code from the **app icons** on the home page, as a way of continuing the design motif.
 - The sign up and thank you page would utilise the overlapping image effect similar to the call-to-action.
 ### Description of Features
-- This was displayed as columns.
+- This was displayed as columns in mobile view.
 - On larger devices this used a simple ```display: flex``` to display the icons in a row for mobile devices and a column for larger devices. HTML classes were able to easily switch up the column-order of image and text, to keep the reader engaged.
   ```css
   @media screen and (min-width: 850px) {
@@ -261,6 +274,11 @@ The website was designed with a mobile-first approach, using Figma. The key chal
     flex-direction: row-reverse;
   }
   ```
+<div align="center"> <h3> Sign-up page wireframe </h3>
+<img src="assets/media/documentation-wireframe/sign-up-page.png" width="300">
+
+*to view wireframe in more detail, ```right click > open image in new tab```* </div>
+
 ### Form input
 the form input is displays as a column for mobile devices, 2 columns for tablet devices. On largest devices the form is displayed as a column again but on the right hand side.
 
@@ -273,7 +291,7 @@ In the surface plane we will discuss the choice of typefaces, colors and style t
 
 Typefaces used were Peace Sans for headings and Glacial Indifference for body text. The font pairings were chosen for their playful  but professional tone as outlined in the strategy plane.
 
-<img src="assets/media/documentation/style-test.png" width="400">
+<img src="assets/media/documentation/style-test.png" width="250">
 
 ```css
 /*These type selectors are all Peace Sans*/
@@ -316,25 +334,7 @@ The ```border-radius``` was chosen to be consistent with the logo and hero image
 There was also a design motif of images overlapping colors, the use of border-radius and overlapping is clearly illustrated in the testimonials feature and call to action features.
 
 # Testing
-This section summarises the testing process in a linear form from prototype and manual testing to automatic testing. More detailed accounts are available in the testing.md file
-
-## [Link Here](testing.md)
-
-## Figma prototype
-
-[![Figma](https://img.shields.io/github/issues/lmcrean/Hoverboard/Figma?logo=Figma&logoColor=white&label=Figma&color=yellow)](https://github.com/lmcrean/Hoverboard/labels/Figma) [![GitHub 2 features page closed issues by-label](https://img.shields.io/github/issues-closed/lmcrean/Hoverboard/Figma?label=%20&color=green)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Acss+label%3A%222%20features%20page%22+is%3Aclosed)
-
-Before manual testing, a figma prototype was concieved to visualise the design.
-
-In my Figma Design I set out to
-
-- visualise a clean layout that would demonstrate mobile, tablet and desktop view. For the homepage I also differentiated laptop and desktop.
-- put together design choices that had been concieved in the UX developement process.
-
-***
-<img width="1100" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/67586ebe-34ba-4c0a-9929-57195b0a6924">
-<img width="1100" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/ea620913-f086-4e50-bd61-f85ae3a3106b">
-<img width="1100" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/d534f456-7ef9-4992-a1c0-6e7e79abbfd3">
+This section summarises the testing process in a linear form from manual testing to automatic testing. Further documentation is available in this link: [<img alt="Full Documentation Research Badge" src="https://img.shields.io/badge/Testing-purple?logo=mdBook">](https://github.com/lmcrean/Hoverboard/blob/main/testing.md)
 
 # Manual Testing
 
@@ -354,39 +354,46 @@ The Automatic Testing achieved
 * a good lighthouse testing score, particularly for performance, accessibility, best practices.
 * Passed W3C Validator Testing for both HTML5 and CSS3, thereby removing excess code and broken links.
 
-Full documentation here: [<img alt="Full Documentation Research Badge" src="https://img.shields.io/badge/Testing-purple?logo=mdBook">](https://github.com/lmcrean/Hoverboard/blob/main/testing.md)
-
 # Validator Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the project to ensure there were no syntax errors in the project.
 
 The result was <b> <font color="green"> passed </font> </b> for HTML5 and CSS3.
 
-Links: W3C Validator for [index.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&checkerrorpages=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2F#l311c10), [features.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2Ffeatures#l311c10), [booktrial.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2Fbooktrial#l311c10), [style.css](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2F&usermedium=all&vextwarning=&warning=1)
+**Links: W3C Validator for [index.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&checkerrorpages=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2F#l311c10), [features.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2Ffeatures#l311c10), [booktrial.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2Fbooktrial#l311c10), [style.css](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Flmcrean.github.io%2FHoverboard%2F&usermedium=all&vextwarning=&warning=1)**
 
+further documentation here: [<img alt="Full Documentation Research Badge" src="https://img.shields.io/badge/Testing-purple?logo=mdBook">](https://github.com/lmcrean/Hoverboard/blob/main/testing.md)
 
 # Fixed bugs
 
 The key challenge for this project was responsive design with ```style.css```. 
 
-CSS breakthroughs included formatting images such as ```object-fit: cover``` to fit the hero-picture, 
+CSS breakthroughs included formatting images such as ```object-fit: cover``` to fit the hero-picture. the bg-squiggles would not fit in to the viewport and so would.
 
-when using  ```display: grid```, devising a system for switching html elements over using classes with
+When using  ```display: grid```, devising a system for switching html elements over using classes with
 
 There were fewer challenges with the HTML form, mainly getting the ```labels``` syntax correct.
 
 Although Javascript was kept to a mininum, one bug realised the DOM wasn't loading without placing the ```<script>``` container at the bottom.
 
 # Unfixed Bugs
-For the website to function better, PHP would need to log the form data.
-The navbar animation could be smoother.
+
+While there are no known bugs, there is further code to be modified to improve the user experience.
+
+## Code to be modified
+
+- Navbar logo and icon need to shrink on smallest devices, design is crowded.
+- positioning of text in testimonials
+- add testimonials to sign up page
+
+The navbar animation could be smoother, and this was a 
 
 # Deployment
 The site was deployed to GitHub pages. You can access the live link [here](https://lmcrean.github.io/Hoverboard/).
 
-# Future features   
-Animations appear on scroll to improve UX
-Dark mode switch to improve accessibility
+# Future features to implement  
+- Animations appear on scroll to improve UX
+- Dark mode switch to improve accessibility
 
 # Credits
 
@@ -401,23 +408,23 @@ Dark mode switch to improve accessibility
 
 The main languages used were HTML5 and CSS3. Javascript was also used to for smaller features such as the Navbar hamburger, or read more - read less button.
 
-|Programme| How they were used|
+|Programme| How it was used|
 |---|---|
 [Canva](https://www.canva.com/) | Designing Hoverboard Logo
 [Figma](https://www.figma.com/) | Designing wireframe
 [VSCode](https://code.visualstudio.com/) | Code editor
 [Github](https://www.github.com/) | Version control
 
-Tools|How they were used|
+Tools|How it was used|
 ---|---
-[Clamp tool](https://clamp.font-size.app/)| Responsive font size
-amiresponsive|
-browserstack| Checking browsers
-gifcap| Recording gifs
-shields.io| Badges
+[Clamp tool](https://clamp.font-size.app/)| developing a responsive font size with the clamp tool
+[amiresponsive](https://ui.dev/amiresponsive)| Checking mobile, desktop, tablet view
+[browserstack](https://www.browserstack.com/)| Checking website on firefox, opera, edge, safari and chrome
+[gifcap](https://gifcap.dev/)| Recording gifs
+[shields.io](https://shields.io/)| Documentation Badges
 [FontJoy](https://fontjoy.com/) | Finding font pairings
 
-|Library| How they were used|
+|Library| How it was used|
 |---|---|
 [Canva](https://www.canva.com/) | All graphics i.e. non-photographic imagery was designed and adapted from Canva's open source library|
 [Pexels](https://www.pexels.com/) | Used for Testimonials user images and the hero images
