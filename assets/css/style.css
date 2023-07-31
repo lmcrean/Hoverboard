@@ -928,7 +928,16 @@ h4.testimonial-title {margin: 50px auto 10px;}
 #testimonials-feature .user-image.user-image.tablet-image-on-left {grid-column: 1/ span 1;}
 #testimonials-feature .user-image.tablet-image-on-right { grid-column: 2/ span 1; }
 #testimonials-feature .testimonial-text.tablet-image-on-left {grid-column: 2/ span 1;}
+
+p.testimonial-text.david-martinez.grid-group-A.tablet-image-on-left.tablet-row-1.laptop-row-1-left.laptop-grid-column-2 {
+    grid-row: 2;
+}
 #testimonials-feature .testimonial-text.tablet-image-on-right {grid-column: 1/ span 1;}
+
+p.testimonial-text.emily-wilson.grid-group-B.tablet-row-2.laptop-row-4-right.tablet-image-on-right.laptop-grid-column-4 {
+    grid-row: 7/ span 1;
+} /*design tweaks for anomoly positioning*/
+
 #testimonials-feature .testimonial-name.tablet-image-on-left {grid-column: 2/ span 1;}
 #testimonials-feature .testimonial-name.tablet-image-on-right {grid-column: 1/ span 1;}
 #testimonials-feature .testimonial-title.tablet-image-on-left {grid-column: 2/ span 1;}
@@ -944,11 +953,12 @@ h4.testimonial-title {margin: 50px auto 10px;}
 #testimonials-feature .user-image.tablet-image-on-right {margin: 40px 0px 0px 15%;}
 #testimonials-feature .testimonial-text.tablet-image-on-left {margin: 10% 26% 4% 0%;padding: 0% 0% 0% 0%;text-align: left;}
 #testimonials-feature .testimonial-text.tablet-image-on-right {margin: 10% -2% 7% 29%;padding: 0% 0% 0% 0%;text-align: right;}
+
 #testimonials-feature .testimonial-name.tablet-image-on-left {margin: 0px 0% 0px 0%;text-align: left;} 
 #testimonials-feature .testimonial-name.tablet-image-on-right {margin: -25px 0% 25px 64%;text-align: right;}
 
 h3.testimonial-name.emily-wilson.tablet-row-2.laptop-row-4-right.tablet-image-on-right {
-    margin: -29px 0% 25px 64% !important;
+    margin: -29px 0% 25px 64%;
     /* text-align: right; */
 }
 #testimonials-feature .testimonial-title.tablet-image-on-left {/* margin: auto auto auto auto; *//* margin: 21% 26% 4% 0%; */padding: 0% 0% 0% 0%;margin: 30px 0% 60px 0%;text-align: left;}
@@ -958,7 +968,7 @@ h3.testimonial-name.emily-wilson.tablet-row-2.laptop-row-4-right.tablet-image-on
     text-align: right;
 } 
 #testimonials-feature .air-quotations-opening {/* margin: auto auto auto auto; */margin: 0% 12% 4% 40%;padding: 0% 0% 0% 0%;height: auto;max-width: 472px;} 
-#testimonials-feature .air-quotations-closing {/* margin: auto auto auto auto; */margin: 0% 45% -7% 16%;padding: 0% 0% 0% 0%;height: auto;max-width: 472px;}
+#testimonials-feature .air-quotations-closing {/* margin: auto auto auto auto; */margin: 3rem 46% -20rem 16%;padding: 0rem;height: auto;max-width: 472px;}
 #testimonials-feature .testimonial-background-blue {margin: 0px 0% 0px 22%;width: 70%;}   /*if blue nudge right*/
 #testimonials-feature .testimonial-background-orange {margin: 0px 0% 0px 10%;width: 70%;}  /*if orange nudge left*/
 
@@ -1057,7 +1067,7 @@ p.testimonial-text.robert-thompson.grid-group-A.tablet-row-7.laptop-row-3-right.
 {margin: auto 0px 12px -20px;text-align: left;/* font-size: 12px; */}
 
 #testimonials-feature h3.testimonial-name.grid-group-A 
-{margin: auto 0px 31px -7%;text-align: left;}
+{margin: auto 0px 31px -6%;text-align: left;}
 
 #testimonials-feature img.air-quotations-opening {margin: 0px 0px 0px 27%;}
 
@@ -1075,8 +1085,8 @@ img.air-quotations-opening {
     margin: 0px 0px 0px 0px;
 }
 #testimonials-feature p.testimonial-text.grid-group-B {/* margin: 0px 0px 0px 0px; */text-align: right;}
-#testimonials-feature h4.testimonial-title.grid-group-B {margin: auto 0px 14px 56%;text-align: left;}
-#testimonials-feature h3.testimonial-name.grid-group-B {margin: auto 0px 12px -59%;text-align: right;}
+#testimonials-feature h4.testimonial-title.grid-group-B {margin: auto 0px 14px 0%;text-align: right;}
+#testimonials-feature h3.testimonial-name.grid-group-B {margin: auto 0px 33px 0%;text-align: right;}
 #testimonials-feature img.air-quotations-closing {margin: 0px 0px 0px 0px}
 #testimonials-feature img.testimonial-background.grid-group-B {margin: 0px 0px 0px 0px}
 

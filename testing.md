@@ -126,12 +126,6 @@ The Automatic Testing set out to
 * use lighthouse testing to identify files that could be resized and accessibility that can be improved.
 * Pass W3C Validator Testing for both HTML5 and CSS3, therby removing excess code and broken links.
 
-
-
-
-
-
-
 ***
 
 ## W3C HTML Validator

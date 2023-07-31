@@ -39,6 +39,7 @@ In the issues I have logged written, video or screenshot accounts.
 - [Manual Testing](#manual-testing)
 - [Automatic Testing](#automatic-testing)
 - [Validator Testing](#validator-testing)
+  - [Lighthouse Report](#lighthouse-report)
 - [Fixed bugs](#fixed-bugs)
 - [Unfixed Bugs](#unfixed-bugs)
 - [Deployment](#deployment)
@@ -343,10 +344,14 @@ further documentation here: [<img alt="Full Documentation Research Badge" src="h
 
 ## Lighthouse Report
 
+To check the lighthouse report, right click inspect and click on the lighthouse tab. The lighthouse report was run on the home page, features page and sign up page.
+
+To further improve the lighthouse score I could use more WebP images and reduce image sizes.
+
 | | Home Page | Features Page | Sign Up Page |
 |---|---|---|---|
-| Mobile |<img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/4d00296a-68c7-4f24-bea3-8369292a0f50">  | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/bf182cb3-0f05-42fe-b33a-d1f31bd01114"> | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/1afa9be2-07bd-4455-a4e8-b955cc0a98b6">
-| Desktop | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/d7a9cbae-8dad-4f17-8667-3753e0d9b5e6"> | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/2270a0ae-19a1-483f-a15b-0ac0d548e721"> | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/c9cd9bea-752f-4d6f-9263-43826bb2ece1">
+| Mobile |<img width="300" alt="image" src="assets/media/documentation-lighthouse/homepage-mobile.png">  | <img width="300" alt="image" src="assets/media/documentation-lighthouse/features-mobile.png"> | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/1afa9be2-07bd-4455-a4e8-b955cc0a98b6">
+| Desktop | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/d7a9cbae-8dad-4f17-8667-3753e0d9b5e6"> | <img width="300" alt="image" src="assets/media/documentation-lighthouse/features-desktop.png"> | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/c9cd9bea-752f-4d6f-9263-43826bb2ece1">
 |Timestamp| 31st July '23 | 31st July '23 | 15th July '23 |
 
 # Fixed bugs
