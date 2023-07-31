@@ -5,7 +5,7 @@
 /*FIXED STYLING - TYPEFACES*/
 
 @font-face {
-  font-family: 'glacialindifference', sans-serif;
+  font-family: 'glacialindifference';
   font-style: normal;
   font-weight: 400;
   src: local('Glacial Indifference'),
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: 'PeaceSans', sans-serif;
+  font-family: 'PeaceSans';
   font-style: normal;
   font-weight: 400;
   src: local('Peace Sans'), url('https://fonts.cdnfonts.com/s/16323/peace_sans.woff') format('woff');

@@ -18,7 +18,6 @@ Table of Contents:
   - [HTML Hyperlinks test](#html-hyperlinks-test)
   - [HTML form test](#html-form-test)
 - [Automatic Testing](#automatic-testing)
-  - [Lighthouse Report](#lighthouse-report)
   - [W3C HTML Validator](#w3c-html-validator)
     - [W3C HTML Validator for index.html](#w3c-html-validator-for-indexhtml)
   - [W3 CSS Jigsaw Validator](#w3-css-jigsaw-validator)
@@ -128,13 +127,7 @@ The Automatic Testing set out to
 * Pass W3C Validator Testing for both HTML5 and CSS3, therby removing excess code and broken links.
 
 
-## Lighthouse Report
 
-| | Home Page | Features Page | Sign Up Page |
-|---|---|---|---|
-| Mobile |<img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/4d00296a-68c7-4f24-bea3-8369292a0f50">  | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/bf182cb3-0f05-42fe-b33a-d1f31bd01114"> | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/1afa9be2-07bd-4455-a4e8-b955cc0a98b6">
-| Desktop | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/d7a9cbae-8dad-4f17-8667-3753e0d9b5e6"> | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/2270a0ae-19a1-483f-a15b-0ac0d548e721"> | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/c9cd9bea-752f-4d6f-9263-43826bb2ece1">
-|Timestamp| 15th July '23 | 15th July '23 | 15th July '23 |
 
 
 
