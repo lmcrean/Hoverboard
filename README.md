@@ -139,7 +139,7 @@ The new user is most likely a **Teacher**.
 
 <div align="center"><h3> User Stories</h3> <!-- omit in toc -->
 
-<img src="assets/media/emily-wilson.png" height="200"> <img src="assets/media/david-martinez.png" height="200"> </div>
+<img src="assets/media/emily-wilson.webp" height="200"> <img src="assets/media/david-martinez.webp" height="200"> </div>
 
 
 New User:
@@ -372,11 +372,9 @@ While there are no known bugs, there is further code to be modified to improve t
 
 ## Code to be modified <!-- omit in toc -->
 
-- Navbar logo and icon need to shrink on smallest devices, design is crowded.
-- positioning of text in testimonials
+- Navbar logo and icon need to shrink on smallest devices
 - add testimonials to sign up page
-
-The navbar animation could be smoother, and this was a 
+- The navbar animation could be smoother with a bootstrap framework 
 
 ## Documentation to complete <!-- omit in toc -->
 - screen recordings of browserstack tests on different browsers.
