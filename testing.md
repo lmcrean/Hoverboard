@@ -6,28 +6,28 @@
 This testing page covers technical accounts that do not fit into the readme. This includes research.
 
 Table of Contents:
-- [Strategy and Scope Testing](#strategy-and-scope-testing)
-  - [Research](#research)
-    - [VLE Websites](#vle-websites)
-    - [Articles on Paperless Schools](#articles-on-paperless-schools)
-    - [CSS resources](#css-resources)
-  - [Client Premise](#client-premise)
-  - [Client Experience of the website and objective:](#client-experience-of-the-website-and-objective)
-  - [Responsiveness by Feature](#responsiveness-by-feature)
-  - [Browser Testing](#browser-testing)
-  - [HTML Hyperlinks test](#html-hyperlinks-test)
-  - [HTML form test](#html-form-test)
-- [Automatic Testing](#automatic-testing)
-  - [W3C HTML Validator](#w3c-html-validator)
-    - [W3C HTML Validator for index.html](#w3c-html-validator-for-indexhtml)
-  - [W3 CSS Jigsaw Validator](#w3-css-jigsaw-validator)
+- [1. Strategy and Scope Testing](#1-strategy-and-scope-testing)
+  - [1.1. Research](#11-research)
+    - [1.1.1. VLE Websites](#111-vle-websites)
+    - [1.1.2. Articles on Paperless Schools](#112-articles-on-paperless-schools)
+    - [1.1.3. CSS resources](#113-css-resources)
+  - [1.2. Client Premise](#12-client-premise)
+  - [1.3. Client Experience of the website and objective:](#13-client-experience-of-the-website-and-objective)
+- [2. Manual Testing](#2-manual-testing)
+  - [2.1. Responsiveness by Feature](#21-responsiveness-by-feature)
+  - [2.2. Browser Testing](#22-browser-testing)
+  - [2.3. HTML Hyperlinks test](#23-html-hyperlinks-test)
+  - [2.4. HTML form test](#24-html-form-test)
+- [3. Automatic Testing](#3-automatic-testing)
+  - [3.1. W3C HTML Validator](#31-w3c-html-validator)
+  - [3.2. W3 CSS Jigsaw Validator](#32-w3-css-jigsaw-validator)
 
-# Strategy and Scope Testing
+# 1. Strategy and Scope Testing
 
-## Research
+## 1.1. Research
 In my initial research, I drew inspiration from websites like SeeSaw, ClassCharts and SatchelOne, which offer progressive features for virtual learning environments (VLEs). These platforms excel in terms of user-friendly design, intuitive interfaces, and effective visualization of learning materials. Additionally, articles on paperless schools highlighted the relevance that a fully developed version of this mock-up website might have.
 
-### VLE Websites
+### 1.1.1. VLE Websites
 <img width="941" alt="image" src="https://github.com/lmcrean/VirtualClassroomMockup/assets/133490867/4d4a36f0-7c02-43b0-947a-383b1d64a6c8" caption="Copyright SeeSaw 2023">
 
 Copyright SeeSaw 2023
@@ -45,7 +45,7 @@ Website | Design Notes
 [SatchelOne](https://www.teamsatchel.com/)|Front-end has an appealing loading graphic, summary of app graphics works really well, use of fade in animation as page scrolls.
 [Showbie](https://www.showbie.com/)|Divided by banners, interspersed with testimonials throughout the website. Sign up page reminds of the brand and it's purpose. Circular motifs with vector graphics. JS Carousel.|
 
-### Articles on Paperless Schools
+### 1.1.2. Articles on Paperless Schools
 
 > A recent study conducted showed that schools in the UK spent nearly half a billion pounds on paper each year, which is the equivalent of 3m Chromebook devices
 
@@ -58,7 +58,7 @@ On an implicit level the aforementioned article influenced the strategy plane of
 
 This article discusses the benefits and steps towards becoming a paperless school. It emphasizes that going paperless can reduce waste, inefficiency, and costs, while improving school security, communication, and teaching methods. The article highlights the advantages of digital systems, such as creating a secure database, better communication with parents, increased student engagement, and the ability to automate paper-heavy processes. It also acknowledges potential challenges, such as digital literacy barriers and the importance of maintaining personal interactions in education. </details>
 
-### CSS resources
+### 1.1.3. CSS resources
 https://github.com/kevin-powell/learn-grid-the-easy-way/blob/main/style.css
 
 Kevin Powell's CSS resource had helpful ideas for concise CSS selectors, particularly with grid display.
@@ -67,7 +67,7 @@ https://youtu.be/VQraviuwbzU
 
 Kevin Powell also offers useful info here about min-height, max-width, font-size: clamp(,,) as alternatives to media queries 
 
-## Client Premise
+## 1.2. Client Premise
 <details>
 <summary>
 Click here to read a user backstory</summary>
@@ -83,7 +83,7 @@ Dr. Emily Williams is Headmaster at Meadowbrook Academy. She is expecting an Ofs
 One day her friend, Headmaster Benjamin Reynolds from Green Orchard School, recommends a new and promising Virtual Learning environment called Hoverboard. Benjamin has been trialling Hoverboard to reduce paper usage and organise data. THe software has a more ambitious scope than current VLEs by enabling users a chance to organise classwork on a cloud server. Later that day, Dr. Emily look's up Hoverboard on a search engine and visits their promotional website.
 </details>
 
-## Client Experience of the website and objective: 
+## 1.3. Client Experience of the website and objective: 
 The table below summarises how the user's needs influences the design requirements.
 
 | Page | user needs  | user experience  | website content  | design  | 
@@ -94,13 +94,15 @@ The table below summarises how the user's needs influences the design requiremen
 
 ***
 
-## Responsiveness by Feature
+# 2. Manual Testing
+
+## 2.1. Responsiveness by Feature
 The features were tested on mobile, tablet, laptop and desktop. in this link are some early tests of the website on different devices.  https://github.com/lmcrean/Hoverboard/issues/143
 
-## Browser Testing 
+## 2.2. Browser Testing 
 Broswer testing was conducted on the following browsers: Opera, firefox, safari, chrome, edge using browsertack.com
 
-## HTML Hyperlinks test
+## 2.3. HTML Hyperlinks test
 https://github.com/lmcrean/Hoverboard/assets/133490867/739c450a-0fd7-4da3-bf7e-5b1fb6b2b2e6
 
 15th Jul '23
@@ -108,7 +110,7 @@ https://github.com/lmcrean/Hoverboard/assets/133490867/739c450a-0fd7-4da3-bf7e-5
 navbar links are working, as are article links, footer links are mostly working. Instagram link worked after fixing misspelt url in html tab.
   
 ***
-## HTML form test
+## 2.4. HTML form test
 
 https://github.com/lmcrean/Hoverboard/assets/133490867/76d18415-44fa-4166-9f3a-612002c2e90a
 
@@ -119,7 +121,7 @@ The video demonstrates initially enterring the form correctly, then tests loopho
 * 1 issue with fix password vs confirm password being required to match 
 * the directed thank page heading and button doesn't appear, lacks a UX design, img link appears broken
 
-# Automatic Testing
+# 3. Automatic Testing
 
 
 The Automatic Testing set out to 
@@ -128,8 +130,7 @@ The Automatic Testing set out to
 
 ***
 
-## W3C HTML Validator
-### W3C HTML Validator for index.html
+## 3.1. W3C HTML Validator
 W3 Validator results 15th July '23 
 
 <img width="701" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/aea19703-ddf3-461d-a36b-2cc2446da299">
@@ -142,7 +143,7 @@ W3 Validator results 15th July '23
 [See Issue and commit links here <img src="https://img.shields.io/github/issues/detail/state/lmcrean/Hoverboard/73">
 ](https://github.com/lmcrean/Hoverboard/issues/73)
 
-## W3 CSS Jigsaw Validator
+## 3.2. W3 CSS Jigsaw Validator
 
 <img width="913" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/f1d9dee6-bb6f-4fdf-a1de-8a32bc930deb">
 

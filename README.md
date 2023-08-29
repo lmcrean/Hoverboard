@@ -19,7 +19,7 @@
 </div>
 
 ***
-## Documentation introduction
+## Documentation introduction <!-- omit in toc -->
 This readme introduces the key features of the project, using the framework of the 5 planes of User Experience. It summarises key challenges addressed along the way and also provides credits and acknowledgesments at the end.
 
 Testing is summarised in the readme, while a seperate Testing file is dedicated to a more specific technical account.
@@ -28,30 +28,29 @@ In the issues I have logged written, video or screenshot accounts.
 
 ## Table of Contents <!-- omit in toc -->
 
-- [Features](#features)
-- [UX Development Planes](#ux-development-planes)
-  - [Strategy Plane](#strategy-plane)
-  - [Scope plane](#scope-plane)
-  - [Structure Plane](#structure-plane)
-  - [Skeleton Plane](#skeleton-plane)
-  - [Surface Plane](#surface-plane)
-- [Testing](#testing)
-- [Manual Testing](#manual-testing)
-- [Automatic Testing](#automatic-testing)
-- [Validator Testing](#validator-testing)
-  - [Lighthouse Report](#lighthouse-report)
-- [Fixed bugs](#fixed-bugs)
-- [Unfixed Bugs](#unfixed-bugs)
-- [Deployment](#deployment)
-- [Future features to implement](#future-features-to-implement)
-- [Credits](#credits)
-  - [Code snippets](#code-snippets)
-  - [Technologies Used](#technologies-used)
-- [Acknowledgements](#acknowledgements)
-      - [Pull request acknowledgements](#pull-request-acknowledgements)
+- [1. Features](#1-features)
+- [2. UX Development Planes](#2-ux-development-planes)
+  - [2.1. Strategy Plane](#21-strategy-plane)
+  - [2.2. Scope plane](#22-scope-plane)
+  - [2.3. Structure Plane](#23-structure-plane)
+  - [2.4. Skeleton Plane](#24-skeleton-plane)
+  - [2.5. Surface Plane](#25-surface-plane)
+- [3. Manual Testing](#3-manual-testing)
+  - [3.1. testing.md](#31-testingmd)
+- [4. Automatic Testing](#4-automatic-testing)
+  - [4.1. Validator Testing](#41-validator-testing)
+  - [4.2. Lighthouse Report](#42-lighthouse-report)
+- [5. Fixed bugs](#5-fixed-bugs)
+  - [5.1. Unfixed Bugs](#51-unfixed-bugs)
+- [6. Deployment](#6-deployment)
+- [7. Credits \& Acknowledgements](#7-credits--acknowledgements)
+  - [7.1. Code snippets](#71-code-snippets)
+  - [7.2. Technologies Used](#72-technologies-used)
+  - [7.3. Acknowledgements](#73-acknowledgements)
+  - [7.4. Pull request acknowledgements](#74-pull-request-acknowledgements)
 
 ***
-# Features
+# 1. Features
 
 ## Navbar <!-- omit in toc -->
 <img src="assets/media/documentation-screenshots-desktop-view/navbar.png" width="700">
@@ -123,13 +122,13 @@ Provides links to social media websites. Displayed on every page and anchored to
 
 ***
 
-# UX Development Planes
+# 2. UX Development Planes
 
 The 5 UX development planes are for the purpose of explaining the design process of the website. Both intention and outcome are recorded.
 
 The key tool to bridge UX and code was the Figma wireframe: issues are logged here. [![Figma](https://img.shields.io/github/issues/lmcrean/Hoverboard/Figma?logo=Figma&logoColor=white&label=Figma&color=yellow)](https://github.com/lmcrean/Hoverboard/labels/Figma) [![GitHub 2 features page closed issues by-label](https://img.shields.io/github/issues-closed/lmcrean/Hoverboard/Figma?label=%20&color=green)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Acss+label%3A%222%20features%20page%22+is%3Aclosed)
 
-## Strategy Plane
+## 2.1. Strategy Plane
 
 The website itself was aimed at **Education Professionals** such as teachers and headteachers. The design choices factored in to consideration that **students** also use the product. To meet both user needs in the long term, the tone of the product would need to strike a balance between professional and playful. 
 
@@ -150,7 +149,7 @@ New User:
 - I need to be able to sign up for a free trial easily. 
 
 ***
-## Scope plane
+## 2.2. Scope plane
 The following features were designed to meet the needs of new users.  They were displayed across three main pages, sometimes appearing more than once for the purpose of both making the website easy to navigate and consistent branding design.
 <!-- Add thumbnails 3rd column?--->
 | Feature       | Function  | Most relevant user story |
@@ -170,7 +169,7 @@ There were a few omissions from the project. Several Javascript features were om
 
 
 ***
-## Structure Plane
+## 2.3. Structure Plane
 
 **This diagram illustrates a page structure with simple and accessible hyperlinks.** The Navbar links to all 3 main pages. There are 3 call-to-action features that include a hyperlink. The submit button takes user to a thank you page, assuming the form is entered correctly.
 
@@ -183,7 +182,7 @@ When using the **submit button**, the form input requires that the
 
 If the form is entered incorrectly on submission, the user will be prompted to adjust the form.
 ***
-## Skeleton Plane
+## 2.4. Skeleton Plane
 
 **In the skeleton plane each feature's display changed according to the device size.** As well as adapting to viewport, a sense of depth was achieved by taking background images and discrete overlapping. 
 
@@ -266,7 +265,7 @@ the form input is displays as a column for mobile devices, 2 columns for tablet 
 The submit button checks that the form is entered correctly, see structure plane for more details. It is placed underneath the form as the user will be in this area once completing the form. 
 
 ***
-## Surface Plane
+## 2.5. Surface Plane
 This surface plane describes the choice of typefaces, colors and style themes relevant to the project's desired tone and practical needs.
 
 Typefaces used were Peace Sans for headings and Glacial Indifference for body text. The font pairings were chosen for their playful  but professional tone as outlined in the strategy plane.
@@ -313,10 +312,9 @@ An important design theme was the use of overlapping images and colors, to creat
 The ```border-radius``` was chosen to be consistent with the logo and hero image. 
 There was also a design motif of images overlapping colors, the use of border-radius and overlapping is clearly illustrated in the testimonials feature and call to action features.
 
-# Testing
-This section summarises the testing process in a linear form from manual testing to automatic testing. Further documentation is available in this link: [<img alt="Full Documentation Research Badge" src="https://img.shields.io/badge/Testing-purple?logo=mdBook">](https://github.com/lmcrean/Hoverboard/blob/main/testing.md)
 
-# Manual Testing
+
+# 3. Manual Testing
 
 [![GitHub CSS open issues by-label](https://img.shields.io/github/issues/lmcrean/Hoverboard/css?label=CSS%20Issues&color=yellow)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Acss+is%3Aopen) [![GitHub CSS closed issues by-label](https://img.shields.io/github/issues-closed/lmcrean/Hoverboard/css?label=%20&color=green)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Acss+is%3Aclosed) [![GitHub HTML open issues by-label](https://img.shields.io/github/issues/lmcrean/Hoverboard/html?label=HTML%20Issues&color=yellow)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Ahtml+is%3Aopen) [![GitHub HTML closed issues by-label](https://img.shields.io/github/issues-closed/lmcrean/Hoverboard/html?label=%20&color=green)](https://github.com/lmcrean/Hoverboard/issues?q=label%3Ahtml+is%3Aclosed)
 
@@ -327,14 +325,17 @@ Manual testing was executed with the following criteria:
 - Testing on different browsers, specifically Chrome, Firefox, Edge, Opera and Safari
 - test HTML5 Hyperlinks and Forms so that they are all working as expected, identifying potential syntax errors or with the form requirements
 
-# Automatic Testing
+## 3.1. testing.md
+Further documentation is available in this link: [<img alt="Full Documentation Research Badge" src="https://img.shields.io/badge/Testing-purple?logo=mdBook">](https://github.com/lmcrean/Hoverboard/blob/main/testing.md)
+
+# 4. Automatic Testing
 
 The Automatic Testing achieved
 * use lighthouse testing to identify files that could be resized and accessibility that can be improved.
 * a good lighthouse testing score, particularly for performance, accessibility, best practices.
 * Passed W3C Validator Testing for both HTML5 and CSS3, thereby removing excess code and broken links.
 
-# Validator Testing
+## 4.1. Validator Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the project to ensure there were no syntax errors in the project.
 
@@ -342,7 +343,7 @@ The result was <b> <font color="green"> passed </font> </b> for HTML5 and CSS3.
 
 further documentation here: [<img alt="Full Documentation Research Badge" src="https://img.shields.io/badge/Testing-purple?logo=mdBook">](https://github.com/lmcrean/Hoverboard/blob/main/testing.md)
 
-## Lighthouse Report
+## 4.2. Lighthouse Report
 
 To check the lighthouse report, right click inspect and click on the lighthouse tab. The lighthouse report was run on the home page, features page and sign up page.
 
@@ -354,7 +355,7 @@ To further improve the lighthouse score I could use more WebP images and reduce 
 | Desktop | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/d7a9cbae-8dad-4f17-8667-3753e0d9b5e6"> | <img width="300" alt="image" src="assets/media/documentation-lighthouse/features-desktop.png"> | <img width="300" alt="image" src="https://github.com/lmcrean/Hoverboard/assets/133490867/c9cd9bea-752f-4d6f-9263-43826bb2ece1">
 |Timestamp| 31st July '23 | 31st July '23 | 15th July '23 |
 
-# Fixed bugs
+# 5. Fixed bugs
 
 The key challenge for this project was responsive design with ```style.css```. 
 
@@ -366,37 +367,39 @@ There were fewer challenges with the HTML form, mainly getting the ```labels``` 
 
 Although Javascript was kept to a mininum, one bug realised the DOM wasn't loading without placing the ```<script>``` container at the bottom.
 
-# Unfixed Bugs
+## 5.1. Unfixed Bugs
 
-While there are no known bugs, there is further code to be modified to improve the user experience.
+There are no known bugs.
 
-## Code to be modified <!-- omit in toc -->
+<!-- ## Code to be modified 
 
 - Navbar logo and icon need to shrink on smallest devices
 - add testimonials to sign up page
 - The navbar animation could be smoother with a bootstrap framework 
 
-## Documentation to complete <!-- omit in toc -->
+## Documentation to complete
 - screen recordings of browserstack tests on different browsers.
 - update screen recordings of responsivity tests by feature.
+-->
 
-# Deployment
+# 6. Deployment
 The site was deployed to GitHub pages. You can access the live link [here](https://lmcrean.github.io/Hoverboard/).
 
-# Future features to implement  
+<!-->
+# 9. Future features to implement  
 - Animations appear on scroll to improve UX
 - Dark mode switch to improve accessibility
+-->
+# 7. Credits & Acknowledgements
 
-# Credits
-
-## Code snippets
+## 7.1. Code snippets
 - W3 School's [Navbar](https://www.w3schools.com/css/css_navbar.asp) was used early in the project and then adapted to meet the design standards set by the Figma wireframe.
 
 - Dominic Fraser from Free Code Camp had an article on fixing footers to the bottom of the screen, which helped with footer issues [Read here](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
 
 
 
-## Technologies Used
+## 7.2. Technologies Used
 
 The main languages used were HTML5 and CSS3. Javascript was also used to for smaller features such as the Navbar hamburger, or read more - read less button.
 
@@ -425,12 +428,12 @@ Tools|How it was used|
 [CDN Fonts](https://www.cdnfonts.com/) | Peace Sans and Glacial Indifference fonts sourced
 
 
-# Acknowledgements
+## 7.3. Acknowledgements
 A special thank you to the wonderful tutors at Code Institute, who I consulted for advice throughout the project. I'm deeply grateful for your prompt support.
 
 Special thank you to Seun Owonikoko, my mentor at Code Institute, for your time and patience taking me through devtools. 
 
-#### Pull request acknowledgements
+## 7.4. Pull request acknowledgements
 Special thank you to [Syed Anwaar](https://github.com/syed-anwaar) for contributing to this project by addressing an early [.landing-feature img width issue](https://github.com/lmcrean/Hoverboard/pull/22), adding [animation to navbar](https://github.com/lmcrean/Hoverboard/pull/33), contributions to [form-handler.php](https://github.com/lmcrean/Hoverboard/pull/33)
 
 Thank you to [Sahil4883](https://github.com/Sahil4883) for [fixing footer height.](https://github.com/lmcrean/Hoverboard/commit/638a73b8cd1dbfaf1d39b4f19d83126b130c7958) early on in the project.
